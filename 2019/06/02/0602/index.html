@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="記錄生活,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="0602週記 0527 因為打雷有雷雨包沒辦法下風帆課，本來是從這週開始考試，直接失去一週的機會。資安課放假就開始用Markdown重構我的Blogger，試了各種方式使我的JavaScript技術上升了一點點，也更了解CSS在網頁中美化和排版的方式。 0528 在早上的時候和醫科所學姊會談，認識到如何使用Matlab和Matlab在校外無法使用的事實，難怪有時候盜版還是有一席地位的。接下來就是將">
+<meta name="keywords" content="記錄生活">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2019&#x2F;06&#x2F;02 亂78遭週記">
+<meta property="og:url" content="http://yoursite.com/2019/06/02/0602/index.html">
+<meta property="og:site_name" content="準備爆肝的weak日常">
+<meta property="og:description" content="0602週記 0527 因為打雷有雷雨包沒辦法下風帆課，本來是從這週開始考試，直接失去一週的機會。資安課放假就開始用Markdown重構我的Blogger，試了各種方式使我的JavaScript技術上升了一點點，也更了解CSS在網頁中美化和排版的方式。 0528 在早上的時候和醫科所學姊會談，認識到如何使用Matlab和Matlab在校外無法使用的事實，難怪有時候盜版還是有一席地位的。接下來就是將">
+<meta property="og:locale" content="zh-tw">
+<meta property="og:updated_time" content="2019-09-19T14:13:54.244Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="2019&#x2F;06&#x2F;02 亂78遭週記">
+<meta name="twitter:description" content="0602週記 0527 因為打雷有雷雨包沒辦法下風帆課，本來是從這週開始考試，直接失去一週的機會。資安課放假就開始用Markdown重構我的Blogger，試了各種方式使我的JavaScript技術上升了一點點，也更了解CSS在網頁中美化和排版的方式。 0528 在早上的時候和醫科所學姊會談，認識到如何使用Matlab和Matlab在校外無法使用的事實，難怪有時候盜版還是有一席地位的。接下來就是將">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/06/02/0602/">
+
+
+
+
+
+  <title>2019/06/02 亂78遭週記 | 準備爆肝的weak日常</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">準備爆肝的weak日常</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">-記錄生活-</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            歸檔
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/02/0602/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="準備爆肝的weak日常">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">2019/06/02 亂78遭週記</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-06-02T23:30:00+08:00">
+                2019-06-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="0602週記"><a href="#0602週記" class="headerlink" title="0602週記"></a><strong>0602週記</strong></h2><ul>
+<li>0527 因為打雷有雷雨包沒辦法下風帆課，本來是從這週開始考試，直接失去一週的機會。資安課放假就開始用Markdown重構我的Blogger，試了各種方式使我的JavaScript技術上升了一點點，也更了解CSS在網頁中美化和排版的方式。</li>
+<li>0528 在早上的時候和醫科所學姊會談，認識到如何使用Matlab和Matlab在校外無法使用的事實，難怪有時候盜版還是有一席地位的。接下來就是將GUI轉換成C#或Unity3D的格式了，難題大概會有調用dll或是C# function不夠寫出這個專案，不過誰知道呢？</li>
+<li>0529 體育課因為上週沒考試，所以還是要上游泳課。在法文課練習如何表演期末的演出，超級困難，法文的音我一直念錯，非常擔心期末的狀況。不過上完課去考了游泳會考，25公尺好像超嚴格，很多人都被攔下來，看了覺得蠻慘的。</li>
+<li>0530 管理數學課也快到期末的尾聲了，剩下就只剩報告和期末考了。資料庫也因為上完課停課，沒有db克的日子真的蠻爽的。今天也去IKEA吃個晚餐，很享受的一天，半雞真的好吃。</li>
+<li>0531 統計課lab，R語言好險我會一點點了，至少大概懂這個工具怎麼使用，要不然統計二後面的分析都很複雜困難，用R語言打也有點不理解整體在幹嘛，至少真的算進步很多。晚上去聽學校創業育成中心的演講，送便當XD，不過也稍微思考一下，創業需要具備的條件，暑假準備一下好了。</li>
+<li>0601 今天就將期末的報告列出來，真的一次都擠在六月，將大部分的報告都完成了，還蠻舒爽的。也去圖書館把書還了，準備開始研究專題怎麼搞。</li>
+<li>0602 準備期末考和怎麼將Matlab code轉成C++，發現還是有點難度，不是無腦的轉下去，可能需要研究一陣子，而且有可能在繞圈子@@。</li>
+</ul>
+<hr>
+<p><strong>Objective</strong></p>
+<blockquote>
+<p>關於這周的課程, 你記得什麼?</p>
+</blockquote>
+<ul>
+<li>JavaScript 美化Blogger(Google-code-prettify)</li>
+<li>Jekyll 用Ruby完成的靜態網站</li>
+</ul>
+<p><strong>p.s.</strong> 沒有選Jekyll的原因 1. 對Win不友善 2. 架構比較複雜</p>
+<ul>
+<li>Blogger StackEdit和各種加速生產力的做法</li>
+<li>用VScode 完成Markdown格式文章</li>
+<li>基礎Markdown 語法</li>
+<li>安裝校內授權Matlab2019a</li>
+<li>R語言分析Anova或卡方的語法使用</li>
+<li>Matlab coder可將function轉換成C或C++ </li>
+<li>生成DLL方法(動態+靜態)</li>
+<li>創業必須考慮的事情及準備比賽的方向</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>新增Blogger Code Block(並且有上色)</li>
+<li>整理並排版blogger的文章</li>
+<li>向學校反映Matlab授權Sever問題</li>
+<li>安裝好含工具包的Matlab 2019a</li>
+<li>R語言的課堂作業獨自完成</li>
+</ul>
+<p><strong>Reflective</strong></p>
+<blockquote>
+<p>你要如何形容這周的情緒</p>
+</blockquote>
+<ul>
+<li>快要期末有點恐慌及忙碌，各種課程的成果發表都一次擠在這時候。</li>
+</ul>
+<blockquote>
+<p>這周的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>去IKEA吃半雞</li>
+<li>Matlab開啟8channel的腦波儀的瞬間的好奇心</li>
+</ul>
+<blockquote>
+<p>這周的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>假日發現一次要幹很多期末的powerpoint和讀書</li>
+</ul>
+<blockquote>
+<p>這周的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>最大的應該是Matlab轉code成C++</li>
+</ul>
+<p><strong>Interpretive</strong></p>
+<blockquote>
+<p>我們這周學到了什麼?</p>
+</blockquote>
+<ul>
+<li>Markdown文章語法</li>
+<li>css和js為網站加工美化</li>
+<li>R語言輸入表格方式</li>
+<li>R語言Anova和卡方的function</li>
+<li>Matlab安裝和授權</li>
+<li>Matlab GUI調整</li>
+</ul>
+<blockquote>
+<p>這周一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>提早做準備，做得更全面，越能成功。</li>
+</ul>
+<p><strong>Decisional</strong></p>
+<blockquote>
+<p>我會如何用一句話形容這周的工作</p>
+</blockquote>
+<ul>
+<li>忙碌 &amp; 很多複雜的專案要扛</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下周繼續努力?</p>
+</blockquote>
+<ul>
+<li>期末考(管數、統計)</li>
+<li>期末法文演出的稿子</li>
+<li>Matlab轉成 Unity 或 C# </li>
+<li>暑假準備讀一些創業相關的來擴展想法</li>
+</ul>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/記錄生活/" rel="tag"># 記錄生活</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/05/26/0526/" rel="next" title="2019/05/26 亂78遭週記">
+                <i class="fa fa-chevron-left"></i> 2019/05/26 亂78遭週記
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/06/09/0609/" rel="prev" title="2019/06/09 亂78遭週記">
+                2019/06/09 亂78遭週記 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概覽
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">kidneyweakx</p>
+              <p class="site-description motion-element" itemprop="description">簡單。紀錄和分享日常</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">文章</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">標籤</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#0602週記"><span class="nav-number">1.</span> <span class="nav-text">0602週記</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">kidneyweakx</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 強力驅動</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主題 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
