@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="準備爆肝的weak日常">
 <meta property="og:description" content="在種種原因之下，從Blogger牽到GitHub Pages上，陪伴我一學期的Blogger正式停止更新。紀念一下這是原站點，而讓我跳槽到Hexo的原因如下:  Blogger 後臺真的十分陽春(上手很難進一步改動)。 我習慣使用的Markdown語法需要轉成html再貼上Blogger編輯器。 功能被Blogger本體受限。 加個程式框還要改css，基本上修改一下自訂主題就不會想再多做修改了。">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2019-09-20T17:48:05.172Z">
+<meta property="og:updated_time" content="2019-09-20T18:00:28.858Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用Hexo免費製作一個blog">
 <meta name="twitter:description" content="在種種原因之下，從Blogger牽到GitHub Pages上，陪伴我一學期的Blogger正式停止更新。紀念一下這是原站點，而讓我跳槽到Hexo的原因如下:  Blogger 後臺真的十分陽春(上手很難進一步改動)。 我習慣使用的Markdown語法需要轉成html再貼上Blogger編輯器。 功能被Blogger本體受限。 加個程式框還要改css，基本上修改一下自訂主題就不會想再多做修改了。">
@@ -272,7 +272,7 @@
               
                 <span class="post-meta-item-text">發表於</span>
               
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-09-21T00:30:00+08:00">
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-09-21T02:00:00+08:00">
                 2019-09-21
               </time>
             
@@ -337,43 +337,63 @@
 </ul>
 </li>
 </ol>
-<h2 id="Why-Hexo"><a href="#Why-Hexo" class="headerlink" title="Why Hexo??"></a>Why Hexo??</h2><p>使用Hexo前我有試過<a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>，因為我對Ruby比較熟悉一些。<br><br>但是Jekyll的中文資源較少，且Ruby在windows上的表現，hmmm…沒有要戰的意思，不過相對Ruby，Hexo需要的Node.js對windows更友善些。<br><br>我覺得最重要的還是Hexo作者<a href="https://twitter.com/tommy351" target="_blank" rel="noopener">tommy351</a>是台灣人<del>還不用起來。<br><br>其實還有一些<a href="https://zespia.tw/blog/2012/10/11/hexo-debut/" target="_blank" rel="noopener">技術性</a>的關係啦!像Ruby文章一多生成網站的速度就會慢很多，雖然Jekyll也有人做出些優化的方法，不過我不想弄得那麼麻煩，所以最後就選擇Hexo啦</del></p>
+<h2 id="Why-Hexo"><a href="#Why-Hexo" class="headerlink" title="Why Hexo??"></a>Why Hexo??</h2><p>使用Hexo前我有試過<a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>，因為我對Ruby比較熟悉一些。<br>但是Jekyll的中文資源較少，且Ruby在windows上的表現，hmmm…沒有要戰的意思，不過相對Ruby，Hexo需要的Node.js對windows更友善些。<br>我覺得最重要的還是Hexo作者<a href="https://twitter.com/tommy351" target="_blank" rel="noopener">tommy351</a>是台灣人!!還不用起來。<br>其實還有一些<a href="https://zespia.tw/blog/2012/10/11/hexo-debut/" target="_blank" rel="noopener">技術性</a>的關係啦 ！像Ruby文章一多生成網站的速度就會慢很多，雖然Jekyll也有人做出些優化的方法，不過我不想弄得那麼麻煩，所以最後就選擇Hexo啦~</p>
 <h2 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h2><blockquote>
 <p>安裝Node.js</p>
+</blockquote>
 <ul>
 <li>先去<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a>官網下載安裝</li>
 </ul>
-</blockquote>
 <blockquote>
 <p>安裝 <a href="https://hexo.io/zh-tw/index.html" target="_blank" rel="noopener">Hexo</a></p>
+</blockquote>
 <ul>
-<li>npm安裝<br><br><code>npm install hexo-cli -g</code></li>
-<li>安裝成功後，可以輸入來確定版本<br><code>hexo version</code></li>
+<li>npm安裝</li>
+</ul>
+<p><code>npm install hexo-cli -g</code></p>
+<ul>
+<li>安裝成功後，可以輸入來確定版本</li>
+</ul>
+<p><code>hexo version</code></p>
+<ul>
 <li>建立自己的blog</li>
 </ul>
-</blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog  #初始化blog</span><br><span class="line">cd blog         #切換至blog資料夾</span><br><span class="line">npm install     #安裝相關套件</span><br><span class="line">hexo server     #在localhost顯示頁面</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>將文章部屬上github<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">    type: github</span><br><span class="line">    repository: git@github.com:yourname/yourname.github.io.git</span><br><span class="line">    branch: master</span><br></pre></td></tr></table></figure>
-
-</li>
+<li>將文章部屬上github</li>
 </ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">    type: github</span><br><span class="line">    repository: git@github.com:yourname/yourname.github.io.git</span><br><span class="line">    branch: master</span><br></pre></td></tr></table></figure>
+
 <p>在這邊就不贅述github和本機端連線的教學了</p>
 <ul>
-<li>執行部屬<br><br><code>hexo d</code></li>
+<li>執行部屬</li>
 </ul>
-<p><strong>若發生ERROR Deploer not found，執行以下程式碼</strong><br></p>
-<figure class="highlight plain"><figcaption><span>install hexo-deployer-git --save```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">## 美化Blog</span><br><span class="line">當然用hexo最重要的就是美化blog囉~</span><br><span class="line">而我使用[Next](https://theme-next.iissnan.com/)，將它clone至themes資料夾，再修改這邊。</span><br></pre></td></tr></table></figure>
+<p><code>hexo d</code></p>
+<p><strong>若發生ERROR Deploer not found，執行以下程式碼</strong><br><code>npm install hexo-deployer-git --save</code></p>
+<h2 id="美化Blog"><a href="#美化Blog" class="headerlink" title="美化Blog"></a>美化Blog</h2><p>當然用hexo最重要的就是美化blog囉~<br>而我使用<a href="https://theme-next.iissnan.com/" target="_blank" rel="noopener">Next</a>，將它clone至themes資料夾，再修改這邊。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">## Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">theme: next #修改這行</span><br></pre></td></tr></table></figure>
 
-<h2 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h2><h2 id="Plugins-https-hexo-io-plugins"><a href="#Plugins-https-hexo-io-plugins" class="headerlink" title="Plugins: https://hexo.io/plugins/"></a>Plugins: <a href="https://hexo.io/plugins/" target="_blank" rel="noopener">https://hexo.io/plugins/</a></h2><h2 id="Themes-https-hexo-io-themes"><a href="#Themes-https-hexo-io-themes" class="headerlink" title="Themes: https://hexo.io/themes/"></a>Themes: <a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></h2><p>theme: next #修改這行</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">就可以依造官網調配出屬於你自己的Next。</span><br><span class="line"></span><br><span class="line">## 使用編譯器編輯文檔</span><br><span class="line">我自己是使用vscode去撰寫.md檔，可以一邊預覽一邊寫文章相當方便，且搭配終端機可以達成快速撰寫並送出的功能</span><br></pre></td></tr></table></figure>
+<p>就可以依造官網調配出屬於你自己的Next。</p>
+<h2 id="使用編譯器編輯文檔"><a href="#使用編譯器編輯文檔" class="headerlink" title="使用編譯器編輯文檔"></a>使用編譯器編輯文檔</h2><p>我自己是使用vscode去撰寫.md檔，可以一邊預覽一邊寫文章相當方便，且搭配終端機可以達成快速撰寫並送出的功能</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo d -g #d部屬 g=generate</span><br></pre></td></tr></table></figure>
 
-<p>hexo clean<br>hexo d -g #d部屬 g=generate</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">就可以很輕鬆地將md檔自動轉成html並部屬到你的github上了。</span><br><span class="line"></span><br><span class="line">## Extra Live2D看板娘</span><br><span class="line"></span><br><span class="line">這裡就不說太多</span><br><span class="line">&gt; 先安裝live2d pkg</span><br><span class="line"></span><br><span class="line">`npm install --save hexo-helper-live2d`</span><br><span class="line"></span><br><span class="line">&gt; 選擇你愛的[2D娘](https://github.com/xiazeyu/live2d-widget-models)</span><br><span class="line"></span><br><span class="line">`npm install &#123;你選的&#125;` </span><br><span class="line"></span><br><span class="line">&gt; 設定`_config.yml`加上下面這堆</span><br></pre></td></tr></table></figure>
+<p>就可以很輕鬆地將md檔自動轉成html並部屬到你的github上了。</p>
+<h2 id="Extra-Live2D看板娘"><a href="#Extra-Live2D看板娘" class="headerlink" title="Extra Live2D看板娘"></a>Extra Live2D看板娘</h2><p>這裡就不說太多</p>
+<blockquote>
+<p>先安裝live2d pkg</p>
+</blockquote>
+<p><code>npm install --save hexo-helper-live2d</code></p>
+<blockquote>
+<p>選擇你愛的<a href="https://github.com/xiazeyu/live2d-widget-models" target="_blank" rel="noopener">2D娘</a></p>
+</blockquote>
+<p><code>npm install {你選的}</code></p>
+<blockquote>
+<p>設定<code>_config.yml</code>加上下面這堆</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-haru/02 # 改成你選擇的</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150 </span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: false  #手機顯示</span><br></pre></td></tr></table></figure>
 
-<p>live2d:<br>  enable: true<br>  pluginModelPath: assets/<br>  model:<br>    use: live2d-widget-model-haru/02 # 改成你選擇的<br>  display:<br>    position: right<br>    width: 150<br>    height: 300<br>  mobile:<br>    show: false  #手機顯示<br>```</p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://wwssllabcd.github.io/blog/2014/12/22/how-to-install-hexo/" target="_blank" rel="noopener">Hexo 安裝教學、心得筆記</a><br><br><a href="https://yaoandy107.github.io/hexo-tutorial/#more" target="_blank" rel="noopener">Hexo+GitHub，新手也可以快速建立部落格</a><br><br><a href="https://dtes8617.github.io/2018/01/16/%E7%94%A8Hexo%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E5%B0%88%E5%B1%ACBlog/" target="_blank" rel="noopener">用Hexo打造你的專屬Blog</a><br>&gt;<br><a href="https://www.jianshu.com/p/3a6342e16e57" target="_blank" rel="noopener">hexo 添加live2d看板动画</a><br><a href="https://www.npmjs.com/package/hexo-helper-live2d" target="_blank" rel="noopener">hexo-helper-live2d</a></p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a href="https://wwssllabcd.github.io/blog/2014/12/22/how-to-install-hexo/" target="_blank" rel="noopener">Hexo 安裝教學、心得筆記</a><br><a href="https://yaoandy107.github.io/hexo-tutorial/#more" target="_blank" rel="noopener">Hexo+GitHub，新手也可以快速建立部落格</a><br><a href="https://dtes8617.github.io/2018/01/16/%E7%94%A8Hexo%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E5%B0%88%E5%B1%ACBlog/" target="_blank" rel="noopener">用Hexo打造你的專屬Blog</a><br><a href="https://www.jianshu.com/p/3a6342e16e57" target="_blank" rel="noopener">hexo 添加live2d看板动画</a><br><a href="https://www.npmjs.com/package/hexo-helper-live2d" target="_blank" rel="noopener">hexo-helper-live2d</a></p>
 
       
     </div>
@@ -537,7 +557,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Why-GitHub-Pages"><span class="nav-number">1.</span> <span class="nav-text">Why GitHub Pages??</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Why-Hexo"><span class="nav-number">2.</span> <span class="nav-text">Why Hexo??</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝流程"><span class="nav-number">3.</span> <span class="nav-text">安裝流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extensions"><span class="nav-number">4.</span> <span class="nav-text">Extensions</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Plugins-https-hexo-io-plugins"><span class="nav-number">5.</span> <span class="nav-text">Plugins: https://hexo.io/plugins/</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Themes-https-hexo-io-themes"><span class="nav-number">6.</span> <span class="nav-text">Themes: https://hexo.io/themes/</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-number">7.</span> <span class="nav-text">Reference</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Why-GitHub-Pages"><span class="nav-number">1.</span> <span class="nav-text">Why GitHub Pages??</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Why-Hexo"><span class="nav-number">2.</span> <span class="nav-text">Why Hexo??</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝流程"><span class="nav-number">3.</span> <span class="nav-text">安裝流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#美化Blog"><span class="nav-number">4.</span> <span class="nav-text">美化Blog</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用編譯器編輯文檔"><span class="nav-number">5.</span> <span class="nav-text">使用編譯器編輯文檔</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extra-Live2D看板娘"><span class="nav-number">6.</span> <span class="nav-text">Extra Live2D看板娘</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-number">7.</span> <span class="nav-text">Reference</span></a></li></ol></div>
             
 
           </div>
