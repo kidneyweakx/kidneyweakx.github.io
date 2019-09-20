@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="準備爆肝的weak日常">
 <meta property="og:description" content="這幾天重灌了好幾次的Ubuntu 18.04@@  第一次新手測試，然後因為Libreoffice在渲染windows傳來的文件有點當的關係就回去灌了windows，結果發現並沒有比較好。 第二次就是灌完windows那一瞬間後悔，結果重新裝好Ubuntu發現其實還是可以日常使用。 然後在灌完bumblebee之前都還很健康，一灌完整個驅動都出問題啦，只好迅速的重灌  下面就逐一介紹我都裝什麼，還">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2019-09-20T13:57:43.680Z">
+<meta property="og:updated_time" content="2019-09-20T16:21:02.139Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="完整重灌Linux 必裝軟體及微調系列">
 <meta name="twitter:description" content="這幾天重灌了好幾次的Ubuntu 18.04@@  第一次新手測試，然後因為Libreoffice在渲染windows傳來的文件有點當的關係就回去灌了windows，結果發現並沒有比較好。 第二次就是灌完windows那一瞬間後悔，結果重新裝好Ubuntu發現其實還是可以日常使用。 然後在灌完bumblebee之前都還很健康，一灌完整個驅動都出問題啦，只好迅速的重灌  下面就逐一介紹我都裝什麼，還">
@@ -328,10 +328,10 @@
 <li>(coding)eclipse &amp; android-studio Java 開發兩大神器，軟體中心就有了很方便，再載個vscode整個就滿分了。</li>
 <li>一定要說的是不要做死去載bumblebee，雖然很方便可是刪除後很多apt-get的問題</li>
 <li>apt-get 問提要靠強制刪除dpkg解決，有點麻煩@@</li>
-<li>/etc/fstab設定 第一次設一直開不了機搭配<figure class="highlight plain"><figcaption><span>-s```很好用</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">12. 將ubuntu home資料夾換成英文的目錄</span><br></pre></td></tr></table></figure></li>
+<li>/etc/fstab設定 第一次設一直開不了機搭配<br><code>ln -s</code> 很好用</li>
+<li>將ubuntu home資料夾換成英文的目錄</li>
 </ol>
-<p>export LANG=en_US<br>xdg-user-dirs-gtk-update<br>```</p>
-
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">export LANG=en_US </span><br><span class="line">xdg-user-dirs-gtk-update</span><br></pre></td></tr></table></figure>
       
     </div>
     
