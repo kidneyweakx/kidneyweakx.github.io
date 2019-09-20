@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="記錄生活,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="第5周寫週記順便補齊這週的ORID  0401 愚人節，雖然前一天弄資料庫搞的心情有點差，可是風帆課沖個浪還蠻爽的，不過浪超大讓我全身是沙，在晚上得知比賽入圍的消息，讓我開始這禮拜tensorflow集訓 0402 國文課+國家公園課，上的有點心不在焉，突然進決賽真的讓我超意外，先從Android架構開始，訓練的模組和圖片的整理都需要拿出來補救 0403 早上體育課放假有點爽，快速看一下tenso">
+<meta name="keywords" content="記錄生活">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2019&#x2F;04&#x2F;07 亂78遭週記">
+<meta property="og:url" content="http://yoursite.com/2019/04/19-0407-log/index.html">
+<meta property="og:site_name" content="準備爆肝的weak日常">
+<meta property="og:description" content="第5周寫週記順便補齊這週的ORID  0401 愚人節，雖然前一天弄資料庫搞的心情有點差，可是風帆課沖個浪還蠻爽的，不過浪超大讓我全身是沙，在晚上得知比賽入圍的消息，讓我開始這禮拜tensorflow集訓 0402 國文課+國家公園課，上的有點心不在焉，突然進決賽真的讓我超意外，先從Android架構開始，訓練的模組和圖片的整理都需要拿出來補救 0403 早上體育課放假有點爽，快速看一下tenso">
+<meta property="og:locale" content="zh-tw">
+<meta property="og:updated_time" content="2019-09-19T14:11:39.479Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="2019&#x2F;04&#x2F;07 亂78遭週記">
+<meta name="twitter:description" content="第5周寫週記順便補齊這週的ORID  0401 愚人節，雖然前一天弄資料庫搞的心情有點差，可是風帆課沖個浪還蠻爽的，不過浪超大讓我全身是沙，在晚上得知比賽入圍的消息，讓我開始這禮拜tensorflow集訓 0402 國文課+國家公園課，上的有點心不在焉，突然進決賽真的讓我超意外，先從Android架構開始，訓練的模組和圖片的整理都需要拿出來補救 0403 早上體育課放假有點爽，快速看一下tenso">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/04/19-0407-log/">
+
+
+
+
+
+  <title>2019/04/07 亂78遭週記 | 準備爆肝的weak日常</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">準備爆肝的weak日常</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">-記錄生活(施工中)-</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            標籤
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            歸檔
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/19-0407-log/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="準備爆肝的weak日常">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">2019/04/07 亂78遭週記</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-04-07T23:30:00+08:00">
+                2019-04-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="第5周寫週記"><a href="#第5周寫週記" class="headerlink" title="第5周寫週記"></a><strong>第5周寫週記</strong></h2><p><em>順便補齊這週的ORID</em></p>
+<ul>
+<li>0401 愚人節，雖然前一天弄資料庫搞的心情有點差，可是風帆課沖個浪還蠻爽的，不過浪超大讓我全身是沙，在晚上得知比賽入圍的消息，讓我開始這禮拜tensorflow集訓</li>
+<li>0402 國文課+國家公園課，上的有點心不在焉，突然進決賽真的讓我超意外，先從Android架構開始，訓練的模組和圖片的整理都需要拿出來補救</li>
+<li>0403 早上體育課放假有點爽，快速看一下tensorflow文檔，嘗試訓練或架構訓練模型，以及問老師用預訓練模型是否可行，法文課分組以及報告都要準備好，然後就快樂的回台中，享受假期。</li>
+<li>0404 放鬆的一天，整天都遺忘掉程式比賽，中午ㄩ吃飯，回去看朝花夕誓和物語，都沒很好看，晚上和很久沒見的國中同學吃飯看沙贊，很放鬆的一天。</li>
+<li>0405 開始嘗試跑tensorflow訓練模型，選定預訓練模組，發現電腦效能有點不足。</li>
+<li>0406 用老師給的teamviewer操控實驗室的電腦跑40000次，在自己電腦跑4000次，看效果是否好。</li>
+<li>0407 學了一些tensorflow運用的方面，剩下就是將android端做好，成果就可以出來了。</li>
+</ul>
+<hr>
+<p><strong>Objective</strong></p>
+<blockquote>
+<p>關於這周的課程, 你記得什麼?</p>
+</blockquote>
+<ul>
+<li>tensorflow 訓練模型</li>
+<li>tensorflow 預訓練模組重新訓練</li>
+<li>Android tensorflow demo</li>
+<li>bazel安裝</li>
+<li>anaconda安裝</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>輸出訓練完成的.pb檔</li>
+<li>成功轉換成tflite檔，只是不知道是否可以辨識</li>
+</ul>
+<p><strong>Reflective</strong></p>
+<blockquote>
+<p>你要如何形容這周的情緒</p>
+</blockquote>
+<ul>
+<li>放假很放鬆</li>
+<li>說真的，比賽進決賽真的又驚又喜，只是作品的完成度還不高，有點危險</li>
+</ul>
+<blockquote>
+<p>這周的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>完成訓練</li>
+<li>和國中朋友看電影</li>
+</ul>
+<blockquote>
+<p>這周的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>卡在一堆莫名其妙的error中，而且能參考的資料又很少</li>
+</ul>
+<p><strong>Interpretive</strong></p>
+<blockquote>
+<p>我們這周學到了什麼?</p>
+</blockquote>
+<ul>
+<li>tensorflow lite移動端的運用</li>
+</ul>
+<blockquote>
+<p>這周一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>努力查資料，很多bug就可以被解決了</li>
+</ul>
+<p><strong>Decisional</strong></p>
+<blockquote>
+<p>我們會如何用一句話形容這周的工作</p>
+</blockquote>
+<ul>
+<li>真的幹很多事</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下周繼續努力?</p>
+</blockquote>
+<ul>
+<li>將作品完成</li>
+<li>報告做完</li>
+<li>讀期中考</li>
+</ul>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/記錄生活/" rel="tag"># 記錄生活</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/04/19-0407-tensor_error/" rel="next" title="辨識錯誤 tensorflow KeyError " the name 'import input' refers to an operation not in graph."">
+                <i class="fa fa-chevron-left"></i> 辨識錯誤 tensorflow KeyError "The name 'import/input' refers to an Operation not in the graph."
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/04/19-0414-log/" rel="prev" title="2019/04/14 亂78遭週記">
+                2019/04/14 亂78遭週記 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概覽
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">kidneyweakx</p>
+              <p class="site-description motion-element" itemprop="description">簡單。紀錄和分享日常</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">31</span>
+                  <span class="site-state-item-name">文章</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">標籤</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第5周寫週記"><span class="nav-number">1.</span> <span class="nav-text">第5周寫週記</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">kidneyweakx</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 強力驅動</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主題 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

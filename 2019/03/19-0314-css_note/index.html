@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="程式筆記,css,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="margin 與 padding 的差異 位置是他們最大的差異 margin 是外邊距，有負值，別稱 填充 padding 是內邊距，別稱 空白邊甚麼是 box model 框模型(box model)是包含border(邊框)、margin(外邊距)、padding(內邊距)和處理元素內容的處理方式。  為何要使用 em 而非 px 來定義字的大小 為了在internet explorer調整文">
+<meta name="keywords" content="程式筆記,css">
+<meta property="og:type" content="article">
+<meta property="og:title" content="css 重點筆記">
+<meta property="og:url" content="http://yoursite.com/2019/03/19-0314-css_note/index.html">
+<meta property="og:site_name" content="準備爆肝的weak日常">
+<meta property="og:description" content="margin 與 padding 的差異 位置是他們最大的差異 margin 是外邊距，有負值，別稱 填充 padding 是內邊距，別稱 空白邊甚麼是 box model 框模型(box model)是包含border(邊框)、margin(外邊距)、padding(內邊距)和處理元素內容的處理方式。  為何要使用 em 而非 px 來定義字的大小 為了在internet explorer調整文">
+<meta property="og:locale" content="zh-tw">
+<meta property="og:updated_time" content="2019-09-20T13:52:35.558Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="css 重點筆記">
+<meta name="twitter:description" content="margin 與 padding 的差異 位置是他們最大的差異 margin 是外邊距，有負值，別稱 填充 padding 是內邊距，別稱 空白邊甚麼是 box model 框模型(box model)是包含border(邊框)、margin(外邊距)、padding(內邊距)和處理元素內容的處理方式。  為何要使用 em 而非 px 來定義字的大小 為了在internet explorer調整文">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/03/19-0314-css_note/">
+
+
+
+
+
+  <title>css 重點筆記 | 準備爆肝的weak日常</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">準備爆肝的weak日常</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">-記錄生活(施工中)-</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            標籤
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            歸檔
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/19-0314-css_note/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="準備爆肝的weak日常">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">css 重點筆記</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-03-14T22:46:00+08:00">
+                2019-03-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="margin-與-padding-的差異"><a href="#margin-與-padding-的差異" class="headerlink" title="margin 與 padding 的差異"></a>margin 與 padding 的差異</h2><ul>
+<li>位置是他們最大的差異</li>
+<li>margin 是外邊距，有負值，別稱 填充</li>
+<li>padding 是內邊距，別稱 空白邊<h2 id="甚麼是-box-model"><a href="#甚麼是-box-model" class="headerlink" title="甚麼是 box model"></a>甚麼是 box model</h2></li>
+<li>框模型(box model)是包含border(邊框)、margin(外邊距)、padding(內邊距)和處理元素內容的處理方式。</li>
+</ul>
+<h2 id="為何要使用-em-而非-px-來定義字的大小"><a href="#為何要使用-em-而非-px-來定義字的大小" class="headerlink" title="為何要使用 em 而非 px 來定義字的大小"></a>為何要使用 em 而非 px 來定義字的大小</h2><ul>
+<li>為了在internet explorer調整文本大小</li>
+<li>em可以在所有瀏覽器更改文字大小，px在部分瀏覽器不行</li>
+<li>px是用來調邊距的單位</li>
+</ul>
+<h2 id="參考網址"><a href="#參考網址" class="headerlink" title="參考網址"></a><a href="http://www.w3school.com.cn/css/css_boxmodel.asp" target="_blank" rel="noopener">參考網址</a></h2><h4 id="問答-h1-margin-10px-0px-15px-5px-的margin-top、margin-right、margin-left、margin-bottom-各是多少？"><a href="#問答-h1-margin-10px-0px-15px-5px-的margin-top、margin-right、margin-left、margin-bottom-各是多少？" class="headerlink" title="[問答] h1 {margin : 10px 0px 15px 5px;} 的margin-top、margin-right、margin-left、margin-bottom 各是多少？"></a><strong>[問答]</strong> h1 {margin : 10px 0px 15px 5px;} 的margin-top、margin-right、margin-left、margin-bottom 各是多少？</h4><ul>
+<li>照順時鐘順序排列<br>top 10px<br>right 0px<br>bottom 15px<br>left 5px<br>learn.from here</li>
+</ul>
+<hr>
+<h3 id="Extra"><a href="#Extra" class="headerlink" title="Extra"></a><strong>Extra</strong></h3><ol>
+<li>如果缺少左外邊距的值，則使用右外邊距的值。</li>
+<li>如果缺少下外邊距的值，則使用上外邊距的值。</li>
+<li>如果缺少右外邊距的值，則使用上外邊距的值。</li>
+</ol>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/程式筆記/" rel="tag"># 程式筆記</a>
+          
+            <a href="/tags/css/" rel="tag"># css</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/03/19-0313-html_note/" rel="next" title="HTML重點筆記">
+                <i class="fa fa-chevron-left"></i> HTML重點筆記
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/03/19-0317-log/" rel="prev" title="2019/03/17 亂78遭週記">
+                2019/03/17 亂78遭週記 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概覽
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">kidneyweakx</p>
+              <p class="site-description motion-element" itemprop="description">簡單。紀錄和分享日常</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">31</span>
+                  <span class="site-state-item-name">文章</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">標籤</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#margin-與-padding-的差異"><span class="nav-number">1.</span> <span class="nav-text">margin 與 padding 的差異</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#甚麼是-box-model"><span class="nav-number">2.</span> <span class="nav-text">甚麼是 box model</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#為何要使用-em-而非-px-來定義字的大小"><span class="nav-number">3.</span> <span class="nav-text">為何要使用 em 而非 px 來定義字的大小</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#參考網址"><span class="nav-number">4.</span> <span class="nav-text">參考網址</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#問答-h1-margin-10px-0px-15px-5px-的margin-top、margin-right、margin-left、margin-bottom-各是多少？"><span class="nav-number">4.0.1.</span> <span class="nav-text">[問答] h1 {margin : 10px 0px 15px 5px;} 的margin-top、margin-right、margin-left、margin-bottom 各是多少？</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Extra"><span class="nav-number">4.1.</span> <span class="nav-text">Extra</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">kidneyweakx</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 強力驅動</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主題 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
