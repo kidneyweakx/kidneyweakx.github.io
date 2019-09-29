@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="記錄生活,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="0729-0908週記(八月記事) 記錄這幾周重要的事情就好  [8月初] 整理新電腦  將程式環境架好 適應新系統及環境  [0816-0818] 厚數據工作坊  用R和統計學分析問卷結果 在機器學習中數據的溫度還是要靠人定義的 在準確率中忽視的%數或許才是關鍵  [0821] 普羅米亞  Trigger 牛逼 重頭打到尾不冷場   Objective  關於這幾周, 你記得什麼?   flut">
+<meta name="keywords" content="記錄生活">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2019&#x2F;09&#x2F;08 亂78遭週記">
+<meta property="og:url" content="http://yoursite.com/2019/0908-78log/index.html">
+<meta property="og:site_name" content="準備爆肝的weak日常">
+<meta property="og:description" content="0729-0908週記(八月記事) 記錄這幾周重要的事情就好  [8月初] 整理新電腦  將程式環境架好 適應新系統及環境  [0816-0818] 厚數據工作坊  用R和統計學分析問卷結果 在機器學習中數據的溫度還是要靠人定義的 在準確率中忽視的%數或許才是關鍵  [0821] 普羅米亞  Trigger 牛逼 重頭打到尾不冷場   Objective  關於這幾周, 你記得什麼?   flut">
+<meta property="og:locale" content="zh-tw">
+<meta property="og:updated_time" content="2019-09-19T14:16:37.472Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="2019&#x2F;09&#x2F;08 亂78遭週記">
+<meta name="twitter:description" content="0729-0908週記(八月記事) 記錄這幾周重要的事情就好  [8月初] 整理新電腦  將程式環境架好 適應新系統及環境  [0816-0818] 厚數據工作坊  用R和統計學分析問卷結果 在機器學習中數據的溫度還是要靠人定義的 在準確率中忽視的%數或許才是關鍵  [0821] 普羅米亞  Trigger 牛逼 重頭打到尾不冷場   Objective  關於這幾周, 你記得什麼?   flut">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/0908-78log/">
+
+
+
+
+
+  <title>2019/09/08 亂78遭週記 | 準備爆肝的weak日常</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">準備爆肝的weak日常</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">-記錄生活(施工中)-</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            標籤
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            歸檔
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0908-78log/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="準備爆肝的weak日常">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">2019/09/08 亂78遭週記</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-09-08T23:30:00+08:00">
+                2019-09-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="0729-0908週記-八月記事"><a href="#0729-0908週記-八月記事" class="headerlink" title="0729-0908週記(八月記事)"></a><strong>0729-0908週記(八月記事)</strong></h2><blockquote>
+<p><strong>記錄這幾周重要的事情就好</strong></p>
+</blockquote>
+<p>[8月初] 整理新電腦</p>
+<ul>
+<li>將程式環境架好</li>
+<li>適應新系統及環境</li>
+</ul>
+<p>[0816-0818] 厚數據工作坊</p>
+<ul>
+<li>用R和統計學分析問卷結果</li>
+<li>在機器學習中數據的溫度還是要靠人定義的</li>
+<li>在準確率中忽視的%數或許才是關鍵</li>
+</ul>
+<p>[0821] 普羅米亞</p>
+<ul>
+<li>Trigger 牛逼</li>
+<li>重頭打到尾不冷場</li>
+</ul>
+<hr>
+<p><strong>Objective</strong></p>
+<blockquote>
+<p>關於這幾周, 你記得什麼?</p>
+</blockquote>
+<ul>
+<li>flutter (bluetooth和介面處理)</li>
+<li>R markdown</li>
+<li>補動漫 伊克西翁傳說DT</li>
+</ul>
+<blockquote>
+<p>完成了什麼?<br>    <em>八月沒發生甚麼事，就記錄下學習的東西</em></p>
+<ol>
+<li>R markdown</li>
+<li>Flutter 一些開發會遇到的問題</li>
+<li>整理github專案以及Blogger</li>
+<li>更換新筆電並安裝環境</li>
+<li>專案管理基礎</li>
+<li>檢討暑假文章的難產</li>
+</ol>
+</blockquote>
+<p><strong>Reflective</strong></p>
+<blockquote>
+<p>你要如何形容這幾周的情緒</p>
+</blockquote>
+<ul>
+<li>覺得自己很廢，工作效率極低</li>
+</ul>
+<blockquote>
+<p>這幾周的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>去工作坊</li>
+</ul>
+<blockquote>
+<p>這周的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>flutter 藍芽效率還無法趕善</li>
+</ul>
+<blockquote>
+<p>這幾周的巨坑是什麼?(關鍵字)</p>
+</blockquote>
+<p>[已克服]</p>
+<ul>
+<li>flutter Read &amp; Write io </li>
+</ul>
+<p>[尚未克服]</p>
+<ul>
+<li>write IO currently</li>
+</ul>
+<p><strong>Interpretive</strong></p>
+<blockquote>
+<p>我們這周學到了什麼?</p>
+</blockquote>
+<ul>
+<li>flutter 的運用訣竅</li>
+<li>R 語言在統計專業上的運用</li>
+</ul>
+<blockquote>
+<p>這幾周重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>[Flutter] 使用一陣子，十分好用好懂的程式。</li>
+<li>[Unity] 無法完美呈現作品。</li>
+<li>[R語言] R語言和機器學習在企業運用上的不適應。</li>
+<li>[總結] 我能力還遠遠不足</li>
+</ul>
+<p><strong>Decisional</strong></p>
+<blockquote>
+<p>我會如何用一句話形容這幾周的工作</p>
+</blockquote>
+<ul>
+<li>雖然廢但是有處理掉一些麻煩事</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下周繼續努力?</p>
+</blockquote>
+<ul>
+<li>anki</li>
+<li>Blogger整理</li>
+<li>幫4月多比賽心得加入Readme，這拖很久了…</li>
+<li>AR + 機器學習 + 假新聞 ???(想法)</li>
+</ul>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/記錄生活/" rel="tag"># 記錄生活</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/0728-78log/" rel="next" title="2019/07/28 亂78遭週記">
+                <i class="fa fa-chevron-left"></i> 2019/07/28 亂78遭週記
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/0915-78log/" rel="prev" title="2019/09/15 亂78遭週記">
+                2019/09/15 亂78遭週記 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概覽
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">kidneyweakx</p>
+              <p class="site-description motion-element" itemprop="description">簡單。紀錄和分享日常</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">34</span>
+                  <span class="site-state-item-name">文章</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">標籤</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#0729-0908週記-八月記事"><span class="nav-number">1.</span> <span class="nav-text">0729-0908週記(八月記事)</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">kidneyweakx</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 強力驅動</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主題 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"position":"right","width":200,"height":400,"jsonPath":"/live2dw/assets/haru02.model.json"},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
