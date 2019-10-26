@@ -79,21 +79,21 @@
 
 
 
-<meta name="description" content="前言 剛好在搞hexo的裝潢，想到自己還沒有評論區  Next其實本來就內建很多評論系統了，例: Disqus、gitment等… Disqus我平常沒甚麼在用，再辦一個帳號對我懶癌發作的人很痛苦；於是就找上了gitment一個將Github issue成為評論系統的工具。 不過我在爬文時又看到這篇建议大家弃用 Gitalk 和 Gitment 等权限过高的 Github OAuth App。 h">
+<meta name="description" content="前言 剛好在搞hexo的裝潢，想到自己還沒有評論區   Next其實本來就內建很多評論系統了，例: Disqus、gitment等… Disqus我平常沒甚麼在用，再辦一個帳號對我懶癌發作的人很痛苦；於是就找上了gitment一個將Github issue成為評論系統的工具。 不過我在爬文時又看到這篇建议大家弃用 Gitalk 和 Gitment 等权限过高的 Github OAuth App。">
 <meta name="keywords" content="程式筆記,Javascript,hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo Next 主題增加評論系統 utterances">
 <meta property="og:url" content="http://yoursite.com/2019/1026-hexo-comm/index.html">
 <meta property="og:site_name" content="準備爆肝的weak日常">
-<meta property="og:description" content="前言 剛好在搞hexo的裝潢，想到自己還沒有評論區  Next其實本來就內建很多評論系統了，例: Disqus、gitment等… Disqus我平常沒甚麼在用，再辦一個帳號對我懶癌發作的人很痛苦；於是就找上了gitment一個將Github issue成為評論系統的工具。 不過我在爬文時又看到這篇建议大家弃用 Gitalk 和 Gitment 等权限过高的 Github OAuth App。 h">
+<meta property="og:description" content="前言 剛好在搞hexo的裝潢，想到自己還沒有評論區   Next其實本來就內建很多評論系統了，例: Disqus、gitment等… Disqus我平常沒甚麼在用，再辦一個帳號對我懶癌發作的人很痛苦；於是就找上了gitment一個將Github issue成為評論系統的工具。 不過我在爬文時又看到這篇建议大家弃用 Gitalk 和 Gitment 等权限过高的 Github OAuth App。">
 <meta property="og:locale" content="zh-tw">
 <meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/utter-01.jpg">
 <meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/utter-02.jpg">
 <meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/utter-03.jpg">
-<meta property="og:updated_time" content="2019-10-26T16:51:20.448Z">
+<meta property="og:updated_time" content="2019-10-26T17:12:32.827Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo Next 主題增加評論系統 utterances">
-<meta name="twitter:description" content="前言 剛好在搞hexo的裝潢，想到自己還沒有評論區  Next其實本來就內建很多評論系統了，例: Disqus、gitment等… Disqus我平常沒甚麼在用，再辦一個帳號對我懶癌發作的人很痛苦；於是就找上了gitment一個將Github issue成為評論系統的工具。 不過我在爬文時又看到這篇建议大家弃用 Gitalk 和 Gitment 等权限过高的 Github OAuth App。 h">
+<meta name="twitter:description" content="前言 剛好在搞hexo的裝潢，想到自己還沒有評論區   Next其實本來就內建很多評論系統了，例: Disqus、gitment等… Disqus我平常沒甚麼在用，再辦一個帳號對我懶癌發作的人很痛苦；於是就找上了gitment一個將Github issue成為評論系統的工具。 不過我在爬文時又看到這篇建议大家弃用 Gitalk 和 Gitment 等权限过高的 Github OAuth App。">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/utter-01.jpg">
 
 
@@ -331,16 +331,28 @@
       
         <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
 <p>剛好在搞<code>hexo</code>的裝潢，想到自己還沒有評論區</p>
+</blockquote>
 <ul>
 <li><code>Next</code>其實本來就內建很多評論系統了，例: Disqus、gitment等…</li>
 <li>Disqus我平常沒甚麼在用，再辦一個帳號對我懶癌發作的人很痛苦；於是就找上了<code>gitment</code>一個將Github issue成為評論系統的工具。</li>
 <li>不過我在爬文時又看到這篇<a href="https://www.v2ex.com/t/535608" target="_blank" rel="noopener">建议大家弃用 Gitalk 和 Gitment 等权限过高的 Github OAuth App</a>。</li>
 <li>hmmm…我不想被惡意工程師搞QAQ</li>
 </ul>
-</blockquote>
 <h2 id="Why-Utterances"><a href="#Why-Utterances" class="headerlink" title="Why Utterances"></a>Why Utterances</h2><p>所以我選了<a href="https://utteranc.es/" target="_blank" rel="noopener">utterance</a><br><br>它也是運用Github去儲存評論，十分有趣的做法。<br><br>而且要求的權限少很多，真是優質的工具。</p>
+<hr>
 <h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><h3 id="授權"><a href="#授權" class="headerlink" title="授權"></a>授權</h3><p>授權utterances可以拿到評論後提交到<code>repo</code>中的<code>Issues</code>裡<br><br>先點這個網址 <a href="https://github.com/apps/utterances" target="_blank" rel="noopener">https://github.com/apps/utterances</a><br><br>它就會和你要授權，我是選hexo的那個blog repo<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/utter-01.jpg" alt></p>
 <h3 id="設置"><a href="#設置" class="headerlink" title="設置"></a>設置</h3><p>來這個網址 <a href="https://utteranc.es/" target="_blank" rel="noopener">https://utteranc.es/</a> <br><br>在<code>configuration</code>的repo:中打上你剛才授權的<code>repo</code><br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/utter-02.jpg" alt><br>接著把這段script複製下來<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/utter-03.jpg" alt><br>ex. 可以加<code>label</code>讓評論在<code>Issues</code>裡更好看</p>
+<h2 id="Next裡設置"><a href="#Next裡設置" class="headerlink" title="Next裡設置"></a>Next裡設置</h2><p>在<code>theme\next\layout\_partials</code>文件夾內<code>commenets.swig</code>中，補上</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> theme.utterances.enable %&#125;</span><br><span class="line">  &lt;div <span class="class"><span class="keyword">class</span></span>=<span class="string">"comments"</span> id=<span class="string">"comments"</span>&gt;</span><br><span class="line">      &lt;script src=<span class="string">"https://utteranc.es/client.js"</span></span><br><span class="line">              repo=<span class="string">"[ENTER REPO HERE]"</span></span><br><span class="line">              issue-term=<span class="string">"pathname"</span></span><br><span class="line">              label=<span class="string">"💬"</span></span><br><span class="line">              theme=<span class="string">"github-light"</span></span><br><span class="line">              crossorigin=<span class="string">"anonymous"</span></span><br><span class="line">              <span class="keyword">async</span>&gt;</span><br><span class="line">      &lt;<span class="regexp">/script&gt;</span></span><br><span class="line"><span class="regexp">  &lt;/</span>div&gt;</span><br></pre></td></tr></table></figure>
+
+<p>補在</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> page.comments %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>後即可<br><br>在進入主題配置文件<code>_config.yml</code>中補上</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># utterances</span><br><span class="line">utterances:</span><br><span class="line">  enable: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<p>就大功告成囉~~(灑花)</p>
+<h2 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h2><p>其實還有一個npm module<a href="https://github.com/theme-next/hexo-next-utteranc" target="_blank" rel="noopener">Hexo NexT Utteranc</a>，不過我覺得沒有必要再裝一個，官方給的教學很詳細了。<br><br>如果有任何問題歡迎用評論留言。</p>
 
       
     </div>
@@ -534,7 +546,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Why-Utterances"><span class="nav-number">2.</span> <span class="nav-text">Why Utterances</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置"><span class="nav-number">3.</span> <span class="nav-text">配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#授權"><span class="nav-number">3.1.</span> <span class="nav-text">授權</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#設置"><span class="nav-number">3.2.</span> <span class="nav-text">設置</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Why-Utterances"><span class="nav-number">2.</span> <span class="nav-text">Why Utterances</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置"><span class="nav-number">3.</span> <span class="nav-text">配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#授權"><span class="nav-number">3.1.</span> <span class="nav-text">授權</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#設置"><span class="nav-number">3.2.</span> <span class="nav-text">設置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Next裡設置"><span class="nav-number">4.</span> <span class="nav-text">Next裡設置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#總結"><span class="nav-number">5.</span> <span class="nav-text">總結</span></a></li></ol></div>
             
 
           </div>
