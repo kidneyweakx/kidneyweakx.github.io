@@ -3,11 +3,11 @@ title: Rails error 小處理紀錄
 date: 2019-03-27 22:58:00
 tags: [程式筆記, Ruby on Rails]
 ---
-## 這個**error**
+## Runtime **error**
 ```
 'Could not find a JavaScript runtime' but execjs AND therubyracer are in Gemfile
 ```
-**solution.**
+## **solution.**
 
 只要在gemfile加入
 ```
@@ -23,7 +23,7 @@ add gem 'sqlite3'
 
 可是在gemfile裡已經有了sqlite3卻出現錯誤
 
-**solution.**
+## **solution.**
 
 將原本
 `

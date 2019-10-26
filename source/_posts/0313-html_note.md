@@ -3,7 +3,7 @@ title: HTML重點筆記
 date: 2019-03-13 22:06:00
 tags: [程式筆記, html]
 ---
-# 重點
+## 重點
 
 > margin 與 padding 的差異
 

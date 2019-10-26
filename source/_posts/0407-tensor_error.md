@@ -3,7 +3,7 @@ title: 辨識錯誤 tensorflow KeyError "The name 'import/input' refers to an Op
 date: 2019-04-07 20:00:00
 tags: [程式筆記, Tensorflow]
 ---
-**近期遇到的小錯誤**
+## **近期遇到的小錯誤**
 ```
 KeyError: "The name 'import/input' refers to an Operation not in the graph."
 ```
@@ -15,7 +15,8 @@ KeyError: "The name 'import/input' refers to an Operation not in the graph."
 
 最後看到這篇文章 [link](https://developer.arm.com/technologies/machine-learning-on-arm/developer-material/how-to-guides/optimizing-neural-networks-for-mobile-and-embedded-devices-with-tensorflow/determine-the-names-of-input-and-output-nodes)
 
-**懶人包**:先用tensorflow的工具將.pb轉成可以用tensorboard可以觀看的格式，再查出**input_layer**(我的是placeholder)和output_layer是甚麼名字再重新修正。
+## **懶人包**
+> 先用tensorflow的工具將.pb轉成可以用tensorboard可以觀看的格式，再查出**input_layer**(我的是placeholder)和output_layer是甚麼名字再重新修正。
 
 
 
