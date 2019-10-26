@@ -79,20 +79,20 @@
 
 
 
-<meta name="description" content="近期遇到的小錯誤 1KeyError: &amp;quot;The name &amp;apos;import/input&amp;apos; refers to an Operation not in the graph.&amp;quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包:先用tensorflo">
+<meta name="description" content="近期遇到的小錯誤1KeyError: &amp;quot;The name &amp;apos;import/input&amp;apos; refers to an Operation not in the graph.&amp;quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包 先用tensorflow">
 <meta name="keywords" content="程式筆記,Tensorflow">
 <meta property="og:type" content="article">
 <meta property="og:title" content="辨識錯誤 tensorflow KeyError &quot;The name &#39;import&#x2F;input&#39; refers to an Operation not in the graph.&quot;">
 <meta property="og:url" content="http://yoursite.com/2019/0407-tensor_error/index.html">
 <meta property="og:site_name" content="準備爆肝的weak日常">
-<meta property="og:description" content="近期遇到的小錯誤 1KeyError: &amp;quot;The name &amp;apos;import/input&amp;apos; refers to an Operation not in the graph.&amp;quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包:先用tensorflo">
+<meta property="og:description" content="近期遇到的小錯誤1KeyError: &amp;quot;The name &amp;apos;import/input&amp;apos; refers to an Operation not in the graph.&amp;quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包 先用tensorflow">
 <meta property="og:locale" content="zh-tw">
 <meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor01.PNG">
 <meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor02.PNG">
-<meta property="og:updated_time" content="2019-10-26T08:36:44.721Z">
+<meta property="og:updated_time" content="2019-10-26T12:02:16.586Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="辨識錯誤 tensorflow KeyError &quot;The name &#39;import&#x2F;input&#39; refers to an Operation not in the graph.&quot;">
-<meta name="twitter:description" content="近期遇到的小錯誤 1KeyError: &amp;quot;The name &amp;apos;import/input&amp;apos; refers to an Operation not in the graph.&amp;quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包:先用tensorflo">
+<meta name="twitter:description" content="近期遇到的小錯誤1KeyError: &amp;quot;The name &amp;apos;import/input&amp;apos; refers to an Operation not in the graph.&amp;quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包 先用tensorflow">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor01.PNG">
 
 
@@ -318,14 +318,15 @@
       
 
       
-        <p><strong>近期遇到的小錯誤</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">KeyError: &quot;The name &apos;import/input&apos; refers to an Operation not in the graph.&quot;</span><br></pre></td></tr></table></figure>
+        <h2 id="近期遇到的小錯誤"><a href="#近期遇到的小錯誤" class="headerlink" title="近期遇到的小錯誤"></a><strong>近期遇到的小錯誤</strong></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">KeyError: &quot;The name &apos;import/input&apos; refers to an Operation not in the graph.&quot;</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor01.PNG" alt></p>
 <p>簡單來解釋就是他的名字你打錯了 所以input才會input錯</p>
 <p>我自己爬文去嘗試了各種”Mul” “input”之類的都錯</p>
 <p>最後看到這篇文章 <a href="https://developer.arm.com/technologies/machine-learning-on-arm/developer-material/how-to-guides/optimizing-neural-networks-for-mobile-and-embedded-devices-with-tensorflow/determine-the-names-of-input-and-output-nodes" target="_blank" rel="noopener">link</a></p>
-<p><strong>懶人包</strong>:先用tensorflow的工具將.pb轉成可以用tensorboard可以觀看的格式，再查出<strong>input_layer</strong>(我的是placeholder)和output_layer是甚麼名字再重新修正。</p>
+<h2 id="懶人包"><a href="#懶人包" class="headerlink" title="懶人包"></a><strong>懶人包</strong></h2><blockquote>
+<p>先用tensorflow的工具將.pb轉成可以用tensorboard可以觀看的格式，再查出<strong>input_layer</strong>(我的是placeholder)和output_layer是甚麼名字再重新修正。</p>
+</blockquote>
 <p>這是我的程式碼(再依照個人需求更改)</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python tensorflow\examples\label_image\label_image.py --graph=tmp\output_graph.pb --label=tmp\output_labels.txt --image=tmp\91076.png --input_layer=Placeholder --output_layer=final_result</span><br></pre></td></tr></table></figure>
 
@@ -426,8 +427,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概覽
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -500,6 +510,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#近期遇到的小錯誤"><span class="nav-number">1.</span> <span class="nav-text">近期遇到的小錯誤</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#懶人包"><span class="nav-number">2.</span> <span class="nav-text">懶人包</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -734,5 +760,5 @@
 
   
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"position":"right","width":200,"height":400,"jsonPath":"live2d-widget-model-haru/02"},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"position":"right","width":200,"height":400,"jsonPath":"/live2dw/assets/haru02.model.json"},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>

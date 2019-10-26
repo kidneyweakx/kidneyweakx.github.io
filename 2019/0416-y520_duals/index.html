@@ -89,7 +89,7 @@
 <meta property="og:locale" content="zh-tw">
 <meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/y520-01.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/y520-rufus.png">
-<meta property="og:updated_time" content="2019-10-26T08:39:45.354Z">
+<meta property="og:updated_time" content="2019-10-26T12:02:16.586Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Lenovo-LEGION-Y520 windows10+Ubuntu18.04雙系統">
 <meta name="twitter:description" content="安裝前準備動作 先在windows內割出一個給系統安裝的分割  在本機-&amp;gt;右鍵-&amp;gt;管理-&amp;gt;磁碟管理  將ubuntu燒成開機usb，我是使用rufus和ubuntu  進bios調整(用尖物刺機身左邊小洞開機，或開機按F2)   [configuration]-&amp;gt;Sata Controller Mode 選為AHCI，不然灌ubuntu會讀不到SSD [Security]-">
@@ -338,7 +338,7 @@
 <h2 id="安裝"><a href="#安裝" class="headerlink" title="安裝"></a><strong>安裝</strong></h2><p>接下來就可以開始安裝了。</p>
 <p>就是正常的系統安裝，可以參考這篇<a href="http://blog.csdn.net/zifehng/article/details/79514756" target="_blank" rel="noopener">安裝指南</a></p>
 <p>我是選擇與<strong>Windows Boot Manger共存</strong>的選項，省下很多設定時間。</p>
-<h3 id="安裝完成小問題解決"><a href="#安裝完成小問題解決" class="headerlink" title="安裝完成小問題解決"></a><strong>安裝完成小問題解決</strong></h3><ol>
+<h2 id="安裝完成小問題解決"><a href="#安裝完成小問題解決" class="headerlink" title="安裝完成小問題解決"></a><strong>安裝完成小問題解決</strong></h2><ol>
 <li><strong>安裝完成後會發現能進入ubuntu可是windows無法進入，參考<a href="http://www.yanglajiao.com/article/weixin_38570251/79923451" target="_blank" rel="noopener">這篇</a></strong></li>
 </ol>
 <p>因為在安裝win10時，bios裡面Sata Controller Mode不是AHCI，所以開不了機</p>
@@ -354,7 +354,8 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ntpdate #安裝ntpdate</span><br><span class="line">sudo ntpdate time.windows.com #設定時間伺服器</span><br><span class="line">sudo hwclock --localtime --systohc #設定本機時間</span><br></pre></td></tr></table></figure>
 
 <p> 這樣就可以享受雙系統的快樂了，雙倍的快樂(笑)</p>
-<h3 id="程式菜鳥，有錯請多多指教"><a href="#程式菜鳥，有錯請多多指教" class="headerlink" title="程式菜鳥，有錯請多多指教"></a><strong>程式菜鳥，有錯請多多指教</strong></h3>
+<h2 id="程式菜鳥，有錯請多多指教"><a href="#程式菜鳥，有錯請多多指教" class="headerlink" title="程式菜鳥，有錯請多多指教"></a><strong>程式菜鳥，有錯請多多指教</strong></h2><p>有問題都可連絡我，跟我說有甚麼需要改進的</p>
+
       
     </div>
     
@@ -543,7 +544,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝前準備動作"><span class="nav-number">1.</span> <span class="nav-text">安裝前準備動作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝"><span class="nav-number">2.</span> <span class="nav-text">安裝</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安裝完成小問題解決"><span class="nav-number">2.1.</span> <span class="nav-text">安裝完成小問題解決</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#程式菜鳥，有錯請多多指教"><span class="nav-number">2.2.</span> <span class="nav-text">程式菜鳥，有錯請多多指教</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝前準備動作"><span class="nav-number">1.</span> <span class="nav-text">安裝前準備動作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝"><span class="nav-number">2.</span> <span class="nav-text">安裝</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安裝完成小問題解決"><span class="nav-number">3.</span> <span class="nav-text">安裝完成小問題解決</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#程式菜鳥，有錯請多多指教"><span class="nav-number">4.</span> <span class="nav-text">程式菜鳥，有錯請多多指教</span></a></li></ol></div>
             
 
           </div>
@@ -783,5 +784,5 @@
 
   
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"position":"right","width":200,"height":400,"jsonPath":"live2d-widget-model-haru/02"},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"position":"right","width":200,"height":400,"jsonPath":"/live2dw/assets/haru02.model.json"},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
