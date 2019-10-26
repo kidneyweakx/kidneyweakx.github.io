@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="Runtime error1&amp;apos;Could not find a JavaScript runtime&amp;apos; but execjs AND therubyracer are in Gemfile  solution.只要在gemfile加入 12gem &amp;apos;execjs&amp;apos;gem &amp;apos;therubyracer&amp;apos;, :platforms =&amp;gt; :">
+<meta name="description" content="Runtime error1&apos;Could not find a JavaScript runtime&apos; but execjs AND therubyracer are in Gemfile  solution.只要在gemfile加入 12gem &apos;execjs&apos;gem &apos;therubyracer&apos;, :platforms =&amp;gt; :ruby  就解決了 出現這個warning1add gem">
 <meta name="keywords" content="程式筆記,Ruby on Rails">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Rails error 小處理紀錄">
 <meta property="og:url" content="http://yoursite.com/2019/0327-railserror/index.html">
 <meta property="og:site_name" content="準備爆肝的weak日常">
-<meta property="og:description" content="Runtime error1&amp;apos;Could not find a JavaScript runtime&amp;apos; but execjs AND therubyracer are in Gemfile  solution.只要在gemfile加入 12gem &amp;apos;execjs&amp;apos;gem &amp;apos;therubyracer&amp;apos;, :platforms =&amp;gt; :">
+<meta property="og:description" content="Runtime error1&apos;Could not find a JavaScript runtime&apos; but execjs AND therubyracer are in Gemfile  solution.只要在gemfile加入 12gem &apos;execjs&apos;gem &apos;therubyracer&apos;, :platforms =&amp;gt; :ruby  就解決了 出現這個warning1add gem">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2019-10-26T12:02:16.604Z">
+<meta property="og:updated_time" content="2019-10-26T15:24:55.337Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Rails error 小處理紀錄">
-<meta name="twitter:description" content="Runtime error1&amp;apos;Could not find a JavaScript runtime&amp;apos; but execjs AND therubyracer are in Gemfile  solution.只要在gemfile加入 12gem &amp;apos;execjs&amp;apos;gem &amp;apos;therubyracer&amp;apos;, :platforms =&amp;gt; :">
+<meta name="twitter:description" content="Runtime error1&apos;Could not find a JavaScript runtime&apos; but execjs AND therubyracer are in Gemfile  solution.只要在gemfile加入 12gem &apos;execjs&apos;gem &apos;therubyracer&apos;, :platforms =&amp;gt; :ruby  就解決了 出現這個warning1add gem">
 
 
 
@@ -187,6 +187,16 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            關於
           </a>
         </li>
       
@@ -315,16 +325,20 @@
       
 
       
-        <h2 id="Runtime-error"><a href="#Runtime-error" class="headerlink" title="Runtime error"></a>Runtime <strong>error</strong></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&apos;Could not find a JavaScript runtime&apos; but execjs AND therubyracer are in Gemfile</span><br></pre></td></tr></table></figure>
+        <h2 id="Runtime-error"><a href="#Runtime-error" class="headerlink" title="Runtime error"></a>Runtime <strong>error</strong></h2><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">'Could not find a JavaScript runtime'</span> but execjs AND therubyracer are <span class="keyword">in</span> Gemfile</span><br></pre></td></tr></table></figure>
 
 <h2 id="solution"><a href="#solution" class="headerlink" title="solution."></a><strong>solution.</strong></h2><p>只要在gemfile加入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gem &apos;execjs&apos;</span><br><span class="line">gem &apos;therubyracer&apos;, :platforms =&gt; :ruby</span><br></pre></td></tr></table></figure>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gem <span class="string">'execjs'</span></span><br><span class="line">gem <span class="string">'therubyracer'</span>, <span class="symbol">:platforms</span> =&gt; <span class="symbol">:ruby</span></span><br></pre></td></tr></table></figure>
 
 <p>就解決了</p>
-<h2 id="出現這個warning"><a href="#出現這個warning" class="headerlink" title="出現這個warning"></a>出現這個warning</h2><p><code>add gem &#39;sqlite3&#39;</code></p>
-<p>可是在gemfile裡已經有了sqlite3卻出現錯誤</p>
-<h2 id="solution-1"><a href="#solution-1" class="headerlink" title="solution."></a><strong>solution.</strong></h2><p>將原本<br><code>gem &#39;sqlite3&#39;</code><br>改成<br><code>gem &#39;sqlite3&#39;,&#39;~&gt; 1.3.0&#39;</code></p>
+<h2 id="出現這個warning"><a href="#出現這個warning" class="headerlink" title="出現這個warning"></a>出現這個warning</h2><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">add gem <span class="string">'sqlite3'</span></span><br></pre></td></tr></table></figure>
 
+<p>可是在gemfile裡已經有了sqlite3卻出現錯誤</p>
+<h2 id="solution-1"><a href="#solution-1" class="headerlink" title="solution."></a><strong>solution.</strong></h2><p>將原本</p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gem <span class="string">'sqlite3'</span></span><br></pre></td></tr></table></figure>
+
+<p>改成</p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gem <span class="string">'sqlite3'</span>,<span class="string">'~&gt; 1.3.0'</span></span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -398,7 +412,7 @@
           
 
   
-    <div class="comments">
+    <div class="comments" id="comments">
       <script src="https://utteranc.es/client.js" repo="kidneyweakx/kidneyweakx.github.io" issue-term="title" label="💬" theme="github-light" crossorigin="anonymous" async>
       </script>
     </div>
@@ -451,7 +465,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">37</span>
+                  <span class="site-state-item-count">38</span>
                   <span class="site-state-item-name">文章</span>
                 </a>
               </div>
@@ -464,7 +478,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">標籤</span>
                 </a>
               </div>

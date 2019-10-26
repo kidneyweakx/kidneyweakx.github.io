@@ -89,7 +89,7 @@
 <meta property="og:locale" content="zh-tw">
 <meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/y520-01.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/y520-rufus.png">
-<meta property="og:updated_time" content="2019-10-26T12:02:16.586Z">
+<meta property="og:updated_time" content="2019-10-26T15:24:55.337Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Lenovo-LEGION-Y520 windows10+Ubuntu18.04雙系統">
 <meta name="twitter:description" content="安裝前準備動作 先在windows內割出一個給系統安裝的分割  在本機-&amp;gt;右鍵-&amp;gt;管理-&amp;gt;磁碟管理  將ubuntu燒成開機usb，我是使用rufus和ubuntu  進bios調整(用尖物刺機身左邊小洞開機，或開機按F2)   [configuration]-&amp;gt;Sata Controller Mode 選為AHCI，不然灌ubuntu會讀不到SSD [Security]-">
@@ -190,6 +190,16 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            關於
           </a>
         </li>
       
@@ -351,7 +361,7 @@
 <li><strong>時間不同步問題，參考<a href="http://www.cnblogs.com/leime/p/9411551.html" target="_blank" rel="noopener">這篇</a></strong></li>
 </ol>
 <p>其實也有將windows改成UTC格式的方法，可是我盡量不想動windows的設定</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ntpdate #安裝ntpdate</span><br><span class="line">sudo ntpdate time.windows.com #設定時間伺服器</span><br><span class="line">sudo hwclock --localtime --systohc #設定本機時間</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install ntpdate <span class="comment">#安裝ntpdate</span></span><br><span class="line">sudo ntpdate time.windows.com <span class="comment">#設定時間伺服器</span></span><br><span class="line">sudo hwclock --localtime --systohc <span class="comment">#設定本機時間</span></span><br></pre></td></tr></table></figure>
 
 <p> 這樣就可以享受雙系統的快樂了，雙倍的快樂(笑)</p>
 <h2 id="程式菜鳥，有錯請多多指教"><a href="#程式菜鳥，有錯請多多指教" class="headerlink" title="程式菜鳥，有錯請多多指教"></a><strong>程式菜鳥，有錯請多多指教</strong></h2><p>有問題都可連絡我，跟我說有甚麼需要改進的</p>
@@ -429,7 +439,7 @@
           
 
   
-    <div class="comments">
+    <div class="comments" id="comments">
       <script src="https://utteranc.es/client.js" repo="kidneyweakx/kidneyweakx.github.io" issue-term="title" label="💬" theme="github-light" crossorigin="anonymous" async>
       </script>
     </div>
@@ -482,7 +492,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">37</span>
+                  <span class="site-state-item-count">38</span>
                   <span class="site-state-item-name">文章</span>
                 </a>
               </div>
@@ -495,7 +505,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">標籤</span>
                 </a>
               </div>

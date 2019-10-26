@@ -79,20 +79,20 @@
 
 
 
-<meta name="description" content="近期遇到的小錯誤1KeyError: &amp;quot;The name &amp;apos;import/input&amp;apos; refers to an Operation not in the graph.&amp;quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包 先用tensorflow">
+<meta name="description" content="近期遇到的小錯誤1KeyError: &quot;The name &apos;import/input&apos; refers to an Operation not in the graph.&quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包 先用tensorflow的工具將.pb轉成可以用tensorbo">
 <meta name="keywords" content="程式筆記,Tensorflow">
 <meta property="og:type" content="article">
 <meta property="og:title" content="辨識錯誤 tensorflow KeyError &quot;The name &#39;import&#x2F;input&#39; refers to an Operation not in the graph.&quot;">
 <meta property="og:url" content="http://yoursite.com/2019/0407-tensor_error/index.html">
 <meta property="og:site_name" content="準備爆肝的weak日常">
-<meta property="og:description" content="近期遇到的小錯誤1KeyError: &amp;quot;The name &amp;apos;import/input&amp;apos; refers to an Operation not in the graph.&amp;quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包 先用tensorflow">
+<meta property="og:description" content="近期遇到的小錯誤1KeyError: &quot;The name &apos;import/input&apos; refers to an Operation not in the graph.&quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包 先用tensorflow的工具將.pb轉成可以用tensorbo">
 <meta property="og:locale" content="zh-tw">
 <meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor01.PNG">
 <meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor02.PNG">
-<meta property="og:updated_time" content="2019-10-26T12:02:16.586Z">
+<meta property="og:updated_time" content="2019-10-26T15:24:55.337Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="辨識錯誤 tensorflow KeyError &quot;The name &#39;import&#x2F;input&#39; refers to an Operation not in the graph.&quot;">
-<meta name="twitter:description" content="近期遇到的小錯誤1KeyError: &amp;quot;The name &amp;apos;import/input&amp;apos; refers to an Operation not in the graph.&amp;quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包 先用tensorflow">
+<meta name="twitter:description" content="近期遇到的小錯誤1KeyError: &quot;The name &apos;import/input&apos; refers to an Operation not in the graph.&quot;   簡單來解釋就是他的名字你打錯了 所以input才會input錯 我自己爬文去嘗試了各種”Mul” “input”之類的都錯 最後看到這篇文章 link 懶人包 先用tensorflow的工具將.pb轉成可以用tensorbo">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor01.PNG">
 
 
@@ -190,6 +190,16 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            關於
           </a>
         </li>
       
@@ -318,7 +328,7 @@
       
 
       
-        <h2 id="近期遇到的小錯誤"><a href="#近期遇到的小錯誤" class="headerlink" title="近期遇到的小錯誤"></a><strong>近期遇到的小錯誤</strong></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">KeyError: &quot;The name &apos;import/input&apos; refers to an Operation not in the graph.&quot;</span><br></pre></td></tr></table></figure>
+        <h2 id="近期遇到的小錯誤"><a href="#近期遇到的小錯誤" class="headerlink" title="近期遇到的小錯誤"></a><strong>近期遇到的小錯誤</strong></h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">KeyError: <span class="string">"The name 'import/input' refers to an Operation not in the graph."</span></span><br></pre></td></tr></table></figure>
 
 <p><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor01.PNG" alt></p>
 <p>簡單來解釋就是他的名字你打錯了 所以input才會input錯</p>
@@ -328,7 +338,7 @@
 <p>先用tensorflow的工具將.pb轉成可以用tensorboard可以觀看的格式，再查出<strong>input_layer</strong>(我的是placeholder)和output_layer是甚麼名字再重新修正。</p>
 </blockquote>
 <p>這是我的程式碼(再依照個人需求更改)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python tensorflow\examples\label_image\label_image.py --graph=tmp\output_graph.pb --label=tmp\output_labels.txt --image=tmp\91076.png --input_layer=Placeholder --output_layer=final_result</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python tensorflow\examples\label_image\label_image.py --graph=tmp\output_graph.pb --label=tmp\output_labels.txt --image=tmp\<span class="number">91076.</span>png --input_layer=Placeholder --output_layer=final_result</span><br></pre></td></tr></table></figure>
 
 <p>輸出<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor02.PNG" alt></p>
 
@@ -405,7 +415,7 @@
           
 
   
-    <div class="comments">
+    <div class="comments" id="comments">
       <script src="https://utteranc.es/client.js" repo="kidneyweakx/kidneyweakx.github.io" issue-term="title" label="💬" theme="github-light" crossorigin="anonymous" async>
       </script>
     </div>
@@ -458,7 +468,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">37</span>
+                  <span class="site-state-item-count">38</span>
                   <span class="site-state-item-name">文章</span>
                 </a>
               </div>
@@ -471,7 +481,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">標籤</span>
                 </a>
               </div>
