@@ -5,11 +5,11 @@ tags: [程式筆記, Ruby on Rails]
 ---
 ## **出現這個error** 
 *rvm not a function*
-```
+```ruby
 error:Warning! PATH is not properly set up, '/home/me/.rvm/gems/ruby-2.x.x-p247/bin' is not available, usually this is caused by shell initialization files 
 ```
 ## **輸入**
-```
+```ruby
 rvm reset
 rvm version
 ```

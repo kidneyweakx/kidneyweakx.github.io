@@ -11,7 +11,7 @@ tags: [程式筆記, OracleDB]
 ## **解決方法**
 
 開啟cmd輸入
-```
+```bash
 路徑(依位置更改)/setup.exe -ignorePrereq -J"-D oracle.install.db.validate.supportedOSCheck=false"
 ```
 就可以進入安裝不跳error了

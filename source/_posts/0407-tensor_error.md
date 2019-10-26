@@ -4,7 +4,7 @@ date: 2019-04-07 20:00:00
 tags: [程式筆記, Tensorflow]
 ---
 ## **近期遇到的小錯誤**
-```
+```python
 KeyError: "The name 'import/input' refers to an Operation not in the graph."
 ```
 ![](https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor01.PNG)
@@ -21,7 +21,7 @@ KeyError: "The name 'import/input' refers to an Operation not in the graph."
 
 
 這是我的程式碼(再依照個人需求更改)
-```
+```python
 python tensorflow\examples\label_image\label_image.py --graph=tmp\output_graph.pb --label=tmp\output_labels.txt --image=tmp\91076.png --input_layer=Placeholder --output_layer=final_result
 ```
 

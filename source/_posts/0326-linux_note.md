@@ -28,7 +28,7 @@ tags: [程式筆記, Linux]
 `ln -s` 很好用
 12. 將ubuntu home資料夾換成英文的目錄
 
-```
+```bash
 export LANG=en_US 
 xdg-user-dirs-gtk-update
 ```

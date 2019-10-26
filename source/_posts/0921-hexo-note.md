@@ -1,7 +1,7 @@
 ---
 title: 用Hexo免費製作一個blog
 date: 2019-09-21 02:00:00
-tags: [程式筆記, Javascript]
+tags: [程式筆記, Javascript, hexo]
 ---
 在種種原因之下，從Blogger牽到GitHub Pages上，陪伴我一學期的Blogger正式停止更新。紀念一下[這是原站點](https://kidneyweakx.blogspot.com/)，而讓我跳槽到Hexo的原因如下:
 - Blogger 後臺真的十分陽春(上手很難進一步改動)。
@@ -46,7 +46,7 @@ tags: [程式筆記, Javascript]
 `hexo version`
 - 建立自己的blog
 
-```
+```js
 hexo init blog  #初始化blog
 cd blog         #切換至blog資料夾
 npm install     #安裝相關套件
@@ -55,7 +55,7 @@ hexo server     #在localhost顯示頁面
 
 - 將文章部屬上github
 
-```
+```js
 deploy:
     type: github
     repository: git@github.com:yourname/yourname.github.io.git
@@ -75,7 +75,7 @@ deploy:
 當然用hexo最重要的就是美化blog囉~
 而我使用[Next](https://theme-next.iissnan.com/)，將它clone至themes資料夾，再修改這邊。
 
-```
+```js
 ## Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -86,11 +86,17 @@ theme: next #修改這行
 
 ## 使用編譯器編輯文檔
 我自己是使用vscode去撰寫.md檔，可以一邊預覽一邊寫文章相當方便，且搭配終端機可以達成快速撰寫並送出的功能
-```
+```js
 hexo clean
 hexo d -g #d部屬 g=generate
 ```
 就可以很輕鬆地將md檔自動轉成html並部屬到你的github上了。
+
+## 修改標題顏色
+在`source/css/_variables/base.styl`裡面有個顏色原本的色碼
+用[w3s](https://www.w3schools.com/colors/colors_picker.asp)選個喜歡的顏色`hexo s`看一下
+![](https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/hexo01.jpg)
+
 
 ## Extra Live2D看板娘
 
@@ -105,7 +111,7 @@ hexo d -g #d部屬 g=generate
 
 > 設定`_config.yml`加上下面這堆
 
-```
+```js
 live2d:
   enable: true
   pluginModelPath: assets/
@@ -118,6 +124,7 @@ live2d:
   mobile:
     show: false  #手機顯示
 ```
+---
 
 ## Reference
 [Hexo 安裝教學、心得筆記](https://wwssllabcd.github.io/blog/2014/12/22/how-to-install-hexo/)

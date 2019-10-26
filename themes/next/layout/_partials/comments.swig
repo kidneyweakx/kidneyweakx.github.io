@@ -1,7 +1,7 @@
 {% if page.comments %}
 
   {% if theme.utterances.enable %}
-    <div class="comments">
+    <div class="comments" id="comments">
       <script src="https://utteranc.es/client.js"
         repo="kidneyweakx/kidneyweakx.github.io"
         issue-term="title"
