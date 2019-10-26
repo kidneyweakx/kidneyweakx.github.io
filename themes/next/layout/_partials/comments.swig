@@ -1,5 +1,17 @@
 {% if page.comments %}
 
+  {% if theme.utterances.enable %}
+    <div class="comments">
+      <script src="https://utteranc.es/client.js"
+        repo="kidneyweakx/kidneyweakx.github.io"
+        issue-term="title"
+        label="💬"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </div>
+
   {% if (theme.duoshuo and theme.duoshuo.shortname) or theme.duoshuo_shortname %}
     <div class="comments" id="comments">
       <div class="ds-thread" data-thread-key="{{ page.path }}"
@@ -65,6 +77,7 @@
   {% elseif theme.valine.appid and theme.valine.appkey %}
     <div class="comments" id="comments">
     </div>
+
   {% endif %}
 
 {% endif %}
