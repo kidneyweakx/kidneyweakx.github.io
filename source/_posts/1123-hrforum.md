@@ -7,7 +7,8 @@ tags: 提升自我
 ## 人資長論壇
 ![論壇宣傳照](https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/hrforum.jpg)
 
-不過這週有去成大聽演講，也收穫挺多的，尤其在CEO那場中，學到一些心態建立，和個人要怎麼增進自己的特長的方向，十分有趣的演講，在別場HR也給我一些履歷的方向，整體來說學到很多。
+在朋友推薦下去聽這個還不錯而且在成大的演講，收穫挺多的，尤其在CEO那場中，學到一些心態建立，和個人要怎麼增進自己的特長的方向。
+主要聽的部分在於人資長讓我建立未來的方向。
 ![CEO](https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019112402.jpg)
 
 ## HR
