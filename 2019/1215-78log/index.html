@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="程式筆記,Ruby on Rails,">
+  <meta name="keywords" content="記錄生活,">
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="rails db 有問題自救照順序輸入或單獨執行migrate 123rake db:drop  #刪除數據庫rake db:create #新建數據庫rake db:migrate #更改數據庫(有時可單獨執行)">
-<meta name="keywords" content="程式筆記,Ruby on Rails">
+<meta name="description" content="1215週記心情抒發這週回家放鬆，還有把這學期參加的活動做個小結束難得有課放假，就爽爽的回家囉~不過真的有夠多東西要處理，最近覺得被很多事情壓著，那些期末報告專案都很想趕快處理完，就看到時候要怎麼弄了，很討厭拖到最後一天。  Objective 關於這週的課程, 你記得什麼?  [課程]  心理學介紹社會心理學: 認知失調 系統分析Rose轉code注意事項 商務數據顧客分群及預測 製作模型預測注">
+<meta name="keywords" content="記錄生活">
 <meta property="og:type" content="article">
-<meta property="og:title" content="介紹rake三兄弟(rake db 發生問題時使用)">
-<meta property="og:url" content="http://yoursite.com/2019/0311-rakedb/index.html">
+<meta property="og:title" content="2019&#x2F;12&#x2F;15 亂78遭週記">
+<meta property="og:url" content="http://yoursite.com/2019/1215-78log/index.html">
 <meta property="og:site_name" content="準備爆肝的weak日常">
-<meta property="og:description" content="rails db 有問題自救照順序輸入或單獨執行migrate 123rake db:drop  #刪除數據庫rake db:create #新建數據庫rake db:migrate #更改數據庫(有時可單獨執行)">
+<meta property="og:description" content="1215週記心情抒發這週回家放鬆，還有把這學期參加的活動做個小結束難得有課放假，就爽爽的回家囉~不過真的有夠多東西要處理，最近覺得被很多事情壓著，那些期末報告專案都很想趕快處理完，就看到時候要怎麼弄了，很討厭拖到最後一天。  Objective 關於這週的課程, 你記得什麼?  [課程]  心理學介紹社會心理學: 認知失調 系統分析Rose轉code注意事項 商務數據顧客分群及預測 製作模型預測注">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2019-10-26T15:24:55.337Z">
+<meta property="og:updated_time" content="2019-12-15T16:53:17.618Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="介紹rake三兄弟(rake db 發生問題時使用)">
-<meta name="twitter:description" content="rails db 有問題自救照順序輸入或單獨執行migrate 123rake db:drop  #刪除數據庫rake db:create #新建數據庫rake db:migrate #更改數據庫(有時可單獨執行)">
+<meta name="twitter:title" content="2019&#x2F;12&#x2F;15 亂78遭週記">
+<meta name="twitter:description" content="1215週記心情抒發這週回家放鬆，還有把這學期參加的活動做個小結束難得有課放假，就爽爽的回家囉~不過真的有夠多東西要處理，最近覺得被很多事情壓著，那些期末報告專案都很想趕快處理完，就看到時候要怎麼弄了，很討厭拖到最後一天。  Objective 關於這週的課程, 你記得什麼?  [課程]  心理學介紹社會心理學: 認知失調 系統分析Rose轉code注意事項 商務數據顧客分群及預測 製作模型預測注">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/0311-rakedb/">
+  <link rel="canonical" href="http://yoursite.com/2019/1215-78log/">
 
 
 
 
 
-  <title>介紹rake三兄弟(rake db 發生問題時使用) | 準備爆肝的weak日常</title>
+  <title>2019/12/15 亂78遭週記 | 準備爆肝的weak日常</title>
   
 
 
@@ -253,7 +253,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0311-rakedb/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/1215-78log/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="kidneyweakx">
@@ -270,7 +270,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">介紹rake三兄弟(rake db 發生問題時使用)</h1>
+          <h1 class="post-title" itemprop="name headline">2019/12/15 亂78遭週記</h1>
         
 
         <div class="post-meta">
@@ -282,8 +282,8 @@
               
                 <span class="post-meta-item-text">發表於</span>
               
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-03-11T09:30:00+08:00">
-                2019-03-11
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-12-15T23:30:00+08:00">
+                2019-12-15
               </time>
             
 
@@ -325,8 +325,98 @@
       
 
       
-        <h2 id="rails-db-有問題自救"><a href="#rails-db-有問題自救" class="headerlink" title="rails db 有問題自救"></a><strong>rails db 有問題自救</strong></h2><p><strong>照順序輸入或單獨執行migrate</strong></p>
-<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rake <span class="symbol">db:</span>drop  <span class="comment">#刪除數據庫</span></span><br><span class="line">rake <span class="symbol">db:</span>create <span class="comment">#新建數據庫</span></span><br><span class="line">rake <span class="symbol">db:</span>migrate <span class="comment">#更改數據庫(有時可單獨執行)</span></span><br></pre></td></tr></table></figure>
+        <h2 id="1215週記"><a href="#1215週記" class="headerlink" title="1215週記"></a><strong>1215週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週回家放鬆，還有把這學期參加的活動做個小結束</em><br>難得有課放假，就爽爽的回家囉~<br>不過真的有夠多東西要處理，最近覺得被很多事情壓著，那些期末報告專案都很想趕快處理完，就看到時候要怎麼弄了，很討厭拖到最後一天。</p>
+<hr>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>心理學介紹社會心理學: 認知失調</li>
+<li>系統分析Rose轉code注意事項</li>
+<li>商務數據顧客分群及預測</li>
+<li>製作模型預測注意事項</li>
+<li>腦波基礎知識</li>
+<li>web 抓取資料庫圖片</li>
+<li>整理履歷資料</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>R 顧客分群注意要點</li>
+<li>UML 選擇實體類別轉DDL</li>
+<li>PHP 連接資料庫輸出在前端</li>
+<li>flutter 解碼效能和devtool</li>
+<li>flutter 和 Native 溝通</li>
+<li>matlab 繪圖函式</li>
+<li>Serial Port 連接要點</li>
+<li>Design Pattern</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>心理學心得</li>
+<li>處理腦波應用程式</li>
+<li>企業資料通訊專案</li>
+<li>寫好履歷並投遞</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>把一部分東西處理掉，放鬆了一點</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>處理腦波和可以Debug</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>有夠多東西要處理，PHP寫起來蠻不爽的</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>Dart I/O 和 function處理問題</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>R 預測模型處理</li>
+<li>Rose 轉DDL注意事項</li>
+<li>SQL 資料抓取，圖片處理</li>
+<li>flutter 處理效能問題</li>
+<li>履歷和自薦信初版</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>努力把自己的東西包裝並寫好</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>放鬆一下，壓力越來越高</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>腦波跨平台專案前端處理</li>
+<li>PHP 期末專案</li>
+<li>日本文化期末報告</li>
+<li>急診期末報告</li>
+<li>R 期末報告討論</li>
+</ul>
+
       
     </div>
     
@@ -343,9 +433,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/程式筆記/" rel="tag"># 程式筆記</a>
-          
-            <a href="/tags/Ruby-on-Rails/" rel="tag"># Ruby on Rails</a>
+            <a href="/tags/記錄生活/" rel="tag"># 記錄生活</a>
           
         </div>
       
@@ -358,8 +446,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/0310-78log/" rel="next" title="2019/03/10 亂78遭週記">
-                <i class="fa fa-chevron-left"></i> 2019/03/10 亂78遭週記
+              <a href="/2019/1208-78log/" rel="next" title="2019/12/08 亂78遭週記">
+                <i class="fa fa-chevron-left"></i> 2019/12/08 亂78遭週記
               </a>
             
           </div>
@@ -367,10 +455,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/0313-html_note/" rel="prev" title="HTML重點筆記">
-                HTML重點筆記 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -521,7 +605,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#rails-db-有問題自救"><span class="nav-number">1.</span> <span class="nav-text">rails db 有問題自救</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1215週記"><span class="nav-number">1.</span> <span class="nav-text">1215週記</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#心情抒發"><span class="nav-number">1.1.</span> <span class="nav-text">心情抒發</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Objective"><span class="nav-number">2.</span> <span class="nav-text">Objective</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reflective"><span class="nav-number">3.</span> <span class="nav-text">Reflective</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Interpretive"><span class="nav-number">4.</span> <span class="nav-text">Interpretive</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Decisional"><span class="nav-number">5.</span> <span class="nav-text">Decisional</span></a></li></ol></div>
             
 
           </div>
