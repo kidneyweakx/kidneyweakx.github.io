@@ -1,10 +1,27 @@
 ---
-title: about
-date: 2019-10-26 22:50:10
+title: kidneyweak X intro
 type: "about"
 ---
-# 關於我
-contact: FB
+<center>
+Sharing life and...
 
-# TODO
-blog補完
+---
+A hard-working Information Management Student.
+Try to use tech in a better world.
+
+---
+### Blog Content
+|Skills| Tools |Skills | Tools 
+-------|:-----:|------:|-------
+Fintech | R/Python Data Analysis, Solidity|Database | MySQL, Oracle 12c
+Virtual Reality | Unity3D, 3DSMax         |Mobile Develop | Flutter, Android Studio
+Web Front-End | Ruby on Rails, HTML5      |Systems | Ubuntu, Windows Subsystem Linux
+
+---
+### Contact
+FB, Github or E-mail tell me what can I do better.
+
+---
+### Role
+Data Analysis | Machine Learning | Fintech | Project Management | Net-Teams Builder
+</center>
