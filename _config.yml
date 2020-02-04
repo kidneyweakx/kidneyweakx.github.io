@@ -87,6 +87,36 @@ live2d:
   mobile:
     show: false
 
+# 本地搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 100
+
+#RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+# 計算閱讀時長
+symbols_count_time:
+ #文章内顯示
+  symbols: true
+  time: true
+ # 網頁底部顯示
+  total_symbols: true
+  total_time: true
+  
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
