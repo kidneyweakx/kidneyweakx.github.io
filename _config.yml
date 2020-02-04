@@ -13,11 +13,15 @@ timezone: Asia/Taipei
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://kidneyweakx.github.io
 root: /
 permalink: :year/:title/
 permalink_defaults:
 
+# Sitemap
+sitemap: 
+  path: sitemap.xml
+  
 # Directory
 source_dir: source
 public_dir: public
@@ -74,6 +78,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
 
 # Live2d
 live2d:
