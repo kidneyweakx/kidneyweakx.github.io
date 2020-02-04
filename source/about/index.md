@@ -1,6 +1,7 @@
 ---
 title: kidneyweak X intro
 type: "about"
+comments: false 
 ---
 <center>
 Sharing life and...
