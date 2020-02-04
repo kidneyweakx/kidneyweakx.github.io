@@ -1,128 +1,73 @@
 <!DOCTYPE html>
-
-
-
-  
-
-
-<html class="theme-next pisces use-motion" lang="zh-tw">
-<head><meta name="generator" content="Hexo 3.9.0">
+<html lang="zh-TW">
+<head>
   <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 3.9.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
 
 
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('http://yoursite.com').hostname,
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.7.1',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
 
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
-
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="Hexo, NexT">
-
-
-
-
-
-
-
-
-
-
-<meta name="description" content="簡單。紀錄和分享日常">
+  <meta name="description" content="簡單。紀錄和分享日常">
 <meta property="og:type" content="website">
 <meta property="og:title" content="準備爆肝的weak日常">
 <meta property="og:url" content="http://yoursite.com/page/4/index.html">
 <meta property="og:site_name" content="準備爆肝的weak日常">
 <meta property="og:description" content="簡單。紀錄和分享日常">
-<meta property="og:locale" content="zh-tw">
+<meta property="og:locale" content="zh-TW">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="準備爆肝的weak日常">
 <meta name="twitter:description" content="簡單。紀錄和分享日常">
 
+<link rel="canonical" href="http://yoursite.com/page/4/">
 
 
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Pisces',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: true,
+    isPost: false
   };
 </script>
-
-
-
-  <link rel="canonical" href="http://yoursite.com/page/4/">
-
-
-
-
 
   <title>準備爆肝的weak日常</title>
   
@@ -132,185 +77,146 @@
 
 
 
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
 
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
-
-  
-  
-    
-  
-
-  <div class="container sidebar-position-left 
-  page-home">
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
 
-    <div class="custom-logo-site-title">
+    <div>
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">準備爆肝的weak日常</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-      
         <p class="site-subtitle">-記錄生活(施工中)-</p>
-      
   </div>
 
   <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
   </div>
 </div>
 
+
 <nav class="site-nav">
   
-
-  
-    <ul id="menu" class="menu">
-      
-        
+  <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
-            
-            首頁
-          </a>
-        </li>
-      
-        
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首頁</a>
+
+  </li>
         <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
-            
-            關於
-          </a>
-        </li>
-      
-        
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>關於</a>
+
+  </li>
         <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
-            
-            標籤
-          </a>
-        </li>
-      
-        
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>標籤<span class="badge">11</span></a>
+
+  </li>
         <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
-            
-            歸檔
-          </a>
-        </li>
-      
 
-      
-    </ul>
-  
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>歸檔<span class="badge">53</span></a>
 
-  
+  </li>
+  </ul>
+
 </nav>
-
-
-
- </div>
+</div>
     </header>
 
-    <main id="main" class="main">
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
       <div class="main-inner">
         <div class="content-wrap">
-          <div id="content" class="content">
+          
+
+          <div class="content">
             
-  <section id="posts" class="posts-expand">
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  <div class="posts-expand">
+        
   
   
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0519-78log/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/19log-0526/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="kidneyweakx">
-      <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content="簡單。紀錄和分享日常">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="準備爆肝的weak日常">
     </span>
-
-    
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/0519-78log/" itemprop="url">2019/05/19 亂78遭週記</a></h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/19log-0526/" class="post-title-link" itemprop="url">2019/05/26 亂78遭週記</a>
+        </h1>
 
         <div class="post-meta">
-          <span class="post-time">
-            
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-05-19T23:30:00+08:00">
-                2019-05-19
-              </time>
-            
+              <span class="post-meta-item-text">發表於</span>
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
+              <time title="創建時間：2019-05-26 23:30:00" itemprop="dateCreated datePublished" datetime="2019-05-26T23:30:00+08:00">2019-05-26</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-02-04 14:09:34" itemprop="dateModified" datetime="2020-02-04T14:09:34+08:00">2020-02-04</time>
+              </span>
 
           
 
         </div>
       </header>
-    
 
     
     
@@ -318,127 +224,81 @@
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
-          
-          0519週記
-0513 風帆課，練習風帆可是站上船還是不太會控制，不過離期末也只剩幾週了，只能再多多練習了，不過在上周就做完的JDstore架構我又再加強了一下。
-0514 國文課小組報告，我的ppt簡報技術進步了，提早下課讓我把資料庫作業放在heroku上了，學了很多東西，整個網站完成並上架的步驟
-          ...
+          <h2 id="0526週記"><a href="#0526週記" class="headerlink" title="0526週記"></a><strong>0526週記</strong></h2><p><em>有點忙碌的一週</em></p>
+<ul>
+<li>0520 浪超大的風帆課，本來都不想下水，最後還是去玩了趴板。之後運用了資安課難得的放假，來想出我的Unity小專題，畢竟這週要去醫科所面談專案，所以將AR模型做好了。</li>
+<li>0521 在國家公園的課應改也算搞一段落了，影片處理得差不多了。而Unity的部分本來想更完善我的麥塊專案，但是因為要的東西好像更多，所以還是將AR app做完，不過在輸入進手機發生了重重難關，花最多的時間竟然是在選版本 = =。</li>
+<li>0522 在游泳課及法文課後，趕到醫科所去面談。是得到蠻多我未知的知識啦，只是真的好像有點挑戰性了，不只要分析所有的頻道(channel)還要知道一些解封包的方式。</li>
+<li>0523 最主要就是知道python連結oracle或MySQL的方法，還挺簡單的，重點是環境架構對一般沒有甚麼接觸的人好像有點困難，不過知道新的方式連接資料庫還蠻有趣的。</li>
+<li>0524 統計課這學期最後一堂課，真的有點聽不懂了。遞迴、卡方及ANOVA各種分析方式，還需要處理期末的專案，真的忙瘋。</li>
+<li>0525 在宿舍耍廢，不過在前一晚突然想到可以用Xamarin解決跨平台問題，所以嘗試了一下用C#快速開發跨平台應用程式。</li>
+<li>0526 今天主要去科工館，真的比台中科博館豐富，可能我比較喜歡科技類的東西吧。不過早上聽成大材料的教授演講，昏昏欲睡，資安課跑來聽陶瓷材料，我也是ㄏㄏ。不過和學弟做Uber去真的挺快的，而且沒有很貴，還吃到久違的麥當勞，真好。</li>
+</ul>
+<hr>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/0519-78log/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
+            <div class="post-button">
+              <a class="btn" href="/2019/19log-0526/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
           <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
     
-
     
-
     
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
+      </footer>
   </article>
-
-
-    
-      
-
-  
-
   
   
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+        
   
   
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0512-78log/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/19log-0519/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="kidneyweakx">
-      <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content="簡單。紀錄和分享日常">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="準備爆肝的weak日常">
     </span>
-
-    
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/0512-78log/" itemprop="url">2019/05/12 亂78遭週記</a></h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/19log-0519/" class="post-title-link" itemprop="url">2019/05/19 亂78遭週記</a>
+        </h1>
 
         <div class="post-meta">
-          <span class="post-time">
-            
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-05-12T23:30:00+08:00">
-                2019-05-12
-              </time>
-            
+              <span class="post-meta-item-text">發表於</span>
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
+              <time title="創建時間：2019-05-19 23:30:00" itemprop="dateCreated datePublished" datetime="2019-05-19T23:30:00+08:00">2019-05-19</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-02-04 14:09:34" itemprop="dateModified" datetime="2020-02-04T14:09:34+08:00">2020-02-04</time>
+              </span>
 
           
 
         </div>
       </header>
-    
 
     
     
@@ -446,129 +306,80 @@
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
-          
-          0512週記
-0506 前一天從花蓮回高雄得疲勞讓我在雨天更憂鬱了，不過雨天也不用上風帆課，算小確信吧!
-0507 國文課很快就下課，聽同學們報告完就回宿舍了，開始準備下次比賽的事情。
-0508 梅雨季終於稍停了，雖然下水很冷，但是游泳課還是挺快樂的，只是很久沒游有點累。
-0509 管理數學開始上線
-          ...
+          <h2 id="0519週記"><a href="#0519週記" class="headerlink" title="0519週記"></a><strong>0519週記</strong></h2><ul>
+<li>0513 風帆課，練習風帆可是站上船還是不太會控制，不過離期末也只剩幾週了，只能再多多練習了，不過在上周就做完的JDstore架構我又再加強了一下。</li>
+<li>0514 國文課小組報告，我的ppt簡報技術進步了，提早下課讓我把資料庫作業放在heroku上了，學了很多東西，整個網站完成並上架的步驟其實沒有很難。</li>
+<li>0515 早上下雨又不下雨的，很難決定到底要不要去上課，下周就是游泳會考，只是雨季不知道會不會暫停。</li>
+<li>0516 開始排程比賽的事項，進入討論提案狀態，和資料庫老師提出看法以及立個方向，將能做甚麼和提案出來怎麼做想得更加完善。</li>
+<li>0517 這週比較忙一些，所以地科的錳核作業也是敢搞出來的，希望老師能滿意，統計上的有點快，感覺要多複習，在晚上時候去吃火鍋，挺爽的。</li>
+<li>0518 最近都比較晚去吃飯，開始研究unity怎麼使用以及C#的使用方法，還有一些腦波的原理。</li>
+<li>0519 晚上去游泳放鬆，最近一堆事擠在一起，發現真的有點忙。</li>
+</ul>
+<hr>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/0512-78log/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
+            <div class="post-button">
+              <a class="btn" href="/2019/19log-0519/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
           <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
     
-
     
-
     
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
+      </footer>
   </article>
-
-
-    
-      
-
-  
-
   
   
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+        
   
   
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0505-78log/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/19log-0512/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="kidneyweakx">
-      <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content="簡單。紀錄和分享日常">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="準備爆肝的weak日常">
     </span>
-
-    
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/0505-78log/" itemprop="url">2019/05/05 亂78遭週記</a></h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/19log-0512/" class="post-title-link" itemprop="url">2019/05/12 亂78遭週記</a>
+        </h1>
 
         <div class="post-meta">
-          <span class="post-time">
-            
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-05-05T23:30:00+08:00">
-                2019-05-05
-              </time>
-            
+              <span class="post-meta-item-text">發表於</span>
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
+              <time title="創建時間：2019-05-12 23:30:00" itemprop="dateCreated datePublished" datetime="2019-05-12T23:30:00+08:00">2019-05-12</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-02-04 14:09:34" itemprop="dateModified" datetime="2020-02-04T14:09:34+08:00">2020-02-04</time>
+              </span>
 
           
 
         </div>
       </header>
-    
 
     
     
@@ -576,130 +387,80 @@
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
-          
-          0505週記
-0429 風帆課把風帆開到消波塊那邊，船都無法動，很特別的經驗。
-0430 國文課讀書心得報告，報告使用ppt非常重要，希望自己能再加強一些報告能力。
-0501 下暴雨游泳課停課，不過法文課的報告還有老師的甜點吃，還行。
-0502 管理數學報告加上資料庫作業一次派發下來，有點困擾。
-0
-          ...
+          <h2 id="0512週記"><a href="#0512週記" class="headerlink" title="0512週記"></a><strong>0512週記</strong></h2><ul>
+<li>0506 前一天從花蓮回高雄得疲勞讓我在雨天更憂鬱了，不過雨天也不用上風帆課，算小確信吧!</li>
+<li>0507 國文課很快就下課，聽同學們報告完就回宿舍了，開始準備下次比賽的事情。</li>
+<li>0508 梅雨季終於稍停了，雖然下水很冷，但是游泳課還是挺快樂的，只是很久沒游有點累。</li>
+<li>0509 管理數學開始上線性代數，但下午的資料庫好像太囂張了被老師盯上的感覺。</li>
+<li>0510 雖然地科作業很多很複雜，但上完統計後系上包場去台鋁看復仇者聯盟4，我個人覺得是沒比3好看，不過爽片就是爽。</li>
+<li>0511 把JDstore架構和整個部分做的更完善些。</li>
+<li>0512 準備開始收心要開始期末轟炸了，把事項都列下來來準備。</li>
+</ul>
+<hr>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/0505-78log/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
+            <div class="post-button">
+              <a class="btn" href="/2019/19log-0512/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
           <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
     
-
     
-
     
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
+      </footer>
   </article>
-
-
-    
-      
-
-  
-
   
   
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+        
   
   
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0428-78log/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/19log-0505/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="kidneyweakx">
-      <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content="簡單。紀錄和分享日常">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="準備爆肝的weak日常">
     </span>
-
-    
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/0428-78log/" itemprop="url">2019/04/28 亂78遭週記</a></h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/19log-0505/" class="post-title-link" itemprop="url">2019/05/05 亂78遭週記</a>
+        </h1>
 
         <div class="post-meta">
-          <span class="post-time">
-            
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-04-28T23:30:00+08:00">
-                2019-04-28
-              </time>
-            
+              <span class="post-meta-item-text">發表於</span>
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
+              <time title="創建時間：2019-05-05 23:30:00" itemprop="dateCreated datePublished" datetime="2019-05-05T23:30:00+08:00">2019-05-05</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-02-04 14:11:37" itemprop="dateModified" datetime="2020-02-04T14:11:37+08:00">2020-02-04</time>
+              </span>
 
           
 
         </div>
       </header>
-    
 
     
     
@@ -707,128 +468,80 @@
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
-          
-          0428週記
-0422 風帆課考獨木舟，還蠻爽的，只是浪沒有到很平，不是非常好划。
-0423 國文課小組報告，談拒絕併校，小組都有做到事，也聽了很多別人的分享，國文課有那麼有趣的互動上課方式真的很不錯。
-0424 法文報告，介紹法國古蹟，我們這組分工和古蹟的全面性，我個人認為還行，回饋也還不錯，法國
-          ...
+          <h2 id="0505週記"><a href="#0505週記" class="headerlink" title="0505週記"></a><strong>0505週記</strong></h2><ul>
+<li>0429 風帆課把風帆開到消波塊那邊，船都無法動，很特別的經驗。</li>
+<li>0430 國文課讀書心得報告，報告使用ppt非常重要，希望自己能再加強一些報告能力。</li>
+<li>0501 下暴雨游泳課停課，不過法文課的報告還有老師的甜點吃，還行。</li>
+<li>0502 管理數學報告加上資料庫作業一次派發下來，有點困擾。</li>
+<li>0503 統計課上完趕去花蓮，去東華享受快樂的假期~</li>
+<li>0504 活動主要是：東華系烤+聽演唱會，熟悉的花蓮早餐，和同學吃系烤，趁機吃免費的，還順便A到演唱會的入場手環，享受快樂的周六時光</li>
+<li>0505 一起床吃完早餐就趕著上資安課，不過上一半就回高雄，這是主要和密碼學和程式分析有關，太久沒接觸這塊變有點弱，有點慚愧…..回高雄火車又坐了快6個小時，累爆!</li>
+</ul>
+<hr>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/0428-78log/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
+            <div class="post-button">
+              <a class="btn" href="/2019/19log-0505/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
           <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
     
-
     
-
     
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
+      </footer>
   </article>
-
-
-    
-      
-
-  
-
   
   
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+        
   
   
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0421-78log/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/19log-0428/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="kidneyweakx">
-      <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content="簡單。紀錄和分享日常">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="準備爆肝的weak日常">
     </span>
-
-    
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/0421-78log/" itemprop="url">2019/04/21 亂78遭週記</a></h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/19log-0428/" class="post-title-link" itemprop="url">2019/04/28 亂78遭週記</a>
+        </h1>
 
         <div class="post-meta">
-          <span class="post-time">
-            
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-04-21T23:30:00+08:00">
-                2019-04-21
-              </time>
-            
+              <span class="post-meta-item-text">發表於</span>
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
+              <time title="創建時間：2019-04-28 23:30:00" itemprop="dateCreated datePublished" datetime="2019-04-28T23:30:00+08:00">2019-04-28</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-02-04 14:11:37" itemprop="dateModified" datetime="2020-02-04T14:11:37+08:00">2020-02-04</time>
+              </span>
 
           
 
         </div>
       </header>
-    
 
     
     
@@ -836,127 +549,80 @@
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
-          
-          0421週記
-0415 風帆課，浪超大只能玩趴板，所以我沒下水，資安期中考在宿舍考，覺得很棒。比賽有點完蛋的感覺，有可能做不完，目前layout弄不太出來。
-0416 國家公園期中考，說真的這種自然類的我真的比較不擅長。不過今天有和朋友聊一些有趣的科技趣聞，和我對科技的認知，心情不賴。測試文件驗證結
-          ...
+          <h2 id="0428週記"><a href="#0428週記" class="headerlink" title="0428週記"></a><strong>0428週記</strong></h2><ul>
+<li>0422 風帆課考獨木舟，還蠻爽的，只是浪沒有到很平，不是非常好划。</li>
+<li>0423 國文課小組報告，談拒絕併校，小組都有做到事，也聽了很多別人的分享，國文課有那麼有趣的互動上課方式真的很不錯。</li>
+<li>0424 法文報告，介紹法國古蹟，我們這組分工和古蹟的全面性，我個人認為還行，回饋也還不錯，法國文化這堂課真的相當的令人放鬆。不過回宿舍弄了一下大專盃比賽的種種事情。</li>
+<li>0425 管數聽別人報告，結果沒輪到我們。資料庫蠻無聊的，期中考也考的不是很理想。</li>
+<li>0426 統計課結束就回台中囉！抱怨一下，客運統聯北上真的不夠好，國光還是比較快。</li>
+<li>0427 在台中待了半天就又坐客運趕去中壢準備比賽，晚上住中原本來應該算可以好好休息玩耍，不過弄比賽資料和完善整個專案就又弄到了3點。</li>
+<li>0428 坐Uber去中央比賽，網速很快很爽。比賽也認識到很多人工辨識的工具達人。</li>
+</ul>
+<hr>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/0421-78log/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
+            <div class="post-button">
+              <a class="btn" href="/2019/19log-0428/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
           <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
     
-
     
-
     
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
+      </footer>
   </article>
-
-
-    
-      
-
-  
-
   
   
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+        
   
   
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0416-y520_duals/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/19log-0421/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="kidneyweakx">
-      <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content="簡單。紀錄和分享日常">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="準備爆肝的weak日常">
     </span>
-
-    
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/0416-y520_duals/" itemprop="url">Lenovo-LEGION-Y520 windows10+Ubuntu18.04雙系統</a></h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/19log-0421/" class="post-title-link" itemprop="url">2019/04/21 亂78遭週記</a>
+        </h1>
 
         <div class="post-meta">
-          <span class="post-time">
-            
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-04-16T10:14:00+08:00">
-                2019-04-16
-              </time>
-            
+              <span class="post-meta-item-text">發表於</span>
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
+              <time title="創建時間：2019-04-21 23:30:00" itemprop="dateCreated datePublished" datetime="2019-04-21T23:30:00+08:00">2019-04-21</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-02-04 14:11:37" itemprop="dateModified" datetime="2020-02-04T14:11:37+08:00">2020-02-04</time>
+              </span>
 
           
 
         </div>
       </header>
-    
 
     
     
@@ -964,135 +630,80 @@
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
-          
-          安裝前準備動作
-先在windows內割出一個給系統安裝的分割
-
-在本機-&gt;右鍵-&gt;管理-&gt;磁碟管理
-
-將ubuntu燒成開機usb，我是使用rufus和ubuntu
-
-進bios調整(用尖物刺機身左邊小洞開機，或開機按F2)
-
-
-[configuration]-&gt;Sata C
-          ...
+          <h2 id="0421週記"><a href="#0421週記" class="headerlink" title="0421週記"></a><strong>0421週記</strong></h2><ul>
+<li>0415 風帆課，浪超大只能玩趴板，所以我沒下水，資安期中考在宿舍考，覺得很棒。比賽有點完蛋的感覺，有可能做不完，目前layout弄不太出來。</li>
+<li>0416 國家公園期中考，說真的這種自然類的我真的比較不擅長。不過今天有和朋友聊一些有趣的科技趣聞，和我對科技的認知，心情不賴。測試文件驗證結果部分假設。</li>
+<li>0417 法文課停課，主要在宿舍讀書，畢竟星期四有兩門必修課要考。同時也繼續寫測試文件，將整個架構和分工都分配好。</li>
+<li>0418 充滿考試的一天，早上考管理數學，下午考資料庫。資料庫比較頭痛，沒想到是這種考法，對我真的還蠻不利的。晚上操作緊急通報處理的按鈕，找不太到在哪裡使用。</li>
+<li>0419 弄完Android緊急通報，早上考超難的地科，考完超後悔選這堂課，只能說我對這門課的知識和資料量都非常不足吧，無法感覺很輕鬆地應對那些題目，希望能過就好。統計專題事前報告，有點不順利，不過主題上大致OK。然後晚上處理了很多和比賽相關的資料，硬是在21點錢把整個測試文件完成了。</li>
+<li>0420 放鬆休息。去圖書館找一些有趣的書，順便更認識學校圖書館放書的架構。開始在思考下一個專案主題是要和甚麼相關，目前還是有點被困住。</li>
+<li>0421 今天早起吃早餐，做完了通識課的ppt。不過幾乎整天都在睡覺，也是有討論統計專題，大概就是期中後一個休息的快樂時光吧。</li>
+</ul>
+<hr>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/0416-y520_duals/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
+            <div class="post-button">
+              <a class="btn" href="/2019/19log-0421/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
           <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
     
-
     
-
     
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
+      </footer>
   </article>
-
-
-    
-      
-
-  
-
   
   
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+        
   
   
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0414-78log/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/19log-0416-y520_duals/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="kidneyweakx">
-      <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content="簡單。紀錄和分享日常">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="準備爆肝的weak日常">
     </span>
-
-    
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/0414-78log/" itemprop="url">2019/04/14 亂78遭週記</a></h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/19log-0416-y520_duals/" class="post-title-link" itemprop="url">Lenovo-LEGION-Y520 windows10+Ubuntu18.04雙系統</a>
+        </h1>
 
         <div class="post-meta">
-          <span class="post-time">
-            
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-04-14T23:30:00+08:00">
-                2019-04-14
-              </time>
-            
+              <span class="post-meta-item-text">發表於</span>
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
+              <time title="創建時間：2019-04-16 10:14:00" itemprop="dateCreated datePublished" datetime="2019-04-16T10:14:00+08:00">2019-04-16</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-02-04 14:11:37" itemprop="dateModified" datetime="2020-02-04T14:11:37+08:00">2020-02-04</time>
+              </span>
 
           
 
         </div>
       </header>
-    
 
     
     
@@ -1100,128 +711,74 @@
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
-          
-          0414週記
-0408 風帆課， 浪很平很快就站起來了，會了一些前進的小技巧。比賽作品也有進展了，花了大概一堂課的時間將tflite檔匯進手機裡面了。
-0409 國文+國家公園課。國家公園在連假的時候他們素材都拍好了。比賽進度有在今天將tflite重新訓練然後匯入進demo，呈現效果還不錯。
-041
-          ...
+          <h2 id="安裝前準備動作"><a href="#安裝前準備動作" class="headerlink" title="安裝前準備動作"></a><strong>安裝前準備動作</strong></h2><ol>
+<li><strong>先在windows內割出一個給系統安裝的分割</strong></li>
+</ol>
+<p><em>在本機-&gt;右鍵-&gt;管理-&gt;磁碟管理</em><br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/y520-01.png" alt></p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/0414-78log/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
+            <div class="post-button">
+              <a class="btn" href="/2019/19log-0416-y520_duals/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
           <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
     
-
     
-
     
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
+      </footer>
   </article>
-
-
-    
-      
-
-  
-
   
   
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+        
   
   
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0407-78log/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/19log-0414/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="kidneyweakx">
-      <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content="簡單。紀錄和分享日常">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="準備爆肝的weak日常">
     </span>
-
-    
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/0407-78log/" itemprop="url">2019/04/07 亂78遭週記</a></h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/19log-0414/" class="post-title-link" itemprop="url">2019/04/14 亂78遭週記</a>
+        </h1>
 
         <div class="post-meta">
-          <span class="post-time">
-            
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-04-07T23:30:00+08:00">
-                2019-04-07
-              </time>
-            
+              <span class="post-meta-item-text">發表於</span>
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
+              <time title="創建時間：2019-04-14 23:30:00" itemprop="dateCreated datePublished" datetime="2019-04-14T23:30:00+08:00">2019-04-14</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-02-04 14:11:37" itemprop="dateModified" datetime="2020-02-04T14:11:37+08:00">2020-02-04</time>
+              </span>
 
           
 
         </div>
       </header>
-    
 
     
     
@@ -1229,128 +786,80 @@
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
-          
-          第5周寫週記順便補齊這週的ORID
-
-0401 愚人節，雖然前一天弄資料庫搞的心情有點差，可是風帆課沖個浪還蠻爽的，不過浪超大讓我全身是沙，在晚上得知比賽入圍的消息，讓我開始這禮拜tensorflow集訓
-0402 國文課+國家公園課，上的有點心不在焉，突然進決賽真的讓我超意外，先從Android架
-          ...
+          <h2 id="0414週記"><a href="#0414週記" class="headerlink" title="0414週記"></a><strong>0414週記</strong></h2><ul>
+<li>0408 風帆課， 浪很平很快就站起來了，會了一些前進的小技巧。比賽作品也有進展了，花了大概一堂課的時間將tflite檔匯進手機裡面了。</li>
+<li>0409 國文+國家公園課。國家公園在連假的時候他們素材都拍好了。比賽進度有在今天將tflite重新訓練然後匯入進demo，呈現效果還不錯。</li>
+<li>0410 游泳課，天氣熱游起來舒服很多。法文課劇本也大致上擬好了，報告結束基本上就可以完結了一半了。</li>
+<li>0411 管理數學和資料庫，都在準備統計的期中考，覺得這次準備相當不充分。而且期中考有很多報告要弄。</li>
+<li>0412 地科課戶外教學停課，下午考統計期中考。晚上將國家公園的微電影素材剪在一起。剩下一些報告弄了。</li>
+<li>0413 休息以及處理報告，將法國文化的開頭處理得差不多了。比賽也開始弄，android的部分改一些就開不了，真頭痛。</li>
+<li>0414 寫測試文件，4/19要交，有點趕。</li>
+</ul>
+<hr>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/0407-78log/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
+            <div class="post-button">
+              <a class="btn" href="/2019/19log-0414/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
           <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
     
-
     
-
     
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
+      </footer>
   </article>
-
-
-    
-      
-
-  
-
   
   
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+        
   
   
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0407-tensor_error/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/19log-0407/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="kidneyweakx">
-      <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content="簡單。紀錄和分享日常">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="準備爆肝的weak日常">
     </span>
-
-    
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/0407-tensor_error/" itemprop="url">辨識錯誤 tensorflow KeyError "The name 'import/input' refers to an Operation not in the graph."</a></h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/19log-0407/" class="post-title-link" itemprop="url">2019/04/07 亂78遭週記</a>
+        </h1>
 
         <div class="post-meta">
-          <span class="post-time">
-            
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-04-07T20:00:00+08:00">
-                2019-04-07
-              </time>
-            
+              <span class="post-meta-item-text">發表於</span>
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
+              <time title="創建時間：2019-04-07 23:30:00" itemprop="dateCreated datePublished" datetime="2019-04-07T23:30:00+08:00">2019-04-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-02-04 14:11:37" itemprop="dateModified" datetime="2020-02-04T14:11:37+08:00">2020-02-04</time>
+              </span>
 
           
 
         </div>
       </header>
-    
 
     
     
@@ -1358,130 +867,81 @@
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
-        
-          
-          近期遇到的小錯誤1KeyError: "The name 'import/input' refers to an Operation not in the graph."
-
-
-簡單來解釋就是他的名字你打錯了 所以input才會input錯
-我自己爬文去嘗試了各種”Mul” “input”之類的都錯
-
-          ...
+          <h2 id="第5周寫週記"><a href="#第5周寫週記" class="headerlink" title="第5周寫週記"></a><strong>第5周寫週記</strong></h2><p><em>順便補齊這週的ORID</em></p>
+<ul>
+<li>0401 愚人節，雖然前一天弄資料庫搞的心情有點差，可是風帆課沖個浪還蠻爽的，不過浪超大讓我全身是沙，在晚上得知比賽入圍的消息，讓我開始這禮拜tensorflow集訓</li>
+<li>0402 國文課+國家公園課，上的有點心不在焉，突然進決賽真的讓我超意外，先從Android架構開始，訓練的模組和圖片的整理都需要拿出來補救</li>
+<li>0403 早上體育課放假有點爽，快速看一下tensorflow文檔，嘗試訓練或架構訓練模型，以及問老師用預訓練模型是否可行，法文課分組以及報告都要準備好，然後就快樂的回台中，享受假期。</li>
+<li>0404 放鬆的一天，整天都遺忘掉程式比賽，中午ㄩ吃飯，回去看朝花夕誓和物語，都沒很好看，晚上和很久沒見的國中同學吃飯看沙贊，很放鬆的一天。</li>
+<li>0405 開始嘗試跑tensorflow訓練模型，選定預訓練模組，發現電腦效能有點不足。</li>
+<li>0406 用老師給的teamviewer操控實驗室的電腦跑40000次，在自己電腦跑4000次，看效果是否好。</li>
+<li>0407 學了一些tensorflow運用的方面，剩下就是將android端做好，成果就可以出來了。</li>
+</ul>
+<hr>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/0407-tensor_error/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
+            <div class="post-button">
+              <a class="btn" href="/2019/19log-0407/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
           <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
     
-
     
-
     
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
+      </footer>
   </article>
-
-
-    
-      
-
-  
-
   
   
   
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+        
   
   
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/0331-78log/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/19log-0407-tensor_error/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="kidneyweakx">
-      <meta itemprop="description" content>
       <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content="簡單。紀錄和分享日常">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="準備爆肝的weak日常">
     </span>
-
-    
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/0331-78log/" itemprop="url">2019/03/31 亂78遭週記</a></h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/19log-0407-tensor_error/" class="post-title-link" itemprop="url">辨識錯誤 tensorflow KeyError "The name 'import/input' refers to an Operation not in the graph."</a>
+        </h1>
 
         <div class="post-meta">
-          <span class="post-time">
-            
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              
-                <span class="post-meta-item-text">發表於</span>
-              
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-03-31T23:30:00+08:00">
-                2019-03-31
-              </time>
-            
+              <span class="post-meta-item-text">發表於</span>
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
+              <time title="創建時間：2019-04-07 20:00:00" itemprop="dateCreated datePublished" datetime="2019-04-07T20:00:00+08:00">2019-04-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-02-04 14:11:37" itemprop="dateModified" datetime="2020-02-04T14:11:37+08:00">2020-02-04</time>
+              </span>
 
           
 
         </div>
       </header>
-    
 
     
     
@@ -1489,63 +949,37 @@
     <div class="post-body" itemprop="articleBody">
 
       
-      
+          <h2 id="近期遇到的小錯誤"><a href="#近期遇到的小錯誤" class="headerlink" title="近期遇到的小錯誤"></a><strong>近期遇到的小錯誤</strong></h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">KeyError: <span class="string">"The name 'import/input' refers to an Operation not in the graph."</span></span><br></pre></td></tr></table></figure>
 
-      
-        
-          
-          第4周寫週記
-0325 風帆課，這禮拜小感冒，下水又蠻冷的，不過還是玩得很爽
-0326 國文課交報告，老師上課蠻有趣的，不過都在弄重灌的事，bumblebee真的很雷
-0327 體育課游泳，然後整天下來還蠻放鬆的
-0328 管數決定主題，我根本不知道那數學家是誰
-0329 地科交報告，不過不及格，這
-          ...
+<p><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor01.PNG" alt></p>
+<p>簡單來解釋就是他的名字你打錯了 所以input才會input錯</p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/0331-78log/#more" rel="contents">
-              閱讀全文 &raquo;
-            </a>
-          </div>
+            <div class="post-button">
+              <a class="btn" href="/2019/19log-0407-tensor_error/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
           <!--/noindex-->
         
       
     </div>
-    
-    
-    
 
     
-
     
-
     
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
+      </footer>
   </article>
+  
+  
+  
 
-
-    
-  </section>
+  </div>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left" aria-label="上一頁"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right" aria-label="下一頁"></i></a>
   </nav>
 
 
@@ -1553,152 +987,134 @@
           </div>
           
 
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
 
-          
         </div>
-        
           
   
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
   </div>
 
-  <aside id="sidebar" class="sidebar">
-    
+  <aside class="sidebar">
     <div class="sidebar-inner">
 
-      
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
 
-      
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <p class="site-author-name" itemprop="name">kidneyweakx</p>
-              <p class="site-description motion-element" itemprop="description">簡單。紀錄和分享日常</p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/">
-              
-                  <span class="site-state-item-count">52</span>
-                  <span class="site-state-item-name">文章</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">11</span>
-                  <span class="site-state-item-name">標籤</span>
-                </a>
-              </div>
-            
-
-          </nav>
-
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">kidneyweakx</p>
+  <div class="site-description" itemprop="description">簡單。紀錄和分享日常</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">53</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
           
+        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/kidneyweakx" title="GitHub → https://github.com/kidneyweakx" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.facebook.com/kidneyweak.xyz" title="FB Page → https://www.facebook.com/kidneyweak.xyz" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/kidneyweakx@gmail.com" title="E-Mail → kidneyweakx@gmail.com"><i class="fa fa-fw fa-envelope"></i></a>
+      </span>
+  </div>
 
-          
-            <div class="links-of-author motion-element">
-                
-                  <span class="links-of-author-item">
-                    <a href="https://github.com/kidneyweakx" target="_blank" title="GitHub">
-                      
-                        <i class="fa fa-fw fa-github"></i></a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://www.facebook.com/kidneyweak.xyz" target="_blank" title="FB Page">
-                      
-                        <i class="fa fa-fw fa-facebook"></i></a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="kidneyweakx@gmail.com" target="_blank" title="E-Mail">
-                      
-                        <i class="fa fa-fw fa-envelope"></i></a>
-                  </span>
-                
-            </div>
-          
 
-          
-          
 
-          
-          
-
-          
-
-        </div>
-      </section>
-
-      
-
-      
+      </div>
 
     </div>
   </aside>
+  <div id="sidebar-dimmer"></div>
 
 
-        
       </div>
     </main>
 
-    <footer id="footer" class="footer">
+    <footer class="footer">
       <div class="footer-inner">
-        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<div class="copyright">&copy; 2019 &mdash; <span itemprop="copyrightYear">2020</span>
+        
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">kidneyweakx</span>
-
-  
 </div>
-
-
-
-
-
-
-
-
 
         
 <div class="busuanzi-count">
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-  
-    <span class="site-uv">
-      <i class="fa fa-user"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-      
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="訪客總數">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
     </span>
-  
-
-  
-    <span class="site-pv">
-      <i class="fa fa-eye"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-      
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="總瀏覽次數">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
     </span>
-  
 </div>
 
 
@@ -1708,133 +1124,19 @@
 
 
 
-        
       </div>
     </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
   </div>
 
   
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
   
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script>
 
 
 
@@ -1851,22 +1153,8 @@
 
 
 
-  
 
 
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
 
   
 
