@@ -9,7 +9,7 @@ tags: [程式筆記, OracleDB]
 ## **error [INS-30131]**
 ![](https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/orcl01.PNG)
 ## **解決方法**
-
+<!-- more -->
 開啟cmd輸入
 ```bash
 路徑(依位置更改)/setup.exe -ignorePrereq -J"-D oracle.install.db.validate.supportedOSCheck=false"

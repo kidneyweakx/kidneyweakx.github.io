@@ -8,7 +8,7 @@ tags: [程式筆記, Javascript, hexo]
 - 我習慣使用的Markdown語法需要轉成html再貼上Blogger編輯器。
 - 功能被Blogger本體受限。
 - 加個程式框還要改css，基本上修改一下自訂主題就不會想再多做修改了。
-
+<!-- more -->
 所以我就跳槽囉~~
 
 ## Why GitHub Pages??

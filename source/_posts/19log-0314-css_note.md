@@ -10,7 +10,7 @@ tags: [程式筆記, css]
 - padding 是內邊距，別稱 空白邊
 ### 甚麼是 box model
 - 框模型(box model)是包含border(邊框)、margin(外邊距)、padding(內邊距)和處理元素內容的處理方式。
-
+<!-- more -->
 ### 為何要使用 em 而非 px 來定義字的大小
 - 為了在internet explorer調整文本大小
 - em可以在所有瀏覽器更改文字大小，px在部分瀏覽器不行

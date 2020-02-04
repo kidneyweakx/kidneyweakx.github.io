@@ -5,6 +5,7 @@ tags: [程式筆記, Ruby on Rails]
 ---
 ## **rails db 有問題自救**
 __照順序輸入或單獨執行migrate__
+<!-- more -->
 ```ruby
 rake db:drop  #刪除數據庫
 rake db:create #新建數據庫

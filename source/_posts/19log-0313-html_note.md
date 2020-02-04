@@ -10,7 +10,7 @@ tags: [程式筆記, html]
 位置是他們最大的差異
 margin 是外邊距，有負值，別稱 填充
 padding 是內邊距，別稱 空白邊
-
+<!-- more -->
 > 甚麼是 box model
 
 框模型(box model)是包含border(邊框)、margin(外邊距)、padding(內邊距)和處理元素內容的處理方式。

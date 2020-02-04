@@ -8,6 +8,7 @@ tags: [程式筆記, Ruby on Rails]
 ```ruby
 error:Warning! PATH is not properly set up, '/home/me/.rvm/gems/ruby-2.x.x-p247/bin' is not available, usually this is caused by shell initialization files 
 ```
+<!-- more -->
 ## **輸入**
 ```ruby
 rvm reset

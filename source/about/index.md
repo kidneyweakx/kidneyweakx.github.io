@@ -25,4 +25,8 @@ FB, Github or E-mail tell me what can I do better.
 ---
 ### Role
 Data Analysis | Machine Learning | Fintech | Project Management | Net-Teams Builder
+
+---
+![Github chart](https://ghchart.rshah.org/kidneyweakx)
+
 </center>

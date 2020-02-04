@@ -10,7 +10,7 @@ KeyError: "The name 'import/input' refers to an Operation not in the graph."
 ![](https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor01.PNG)
 
 簡單來解釋就是他的名字你打錯了 所以input才會input錯
-
+<!-- more -->
 我自己爬文去嘗試了各種"Mul" "input"之類的都錯
 
 最後看到這篇文章 [link](https://developer.arm.com/technologies/machine-learning-on-arm/developer-material/how-to-guides/optimizing-neural-networks-for-mobile-and-embedded-devices-with-tensorflow/determine-the-names-of-input-and-output-nodes)

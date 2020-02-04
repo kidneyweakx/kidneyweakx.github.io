@@ -10,7 +10,7 @@ tags: [程式筆記, Javascript, hexo]
 - Disqus我平常沒甚麼在用，再辦一個帳號對我懶癌發作的人很痛苦；於是就找上了`gitment`一個將Github issue成為評論系統的工具。
 - 不過我在爬文時又看到這篇[建议大家弃用 Gitalk 和 Gitment 等权限过高的 Github OAuth App](https://www.v2ex.com/t/535608)。
 - hmmm...我不想被惡意工程師搞QAQ
-
+<!-- more -->
 ## Why Utterances
 所以我選了[utterance](https://utteranc.es/)<br>
 它也是運用Github去儲存評論，十分有趣的做法。<br>

@@ -7,6 +7,7 @@ tags: [程式筆記, Ruby on Rails]
 ```ruby
 'Could not find a JavaScript runtime' but execjs AND therubyracer are in Gemfile
 ```
+<!-- more -->
 ## **solution.**
 
 只要在gemfile加入
