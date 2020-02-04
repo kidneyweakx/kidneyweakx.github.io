@@ -5,7 +5,6 @@ Allow: /tags/
 Allow: /archives/
 
 Disallow: /vendors/
-Disallow: /vendors/
 Disallow: /fancybox/
 
 Sitemap: https://kidneyweakx.github.io/sitemap.xml
