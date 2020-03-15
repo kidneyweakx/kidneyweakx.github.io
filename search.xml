@@ -1,8 +1,303 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2020/03/15 亂78遭週記</title>
+    <url>/2020/20log-0315.html</url>
+    <content><![CDATA[<h2 id="0315週記"><a href="#0315週記" class="headerlink" title="0315週記"></a><strong>0315週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週終於感覺比較放鬆</em><br>開始把寒假沒弄的東西都處理一遍，這禮拜比較煩的就是肺炎疫情好像越來越嚴重了，有點想直接遠端上課，這樣待宿舍能處理滿多事情的。<br>這週終於有18學分帶來空閒時間的感覺了，不過也要開始規劃一些待處理的事情，最主要還是再把程式練起來吧~</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>BCI親自實驗</li>
+<li>電腦鑑識及網路資安</li>
+<li>TrAdaBoost演算法撰寫</li>
+<li>liblsl測試</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>matlab基本演算法測試</li>
+<li>Solidity儲存架構設計</li>
+<li>flutter C/C++ lib 連結</li>
+<li>Visual C++ debug</li>
+<li>在linux建置C++環境</li>
+<li>把樹梅派的環境搞好(又再複習了一次vim)</li>
+<li>測試tensorflow速度(用雷電3速度還消耗蠻多的)</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>tensorflow 2 對話機器人建置</li>
+<li>樹梅派python環境</li>
+<li>測試pylsl效果，可行</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>輕鬆很多，打程式真的很快樂，遇到bug和解bug真的很有趣</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>繳交科技部計畫成功~~</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>遇到無解的bug，wifi收到的訊號顯示於前端計畫有點難處理</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>cmake 不太會用…</li>
+<li>Solidity 語法忘得差不多了</li>
+<li>flutter ffi 要切換channel dev有點煩</li>
+<li>Android Studio建置liblsl-java一直有問題</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>Visual C++ 環境處理</li>
+<li>Python tensorflow 2.0 基礎</li>
+<li>flask 建置REST架構製作對話機器人</li>
+<li>liblsl傳送訊息</li>
+<li>Solidity 交易腳本</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>基礎十分重要，有些東西處理起來就非常快</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>有種在和一個函式庫戰鬥的感覺</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>hexo blog 細節處理<ul>
+<li>npm 新增甚麼插件</li>
+<li>再研究一下前端設計</li>
+</ul>
+</li>
+<li>Python Transfer Learning 腳本撰寫</li>
+<li>Matlab 語法練習</li>
+<li>Flutter ffi 串聯</li>
+<li>對話機器人語料庫更新</li>
+<li>Solidity 病歷表設計</li>
+<li>穿戴裝置讀取新聞?</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020/03/08 亂78遭週記</title>
+    <url>/2020/20log-0308.html</url>
+    <content><![CDATA[<h2 id="0308週記"><a href="#0308週記" class="headerlink" title="0308週記"></a><strong>0308週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>開學第二週感覺就忙到受不了</em><br>雖然這學期目前只有18學分，但是這週感覺搞太多東西，有點疲勞，每天起床就感覺要弄很多東西的感覺。<br>這學期的機器學習能力感覺又要上升了，做機器學習真的好嗎…不過科技部計畫的計畫書也算告個段落了，接著搞定平常的課比較重要。<br>今年生日過的也蠻開心的，餐廳送和我歲數一樣多的雞翅，吃的真的很爽，不過又變老的感覺。</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[專案]</p>
+<ul>
+<li>遷移學習演算法(TrAdaBoost)</li>
+<li>雲端運算架構設計(RESTful架構)</li>
+<li>構思專案實行的創新性和價值</li>
+<li>p300電位基礎認識</li>
+<li>BCI實驗設計基礎</li>
+<li>構思python雲端運算架構(flask)</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>資安基礎及玩CTF</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>科技部計畫完成</li>
+<li>整理文獻加入比較表格</li>
+<li>將運用在BCI的遷移學習架構差異做比較</li>
+<li>安裝Matlab</li>
+<li>設計程式架構</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>這周嚴格意義上應該算是開學第一週，為了趕計畫真的豁出去了，平常打的計畫根本沒那麼文言文，有點頭痛。</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>和室友一起過生日，今年生日我對自己奢侈了點，弄了張1080，覺得有點浪費哈</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>要看一堆文獻來做對比</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>BCI的文獻整理</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>設計雲端運算架構</li>
+<li>設計p300實驗架構</li>
+<li>遷移學習模型演算法參考</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>要用更有條理的方式描述一件事情</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>沒有甚麼精力去思考其他事情</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>週記要記得寫</li>
+<li>Python 機器學習練習</li>
+<li>hexo blog更新</li>
+<li>flutter 專案處理</li>
+<li>transfer learning架構設計</li>
+<li>對話機器人實踐</li>
+<li>Solidity病歷表</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020/03/01 亂78遭週記</title>
+    <url>/2020/20log-0301.html</url>
+    <content><![CDATA[<h2 id="0301週記"><a href="#0301週記" class="headerlink" title="0301週記"></a><strong>0301週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>一個月沒寫週記了，明明因為肺炎假期都待在家裡…</em><br>整個二月都在搞科技部大專生計畫，快崩潰了。最近打開電腦就是打開word，甚麼程式都沒練到的感覺，週記也拖了很久，想玩fuchsia阿~<br>不過最爽的應該還是弄了台1080來外接吧!228連假特地跑回台中拿了，日本EMS真的快，雖然運費幾千塊，但是在連假還在幫忙送，就是被收了600的稅小不爽。</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[專案]</p>
+<ul>
+<li>區塊鏈智能合約補充</li>
+<li>anaconda CUDA 環境建構</li>
+<li>django 專案部屬</li>
+<li>flutter 圖表繪製(修改)</li>
+<li>SVM、KNN的遷移學習模型測試</li>
+<li>設計穿戴式辨識假新聞程式架構</li>
+<li>區塊鏈病歷架構</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>fuchsia Zircon移植</li>
+<li>linux 啟動所需元件</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>把外接顯卡的環境建構好了</li>
+<li>系上的科技部計畫(2份)</li>
+<li>將部落格網址投給google</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>雖然開學了但是只上一天課，感覺還在放假</li>
+<li>不過在假期結束前去司馬庫斯，櫻花祭真棒</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>把筆電多加了一張1080(跑訓練終於穩穩了)</li>
+<li>Aorus Gaming Box 1080*<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20200301.jpg" alt></li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>三份計畫都要完成 ◢▆▅▄▃ 崩╰(〒皿〒)╯潰 ▃▄▅▆◣ </li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>科技部計畫撰寫</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>別人運用區塊鏈設計的架構</li>
+<li>linux 最小開機架構</li>
+<li>transfer learning方法</li>
+<li>霧運算架構設計</li>
+<li>hexo Blog 處理</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>許多事需要完善的計畫，也需要有備案，要不然突然發生最近這種肺炎假期，很多思緒都被打亂了</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>累，事情都做不太完</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>科技部計畫<ul>
+<li>將霧運算改成雲運算架構</li>
+<li>加入文獻比較表</li>
+</ul>
+</li>
+<li>hexo </li>
+<li>machine learning + transfer learning</li>
+<li>flutter 專案小問題處理</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020/02/02 亂78遭週記</title>
-    <url>/2020/20log-0202/</url>
+    <url>/2020/20log-0202.html</url>
     <content><![CDATA[<h2 id="0202週記"><a href="#0202週記" class="headerlink" title="0202週記"></a><strong>0202週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>過年和放鬆心情的兩週</em><br>過年這兩週就當在繁忙中放一次假，所以只生出一篇週記；不過這週學到的東西也挺多的，因為要寫令人頭痛的科技部計畫。<br>但是這兩週動力超低，我的腦袋基本上都停止運作，天氣冷又有武漢疫情在外面散播，讓人覺得還蠻焦慮的，甚麼都做不太出來，最氣的是天氣冷還是從回台灣開始，在我度假時，名古屋的時候天氣好的不得了，我的雪都看不到了QAQ。</p>
 <hr>
 <a id="more"></a>
@@ -113,7 +408,7 @@
   </entry>
   <entry>
     <title>2020/01/19 亂78遭週記</title>
-    <url>/2020/20log-0119/</url>
+    <url>/2020/20log-0119.html</url>
     <content><![CDATA[<h2 id="0119週記"><a href="#0119週記" class="headerlink" title="0119週記"></a><strong>0119週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>寒假的第一周，感覺跟沒放假一樣</em><br>最近很多事情要弄，照常要開會和處理很多文件，好想要養生一點，有很多想弄的東西，而且最近也要補充自己不會的能力。有些線上課程也只有這種假期才能開始聽，有好多不會的東西，等放完這段假期再來找比賽去玩玩，在寒假想比一場黑克松，不過又覺得實力不足。</p>
 <hr>
 <a id="more"></a>
@@ -202,7 +497,7 @@
   </entry>
   <entry>
     <title>2020/01/12 亂78遭週記</title>
-    <url>/2020/20log-0112/</url>
+    <url>/2020/20log-0112.html</url>
     <content><![CDATA[<h2 id="0112週記"><a href="#0112週記" class="headerlink" title="0112週記"></a><strong>0112週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>開始放寒假囉~不過寒假才是忙碌的開始</em><br>在期末考前把很多事情處理玩真的是一個正確的決定，直接讓我輕鬆很多，不過這次期末考成績我沒有很滿意就是了。<br>目前規劃在寒假期間搞一些物聯網和機器學習的東西，然後把手機應用程式前端學好，把flutter用的好以後fuchsia OS就能更輕鬆地應付了吧!<br>在新的一年很多事情要處理，要好好規劃一下更多東西了，寒假剛好給我一個喘息然後整理目前的子彈，在努裡把自己訓練得更強，也在這幾個月多參加社群的聚會，知道現在大家都在做甚麼，不要只有自己在玩自己的。</p>
 <hr>
 <a id="more"></a>
@@ -297,7 +592,7 @@
   </entry>
   <entry>
     <title>2020/01/05 亂78遭週記</title>
-    <url>/2020/20log-0105/</url>
+    <url>/2020/20log-0105.html</url>
     <content><![CDATA[<h2 id="0106週記"><a href="#0106週記" class="headerlink" title="0106週記"></a><strong>0106週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>新的一年，做了許多小突破</em><br>[期末考前甚麼都做得到] 越來越相信這件事情，在這是在期末前都會大升級的能力，打程式和打書面報告都會特別快。<br>最近也在規劃寒假需要做甚麼，希望能把一些雜事好好處理，然後把基本能力練起來，也可以帶著朋友一起訓練自己的能力，因為我覺得教會別人自己才算真正的了解整個架構，所以在小組合作時，因為在組內實力的不平均讓你可以將你自己做的東西介紹給別人時，這就表示你做的東西你已經可以做一個應用了。<br>在新的一年，希望自己程式能力能更強，在這年想要把很多有趣的東西都弄出來，不要成為空有理論但是沒有專案的空殼，現在想做的事情真的越來越多了，想要弄一個和商業加上區塊鏈相關的應用小專案出來，感覺這樣發展其實還挺不錯的，還有實習的硬體程式也可以用心地玩玩看，感覺能了解到很多跨領域的知識。</p>
 <hr>
 <a id="more"></a>
@@ -415,7 +710,7 @@
   </entry>
   <entry>
     <title>2019/12/29 亂78遭週記</title>
-    <url>/2019/19log-1229/</url>
+    <url>/2019/19log-1229.html</url>
     <content><![CDATA[<h2 id="1229週記"><a href="#1229週記" class="headerlink" title="1229週記"></a><strong>1229週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週把許多東西都做了一個小結，剩下一些零碎的事情要搞，2019也快過完了</em><br>在年末前最後一個週記，明年的就是20log了，不知不覺週記也寫了一年了。<br>雖然說原本是日記做一個反省，後來想說每週發一篇自己學到甚麼做個結論也不錯，比較多東西可以寫，有時候一整天就廢在那邊，整面空白得很難看XD，只能說做週記讓我有看到自己的小成長和煩惱。<br>而且現在變得比較想去和別人交流自己做了甚麼，雖然自己的能力都還挺不足的，不過從教導別人或和別人討論學到的一些小細節真的很多，雖然說我自己不太喜歡問問題，但是和別人做技術討論時，就能冒出一些小靈感，最近就很想把跨平台flutter能力練起來，覺得這發展的可能會很不錯。<br>在程式開發今年也做了一些小增長，希望能把一些軟體開發的技巧熟練，像原本還很爛的web技術，在今年也做了一些認識，把整個開發流程和應用選擇都做一個整合是我明年的小目標。<br>希望能在2020年把應用程式開發技術、商業數據和區塊鏈做個結合弄個小專案出來，雖然目前還沒有甚麼想法就是了…</p>
 <hr>
 <a id="more"></a>
@@ -524,7 +819,7 @@
   </entry>
   <entry>
     <title>2019/12/22 亂78遭週記</title>
-    <url>/2019/19log-1222/</url>
+    <url>/2019/19log-1222.html</url>
     <content><![CDATA[<h2 id="1222週記"><a href="#1222週記" class="headerlink" title="1222週記"></a><strong>1222週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週期末專案一個一個冒出來，忙到有點受不了</em><br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019122201.jpg" alt><br>不過這週難得參加了高雄社群的聚會，感覺對一些業界又多了一些認識，感覺為了想提升自己，近期很想把跨平台設計這個能力練起來，不過又有很多東西很想碰，真的十分猶豫到底要怎麼做取捨，工作快樂和疲勞同時轟炸真的是一件很令人苦惱的事情。<br>目前主要想把專案管理和程式快速開發這兩點練好，時間真的感覺都不太夠了；這禮拜也有回家，在家也處理了很多事情，要訓練自己的意志力了。</p>
 <hr>
 <a id="more"></a>
@@ -626,7 +921,7 @@
   </entry>
   <entry>
     <title>2019/12/15 亂78遭週記</title>
-    <url>/2019/19log-1215/</url>
+    <url>/2019/19log-1215.html</url>
     <content><![CDATA[<h2 id="1215週記"><a href="#1215週記" class="headerlink" title="1215週記"></a><strong>1215週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週回家放鬆，還有把這學期參加的活動做個小結束</em><br>難得有課放假，就爽爽的回家囉~<br>不過真的有夠多東西要處理，最近覺得被很多事情壓著，那些期末報告專案都很想趕快處理完，就看到時候要怎麼弄了，很討厭拖到最後一天。</p>
 <hr>
 <a id="more"></a>
@@ -726,10 +1021,12 @@
   </entry>
   <entry>
     <title>2019/12/08 亂78遭週記</title>
-    <url>/2019/19log-1208/</url>
-    <content><![CDATA[<h2 id="1208週記"><a href="#1208週記" class="headerlink" title="1208週記"></a><strong>1208週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週將期末前要處理的事做了一些整理</em><br>雖然說離上次期中考才過一陣子，但是期末專案接連的跑出來，很多東西都要開始規劃了，要不然全部都塞在後面會十分的忙碌。<br>這週末還有跑去GDG的DevFest，說真的在南部還有這種活動，我覺得相當得不錯，而且內容很扎實，自己孤單的打程式真的會很想放棄，有社群一起成長的感覺真棒。<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019120801.jpg" alt></p>
-<hr>
+    <url>/2019/19log-1208.html</url>
+    <content><![CDATA[<h2 id="1208週記"><a href="#1208週記" class="headerlink" title="1208週記"></a><strong>1208週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週將期末前要處理的事做了一些整理</em><br>雖然說離上次期中考才過一陣子，但是期末專案接連的跑出來，很多東西都要開始規劃了，要不然全部都塞在後面會十分的忙碌。<br>這週末還有跑去GDG的DevFest，說真的在南部還有這種活動，我覺得相當得不錯，而且內容很扎實，自己孤單的打程式真的會很想放棄，有社群一起成長的感覺真棒。</p>
 <a id="more"></a>
+<p><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019120801.jpg" alt></p>
+<hr>
+<!-- more -->
 <h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
 <p>關於這週的課程, 你記得什麼?</p>
 </blockquote>
@@ -842,7 +1139,7 @@
   </entry>
   <entry>
     <title>2019/12/01 亂78遭週記</title>
-    <url>/2019/19log-1201/</url>
+    <url>/2019/19log-1201.html</url>
     <content><![CDATA[<h2 id="1201週記"><a href="#1201週記" class="headerlink" title="1201週記"></a><strong>1201週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週認真思考一些專案處理的事情和弄了一下履歷</em><br>這週算是在期末專案和各種事情過來前的一個休息週。<br>在這種好好地整理了自己想要處理的事情，和開始找一些接下來該做甚麼的機會。<br>也好好的把要工作的準備都漸漸的撰寫齊全，才不會錯過好的機會。</p>
 <hr>
 <a id="more"></a>
@@ -953,11 +1250,11 @@
   </entry>
   <entry>
     <title>2019/11/24 亂78遭週記</title>
-    <url>/2019/19log-1124/</url>
+    <url>/2019/19log-1124.html</url>
     <content><![CDATA[<h2 id="1124週記"><a href="#1124週記" class="headerlink" title="1124週記"></a><strong>1124週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>將處理的事情整理並稍作放鬆</em><br>這幾週被期中考壓得喘不過氣來，這週算對課程做一個期中結算。<br>處理了很多前幾週沒時間弄的東西，像玉山AI競賽，用XGBoost試了幾次，在兩天內擠進前10%。<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019112401.jpg" alt></p>
+<a id="more"></a>
 <p>不過這週有去成大聽演講，也收穫挺多的，尤其在CEO那場中，學到一些心態建立，和個人要怎麼增進自己的特長的方向，十分有趣的演講，在別場HR也給我一些履歷的方向，整體來說學到很多。<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019112402.jpg" alt></p>
 <hr>
-<a id="more"></a>
 <h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
 <p>關於這週的課程, 你記得什麼?</p>
 </blockquote>
@@ -1062,7 +1359,7 @@
   </entry>
   <entry>
     <title>人資長論壇心得</title>
-    <url>/2019/19log-1123-hrforum/</url>
+    <url>/2019/19log-1123-hrforum.html</url>
     <content><![CDATA[<h2 id="人資長論壇"><a href="#人資長論壇" class="headerlink" title="人資長論壇"></a>人資長論壇</h2><p><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/hrforum.jpg" alt="論壇宣傳照"></p>
 <a id="more"></a>
 <p>在朋友推薦下去聽這個還不錯而且在成大的演講，收穫挺多的，尤其在CEO那場中，學到一些心態建立，和個人要怎麼增進自己的特長的方向。<br>主要聽的部分在於人資長讓我建立未來的方向。<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019112402.jpg" alt="CEO"></p>
@@ -1084,7 +1381,7 @@
   </entry>
   <entry>
     <title>2019/11/17 亂78遭週記</title>
-    <url>/2019/19log-1117/</url>
+    <url>/2019/19log-1117.html</url>
     <content><![CDATA[<h2 id="1117週記"><a href="#1117週記" class="headerlink" title="1117週記"></a><strong>1117週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>期中考週結束後才是真正的夢靨，期中考都擠在這週</em><br>週二的系統分析期中考虐的我亂七八糟的，雖然相比上週的忙碌這週好上很多了，可是都沒有考完試放心的感覺。<br>不過這禮拜六有去看HELLO WORLD，好看！本來抱著看戀愛片的心情進電影院，後面覺得自己在看科幻冒險片，一個劇情突變，超意外，音樂好聽女主角又還挺可愛的，我覺得還蠻值得看的。<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019111701.jpg" alt></p>
 <hr>
 <a id="more"></a>
@@ -1192,7 +1489,7 @@
   </entry>
   <entry>
     <title>2019/11/10 亂78遭週記</title>
-    <url>/2019/19log-1110/</url>
+    <url>/2019/19log-1110.html</url>
     <content><![CDATA[<h2 id="1110週記"><a href="#1110週記" class="headerlink" title="1110週記"></a><strong>1110週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>果然處理完期中考一堆專案，心情真的好多了</em><br>這週R的期中專案和web期中考處理完就覺得舒服很多。<br>這次準備的相當不足，覺得有點慚愧QAQ<br>不過這禮拜考完一些重要科目就在玩好玩的Line 連上 Telegram，只能說Line太爛了，很多問題都會發生在他的系統上。</p>
 <hr>
 <a id="more"></a>
@@ -1289,7 +1586,7 @@
   </entry>
   <entry>
     <title>2019/11/03 亂78遭週記</title>
-    <url>/2019/19log-1103/</url>
+    <url>/2019/19log-1103.html</url>
     <content><![CDATA[<h2 id="1103週記"><a href="#1103週記" class="headerlink" title="1103週記"></a><strong>1103週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>期中考前大爆發，忙到快失智，比賽期中考兩頭燒</em><br>資服比賽週，在賽前修正了很多簡報該有的觀念，讓整體簡報看起來更加有邏輯，能抓到評審的節奏。<br>期中也快到了，這次準備的非常不充足，有點抖。<br>坐高鐵趕上台北，兩天來回還真的頗難忘的，好險有得獎，讓心情舒適了很多，順便去西門町買了狂三回來。</p>
 <hr>
 <a id="more"></a>
@@ -1395,7 +1692,7 @@
   </entry>
   <entry>
     <title>2019/10/27 亂78遭週記</title>
-    <url>/2019/19log-1027/</url>
+    <url>/2019/19log-1027.html</url>
     <content><![CDATA[<h2 id="1027週記"><a href="#1027週記" class="headerlink" title="1027週記"></a><strong>1027週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週頗多事情要幹，覺得燒腦又很煩躁</em><br>這週一次弄兩個比賽，真的有夠疲勞，受不了。<br>主要是因為週一進了畢專比賽決賽，讓我開始處理之前的東西。<br>而且期中考也快到了，有種忙不過來的感覺，壓力超大，不過也玩到很多有趣的程式，一定要找機會紓壓。</p>
 <hr>
 <a id="more"></a>
@@ -1538,7 +1835,7 @@
   </entry>
   <entry>
     <title>Hexo Next 主題增加評論系統 utterances</title>
-    <url>/2019/19log-1026-hexo-com/</url>
+    <url>/2019/19log-1026-hexo-com.html</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
 <p>剛好在搞<code>hexo</code>的裝潢，想到自己還沒有評論區</p>
 </blockquote>
@@ -1572,7 +1869,7 @@
   </entry>
   <entry>
     <title>2019/10/20 亂78遭週記</title>
-    <url>/2019/19log-1020/</url>
+    <url>/2019/19log-1020.html</url>
     <content><![CDATA[<h2 id="1020週記"><a href="#1020週記" class="headerlink" title="1020週記"></a><strong>1020週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>連假完一週，被作業報告壓的受不了</em><br>這週就是恢復上課的節奏，其實就是開始預告大家要來考試了，受不了QQ，不過這週也把很多累積的事好好處理了一大部分，心中舒暢很多。<br>最近壓力突然很大的感覺，希望能把東西都好好處理。<br>也在週末剪個頭髮轉換心情，減緩這種不快。</p>
 <hr>
 <a id="more"></a>
@@ -1700,7 +1997,7 @@
   </entry>
   <entry>
     <title>2019/10/13 亂78遭週記</title>
-    <url>/2019/19log-1013/</url>
+    <url>/2019/19log-1013.html</url>
     <content><![CDATA[<h2 id="1013週記"><a href="#1013週記" class="headerlink" title="1013週記"></a><strong>1013週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>雙十連假~~不過放連假一連帶了很多作業 @@</em><br>這週就是很多十月動漫出的時候，不過忙到沒甚麼時間看新番，有點慘阿…只能說這季FGO好看。<br>回台中就吃吃飯補補眠，好像甚麼事情都沒做很多，有點煩躁。</p>
 <hr>
 <a id="more"></a>
@@ -1813,7 +2110,7 @@
   </entry>
   <entry>
     <title>2019/10/06 亂78遭週記</title>
-    <url>/2019/19log-1006/</url>
+    <url>/2019/19log-1006.html</url>
     <content><![CDATA[<h2 id="1006週記"><a href="#1006週記" class="headerlink" title="1006週記"></a><strong>1006週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>忙透了 &gt;&lt; 功課也一堆</em><br>這週也做了挺多的事情，不過沒像上週那麼忙那麼肝，主要就把東西弄出來，挺感動的。<br>不過也補補新番，萌獸寵物店不錯看。</p>
 <hr>
 <a id="more"></a>
@@ -1936,7 +2233,7 @@
   </entry>
   <entry>
     <title>2019/09/29 亂78遭週記</title>
-    <url>/2019/19log-0929/</url>
+    <url>/2019/19log-0929.html</url>
     <content><![CDATA[<h2 id="0929週記"><a href="#0929週記" class="headerlink" title="0929週記"></a><strong>0929週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>沒時間把主題之類的都搞好</em><br>這週忙上很多，但是也弄了蠻多東西，還不錯。<br>不過也看了噬血狂襲OVA，完結了好難過。<br>鬼滅之刃、街角魔族和孔明也都完結了QQ</p>
 <hr>
 <a id="more"></a>
@@ -2069,7 +2366,7 @@
   </entry>
   <entry>
     <title>2019/09/22 亂78遭週記</title>
-    <url>/2019/19log-0922/</url>
+    <url>/2019/19log-0922.html</url>
     <content><![CDATA[<h2 id="0922週記"><a href="#0922週記" class="headerlink" title="0922週記"></a><strong>0922週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>用新blog打的第一篇週記</em><br>這周末去港市工作坊，有學分，賺。<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20190922-02.jpg" alt="工作坊"></p>
 <hr>
 <a id="more"></a>
@@ -2196,7 +2493,7 @@
   </entry>
   <entry>
     <title>用Hexo免費製作一個blog</title>
-    <url>/2019/19log-0921-hexo-note/</url>
+    <url>/2019/19log-0921-hexo-note.html</url>
     <content><![CDATA[<p>在種種原因之下，從Blogger牽到GitHub Pages上，陪伴我一學期的Blogger正式停止更新。紀念一下<a href="https://kidneyweakx.blogspot.com/" target="_blank" rel="noopener">這是原站點</a>，而讓我跳槽到Hexo的原因如下:</p>
 <ul>
 <li>Blogger 後臺真的十分陽春(上手很難進一步改動)。</li>
@@ -2292,7 +2589,7 @@
   </entry>
   <entry>
     <title>2019/09/15 亂78遭週記</title>
-    <url>/2019/19log-0915/</url>
+    <url>/2019/19log-0915.html</url>
     <content><![CDATA[<h2 id="0915週記"><a href="#0915週記" class="headerlink" title="0915週記"></a><strong>0915週記</strong></h2><h3 id="開學了嗚嗚嗚"><a href="#開學了嗚嗚嗚" class="headerlink" title="開學了嗚嗚嗚~"></a>開學了嗚嗚嗚~</h3><p><em>將耍廢留在暑假了，這週順便測試新週記模板</em></p>
 <hr>
 <a id="more"></a>
@@ -2390,7 +2687,7 @@
   </entry>
   <entry>
     <title>2019/09/08 亂78遭週記</title>
-    <url>/2019/19log-0908/</url>
+    <url>/2019/19log-0908.html</url>
     <content><![CDATA[<h2 id="0729-0908週記-八月記事"><a href="#0729-0908週記-八月記事" class="headerlink" title="0729-0908週記(八月記事)"></a><strong>0729-0908週記(八月記事)</strong></h2><blockquote>
 <p><strong>記錄這幾周重要的事情就好</strong></p>
 </blockquote>
@@ -2495,7 +2792,7 @@
   </entry>
   <entry>
     <title>2019/07/28 亂78遭週記</title>
-    <url>/2019/19log-0728/</url>
+    <url>/2019/19log-0728.html</url>
     <content><![CDATA[<h2 id="0701-0728週記"><a href="#0701-0728週記" class="headerlink" title="0701-0728週記"></a><strong>0701-0728週記</strong></h2><blockquote>
 <p>七月週記四週一起寫有幾個原因</p>
 <ol>
@@ -2639,7 +2936,7 @@
   </entry>
   <entry>
     <title>2019/06/30 亂78遭週記</title>
-    <url>/2019/19log-0630/</url>
+    <url>/2019/19log-0630.html</url>
     <content><![CDATA[<h2 id="0630週記"><a href="#0630週記" class="headerlink" title="0630週記"></a><strong>0630週記</strong></h2><p><em>這篇有點難產，畢竟沒做甚麼</em></p>
 <ul>
 <li>0624 本來這天要約朋友出去吃飯，結果下大雨，直接取消，只好在家耍廢。</li>
@@ -2726,7 +3023,7 @@
   </entry>
   <entry>
     <title>2019/06/23 亂78遭週記</title>
-    <url>/2019/19log-0623/</url>
+    <url>/2019/19log-0623.html</url>
     <content><![CDATA[<h2 id="0623週記"><a href="#0623週記" class="headerlink" title="0623週記"></a><strong>0623週記</strong></h2><p><em>暑假開始囉</em></p>
 <ul>
 <li>0617 這週已經沒有風帆課了，有點難過，那真的是一堂好課。下午去一下資安課就回來了，資安課就是一個輕輕鬆鬆的通識課，修了意外覺得沒甚麼收穫，只是這週都得讀期末考，心很累。</li>
@@ -2814,7 +3111,7 @@
   </entry>
   <entry>
     <title>2019/06/16 亂78遭週記</title>
-    <url>/2019/19log-0616/</url>
+    <url>/2019/19log-0616.html</url>
     <content><![CDATA[<h2 id="0616週記"><a href="#0616週記" class="headerlink" title="0616週記"></a><strong>0616週記</strong></h2><ul>
 <li>0610 風帆課的最後一週，因為上週也過了風帆，所以就下水玩玩，還體驗到划充氣的船，這學期上的最有趣的課。資安這週也上台報告，有關物聯網的資訊安全，雖然我覺得沒有做很好就是了。</li>
 <li>0611 國家公園期末影片介紹播放，認知到自己的剪輯能力遠遠不及別人，就算別人3分鐘的影片也能展現比我們單純的圖片更多東西。在晚上硬生生地練習隔天的法文期末小話劇。</li>
@@ -2906,7 +3203,7 @@
   </entry>
   <entry>
     <title>2019/06/09 亂78遭週記</title>
-    <url>/2019/19log-0609/</url>
+    <url>/2019/19log-0609.html</url>
     <content><![CDATA[<h2 id="0609週記"><a href="#0609週記" class="headerlink" title="0609週記"></a><strong>0609週記</strong></h2><ul>
 <li>0603 今天考風帆，過浮標就算過了，風浪都挺大的，很努力的掙扎勉強過了一次，還挺不錯的，這學期這堂課讓我上的很開心，不過下午的資安課，聽別人報告真的不是很有趣，而且要連續來三週，就當作期末考來做的期末報告，有些特殊的資安問題還是意外挺有趣的啦！不過整體上起來不是很好玩。</li>
 <li>0604 國文課最後一週，以畢業即失業為主軸報告，是挺特別的，老師真的很好，很會引導學生的想法。國家公園下周就要影片展出了，嚴重感受到期末排山倒海的報告和作業襲來。晚上用Xamarin做的app都開不了，每一版都用起來不太一樣，超詭異，不過C#的語法也看起來很好懂，而且搭配VS真的超猛。</li>
@@ -3002,7 +3299,7 @@
   </entry>
   <entry>
     <title>2019/06/02 亂78遭週記</title>
-    <url>/2019/19log-0602/</url>
+    <url>/2019/19log-0602.html</url>
     <content><![CDATA[<h2 id="0602週記"><a href="#0602週記" class="headerlink" title="0602週記"></a><strong>0602週記</strong></h2><ul>
 <li>0527 因為打雷有雷雨包沒辦法下風帆課，本來是從這週開始考試，直接失去一週的機會。資安課放假就開始用Markdown重構我的Blogger，試了各種方式使我的JavaScript技術上升了一點點，也更了解CSS在網頁中美化和排版的方式。</li>
 <li>0528 在早上的時候和醫科所學姊會談，認識到如何使用Matlab和Matlab在校外無法使用的事實，難怪有時候盜版還是有一席地位的。接下來就是將GUI轉換成C#或Unity3D的格式了，難題大概會有調用dll或是C# function不夠寫出這個專案，不過誰知道呢？</li>
@@ -3106,7 +3403,7 @@
   </entry>
   <entry>
     <title>2019/05/26 亂78遭週記</title>
-    <url>/2019/19log-0526/</url>
+    <url>/2019/19log-0526.html</url>
     <content><![CDATA[<h2 id="0526週記"><a href="#0526週記" class="headerlink" title="0526週記"></a><strong>0526週記</strong></h2><p><em>有點忙碌的一週</em></p>
 <ul>
 <li>0520 浪超大的風帆課，本來都不想下水，最後還是去玩了趴板。之後運用了資安課難得的放假，來想出我的Unity小專題，畢竟這週要去醫科所面談專案，所以將AR模型做好了。</li>
@@ -3205,7 +3502,7 @@
   </entry>
   <entry>
     <title>2019/05/19 亂78遭週記</title>
-    <url>/2019/19log-0519/</url>
+    <url>/2019/19log-0519.html</url>
     <content><![CDATA[<h2 id="0519週記"><a href="#0519週記" class="headerlink" title="0519週記"></a><strong>0519週記</strong></h2><ul>
 <li>0513 風帆課，練習風帆可是站上船還是不太會控制，不過離期末也只剩幾週了，只能再多多練習了，不過在上周就做完的JDstore架構我又再加強了一下。</li>
 <li>0514 國文課小組報告，我的ppt簡報技術進步了，提早下課讓我把資料庫作業放在heroku上了，學了很多東西，整個網站完成並上架的步驟其實沒有很難。</li>
@@ -3286,7 +3583,7 @@
   </entry>
   <entry>
     <title>2019/05/12 亂78遭週記</title>
-    <url>/2019/19log-0512/</url>
+    <url>/2019/19log-0512.html</url>
     <content><![CDATA[<h2 id="0512週記"><a href="#0512週記" class="headerlink" title="0512週記"></a><strong>0512週記</strong></h2><ul>
 <li>0506 前一天從花蓮回高雄得疲勞讓我在雨天更憂鬱了，不過雨天也不用上風帆課，算小確信吧!</li>
 <li>0507 國文課很快就下課，聽同學們報告完就回宿舍了，開始準備下次比賽的事情。</li>
@@ -3371,7 +3668,7 @@
   </entry>
   <entry>
     <title>2019/05/05 亂78遭週記</title>
-    <url>/2019/19log-0505/</url>
+    <url>/2019/19log-0505.html</url>
     <content><![CDATA[<h2 id="0505週記"><a href="#0505週記" class="headerlink" title="0505週記"></a><strong>0505週記</strong></h2><ul>
 <li>0429 風帆課把風帆開到消波塊那邊，船都無法動，很特別的經驗。</li>
 <li>0430 國文課讀書心得報告，報告使用ppt非常重要，希望自己能再加強一些報告能力。</li>
@@ -3461,7 +3758,7 @@
   </entry>
   <entry>
     <title>2019/04/28 亂78遭週記</title>
-    <url>/2019/19log-0428/</url>
+    <url>/2019/19log-0428.html</url>
     <content><![CDATA[<h2 id="0428週記"><a href="#0428週記" class="headerlink" title="0428週記"></a><strong>0428週記</strong></h2><ul>
 <li>0422 風帆課考獨木舟，還蠻爽的，只是浪沒有到很平，不是非常好划。</li>
 <li>0423 國文課小組報告，談拒絕併校，小組都有做到事，也聽了很多別人的分享，國文課有那麼有趣的互動上課方式真的很不錯。</li>
@@ -3545,7 +3842,7 @@
   </entry>
   <entry>
     <title>2019/04/21 亂78遭週記</title>
-    <url>/2019/19log-0421/</url>
+    <url>/2019/19log-0421.html</url>
     <content><![CDATA[<h2 id="0421週記"><a href="#0421週記" class="headerlink" title="0421週記"></a><strong>0421週記</strong></h2><ul>
 <li>0415 風帆課，浪超大只能玩趴板，所以我沒下水，資安期中考在宿舍考，覺得很棒。比賽有點完蛋的感覺，有可能做不完，目前layout弄不太出來。</li>
 <li>0416 國家公園期中考，說真的這種自然類的我真的比較不擅長。不過今天有和朋友聊一些有趣的科技趣聞，和我對科技的認知，心情不賴。測試文件驗證結果部分假設。</li>
@@ -3630,7 +3927,7 @@
   </entry>
   <entry>
     <title>Lenovo-LEGION-Y520 windows10+Ubuntu18.04雙系統</title>
-    <url>/2019/19log-0416-y520_duals/</url>
+    <url>/2019/19log-0416-y520_duals.html</url>
     <content><![CDATA[<h2 id="安裝前準備動作"><a href="#安裝前準備動作" class="headerlink" title="安裝前準備動作"></a><strong>安裝前準備動作</strong></h2><ol>
 <li><strong>先在windows內割出一個給系統安裝的分割</strong></li>
 </ol>
@@ -3677,7 +3974,7 @@
   </entry>
   <entry>
     <title>2019/04/14 亂78遭週記</title>
-    <url>/2019/19log-0414/</url>
+    <url>/2019/19log-0414.html</url>
     <content><![CDATA[<h2 id="0414週記"><a href="#0414週記" class="headerlink" title="0414週記"></a><strong>0414週記</strong></h2><ul>
 <li>0408 風帆課， 浪很平很快就站起來了，會了一些前進的小技巧。比賽作品也有進展了，花了大概一堂課的時間將tflite檔匯進手機裡面了。</li>
 <li>0409 國文+國家公園課。國家公園在連假的時候他們素材都拍好了。比賽進度有在今天將tflite重新訓練然後匯入進demo，呈現效果還不錯。</li>
@@ -3769,7 +4066,7 @@
   </entry>
   <entry>
     <title>2019/04/07 亂78遭週記</title>
-    <url>/2019/19log-0407/</url>
+    <url>/2019/19log-0407.html</url>
     <content><![CDATA[<h2 id="第5周寫週記"><a href="#第5周寫週記" class="headerlink" title="第5周寫週記"></a><strong>第5周寫週記</strong></h2><p><em>順便補齊這週的ORID</em></p>
 <ul>
 <li>0401 愚人節，雖然前一天弄資料庫搞的心情有點差，可是風帆課沖個浪還蠻爽的，不過浪超大讓我全身是沙，在晚上得知比賽入圍的消息，讓我開始這禮拜tensorflow集訓</li>
@@ -3852,7 +4149,7 @@
   </entry>
   <entry>
     <title>辨識錯誤 tensorflow KeyError &quot;The name &#39;import/input&#39; refers to an Operation not in the graph.&quot;</title>
-    <url>/2019/19log-0407-tensor_error/</url>
+    <url>/2019/19log-0407-tensor_error.html</url>
     <content><![CDATA[<h2 id="近期遇到的小錯誤"><a href="#近期遇到的小錯誤" class="headerlink" title="近期遇到的小錯誤"></a><strong>近期遇到的小錯誤</strong></h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">KeyError: <span class="string">"The name 'import/input' refers to an Operation not in the graph."</span></span><br></pre></td></tr></table></figure>
 
 <p><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/tensor01.PNG" alt></p>
@@ -3875,7 +4172,7 @@
   </entry>
   <entry>
     <title>2019/03/31 亂78遭週記</title>
-    <url>/2019/19log-0331/</url>
+    <url>/2019/19log-0331.html</url>
     <content><![CDATA[<h2 id="第4周寫週記"><a href="#第4周寫週記" class="headerlink" title="第4周寫週記"></a><strong>第4周寫週記</strong></h2><ul>
 <li>0325 風帆課，這禮拜小感冒，下水又蠻冷的，不過還是玩得很爽</li>
 <li>0326 國文課交報告，老師上課蠻有趣的，不過都在弄重灌的事，bumblebee真的很雷</li>
@@ -3958,7 +4255,7 @@
   </entry>
   <entry>
     <title>解決安裝oracle12c遇到[INS-30131]的問題</title>
-    <url>/2019/19log-0331-orcl_issue/</url>
+    <url>/2019/19log-0331-orcl_issue.html</url>
     <content><![CDATA[<h2 id="測試環境"><a href="#測試環境" class="headerlink" title="測試環境"></a>測試環境</h2><p><strong>win10</strong></p>
 <h2 id="error-INS-30131"><a href="#error-INS-30131" class="headerlink" title="error [INS-30131]"></a><strong>error [INS-30131]</strong></h2><p><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/orcl01.PNG" alt></p>
 <h2 id="解決方法"><a href="#解決方法" class="headerlink" title="解決方法"></a><strong>解決方法</strong></h2><a id="more"></a>
@@ -3974,7 +4271,7 @@
   </entry>
   <entry>
     <title>Rails error 小處理紀錄</title>
-    <url>/2019/19log-0327-railserror/</url>
+    <url>/2019/19log-0327-railserror.html</url>
     <content><![CDATA[<h2 id="Runtime-error"><a href="#Runtime-error" class="headerlink" title="Runtime error"></a>Runtime <strong>error</strong></h2><figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="string">'Could not find a JavaScript runtime'</span> but execjs AND therubyracer are <span class="keyword">in</span> Gemfile</span><br></pre></td></tr></table></figure>
 
 <a id="more"></a>
@@ -3997,7 +4294,7 @@
   </entry>
   <entry>
     <title>完整重灌Linux 必裝軟體及微調系列</title>
-    <url>/2019/19log-0326-linux_note/</url>
+    <url>/2019/19log-0326-linux_note.html</url>
     <content><![CDATA[<h2 id="微調系列"><a href="#微調系列" class="headerlink" title="微調系列"></a>微調系列</h2><blockquote>
 <p><strong>這幾天重灌了好幾次的Ubuntu 18.04@@</strong></p>
 </blockquote>
@@ -4033,7 +4330,7 @@
   </entry>
   <entry>
     <title>安裝ruby環境發現rvm not a function bug</title>
-    <url>/2019/19log-0326-rvm_error/</url>
+    <url>/2019/19log-0326-rvm_error.html</url>
     <content><![CDATA[<h2 id="出現這個error"><a href="#出現這個error" class="headerlink" title="出現這個error"></a><strong>出現這個error</strong></h2><p><em>rvm not a function</em></p>
 <figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="symbol">error:</span>Warning! PATH is <span class="keyword">not</span> properly set up, <span class="string">'/home/me/.rvm/gems/ruby-2.x.x-p247/bin'</span> is <span class="keyword">not</span> available, usually this is caused by shell initialization files</span><br></pre></td></tr></table></figure>
 
@@ -4049,7 +4346,7 @@
   </entry>
   <entry>
     <title>2019/03/24 亂78遭週記</title>
-    <url>/2019/19log-0324/</url>
+    <url>/2019/19log-0324.html</url>
     <content><![CDATA[<h2 id="第3周寫週記-0324"><a href="#第3周寫週記-0324" class="headerlink" title="第3周寫週記(0324)"></a><strong>第3周寫週記(0324)</strong></h2><ul>
 <li>0318 風帆課，在水裡把風帆拉起來了，飄了一下‧爽</li>
 <li>0319 去捐血，普通的集點，然後捐完血有點虛弱</li>
@@ -4124,7 +4421,7 @@
   </entry>
   <entry>
     <title>Linux 安裝在 Lenovo-LEGION-Y520 紀錄</title>
-    <url>/2019/19log-0324-Y520_Linux/</url>
+    <url>/2019/19log-0324-Y520_Linux.html</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h2><p>假日因為被windows的一些設定搞得有點小不爽，所以就把Ubuntu 18.04 LTS安裝了。</p>
 <p><em>會記錄下來是說真的筆電對Linux真的不夠友善，所以我把這些小不爽紀錄下來~~</em></p>
 <a id="more"></a>
@@ -4170,7 +4467,7 @@
   </entry>
   <entry>
     <title>專案管理技巧(影片心得)</title>
-    <url>/2019/19log-0321-proj_manage/</url>
+    <url>/2019/19log-0321-proj_manage.html</url>
     <content><![CDATA[<h2 id="管理技巧"><a href="#管理技巧" class="headerlink" title="管理技巧"></a>管理技巧</h2><ul>
 <li><p>透過觀看老師hackathon打贏的心路歷程，抓出了幾點重點</p>
 <a id="more"></a>
@@ -4202,7 +4499,7 @@
   </entry>
   <entry>
     <title>2019/03/17 亂78遭週記</title>
-    <url>/2019/19log-0317/</url>
+    <url>/2019/19log-0317.html</url>
     <content><![CDATA[<h2 id="第二周寫週記-0317"><a href="#第二周寫週記-0317" class="headerlink" title="第二周寫週記(0317)"></a><strong>第二周寫週記(0317)</strong></h2><ul>
 <li>0311 風帆學繩結，資安課和朋友幹話很久。</li>
 <li>0312 國文課組隊，期中末的活動要組員一起幫忙。</li>
@@ -4282,7 +4579,7 @@
   </entry>
   <entry>
     <title>css 重點筆記</title>
-    <url>/2019/19log-0314-css_note/</url>
+    <url>/2019/19log-0314-css_note.html</url>
     <content><![CDATA[<h2 id="重點"><a href="#重點" class="headerlink" title="重點"></a>重點</h2><h3 id="margin-與-padding-的差異"><a href="#margin-與-padding-的差異" class="headerlink" title="margin 與 padding 的差異"></a>margin 與 padding 的差異</h3><ul>
 <li>位置是他們最大的差異</li>
 <li>margin 是外邊距，有負值，別稱 填充</li>
@@ -4313,7 +4610,7 @@
   </entry>
   <entry>
     <title>HTML重點筆記</title>
-    <url>/2019/19log-0313-html_note/</url>
+    <url>/2019/19log-0313-html_note.html</url>
     <content><![CDATA[<h2 id="重點"><a href="#重點" class="headerlink" title="重點"></a>重點</h2><blockquote>
 <p>margin 與 padding 的差異</p>
 </blockquote>
@@ -4350,7 +4647,7 @@
   </entry>
   <entry>
     <title>介紹rake三兄弟(rake db 發生問題時使用)</title>
-    <url>/2019/19log-0311-rakedb/</url>
+    <url>/2019/19log-0311-rakedb.html</url>
     <content><![CDATA[<h2 id="rails-db-有問題自救"><a href="#rails-db-有問題自救" class="headerlink" title="rails db 有問題自救"></a><strong>rails db 有問題自救</strong></h2><p><strong>照順序輸入或單獨執行migrate</strong></p>
 <a id="more"></a>
 <figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line">rake <span class="symbol">db:</span>drop  <span class="comment">#刪除數據庫</span></span><br><span class="line">rake <span class="symbol">db:</span>create <span class="comment">#新建數據庫</span></span><br><span class="line">rake <span class="symbol">db:</span>migrate <span class="comment">#更改數據庫(有時可單獨執行)</span></span><br></pre></td></tr></table></figure>]]></content>
@@ -4361,7 +4658,7 @@
   </entry>
   <entry>
     <title>2019/03/10 亂78遭週記</title>
-    <url>/2019/19log-0310/</url>
+    <url>/2019/19log-0310.html</url>
     <content><![CDATA[<h2 id="第一篇周記"><a href="#第一篇周記" class="headerlink" title="第一篇周記"></a><strong>第一篇周記</strong></h2><p><em>這也是為了補齊之前沒有記錄到的事情</em></p>
 <p><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20190310.jpg" alt></p>
 <a id="more"></a>
