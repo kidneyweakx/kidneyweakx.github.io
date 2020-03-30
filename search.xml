@@ -94,11 +94,18 @@
 <p>有哪些工作需要下週繼續努力?</p>
 </blockquote>
 <ul>
-<li>hexo blog coding log</li>
+<li>hexo blog<ul>
+<li>coding log</li>
+<li>index.html 設計😍</li>
+<li>draft 完成</li>
+</ul>
+</li>
 <li>Golang SideProject</li>
 <li>Word2Vec NLP 模型了解</li>
-<li>Matlab 基本語法</li>
 <li>假新聞謠言語料庫建構</li>
+<li>Matlab 基本語法</li>
+<li>Matlab 視窗程式</li>
+<li>找實習投履歷</li>
 </ul>
 ]]></content>
       <tags>
