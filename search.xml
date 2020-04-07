@@ -1,6 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2020/04/05 亂78遭週記</title>
+    <url>/2020/20log-0405.html</url>
+    <content><![CDATA[<h2 id="0405週記"><a href="#0405週記" class="headerlink" title="0405週記"></a><strong>0405週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>在假期前把一些東西處理好</em><br>疫情感覺越來越嚴重了，今年感覺充滿了變數，有些想做的事應該要想些備案，要不然最後兩頭空可能會有點慘。<br>最近主要還是先把程式能力多練習，想在這幾個月把想做的個人專案處理好，順便把東西做些整理，至少以後能用能力證明自己，目前畢業前應該不太被課業綁著，可以做比較多事，開始找人來一起實現我的專案。</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>NLP 模型進展史</li>
+<li>Word Embedding<ul>
+<li>One Hot Encoding 詞彙映射</li>
+<li>NNLM 預測下文</li>
+<li>Word2Vec 上下文決定該該詞彙</li>
+</ul>
+</li>
+<li>ELMo, BERT, GPT 模型比較</li>
+<li>Transformer 模型</li>
+<li>Golang 正則表示式</li>
+<li>Golang goquery語法</li>
+<li>Golang colly爬蟲</li>
+<li>解析html方法</li>
+<li>matlab 介面</li>
+<li>Flask RESTful結構設計</li>
+<li>os system call實現方式</li>
+<li>os shell地位</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>Python word2vec 距離</li>
+<li>unity 操作</li>
+<li>Golang regexp 正則表示式</li>
+<li>Goquery html解析</li>
+<li>Golang colly 爬蟲自動化</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>爬蟲爬到需要的文檔</li>
+<li>Python 修改範例檔</li>
+<li>Golang 爬蟲基礎練習</li>
+<li>Unity 協同合作方式</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>放假消除了一些疲勞😋但是看到新聞疫情資訊真的擔心</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>用Golang Colly爬蟲，效率超高</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>Matlab有點難用</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>Unity 需要建置的時間太久了！</li>
+<li>Matlab 語法超不習慣</li>
+<li>Word2Vec小難搞</li>
+<li>Golang 有點囉嗦，debug很多限制</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>NLP模型比較</li>
+<li>Word Embedding 方法</li>
+<li>Regexp解析html格式(有點難用😫)</li>
+<li>colly 自動爬蟲(下次設計delay)</li>
+<li>goquery選擇器</li>
+<li>Unity export package</li>
+<li>Word2Vec 範例</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>把程式弄出來真的很爽，希望每週都能有進度</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>趕快把一些麻煩的東西處理好，才不會東擔心西擔心的</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>hexo blog</li>
+<li>Golang SideProject<ul>
+<li>放到伺服器</li>
+<li>ChatBot實現</li>
+</ul>
+</li>
+<li>Word2Vec 模型比對假新聞庫</li>
+<li>謠言語料庫建立</li>
+<li>Matlab 視窗互動</li>
+<li>履歷修改</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020/03/29 亂78遭週記</title>
     <url>/2020/20log-0329.html</url>
     <content><![CDATA[<h2 id="0329週記"><a href="#0329週記" class="headerlink" title="0329週記"></a><strong>0329週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>和程式戰鬥的一週</em><br>好久沒混著打程式了，上學期都在打R，有點荒廢自己的Python，這學期再用Python玩一下現在的機器學習，有些NLP的架構還挺有趣的，順便看看tensorflow更新後能不能用起來更舒服。<br>期初的時候還以為這學期很多假，結果過了一個月發現自己更忙www，不過是蠻爽的啦~至少不是綁在課業上，處理自己的專案和發展要做的一些有趣的技術，是一個小目標。</p>
