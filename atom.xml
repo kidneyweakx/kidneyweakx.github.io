@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kidneyweakx.github.io/"/>
-  <updated>2020-04-07T04:17:51.971Z</updated>
+  <updated>2020-04-12T17:54:19.218Z</updated>
   <id>http://kidneyweakx.github.io/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2020/04/12 亂78遭週記</title>
+    <link href="http://kidneyweakx.github.io/2020/20log-0412.html"/>
+    <id>http://kidneyweakx.github.io/2020/20log-0412.html</id>
+    <published>2020-04-12T15:30:00.000Z</published>
+    <updated>2020-04-12T17:54:19.218Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;0412週記&quot;&gt;&lt;a href=&quot;#0412週記&quot; class=&quot;headerlink&quot; title=&quot;0412週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;0412週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;瘋狂刻程式，感覺期中考快要來虐我了&lt;/em&gt;😥&lt;br&gt;這幾週因為疫情很多動漫都停播了，續作好幾個我都準備要看欸…不過也能理解，害我只能乖估打程式了，要不然娛樂都被奪走了。&lt;br&gt;最近把C++拿來認真寫一下，發現一些以前沒發現有趣的特性，用看看怎麼和其他程式語言串聯，還把Golang認真玩一下，畢竟一直覺得打Python不像在寫自己的程式，打算在這學期搞幾個作品，看可不可以大幅增強我的程式能力，主要有Golang的Side-Project和Flutter弄的plugin(希望這個能寫完~~)。&lt;/p&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="記錄生活" scheme="http://kidneyweakx.github.io/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2020/04/05 亂78遭週記</title>
     <link href="http://kidneyweakx.github.io/2020/20log-0405.html"/>
     <id>http://kidneyweakx.github.io/2020/20log-0405.html</id>
     <published>2020-04-05T15:30:00.000Z</published>
-    <updated>2020-04-07T04:17:51.971Z</updated>
+    <updated>2020-04-12T17:03:27.505Z</updated>
     
     <summary type="html">
     
@@ -383,26 +403,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;1110週記&quot;&gt;&lt;a href=&quot;#1110週記&quot; class=&quot;headerlink&quot; title=&quot;1110週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1110週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;果然處理完期中考一堆專案，心情真的好多了&lt;/em&gt;&lt;br&gt;這週R的期中專案和web期中考處理完就覺得舒服很多。&lt;br&gt;這次準備的相當不足，覺得有點慚愧QAQ&lt;br&gt;不過這禮拜考完一些重要科目就在玩好玩的Line 連上 Telegram，只能說Line太爛了，很多問題都會發生在他的系統上。&lt;/p&gt;
-&lt;hr&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="記錄生活" scheme="http://kidneyweakx.github.io/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019/11/03 亂78遭週記</title>
-    <link href="http://kidneyweakx.github.io/2019/19log-1103.html"/>
-    <id>http://kidneyweakx.github.io/2019/19log-1103.html</id>
-    <published>2019-11-03T15:30:00.000Z</published>
-    <updated>2020-02-04T06:09:34.595Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;1103週記&quot;&gt;&lt;a href=&quot;#1103週記&quot; class=&quot;headerlink&quot; title=&quot;1103週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1103週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;期中考前大爆發，忙到快失智，比賽期中考兩頭燒&lt;/em&gt;&lt;br&gt;資服比賽週，在賽前修正了很多簡報該有的觀念，讓整體簡報看起來更加有邏輯，能抓到評審的節奏。&lt;br&gt;期中也快到了，這次準備的非常不充足，有點抖。&lt;br&gt;坐高鐵趕上台北，兩天來回還真的頗難忘的，好險有得獎，讓心情舒適了很多，順便去西門町買了狂三回來。&lt;/p&gt;
 &lt;hr&gt;
     
     </summary>
