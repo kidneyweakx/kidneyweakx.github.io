@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kidneyweakx.github.io/"/>
-  <updated>2020-04-12T17:54:19.218Z</updated>
+  <updated>2020-04-20T17:40:26.938Z</updated>
   <id>http://kidneyweakx.github.io/</id>
   
   <author>
@@ -17,11 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2020/04/19 亂78遭週記</title>
+    <link href="http://kidneyweakx.github.io/2020/20log-0419.html"/>
+    <id>http://kidneyweakx.github.io/2020/20log-0419.html</id>
+    <published>2020-04-19T15:30:00.000Z</published>
+    <updated>2020-04-20T17:40:26.938Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;0419週記&quot;&gt;&lt;a href=&quot;#0419週記&quot; class=&quot;headerlink&quot; title=&quot;0419週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;0419週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;期中考週前一週，還是往常的玩程式&lt;/em&gt;&lt;br&gt;考前真的沒有甚麼實感，可能這學期發生太多事情，也不知道甚麼時候可能會停課，所以一直沒有提前準備期中考，完蛋了必修還很多啊！&lt;br&gt;也順便把之前還沒有信用卡時想要刷的想要刷的VPS和網域都一次滿足，沒有動漫後其他慾望真的像雪球一樣越滾越大😯不過大環境真的沒辦法。&lt;/p&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="記錄生活" scheme="http://kidneyweakx.github.io/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Golang Json解析問題 Struct字首大小寫</title>
+    <link href="http://kidneyweakx.github.io/2020/20log-0416-gojson.html"/>
+    <id>http://kidneyweakx.github.io/2020/20log-0416-gojson.html</id>
+    <published>2020-04-16T15:20:35.000Z</published>
+    <updated>2020-04-20T17:25:36.045Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;其實這還蠻有趣的，最近在玩golang的爬蟲，高效率的編譯和好用的colly真的還挺好上手的，但是畢竟爬蟲還是要encode成Json才好做跨平台處理。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="程式筆記" scheme="http://kidneyweakx.github.io/tags/%E7%A8%8B%E5%BC%8F%E7%AD%86%E8%A8%98/"/>
+    
+      <category term="Golang" scheme="http://kidneyweakx.github.io/tags/Golang/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2020/04/12 亂78遭週記</title>
     <link href="http://kidneyweakx.github.io/2020/20log-0412.html"/>
     <id>http://kidneyweakx.github.io/2020/20log-0412.html</id>
     <published>2020-04-12T15:30:00.000Z</published>
-    <updated>2020-04-12T17:54:19.218Z</updated>
+    <updated>2020-04-20T17:33:15.751Z</updated>
     
     <summary type="html">
     
@@ -33,6 +74,31 @@
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.github.io/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NDK編譯動態庫.so錯誤 executing external native build for cmake</title>
+    <link href="http://kidneyweakx.github.io/2020/20log-0411-ndkexc.html"/>
+    <id>http://kidneyweakx.github.io/2020/20log-0411-ndkexc.html</id>
+    <published>2020-04-11T05:42:35.000Z</published>
+    <updated>2020-04-20T15:39:54.466Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;剛好在把C++的動態庫加入flutter中，想說寫個Native Java版試試看，結果遇到了這種鬼問題😱😱😱。&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;bug: Error &amp;gt; &lt;span class=&quot;string&quot;&gt;&quot;executing external native build for cmake&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;本來以為是CMakeLists.txt裡面有一些語法問題，結果仔細改寫了一下，問題依舊。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/kidults/article/details/80599923&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;參考了這篇&lt;/a&gt;想說有可能會改善，結果還是執行到一半報相同的錯誤。&lt;br&gt;HMMMM🤔……中間又各種改build.gradle和cmake，發現怎麼解都無法編譯成功。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="程式筆記" scheme="http://kidneyweakx.github.io/tags/%E7%A8%8B%E5%BC%8F%E7%AD%86%E8%A8%98/"/>
+    
+      <category term="Javascript" scheme="http://kidneyweakx.github.io/tags/Javascript/"/>
     
   </entry>
   
@@ -345,65 +411,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;1124週記&quot;&gt;&lt;a href=&quot;#1124週記&quot; class=&quot;headerlink&quot; title=&quot;1124週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1124週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;將處理的事情整理並稍作放鬆&lt;/em&gt;&lt;br&gt;這幾週被期中考壓得喘不過氣來，這週算對課程做一個期中結算。&lt;br&gt;處理了很多前幾週沒時間弄的東西，像玉山AI競賽，用XGBoost試了幾次，在兩天內擠進前10%。&lt;br&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019112401.jpg&quot; alt&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="記錄生活" scheme="http://kidneyweakx.github.io/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>人資長論壇心得</title>
-    <link href="http://kidneyweakx.github.io/2019/19log-1123-hrforum.html"/>
-    <id>http://kidneyweakx.github.io/2019/19log-1123-hrforum.html</id>
-    <published>2019-11-23T11:45:00.000Z</published>
-    <updated>2020-02-04T06:09:34.594Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;人資長論壇&quot;&gt;&lt;a href=&quot;#人資長論壇&quot; class=&quot;headerlink&quot; title=&quot;人資長論壇&quot;&gt;&lt;/a&gt;人資長論壇&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/hrforum.jpg&quot; alt=&quot;論壇宣傳照&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="提升自我" scheme="http://kidneyweakx.github.io/tags/%E6%8F%90%E5%8D%87%E8%87%AA%E6%88%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019/11/17 亂78遭週記</title>
-    <link href="http://kidneyweakx.github.io/2019/19log-1117.html"/>
-    <id>http://kidneyweakx.github.io/2019/19log-1117.html</id>
-    <published>2019-11-17T15:30:00.000Z</published>
-    <updated>2020-02-04T06:09:34.595Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;1117週記&quot;&gt;&lt;a href=&quot;#1117週記&quot; class=&quot;headerlink&quot; title=&quot;1117週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1117週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;期中考週結束後才是真正的夢靨，期中考都擠在這週&lt;/em&gt;&lt;br&gt;週二的系統分析期中考虐的我亂七八糟的，雖然相比上週的忙碌這週好上很多了，可是都沒有考完試放心的感覺。&lt;br&gt;不過這禮拜六有去看HELLO WORLD，好看！本來抱著看戀愛片的心情進電影院，後面覺得自己在看科幻冒險片，一個劇情突變，超意外，音樂好聽女主角又還挺可愛的，我覺得還蠻值得看的。&lt;br&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019111701.jpg&quot; alt&gt;&lt;/p&gt;
-&lt;hr&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="記錄生活" scheme="http://kidneyweakx.github.io/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019/11/10 亂78遭週記</title>
-    <link href="http://kidneyweakx.github.io/2019/19log-1110.html"/>
-    <id>http://kidneyweakx.github.io/2019/19log-1110.html</id>
-    <published>2019-11-10T15:30:00.000Z</published>
-    <updated>2020-02-04T06:09:34.594Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;1110週記&quot;&gt;&lt;a href=&quot;#1110週記&quot; class=&quot;headerlink&quot; title=&quot;1110週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1110週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;果然處理完期中考一堆專案，心情真的好多了&lt;/em&gt;&lt;br&gt;這週R的期中專案和web期中考處理完就覺得舒服很多。&lt;br&gt;這次準備的相當不足，覺得有點慚愧QAQ&lt;br&gt;不過這禮拜考完一些重要科目就在玩好玩的Line 連上 Telegram，只能說Line太爛了，很多問題都會發生在他的系統上。&lt;/p&gt;
-&lt;hr&gt;
     
     </summary>
     
