@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kidneyweakx.github.io/2020/20log-0426.html</loc>
+    
+    <lastmod>2020-04-26T17:38:32.464Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kidneyweakx.github.io/2020/20log-0419.html</loc>
     
     <lastmod>2020-04-20T17:40:26.938Z</lastmod>
@@ -107,14 +114,14 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0327-railserror.html</loc>
+    <loc>http://kidneyweakx.github.io/2019/19log-0331.html</loc>
     
     <lastmod>2020-02-04T06:11:37.923Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0331.html</loc>
+    <loc>http://kidneyweakx.github.io/2019/19log-0327-railserror.html</loc>
     
     <lastmod>2020-02-04T06:11:37.923Z</lastmod>
     
@@ -135,6 +142,13 @@
   </url>
   
   <url>
+    <loc>http://kidneyweakx.github.io/2019/19log-0416-y520_duals.html</loc>
+    
+    <lastmod>2020-02-04T06:11:37.923Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kidneyweakx.github.io/2019/19log-0414.html</loc>
     
     <lastmod>2020-02-04T06:11:37.923Z</lastmod>
@@ -143,13 +157,6 @@
   
   <url>
     <loc>http://kidneyweakx.github.io/2019/19log-0421.html</loc>
-    
-    <lastmod>2020-02-04T06:11:37.923Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0416-y520_duals.html</loc>
     
     <lastmod>2020-02-04T06:11:37.923Z</lastmod>
     
@@ -184,28 +191,14 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0313-html_note.html</loc>
-    
-    <lastmod>2020-02-04T06:11:37.922Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0317.html</loc>
-    
-    <lastmod>2020-02-04T06:11:37.922Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0321-proj_manage.html</loc>
-    
-    <lastmod>2020-02-04T06:11:37.922Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://kidneyweakx.github.io/2019/19log-0314-css_note.html</loc>
+    
+    <lastmod>2020-02-04T06:11:37.922Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kidneyweakx.github.io/2019/19log-0313-html_note.html</loc>
     
     <lastmod>2020-02-04T06:11:37.922Z</lastmod>
     
@@ -219,14 +212,28 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0324-Y520_Linux.html</loc>
+    <loc>http://kidneyweakx.github.io/2019/19log-0326-linux_note.html</loc>
     
     <lastmod>2020-02-04T06:11:37.922Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0326-linux_note.html</loc>
+    <loc>http://kidneyweakx.github.io/2019/19log-0321-proj_manage.html</loc>
+    
+    <lastmod>2020-02-04T06:11:37.922Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kidneyweakx.github.io/2019/19log-0317.html</loc>
+    
+    <lastmod>2020-02-04T06:11:37.922Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kidneyweakx.github.io/2019/19log-0324-Y520_Linux.html</loc>
     
     <lastmod>2020-02-04T06:11:37.922Z</lastmod>
     
@@ -282,20 +289,6 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-1222.html</loc>
-    
-    <lastmod>2020-02-04T06:09:34.595Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-1229.html</loc>
-    
-    <lastmod>2020-02-04T06:09:34.595Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://kidneyweakx.github.io/2020/20log-0112.html</loc>
     
     <lastmod>2020-02-04T06:09:34.595Z</lastmod>
@@ -317,14 +310,21 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0512.html</loc>
+    <loc>http://kidneyweakx.github.io/2019/19log-1222.html</loc>
     
-    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
+    <lastmod>2020-02-04T06:09:34.595Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0519.html</loc>
+    <loc>http://kidneyweakx.github.io/2019/19log-1229.html</loc>
+    
+    <lastmod>2020-02-04T06:09:34.595Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kidneyweakx.github.io/2019/19log-0512.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
     
@@ -338,14 +338,7 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0602.html</loc>
-    
-    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0616.html</loc>
+    <loc>http://kidneyweakx.github.io/2019/19log-0519.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
     
@@ -359,6 +352,13 @@
   </url>
   
   <url>
+    <loc>http://kidneyweakx.github.io/2019/19log-0602.html</loc>
+    
+    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kidneyweakx.github.io/2019/19log-0630.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
@@ -366,7 +366,7 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0623.html</loc>
+    <loc>http://kidneyweakx.github.io/2019/19log-0616.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
     
@@ -380,21 +380,7 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0908.html</loc>
-    
-    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0921-hexo-note.html</loc>
-    
-    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-0929.html</loc>
+    <loc>http://kidneyweakx.github.io/2019/19log-0623.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
     
@@ -408,7 +394,35 @@
   </url>
   
   <url>
+    <loc>http://kidneyweakx.github.io/2019/19log-0908.html</loc>
+    
+    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kidneyweakx.github.io/2019/19log-0929.html</loc>
+    
+    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kidneyweakx.github.io/2019/19log-0921-hexo-note.html</loc>
+    
+    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kidneyweakx.github.io/2019/19log-1006.html</loc>
+    
+    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kidneyweakx.github.io/2019/19log-1027.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
     
@@ -437,13 +451,6 @@
   
   <url>
     <loc>http://kidneyweakx.github.io/2019/19log-1110.html</loc>
-    
-    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kidneyweakx.github.io/2019/19log-1027.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
     
