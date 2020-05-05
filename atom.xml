@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kidneyweakx.github.io/"/>
-  <updated>2020-04-26T17:38:32.464Z</updated>
+  <updated>2020-05-05T05:04:32.764Z</updated>
   <id>http://kidneyweakx.github.io/</id>
   
   <author>
@@ -17,11 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2020/05/01 亂78遭週記</title>
+    <link href="http://kidneyweakx.github.io/2020/20log-0503.html"/>
+    <id>http://kidneyweakx.github.io/2020/20log-0503.html</id>
+    <published>2020-05-01T15:30:00.000Z</published>
+    <updated>2020-05-05T05:04:32.764Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;0503週記&quot;&gt;&lt;a href=&quot;#0503週記&quot; class=&quot;headerlink&quot; title=&quot;0503週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;0503週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;😫&lt;em&gt;快崩潰的忙碌，考完試才是真正的開始阿&lt;/em&gt;&lt;br&gt;最近真的很愛花錢，還買了一台新電腦，雖然是很爽啦~但是看到戶頭裡面的錢越來越少😢就覺得有點難過。&lt;br&gt;前陣子有點低潮，不過花錢心情又好了↑有點前後矛盾哈哈，最主要想玩的東西太多了，最近又要搞很多專案，挺辛苦的，不過有感覺能力有在上升啦。&lt;br&gt;現在把很多東西同時都拿來玩玩看，不知道以後能玩甚麼，所以多試試總是好的。&lt;/p&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="記錄生活" scheme="http://kidneyweakx.github.io/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C# 用VID和PID自動連線serialport</title>
+    <link href="http://kidneyweakx.github.io/2020/20log-0428-serial.html"/>
+    <id>http://kidneyweakx.github.io/2020/20log-0428-serial.html</id>
+    <published>2020-04-28T05:30:00.000Z</published>
+    <updated>2020-05-03T17:37:45.337Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原本C#的serial port function&lt;a href=&quot;https://docs.microsoft.com/zh-tw/dotnet/api/system.io.ports.serialport?view=dotnet-plat-ext-3.1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官方範例&lt;/a&gt;，是類似這樣的&lt;/p&gt;
+&lt;figure class=&quot;highlight c#&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;streamport = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; SerialPort(&lt;span class=&quot;string&quot;&gt;&quot;COM3&quot;&lt;/span&gt;, bauadrate);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="程式筆記" scheme="http://kidneyweakx.github.io/tags/%E7%A8%8B%E5%BC%8F%E7%AD%86%E8%A8%98/"/>
+    
+      <category term="C#" scheme="http://kidneyweakx.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2020/04/26 亂78遭週記</title>
     <link href="http://kidneyweakx.github.io/2020/20log-0426.html"/>
     <id>http://kidneyweakx.github.io/2020/20log-0426.html</id>
     <published>2020-04-26T15:30:00.000Z</published>
-    <updated>2020-04-26T17:38:32.464Z</updated>
+    <updated>2020-05-03T17:17:40.414Z</updated>
     
     <summary type="html">
     
@@ -372,45 +414,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;1215週記&quot;&gt;&lt;a href=&quot;#1215週記&quot; class=&quot;headerlink&quot; title=&quot;1215週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1215週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;這週回家放鬆，還有把這學期參加的活動做個小結束&lt;/em&gt;&lt;br&gt;難得有課放假，就爽爽的回家囉~&lt;br&gt;不過真的有夠多東西要處理，最近覺得被很多事情壓著，那些期末報告專案都很想趕快處理完，就看到時候要怎麼弄了，很討厭拖到最後一天。&lt;/p&gt;
-&lt;hr&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="記錄生活" scheme="http://kidneyweakx.github.io/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019/12/08 亂78遭週記</title>
-    <link href="http://kidneyweakx.github.io/2019/19log-1208.html"/>
-    <id>http://kidneyweakx.github.io/2019/19log-1208.html</id>
-    <published>2019-12-08T15:30:00.000Z</published>
-    <updated>2020-02-05T02:53:51.359Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;1208週記&quot;&gt;&lt;a href=&quot;#1208週記&quot; class=&quot;headerlink&quot; title=&quot;1208週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1208週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;這週將期末前要處理的事做了一些整理&lt;/em&gt;&lt;br&gt;雖然說離上次期中考才過一陣子，但是期末專案接連的跑出來，很多東西都要開始規劃了，要不然全部都塞在後面會十分的忙碌。&lt;br&gt;這週末還有跑去GDG的DevFest，說真的在南部還有這種活動，我覺得相當得不錯，而且內容很扎實，自己孤單的打程式真的會很想放棄，有社群一起成長的感覺真棒。&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="記錄生活" scheme="http://kidneyweakx.github.io/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019/12/01 亂78遭週記</title>
-    <link href="http://kidneyweakx.github.io/2019/19log-1201.html"/>
-    <id>http://kidneyweakx.github.io/2019/19log-1201.html</id>
-    <published>2019-12-01T15:30:00.000Z</published>
-    <updated>2020-02-04T06:09:34.595Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;1201週記&quot;&gt;&lt;a href=&quot;#1201週記&quot; class=&quot;headerlink&quot; title=&quot;1201週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1201週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;這週認真思考一些專案處理的事情和弄了一下履歷&lt;/em&gt;&lt;br&gt;這週算是在期末專案和各種事情過來前的一個休息週。&lt;br&gt;在這種好好地整理了自己想要處理的事情，和開始找一些接下來該做甚麼的機會。&lt;br&gt;也好好的把要工作的準備都漸漸的撰寫齊全，才不會錯過好的機會。&lt;/p&gt;
 &lt;hr&gt;
     
     </summary>
