@@ -1,7 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2020/05/01 亂78遭週記</title>
+    <title>2020/05/10 亂78遭週記</title>
+    <url>/2020/20log-0510.html</url>
+    <content><![CDATA[<h2 id="0510週記"><a href="#0510週記" class="headerlink" title="0510週記"></a><strong>0510週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>把上週搞的東西拿來做測試，不斷<strong>try&amp;error</strong></em>😴<br>覺得有點疲勞，開始把上禮拜弄的東西拿來試試看，不過進展我自己覺得稍微有點不理想，而且錄到的東西也不太知道怎麼處理，結果假日也沒甚麼進度🙄有點慘阿…<br>不過下週應該就能比較放鬆了…吧？覺得最近搞得有點頭痛就是了，東西都不知道怎麼去弄阿~而且有太多東西要處理了，好險專案我在前陣子算告一個段落，有些地方還要認真研究一下，可能才能處理出來。</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>PsychoToolbox 更新畫面方式</li>
+<li>MATLAB 獨立主成分分析</li>
+<li>MATLAB libSVM 基礎</li>
+<li>MATLAB 改善刺激程序</li>
+<li>MATLAB 監聽鍵盤</li>
+<li>Python 爬蟲</li>
+<li>C Deadlock</li>
+<li>C MultiThread Sorting</li>
+<li>OpenSSL 設定</li>
+<li>實驗室SOP</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>MATLAB 基本語法</li>
+<li>MATLAB 程式優化方式</li>
+<li>MATLAB fig GUI用法</li>
+<li>PsychoToolbox 用法</li>
+<li>flair 遷移學習語法</li>
+<li>ERP Data 處理</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>C# 腳本更新測試</li>
+<li>ERP 拼字器實驗設計</li>
+<li>OddBall 監聽鍵盤</li>
+<li>MATLAB 刺激程序更新</li>
+<li>Online ERP test</li>
+<li>Unity 腳本更新</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>感覺都在處理自己不太懂得領域，有點爽(抖M😂)</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>把刺激程序弄出來做測試</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>好像要自己弄完專案了…</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>SSL設定，可能跳Caddy了，設定煩惱比較少</li>
+<li>分析offline data</li>
+<li>flair 中文模型</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>MATLAB 獨立成分分析</li>
+<li>MATLAB PsychoToolbox</li>
+<li>MATLAB 修正GUI介面</li>
+<li>MATLAB 資料處理</li>
+<li>Python 中文語言處理</li>
+<li>Nginx 改善以及Caddy</li>
+<li>flair 遷移學習</li>
+<li>實驗室SOP</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>真的很多事情都很難預期，只能自己努力做好份內的事吧。</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>努力拚拚拚，把目前的事情都處理完成，讓自己爽一點</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>課業<ul>
+<li>OS作業</li>
+<li>烹飪課期中考</li>
+<li>專題報告簡報</li>
+</ul>
+</li>
+<li>Golang bot 串聯上架</li>
+<li>Caddy SSL 設定 (由Nginx轉來)</li>
+<li>Speller Project<ul>
+<li>刺激程序GUI改善</li>
+<li>MATLAB 處理EEG data</li>
+<li>Online Speller 測試</li>
+</ul>
+</li>
+<li>flair 模型處理</li>
+<li>flutter plot widget</li>
+<li>Particle Photon 處理</li>
+<li>VR stream video</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020/05/03 亂78遭週記</title>
     <url>/2020/20log-0503.html</url>
     <content><![CDATA[<h2 id="0503週記"><a href="#0503週記" class="headerlink" title="0503週記"></a><strong>0503週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p>😫<em>快崩潰的忙碌，考完試才是真正的開始阿</em><br>最近真的很愛花錢，還買了一台新電腦，雖然是很爽啦~但是看到戶頭裡面的錢越來越少😢就覺得有點難過。<br>前陣子有點低潮，不過花錢心情又好了↑有點前後矛盾哈哈，最主要想玩的東西太多了，最近又要搞很多專案，挺辛苦的，不過有感覺能力有在上升啦。<br>現在把很多東西同時都拿來玩玩看，不知道以後能玩甚麼，所以多試試總是好的。</p>
 <hr>
