@@ -1,6 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>20log-0531</title>
+    <url>/2020/20log-0531.html</url>
+    <content><![CDATA[<h2 id="0531週記"><a href="#0531週記" class="headerlink" title="0531週記"></a><strong>0531週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週把待辦事項都處理一下</em>😎<br>也快六月了，這學期一下就結束了，還有好多專案卡著我的進度😑這幾週就真的是做報告和趕進度。<br>希望考試不要不理想就好，這學期感覺比較抖一點，不過我必修本來成績就沒有很頂尖，好像也還好🤔<br>目前就是在思考暑假要處理甚麼東西，卡著一個畢業專題，還有另外部分大概會把跨平台的架構轉移回android，不過還在思考中…</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>巧克力製作方法(烹飪竟然教那麼簡單😥)</li>
+<li>Synchronization (同步)問題和解決方案</li>
+<li>OS Paging 方法</li>
+<li>OS virtual memory 作用</li>
+<li>MATLAB svm/knn app 用法</li>
+<li>NeuroPype 濾波 </li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>Golang <code>exec.Command</code> 語法來做跨平台溝通</li>
+<li>cpanel 操控 (畢竟原先要錢，很稀有的玩具)</li>
+<li>wordpress 基本套件</li>
+<li>Particle IoT 語法</li>
+<li>NeuroPype Node 修改執行</li>
+<li>LaTex 環境建構</li>
+<li>Cpp OpenGL 語法 (蠻有趣的)</li>
+<li>Cpp sorting</li>
+<li>Cpp thread 種類<br><code>std::thread / processthreadapi.h / pthread.h</code></li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>Cpp OpenGL sorting 畫面</li>
+<li>各種thread編譯後速度比較</li>
+<li>Cpanel 安裝wordpress</li>
+<li>Photon 燒入websocket測試</li>
+<li>期末影片上字幕</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>感覺期末好快就到了喔🤔</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>把OpenGL編譯好，摸CPP的感覺真好</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>下禮拜還有東西要弄</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>OpenGL (還有pu沒搞呢)</li>
+<li>arduino 硬體timer</li>
+<li>NeuroPype Node 改寫</li>
+<li>thread &amp; sorting</li>
+<li>OS 期末 &lt;- 😑</li>
+<li>speller 演算法改善</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>設置cpanel和部屬wordpress</li>
+<li>Photon IoT timer 同步</li>
+<li>OpenGL 設置</li>
+<li>LaTex 基本語法</li>
+<li>Golang 執行command</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>處理一些有去搞不懂的東西真的會興奮到睡不著</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>回歸初心，繼續努力</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>OS 作業系統筆記</li>
+<li>OS 期末專案更新</li>
+<li>烹飪課期末報告</li>
+<li>運輸規劃影片錄製</li>
+<li>MATLAB 優化speller</li>
+<li>畢專…應該沒進度了</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020/05/25 亂78遭週記</title>
     <url>/2020/20log-0524.html</url>
     <content><![CDATA[<h2 id="0525週記"><a href="#0525週記" class="headerlink" title="0525週記"></a><strong>0525週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>上週跑去玩，結果怠惰就上身了</em>😏<br>這週就和上週一併說一說吧~畢竟我跑去玩爽爽甚麼事都沒幹，回來還有點不適應都市環境😥<br>前陣子主要把該弄的東西處理完之後，就跑去花蓮放鬆順便看一下老朋友，不過系烤被無雨的颱風取消了(雙關😂)，不過還是久違的看到老朋友是挺不錯的，就聊聊天和吃大餐哈哈。<br>不過回來之後還要處理期末報告，真的是挺頭痛的，回來高雄就暴雨，直接工作慾望下降到極限，不過還是處理了一些事，可能要開始趕一些進度了😥</p>
