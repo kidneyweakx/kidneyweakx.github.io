@@ -1,7 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>20log-0531</title>
+    <title>2020/06/21 亂78遭週記</title>
+    <url>/2020/20log-0621.html</url>
+    <content><![CDATA[<h2 id="0621週記"><a href="#0621週記" class="headerlink" title="0621週記"></a><strong>0621週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這幾週為了期末考忙了一些</em>😪<br>六月我自己覺得過的蠻辛苦的，考慮太多事情了，導致有點忘記這幾週學了甚麼，所以可能會漏掉一些學習的紀錄吧😂。</p>
+<hr>
+<a id="more"></a>
+<h5 id="小抱怨🙄"><a href="#小抱怨🙄" class="headerlink" title="小抱怨🙄"></a><strong>小抱怨🙄</strong></h5><p>最近把自己搞得有點小累，想做的事都沒辦法好好開始處理，也變得有些怠惰，這點不知道怎麼去處理，現在腦內亂糟糟的，學習動力有點降低，也很難統整出一些有系統的開發模式，我覺得趁暑假前再重新進入狀態很重要。<br>在進入假期前好好檢討一下自己，我覺得靜下心來是一件相當重要的事，這學期有點被不同模式的進度壓住，感覺無法平常心面對，這點對我自己不是很好，回到宿舍明明沒做甚麼進度就很累很累，這是一些精神上的檻，可能要自我克服。<br>應該這幾天靜靜地坐下來看書回復狀態好了，有趣的東西能讓我忘掉一些煩惱的事，要不然現在心有點大，但是能力有點漸漸跟不上，說真的，自己的計劃沒上，也有點影響作事的心情啦，簡單的感嘆一下😯。</p>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>EEG Speller<ul>
+<li>MATLAB 處理EEG資料</li>
+<li>ERP(事件相關電位)相關分析圖表</li>
+<li>TopoPlot, SNR, Scatter Plot</li>
+<li>ChebyChev Type II 濾波</li>
+</ul>
+</li>
+<li>OS 作業系統期末<ul>
+<li>OpenGL 繪製bar邏輯</li>
+<li>OS 期末書面</li>
+<li>Python GIL</li>
+</ul>
+</li>
+<li>transfer learning 入門</li>
+<li>MQTT 架構設計(挺有趣的找天寫一篇)</li>
+<li>EverCam錄製 powerpoint</li>
+<li>生機素飲食</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>CPP OpenGL</li>
+<li>Python Thread</li>
+<li>MQTT 架構測試和設計</li>
+<li>KDElive ffmpeg基本操作</li>
+<li>Python &lt;- 下週主要搞這個</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>Seminar 影片字幕和ass檔 (kdelive)</li>
+<li>烹飪期末報告</li>
+<li>運輸規劃期末報告</li>
+<li>OS 期末和報告</li>
+<li>MQTT 基本測試</li>
+<li>ERP Speller 改良 (我真的超廢…)</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>說真的，煩躁🥱</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>把期末演示結束的那瞬間</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>東西真的怎麼改都改不好…</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>Speller 優化 (唉…)</li>
+<li>MQTT broker ip</li>
+<li>Python 專案處理</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>Python GIL 問題釐清</li>
+<li>CPP OpenGL</li>
+<li>BCI Speller 實踐和優化</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>我會的還太少了</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>只能靠多學習了，補齊我缺的地方</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>Blog 改善觀看品質</li>
+<li>Python 畢業專案改善</li>
+<li>NLP 架構設計</li>
+<li>毒理學期末報告</li>
+<li>學習一些底層硬件知識</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020/05/31 亂78遭週記</title>
     <url>/2020/20log-0531.html</url>
     <content><![CDATA[<h2 id="0531週記"><a href="#0531週記" class="headerlink" title="0531週記"></a><strong>0531週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週把待辦事項都處理一下</em>😎<br>也快六月了，這學期一下就結束了，還有好多專案卡著我的進度😑這幾週就真的是做報告和趕進度。<br>希望考試不要不理想就好，這學期感覺比較抖一點，不過我必修本來成績就沒有很頂尖，好像也還好🤔<br>目前就是在思考暑假要處理甚麼東西，卡著一個畢業專題，還有另外部分大概會把跨平台的架構轉移回android，不過還在思考中…</p>
 <hr>

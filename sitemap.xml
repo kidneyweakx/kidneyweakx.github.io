@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kidneyweakx.com/2020/20log-0621.html</loc>
+    
+    <lastmod>2020-06-21T17:48:08.340Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kidneyweakx.com/2020/20log-0531.html</loc>
     
-    <lastmod>2020-05-31T17:34:13.065Z</lastmod>
+    <lastmod>2020-06-21T17:21:00.795Z</lastmod>
     
   </url>
   
@@ -177,13 +184,6 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.com/2019/19log-0416-y520_duals.html</loc>
-    
-    <lastmod>2020-02-04T06:11:37.923Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://kidneyweakx.com/2019/19log-0414.html</loc>
     
     <lastmod>2020-02-04T06:11:37.923Z</lastmod>
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.com/2019/19log-0421.html</loc>
+    <loc>http://kidneyweakx.com/2019/19log-0416-y520_duals.html</loc>
     
     <lastmod>2020-02-04T06:11:37.923Z</lastmod>
     
@@ -212,9 +212,9 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.com/2019/19log-0311-rakedb.html</loc>
+    <loc>http://kidneyweakx.com/2019/19log-0421.html</loc>
     
-    <lastmod>2020-02-04T06:11:37.922Z</lastmod>
+    <lastmod>2020-02-04T06:11:37.923Z</lastmod>
     
   </url>
   
@@ -226,7 +226,7 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.com/2019/19log-0313-html_note.html</loc>
+    <loc>http://kidneyweakx.com/2019/19log-0311-rakedb.html</loc>
     
     <lastmod>2020-02-04T06:11:37.922Z</lastmod>
     
@@ -234,6 +234,13 @@
   
   <url>
     <loc>http://kidneyweakx.com/2019/19log-0314-css_note.html</loc>
+    
+    <lastmod>2020-02-04T06:11:37.922Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kidneyweakx.com/2019/19log-0313-html_note.html</loc>
     
     <lastmod>2020-02-04T06:11:37.922Z</lastmod>
     
@@ -275,14 +282,14 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.com/2019/19log-0326-rvm_error.html</loc>
+    <loc>http://kidneyweakx.com/2019/19log-0331-orcl_issue.html</loc>
     
     <lastmod>2020-02-04T06:11:37.922Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://kidneyweakx.com/2019/19log-0331-orcl_issue.html</loc>
+    <loc>http://kidneyweakx.com/2019/19log-0326-rvm_error.html</loc>
     
     <lastmod>2020-02-04T06:11:37.922Z</lastmod>
     
@@ -366,13 +373,6 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.com/2019/19log-0519.html</loc>
-    
-    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://kidneyweakx.com/2019/19log-0526.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
@@ -380,7 +380,7 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.com/2019/19log-0609.html</loc>
+    <loc>http://kidneyweakx.com/2019/19log-0519.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
     
@@ -388,6 +388,13 @@
   
   <url>
     <loc>http://kidneyweakx.com/2019/19log-0602.html</loc>
+    
+    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kidneyweakx.com/2019/19log-0609.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
     
@@ -408,7 +415,7 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.com/2019/19log-0728.html</loc>
+    <loc>http://kidneyweakx.com/2019/19log-0908.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
     
@@ -422,21 +429,21 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.com/2019/19log-0908.html</loc>
-    
-    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://kidneyweakx.com/2019/19log-0921-hexo-note.html</loc>
-    
-    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://kidneyweakx.com/2019/19log-0922.html</loc>
+    
+    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kidneyweakx.com/2019/19log-0728.html</loc>
+    
+    <lastmod>2020-02-04T06:09:34.594Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kidneyweakx.com/2019/19log-1006.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
     
@@ -457,7 +464,7 @@
   </url>
   
   <url>
-    <loc>http://kidneyweakx.com/2019/19log-1006.html</loc>
+    <loc>http://kidneyweakx.com/2019/19log-0921-hexo-note.html</loc>
     
     <lastmod>2020-02-04T06:09:34.594Z</lastmod>
     
