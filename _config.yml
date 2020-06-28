@@ -56,7 +56,15 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
+index2_include_index: true
+index2_generator:
+  per_page: 8
+  order_by: -date
+  exclude:
+    - tag hide
+    - category blog
+
 # Category & Tag
 default_category: uncategorized
 category_map:

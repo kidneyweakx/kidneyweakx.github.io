@@ -2,6 +2,7 @@
 title: {{ title }}
 date: 2020-0?-?? 23:30:00
 tags: 記錄生活
+categories: blog
 ---
 ## **0xxx週記**
 

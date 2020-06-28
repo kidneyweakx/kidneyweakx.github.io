@@ -124,6 +124,7 @@ menu:
   about: /about/ || user
   tags: /tags/ || tags
   #categories: /categories/ || th
+  blog: /categories/blog/ || wordpress # blog 路徑
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap

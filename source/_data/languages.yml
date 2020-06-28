@@ -1,6 +1,17 @@
-zh-TW: 
+zh-tw:
   reward:
     donate: <i class="fa fa-qrcode fa-2x" style="line-height:30px;"></i>
     wechatpay: 微信支付
     alipay: 支付寶
     bitcoin: Bitcoin
+  menu:
+    home: 首頁
+    archives: 歸檔
+    categories: 分類
+    blog: 記錄
+    tags: 標籤
+    about: 關於
+    search: 搜尋
+    schedule: 時間表
+    sitemap: 網站地圖
+    commonweal: 公益 404
