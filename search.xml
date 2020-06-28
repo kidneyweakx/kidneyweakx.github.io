@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2020/06/28 亂78遭週記</title>
+    <url>/2020/20log-0628.html</url>
+    <content><![CDATA[<h2 id="0628週記"><a href="#0628週記" class="headerlink" title="0628週記"></a><strong>0628週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>學期終於結束了，把許多在學校處理的事情處理完</em>😊<br>六月也到尾聲了，不過在暑假積累了一堆計畫想做，式時候該把一些代辦事項拿出來弄一弄了，有些有意思的東西，我發現我能力真的有點不太夠處理，所以想要多學一點，不只原理，有些想從基礎開始搞起來，尤其像計算機基礎的C語言和Linux Kernel，還有各種ARM架構，每個都想玩玩看。</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程+程式]</p>
+<ul>
+<li>Fake News 專案<ul>
+<li>NLP SpaPy</li>
+<li>NLP NLTK</li>
+<li>NLP Flair</li>
+</ul>
+</li>
+<li>EEG Speller 專案<ul>
+<li>構思雲端架構</li>
+</ul>
+</li>
+<li>Python Pandas 資料處理</li>
+<li>PN532 NFC模塊運用</li>
+<li>說話的能力</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>毒理學期末報告</li>
+<li>Python 比較相似度</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>學期結束是有點開心，但是想到我的代辦事項…</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>學期結束回家開箱我訂的淘寶零件吧</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>自己和別人談事情可能有些不自覺的表現需要改善</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>Python 假新聞專案</li>
+<li>ERP Speller 改善方向</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>Python SpaCy 自然語言處理</li>
+<li>Python NLP 工具</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>可能要多訓練自己一些不足之處</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>先列出需要補充做的部分</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>Blog 改變模式，參考其他大神</li>
+<li>整理這幾個月學到的一些東西複習</li>
+<li>作業系統Liunx深度探索</li>
+<li>雲端模型架構</li>
+<li>Python 畢業專題<ul>
+<li>樹梅派 Zero 相機</li>
+<li>假新聞資料庫比對</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020/06/21 亂78遭週記</title>
     <url>/2020/20log-0621.html</url>
     <content><![CDATA[<h2 id="0621週記"><a href="#0621週記" class="headerlink" title="0621週記"></a><strong>0621週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這幾週為了期末考忙了一些</em>😪<br>六月我自己覺得過的蠻辛苦的，考慮太多事情了，導致有點忘記這幾週學了甚麼，所以可能會漏掉一些學習的紀錄吧😂。</p>
