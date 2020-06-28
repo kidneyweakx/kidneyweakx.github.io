@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kidneyweakx.com/"/>
-  <updated>2020-06-28T15:44:02.009Z</updated>
+  <updated>2020-06-28T17:10:45.734Z</updated>
   <id>http://kidneyweakx.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0628.html"/>
     <id>http://kidneyweakx.com/2020/20log-0628.html</id>
     <published>2020-06-28T15:30:00.000Z</published>
-    <updated>2020-06-28T15:44:02.009Z</updated>
+    <updated>2020-06-28T17:10:45.734Z</updated>
     
     <summary type="html">
     
@@ -30,6 +30,10 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
+    
+      <category term="hide" scheme="http://kidneyweakx.com/categories/blog/hide/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -41,7 +45,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0621.html"/>
     <id>http://kidneyweakx.com/2020/20log-0621.html</id>
     <published>2020-06-21T15:30:00.000Z</published>
-    <updated>2020-06-21T17:48:08.340Z</updated>
+    <updated>2020-06-28T16:53:58.586Z</updated>
     
     <summary type="html">
     
@@ -50,6 +54,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -61,7 +67,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0531.html"/>
     <id>http://kidneyweakx.com/2020/20log-0531.html</id>
     <published>2020-05-31T15:30:00.000Z</published>
-    <updated>2020-06-21T17:21:00.795Z</updated>
+    <updated>2020-06-28T16:53:58.586Z</updated>
     
     <summary type="html">
     
@@ -70,6 +76,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -81,7 +89,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0524.html"/>
     <id>http://kidneyweakx.com/2020/20log-0524.html</id>
     <published>2020-05-25T15:30:00.000Z</published>
-    <updated>2020-05-24T17:11:08.207Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -90,6 +98,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -101,7 +111,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0510.html"/>
     <id>http://kidneyweakx.com/2020/20log-0510.html</id>
     <published>2020-05-10T15:30:00.000Z</published>
-    <updated>2020-05-12T07:24:15.919Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -110,6 +120,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -121,7 +133,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0503.html"/>
     <id>http://kidneyweakx.com/2020/20log-0503.html</id>
     <published>2020-05-03T15:30:00.000Z</published>
-    <updated>2020-05-05T05:08:22.540Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -130,6 +142,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -163,7 +177,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0426.html"/>
     <id>http://kidneyweakx.com/2020/20log-0426.html</id>
     <published>2020-04-26T15:30:00.000Z</published>
-    <updated>2020-05-03T17:17:40.414Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -172,6 +186,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -183,7 +199,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0419.html"/>
     <id>http://kidneyweakx.com/2020/20log-0419.html</id>
     <published>2020-04-19T15:30:00.000Z</published>
-    <updated>2020-04-20T17:40:26.938Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -192,6 +208,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -224,7 +242,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0412.html"/>
     <id>http://kidneyweakx.com/2020/20log-0412.html</id>
     <published>2020-04-12T15:30:00.000Z</published>
-    <updated>2020-04-20T17:33:15.751Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -233,6 +251,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -269,7 +289,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0405.html"/>
     <id>http://kidneyweakx.com/2020/20log-0405.html</id>
     <published>2020-04-05T15:30:00.000Z</published>
-    <updated>2020-04-12T17:03:27.505Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -278,6 +298,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -289,7 +311,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0329.html"/>
     <id>http://kidneyweakx.com/2020/20log-0329.html</id>
     <published>2020-03-29T15:30:00.000Z</published>
-    <updated>2020-03-30T17:51:55.479Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -298,6 +320,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -309,7 +333,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0322.html"/>
     <id>http://kidneyweakx.com/2020/20log-0322.html</id>
     <published>2020-03-22T15:30:00.000Z</published>
-    <updated>2020-03-25T17:59:48.774Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -318,6 +342,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -329,7 +355,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0315.html"/>
     <id>http://kidneyweakx.com/2020/20log-0315.html</id>
     <published>2020-03-15T15:30:00.000Z</published>
-    <updated>2020-03-15T17:48:47.189Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -338,6 +364,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -349,7 +377,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0308.html"/>
     <id>http://kidneyweakx.com/2020/20log-0308.html</id>
     <published>2020-03-08T15:30:00.000Z</published>
-    <updated>2020-03-15T17:25:48.354Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -358,6 +386,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -369,7 +399,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0301.html"/>
     <id>http://kidneyweakx.com/2020/20log-0301.html</id>
     <published>2020-03-01T15:30:00.000Z</published>
-    <updated>2020-03-15T17:16:51.111Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -378,6 +408,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -389,7 +421,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0202.html"/>
     <id>http://kidneyweakx.com/2020/20log-0202.html</id>
     <published>2020-02-02T15:30:00.000Z</published>
-    <updated>2020-02-04T17:21:43.920Z</updated>
+    <updated>2020-06-28T17:01:49.148Z</updated>
     
     <summary type="html">
     
@@ -398,6 +430,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
@@ -409,7 +443,7 @@
     <link href="http://kidneyweakx.com/2020/20log-0119.html"/>
     <id>http://kidneyweakx.com/2020/20log-0119.html</id>
     <published>2020-01-19T15:30:00.000Z</published>
-    <updated>2020-02-04T06:09:34.595Z</updated>
+    <updated>2020-06-28T17:01:49.147Z</updated>
     
     <summary type="html">
     
@@ -418,6 +452,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
     
     
       <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
