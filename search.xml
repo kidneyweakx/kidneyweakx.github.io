@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2020/07/12 亂78遭週記</title>
+    <url>/2020/20log-0712.html</url>
+    <content><![CDATA[<h2 id="0712週記"><a href="#0712週記" class="headerlink" title="0712週記"></a><strong>0712週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>起步計畫表中的學習事項，充滿打程式和耍廢的一週</em><br>突然覺得有點多東西要學，上週規劃的一些活動也正準備執行，我是覺得肯定學不完啦！寫了有些多目標，希望暑假可以讓我自己知道我在處理甚麼東西，至少能寫出我想寫的程式，要不然現在太廢了。<br>不過還是出去玩和各種補動漫，這種習慣希望要戒一下，要不然到時候開學又會各種無法抽空，會相當麻煩，但考慮目前想做的東西是虛擬和現實結合的一些資訊玩意，可能也要各種學習和看動漫就是了。</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[程式]</p>
+<ul>
+<li>C語言基礎</li>
+<li>C語言數值系統</li>
+<li>C語言Bitwise</li>
+<li>Flutter fl_chart繪製line chart</li>
+<li>latex 基本語法及建構</li>
+<li>latex 套用模板</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>latex 履歷更新</li>
+<li>flutter 應用改正</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>感覺這個暑假稍微忙了一點</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>感覺程式有一小點進步</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>真的體認到自己知識的缺口</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>flutter語法忘光了…</li>
+<li>fl_chart設定好多好麻煩</li>
+<li>C語言環境我真的還沒弄好 😫</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>fl_chart linechart</li>
+<li>C數值系統</li>
+<li>GNU/Linux環境建置</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>感覺回到大一學程式，甚麼都不懂的感覺，Python真的使人怠惰</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>多多磨練自己，要不然感覺自己在某些地方原地打轉</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>Linux開發(暑期主要學習部分)</li>
+<li>分散式系統建構(建構看看)</li>
+<li>樹梅派開發相機相關程式</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020/07/05 亂78遭週記</title>
     <url>/2020/20log-0705.html</url>
     <content><![CDATA[<h2 id="0705週記"><a href="#0705週記" class="headerlink" title="0705週記"></a><strong>0705週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週做了些暑期計畫，順便讓自己更了解軟體開發</em><br>都暑假了，感覺要做到更多平常沒做到的事，畢竟像我這種宅宅通常都待在家裡或宿舍，所以感覺要做更多的事，目前就在開始研究Linux Kernel，真的覺得我對這東西的概念怎麼那麼缺乏，真的感覺要學的還是很多。<br>不過還是把Blog整理整理了，之前一直想弄的東西，改點小東西就用好了，不過插件好像越來越多哈哈，電腦執行hexo的效率越來越慢了，之後再想有沒有辦法能改善。</p>
