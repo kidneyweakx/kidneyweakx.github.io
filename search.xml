@@ -1,6 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2020/07/19 亂78遭週記</title>
+    <url>/2020/20log-0719.html</url>
+    <content><![CDATA[<h2 id="0719週記"><a href="#0719週記" class="headerlink" title="0719週記"></a><strong>0719週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>回到學校來上課來輕鬆賺學分，除了早起沒有甚麼好抱怨了</em><br>期末為了學分選了兩堂課，剛好在暑假也蠻閒的，就來補充一下自己，直接賺了兩個學分，而且只花六天36小時，像夏令營一樣，功課又挺少的，真爽，還可以順便增加一下專案進度，大致上是蠻輕鬆的一週。<br>但是專案感覺有點遇到瓶頸，不知道是沒有甚麼好修正的了，或是說不太清楚要修改那些地方，可能要再思考看看往哪個方向做更動，最近也在思考一下這樣怠惰下去程式能力沒進步多少，越來越沒競爭力了…<br><code>題外話</code>：在跨領域創新創業課那堂提出的案子，竟然大獲好評😂，雖然我是沒有那個心會去做啦，可能隊友也是認識的人，本來意見就比較合，要不然看到別組都很累，完全無法理解為什麼會把這種課過得那麼緊湊。</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>CNC 基礎使用方式和運作方法</li>
+<li>真空成形機使用方式</li>
+<li>推測設計(運用各種思考的元素)</li>
+<li>財務報表觀看</li>
+<li>創業共享空間的局限和構思</li>
+<li>繪製室內平面設計圖</li>
+<li>對於目標客群的精準行銷</li>
+<li>建立自身企業的差異性</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>Azure部屬和LNMP架構</li>
+<li>PHP效能優化和監控套件</li>
+<li>wordpress加速優化方法</li>
+<li>SSL 方法</li>
+<li>OpenCV api運用</li>
+<li>C語言 bitwise和開發工具</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>創業空間構思</li>
+<li>創業空間平面設計</li>
+<li>鹽夏不夜城展品雛形構思</li>
+<li>Azure部屬架構</li>
+<li>Review Code</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>在暑假上個課，消耗時間</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>還真的是星期六上完課下課那一瞬間</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>專案真的難搞</li>
+<li>上課瘋狂早起感覺有點生病😥</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>構思如何改善專案目前狀況<ul>
+<li>[問題1] flask IO 問題</li>
+<li>[問題2] 比對假新聞的方式</li>
+</ul>
+</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>處理Azure雲端系統</li>
+<li>PHP 優化工具</li>
+<li>C bitwise</li>
+<li>GDB 除錯工具</li>
+<li>財務報表相關計算</li>
+<li>推測設計(感覺對一些跳躍性思考有些用處)</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>有些東西真的到用時才會覺得以前學的有用</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>暑假這週可能就是相對充實的一週了</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>假新聞專案統合和問題解決</li>
+<li>樹梅派相機模組運用和功能設計</li>
+<li>個人暑假開源專案主題構思(<code>self hackathon</code>)</li>
+<li>Linux 和 C語言開發學習</li>
+<li>分散式系統建構 (docker) &lt;- 目前還沒有明確方向</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020/07/12 亂78遭週記</title>
     <url>/2020/20log-0712.html</url>
     <content><![CDATA[<h2 id="0712週記"><a href="#0712週記" class="headerlink" title="0712週記"></a><strong>0712週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>起步計畫表中的學習事項，充滿打程式和耍廢的一週</em><br>突然覺得有點多東西要學，上週規劃的一些活動也正準備執行，我是覺得肯定學不完啦！寫了有些多目標，希望暑假可以讓我自己知道我在處理甚麼東西，至少能寫出我想寫的程式，要不然現在太廢了。<br>不過還是出去玩和各種補動漫，這種習慣希望要戒一下，要不然到時候開學又會各種無法抽空，會相當麻煩，但考慮目前想做的東西是虛擬和現實結合的一些資訊玩意，可能也要各種學習和看動漫就是了。</p>
