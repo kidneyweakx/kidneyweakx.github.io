@@ -1,9 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2020/08/17 亂78遭週記</title>
-    <url>/2020/20log-0817.html</url>
-    <content><![CDATA[<h2 id="0817週記"><a href="#0817週記" class="headerlink" title="0817週記"></a><strong>0817週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這篇有點難生出來，畢竟我真的在耍廢</em>😂😅<br>這兩週算是把工作做到一定程度，就開始放鬆了，很多事情都不想做；說真的，我算是很會分心的人，尤其最近處理事情的時候常常不能專注做完我要做的事，感覺有點無力，想要更努力處理一些代辦事項，突然要生出來的研究所推甄書面和準備要弄得多益考試，唉。。。。不知道能不能用好。<br>不過在這快樂的暑假，如果都在工作和處理東西心好累，所以就去找了遊戲玩，以前都不碰老任的遊戲，這次把GBA上的「地球冒險3」破完，有夠感動，果然還是以前的RPG好，讓我又恢復當年想做RPG遊戲的小小夢想，現在有點越走越歪的感覺呢！！🤔<br>其實在前陣子就有這樣想了，我是很喜歡做我目前做的東西是沒錯，但是現在跑去做一些奇怪的領域，碰的東西越來越複雜，感覺之前訂的一些小目標應該是達成了，技術也都會了，就是做出來超級不符合自己的理想，我應該能做更好，然後就為了精進一些小地方花超多時間，有點痛苦，而且學了HCI、網路、系統之類的資訊技術，雖然感覺很厲害，甚麼都知道，但我還是半吊子😥尤其是在最近開始寫書面的時候深深感受到這點，甚麼都會，然後呢，到底想要走甚麼領域，感覺相當的模糊，這種感覺以前還不太會有，最近想到覺得有點可怕，畢竟現在有升學壓力就有這種奇妙的感受，不過這暑假大概就是留給我想這些事情的吧。</p>
+    <title>20log-1017</title>
+    <url>/2020/20log-1017.html</url>
+    <content><![CDATA[<h2 id="1017週記"><a href="#1017週記" class="headerlink" title="1017週記"></a><strong>1017週記</strong></h2><blockquote>
+<p>說真的拖了好幾週沒寫真的很不好意思，不過近期真的太忙碌了，又怠惰，唉😑 赫然發現上次寫已經是8月底剛考完第一次多益，不過也因為大四要處理推甄的東西，還要忙做死選的課，兩頭燒。</p>
+</blockquote>
+<h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>開學後寫的第一篇週記</em><br>說真的大四了有點沒有實感，因為種種緣故(疫情)，就跑去弄研究所備審了，說真的，沒上好像也無所謂，就當作投個四大挑戰自己。而且原本高中時期的我應該沒有想到，現在的我會想投清交大，畢竟那時候光玩玩自己喜歡的東西就好了，沒多做甚麼考慮，雖然現在也一樣，打程式對我來說算是一種娛樂(但是排序比動漫後面就是了😂)，就希望能繼續做自己有興趣的東西罷了。<br>扯遠了，這學期還真的不是普通辛苦，從上學期末開始全力參與實驗室的進度，甚至在暑期當了工作坊的助教(剛好上一篇就是了)，不過跨領域真的對我這種普通人很難勝任，覺得要認知的東西很多，並且貪心的我想要把金融科技學程弄完，並且想搞一個區塊練智能合約自動化交易機器人，我覺得我這大四，過得特別的忙阿。<br>要不是近期其實算不用處理畢業專案，要不然我可能真的要瘋掉了，大家都在瘋狂弄一堆東西，如果我也像他們那樣，我的肝可能真的受不住了，因為真的很累，再提一下，金融科技學程的微結構，真的太難修了。</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程與程式, 你記得什麼?</p>
+</blockquote>
+<ul>
+<li>R語言基礎(tidyverse)</li>
+<li>R語言讀取大數據(dplyr處理大量)</li>
+<li>R語言迴歸分析做法</li>
+<li>Python 計算價差(spreads)運用五秒揭示計算</li>
+<li>Unity Network(已過期的API)</li>
+<li>IBM免費伺服器，用Github Action喚醒</li>
+<li>Telegram Lottie格式要求</li>
+<li>Python twitter API</li>
+<li>Python telegram Bot</li>
+<li>Javascript telegram bot 及ES6格式</li>
+<li>Node.JS教學</li>
+<li>PHP wordpress 插件撰寫</li>
+<li>PHP 資料庫連接</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>計算台灣證交所微結構分析(流動性、波動性及報酬率)</li>
+<li>運用迴歸分析和ggplot2繪製分析圖表</li>
+<li>Unity Server 端 serial port傳送</li>
+<li>IBM telegram 免費Bot空間</li>
+<li>Node.JS telegram Bot建立</li>
+<li>Wordpress插件新增功能</li>
+<li>備審撰寫(這寫了超久)</li>
+<li>研究計畫(中英文)</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這幾週的情緒</p>
+</blockquote>
+<ul>
+<li>真的很忙，忙完就睡，沒時間做一些例行公事，覺得很內疚</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>寫完微結構的作業</li>
+<li>Unity Network 訊息接收且完成</li>
+<li>PHP wordpress 插件完成</li>
+<li>免費IBM伺服器部屬BOT</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>滿滿的作業，不會的財金知識</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>市場微結構(也只有他了吧…)</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>R語言基礎(tidyverse)</li>
+<li>R語言讀取大數據(dplyr處理大量)</li>
+<li>R語言迴歸分析做法</li>
+<li>Python 計算價差(spreads)運用五秒揭示計算</li>
+<li>Unity Network API 運用及撰寫</li>
+<li>C# class</li>
+<li>PHP wordpress 框架結構</li>
+<li>MySQL語法</li>
+<li>IBM github action cron重新開機</li>
+<li>NodeJS基礎及做出telegramBOT</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>許多東西真的要事先規劃，或提前做好，要不然最後一直被罵</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>克服兩頭燒的我，不知道怎麼撐過來的😎</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>報買賣價差流動性論文</li>
+<li>做出Unity AR結案簡報</li>
+<li>微結構作業修正</li>
+<li>畢業專案修正</li>
+<li>推甄面試準備</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020/08/30 亂78遭週記</title>
+    <url>/2020/20log-0830.html</url>
+    <content><![CDATA[<h2 id="0830週記"><a href="#0830週記" class="headerlink" title="0830週記"></a><strong>0830週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這兩週真的是極端阿！一週很廢一週很累</em><br>說真的在這週真的很累，反倒是上週甚麼都沒做讓我覺得有點虛度光陰哈哈，這兩週主要就先把一些小工作處理完，還有準備考多益，還要在工作坊結束寫練習題，真的是許多工作都喜歡一起發生。<br>結果最近一直想不到要怎麼整理備審，雖然拿了大家的備審來做參考，但是總覺得最近有點無法進入狀態，寫那些文章甚麼的都很怠惰，哀…😒，感覺一直在嘆氣阿www<br>不過這禮拜當助教帶了腦電相關的工作坊，也見識到各方厲害的人；說真的，在教別人的時候，完全體會到自己實在是不夠厲害不夠全面，需要再更多加努力阿。不過MATLAB一些基礎使用倒是進步蠻多的，還有很多東西要學，希望能把學習的心一直保持下，去戰勝怠惰啦~~😎接下來就看開學這段期間的努力了</p>
+<p><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20200830.png" alt></p>
+<ul>
+<li>工作坊合照(10/22補)</li>
+</ul>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>EEGLAB 功能操作</li>
+<li>EEG ERP工作坊課程基礎</li>
+<li>EEG SSVEP工作坊課程基礎</li>
+<li>EEG ICA工作坊課程</li>
+<li>EEG 資料分析</li>
+<li>Python MNE介紹及使用</li>
+<li>Python EEGNet介紹</li>
+<li>多益新制閱讀練習</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>MATLAB 類似NoteBook的功能</li>
+<li>MATLAB繪圖及部分函式使用</li>
+<li>MATLAB版本差異工具箱疑難排解</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>MATLAB程式教學</li>
+<li>EEGLAB操作教學</li>
+<li>分析Data</li>
+<li>交換實驗經驗及意見</li>
+<li>考完多益啦!!!</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>真的很累，但學到很多教學技巧，也得到一些回饋和學到一些小撇步，畢竟我真的不是主要打MATLAB的</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>上完工作坊，在周末順便考完多益的時候</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>有些被問的問題真的不太會，然後他反問的問題有點沒辦法回答時</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>一些MATLAB版本上的問題，工具箱沒辦法載</li>
+<li>我個人覺得新版本EEGLAB修改了許多地方，讓最新版的MATLAB有些衝突問題，而且也認知MATLAB和MAC相性有點…</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>MATLAB疑難排解</li>
+<li>EEGLAB部分設定內容</li>
+<li>EEGLAB 操作處理資料</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>教學相長，教別人自己也學很多</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>好累，覺得工作真的越多了</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>RPi程式優化</li>
+<li>假新聞專案加速情緒辨識</li>
+<li>RxDart 或 Android Stream</li>
+<li>準備推甄資料</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020/08/16 亂78遭週記</title>
+    <url>/2020/20log-0816.html</url>
+    <content><![CDATA[<h2 id="0816週記"><a href="#0816週記" class="headerlink" title="0816週記"></a><strong>0816週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這篇有點難生出來，畢竟我真的在耍廢</em>😂😅<br>這兩週算是把工作做到一定程度，就開始放鬆了，很多事情都不想做；說真的，我算是很會分心的人，尤其最近處理事情的時候常常不能專注做完我要做的事，感覺有點無力，想要更努力處理一些代辦事項，突然要生出來的研究所推甄書面和準備要弄得多益考試，唉。。。。不知道能不能用好。<br>不過在這快樂的暑假，如果都在工作和處理東西心好累，所以就去找了遊戲玩，以前都不碰老任的遊戲，這次把GBA上的「地球冒險3」破完，有夠感動，果然還是以前的RPG好，讓我又恢復當年想做RPG遊戲的小小夢想，現在有點越走越歪的感覺呢！！🤔<br>其實在前陣子就有這樣想了，我是很喜歡做我目前做的東西是沒錯，但是現在跑去做一些奇怪的領域，碰的東西越來越複雜，感覺之前訂的一些小目標應該是達成了，技術也都會了，就是做出來超級不符合自己的理想，我應該能做更好，然後就為了精進一些小地方花超多時間，有點痛苦，而且學了HCI、網路、系統之類的資訊技術，雖然感覺很厲害，甚麼都知道，但我還是半吊子😥尤其是在最近開始寫書面的時候深深感受到這點，甚麼都會，然後呢，到底想要走甚麼領域，感覺相當的模糊，這種感覺以前還不太會有，最近想到覺得有點可怕，畢竟現在有升學壓力就有這種奇妙的感受，不過這暑假大概就是留給我想這些事情的吧。</p>
 <hr>
 <a id="more"></a>
 <h3 id="看電影放鬆"><a href="#看電影放鬆" class="headerlink" title="看電影放鬆"></a>看電影放鬆</h3><p>雖然前面講的壓力很大很大，不過就和最前面說的一樣，這週都在耍廢，還跑去看8/15的HF3，大結局了，感動的要命。<br>Fate Heaven’s Feel III. Spring Song<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20200817.jpg" alt><br>這次第三部也特地回台中大遠百看，老樣子，拿不到入場禮，內心滿滿的幹意，我們訂的票還是上映第一天的場次，竟然拿不到入場禮，我覺得官方低估了我們這些宅宅，但是整場電影院都是滿人的，而且我們非常天兵，進場時間還記錯，最近好笨喔我。<br>但整個電影相當好看，大家素質也相當好，不管是最前面打Berserker，還是Rider V.S. 黑Saber，UFO把整個氣氛用的相當之好，唯一要吐槽的地方可能真的就是結局的部分吧，因為真的有點趕，但是後面竟然還是和遊戲不同的結局，我覺得相當之感動，我覺得月廚應該都要去看，好險前陣子補了空之境界，要不然我可能後面也會霧颯颯，看不懂在演甚麼。<br>不過我最一開始的週記也是寫去看HF2，現在過了一年半終於等到櫻的結局了，雖然我也很喜歡櫻之夢的那種感覺，但是讓士郎復活這點，在電影裡面讓我這種型月廚大滿足，有種給足解釋的安心感，要不然都用聖杯來解釋感覺比較爛，總之，在疫情中還可以看到電影，我覺得很萬幸了，只是大幅度增加感染機率，要不然我乖乖的隔離(宅)很長一段時間了哈哈。</p>
