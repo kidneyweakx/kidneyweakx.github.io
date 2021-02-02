@@ -2,6 +2,123 @@
 <search>
   <entry>
     <title>2020/12/27 亂78遭週記</title>
+    <url>/2021/21log-0131.html</url>
+    <content><![CDATA[<h2 id="0131紀錄"><a href="#0131紀錄" class="headerlink" title="0131紀錄"></a><strong>0131紀錄</strong></h2><blockquote>
+<p>2021第一篇記錄，已經不是週記了ㄏ🤣</p>
+</blockquote>
+<h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>今年大概只會每個月做一個小記錄，平常真的太過忙碌了</em><br>大四應該算是大學四年最忙的一年，既要規劃工作，還要規劃考研究所，真的還蠻辛苦的。所以部落格生灰也一陣子了，但是也有做一些部落格文章更新的計畫，就是不知道接下來要做些甚麼。大概會以幾個方向做修改</p>
+<ol>
+<li>O-R-I-D的內容應該會從這篇開始有小幅度修改。</li>
+<li>會有一些有趣文章的心得，大概會整理兩三點重點。</li>
+<li>修改Draft和css版型(這點不是最重要的)</li>
+</ol>
+<p>然後大四上也告一個段落了，也吃了實驗室的尾牙，2020也算告一個段落了，但是2021開頭就感覺今年整個世界局勢還是不太妙啊哈，不僅比賽直接被XRP害死，這學期還做一堆快累死自己的事，而且也不知道我接下來畢業後要做甚麼，可能開始做一些小規劃了，不過過年就先休息吧。</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>這幾週的事情，客觀的描述記得甚麼</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>微結構期末報告</li>
+<li>MAX交易競賽自動交易虧損</li>
+<li>個案課訪談及期末報告</li>
+<li>DeFi 研究及投資</li>
+<li>建立投資心態</li>
+<li>閱讀<strong>A man in all market</strong></li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>R 交易機器人改正</li>
+<li>R 自動交易策略測試在不同幣種</li>
+<li>Pygame Speller 刺激程序製作</li>
+<li>MQTT 實驗室訊號顯示程式撰寫</li>
+<li>嘗試聊天機器人rasa環境</li>
+<li>Python backtest程式撰寫</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>把R reticulate時間bug抓出來(需重開機解決)</li>
+<li>把MAX交易機器人放著虧錢 = =</li>
+<li>DeFi swap和deposit嘗試</li>
+<li>各科期末報告和考試</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這幾週的情緒</p>
+</blockquote>
+<ul>
+<li>期末真的好累，光一門課就弄了超久</li>
+<li>但是開始放寒假就可以做一些休息</li>
+</ul>
+<blockquote>
+<p>高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>實驗室尾牙</li>
+<li>微結構上完聚餐</li>
+<li>把期末報告弄完</li>
+</ul>
+<blockquote>
+<p>低點是什麼?</p>
+</blockquote>
+<ul>
+<li>程式有點瓶頸，有點不想打</li>
+<li>交易競賽自動交易被mith和各種東西搞死</li>
+</ul>
+<blockquote>
+<p>這幾週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>MQTT時間延遲</li>
+<li>pygame 版 mqtt speller完成</li>
+<li>DeFi gas有夠高</li>
+<li>rasa環境好難架</li>
+<li>微結構期末也是弄了一陣子</li>
+<li>交易策略超難寫</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這幾週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>DeFi一些有潛力產品</li>
+<li>Python pygame 和mqtt串聯</li>
+<li>Python 在class裡面做多線程處理</li>
+<li>tidyquant分析幣安和國內交易所</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>最近要好好想想自己還欠缺甚麼能力。🤔</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這幾週的工作</p>
+</blockquote>
+<ul>
+<li>這幾週都在學習和閱讀新知，覺得自己缺很多小知識</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>大致上就過年好好地玩，不要想甚麼工作</li>
+<li>DeFi 有趣項目發掘</li>
+<li>把mqtt 的新系統建構完整</li>
+<li>用python把max tradingbot建構完成</li>
+<li>python backtest和金融研究環境測試和撰寫</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020/12/27 亂78遭週記</title>
     <url>/2020/20log-1227.html</url>
     <content><![CDATA[<h2 id="1227週記"><a href="#1227週記" class="headerlink" title="1227週記"></a><strong>1227週記</strong></h2><blockquote>
 <p>2020年最後一篇週記了，部落格都快生灰了🙄</p>

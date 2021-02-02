@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kidneyweakx.com/"/>
-  <updated>2020-12-27T19:06:28.967Z</updated>
+  <updated>2021-02-02T14:41:35.678Z</updated>
   <id>http://kidneyweakx.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2020/12/27 亂78遭週記</title>
+    <link href="http://kidneyweakx.com/2021/21log-0131.html"/>
+    <id>http://kidneyweakx.com/2021/21log-0131.html</id>
+    <published>2021-01-31T15:30:00.000Z</published>
+    <updated>2021-02-02T14:41:35.678Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;0131紀錄&quot;&gt;&lt;a href=&quot;#0131紀錄&quot; class=&quot;headerlink&quot; title=&quot;0131紀錄&quot;&gt;&lt;/a&gt;&lt;strong&gt;0131紀錄&lt;/strong&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;2021第一篇記錄，已經不是週記了ㄏ🤣&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;今年大概只會每個月做一個小記錄，平常真的太過忙碌了&lt;/em&gt;&lt;br&gt;大四應該算是大學四年最忙的一年，既要規劃工作，還要規劃考研究所，真的還蠻辛苦的。所以部落格生灰也一陣子了，但是也有做一些部落格文章更新的計畫，就是不知道接下來要做些甚麼。大概會以幾個方向做修改&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;O-R-I-D的內容應該會從這篇開始有小幅度修改。&lt;/li&gt;
+&lt;li&gt;會有一些有趣文章的心得，大概會整理兩三點重點。&lt;/li&gt;
+&lt;li&gt;修改Draft和css版型(這點不是最重要的)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;然後大四上也告一個段落了，也吃了實驗室的尾牙，2020也算告一個段落了，但是2021開頭就感覺今年整個世界局勢還是不太妙啊哈，不僅比賽直接被XRP害死，這學期還做一堆快累死自己的事，而且也不知道我接下來畢業後要做甚麼，可能開始做一些小規劃了，不過過年就先休息吧。&lt;/p&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
+    
+    
+      <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>2020/12/27 亂78遭週記</title>
@@ -445,28 +476,6 @@
       <category term="程式筆記" scheme="http://kidneyweakx.com/tags/%E7%A8%8B%E5%BC%8F%E7%AD%86%E8%A8%98/"/>
     
       <category term="C#" scheme="http://kidneyweakx.com/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2020/04/26 亂78遭週記</title>
-    <link href="http://kidneyweakx.com/2020/20log-0426.html"/>
-    <id>http://kidneyweakx.com/2020/20log-0426.html</id>
-    <published>2020-04-26T15:30:00.000Z</published>
-    <updated>2020-06-28T17:01:49.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;0426週記&quot;&gt;&lt;a href=&quot;#0426週記&quot; class=&quot;headerlink&quot; title=&quot;0426週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;0426週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;期中考週，忙到快崩潰，感覺自己沒做好準備&lt;/em&gt;&lt;br&gt;期中考我覺得真的慘😞，考卷發下來覺得挺陌生的，這學期GPA看來有點不保，主要是我這學期有點野心太大了，想玩新語言又弄了很多其他語言的專案，不過我還是想把這些東西持續保持好。&lt;br&gt;這週還是玩了一些網頁的東西，有點想挑戰自己的極限，有些有趣的特性很好玩，期中考後想做一些更有趣的東西，不過前提是要把一些必要的東西先弄好再說。&lt;/p&gt;
-&lt;hr&gt;
-    
-    </summary>
-    
-    
-      <category term="blog" scheme="http://kidneyweakx.com/categories/blog/"/>
-    
-    
-      <category term="記錄生活" scheme="http://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
