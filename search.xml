@@ -1,6 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2021/02/28 亂78遭週記</title>
+    <url>/2021/21log-0208.html</url>
+    <content><![CDATA[<h2 id="0228紀錄"><a href="#0228紀錄" class="headerlink" title="0228紀錄"></a><strong>0228紀錄</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>二月的一個小整理，瘋狂玩虛擬幣的一個月</em><br>剛過完年，元宵節在前幾天過完了，也要面臨學生最後一個學期了吧…?這個月想把身體養得好一點，所以都比較早睡(約在23點)，不知道未來能不能堅持下去，不過感覺是有點難度，等到學期中需要忙一些專案的時候，大概率就沒甚麼時間可以睡覺了，反正先把習慣養好，不樣像我的週記半途而廢變成月記，嗚嗚嗚。<br>最近技術文章出產量也比較低，在這學期的空閒時間我抓一點來寫一些去中心化金融的使用心得好了，最近有點著迷在DeFi上，覺得很多合約相當有趣，可以玩出很多花樣，不管在借放貸上，還有各種交易，雖然我在上面有點浪費錢就是了，附一大堆錢在手續費上，唉。<br>這學期的課應該不算太多，所以可以做些區塊鏈的研究，發現自己的興趣應該算是在這邊，不過沒有甚麼人陪我一起研究有點可惜，而且去中心化金融的門檻真的算有點高，陪我一起在這上面亂花錢的人應該不太多哈哈。</p>
+<hr>
+<a id="more"></a>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>這幾週的事情，客觀的描述記得甚麼</p>
+</blockquote>
+<p><em>放年假沒甚麼上課，所以沒甚麼東西可以寫</em></p>
+<p>[程式]</p>
+<ul>
+<li>Latex 環境安裝及基本語法</li>
+<li>FTX交易所自動複利程式(利用借貸款去完成)</li>
+<li>Google App Script 撰寫及自動化 (搭配Google Sheet)</li>
+<li>vnpy安裝入門</li>
+<li>Python回測工具(backtesting)測試</li>
+<li>MQTT 實驗室訊號處理(還沒甚麼弄)</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>FTX 複利程式 (Google App Script)</li>
+<li>VNPY 環境架設</li>
+<li>Latex 基礎使用 (但說真的好像沒有甚麼地方能用)</li>
+<li>看完<strong>a man in all market</strong>感覺自己的心態應該稍微有成長</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這幾週的情緒</p>
+</blockquote>
+<ul>
+<li>好好的在假期休息，只有玩些虛擬貨幣交易的東西</li>
+<li>也有去武陵玩，不過沒有看到下雪，感覺還是有點可惜</li>
+<li>開學後要開始想之後就職的事，把履歷和Linkdin做的更完善點</li>
+</ul>
+<blockquote>
+<p>高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>1inch第二次社群空投</li>
+<li>FTX 自動放貸複利程式撰寫完成</li>
+<li>認識很多DeFi項目</li>
+</ul>
+<blockquote>
+<p>低點是什麼?</p>
+</blockquote>
+<ul>
+<li>FTX kyc通過也太久了一點…</li>
+</ul>
+<blockquote>
+<p>這幾週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>Google App Script的加解密程式相當難寫，我查了他的api感覺教學也不夠好</li>
+<li>DeFi太多項目再衝衝衝了，不知道玩哪一種比較好</li>
+<li>ETH手續費好高…不敢在ETH上玩，比上個月高太多啦崩潰</li>
+<li>BSC許多項目都還在很初期的階段，感覺還不及ETH上的項目成熟</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這幾週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>如何撰寫一個定時執行的Google App Script</li>
+<li>在去中心化交易所做swap、deposit、withdraw</li>
+<li>fantom的DAG架構</li>
+<li>BSC bridge把erc20的幣搬到bep20</li>
+<li>Vault(機槍池)原理和實際體驗</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>DeFi項目很多，無腦投資感覺不太好，所以我打算實際使用後再來看看他好不好</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這幾週的工作</p>
+</blockquote>
+<ul>
+<li>這幾週算是做個休息，不過也學了很多幣圈知識</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>研究DeFi項目和發掘BSC的一些有趣項目</li>
+<li>ERP Speller實驗設置</li>
+<li>Unity 3D模型建置之類的</li>
+<li>想開始學Solidity或Vyper來撰寫合約，看可不可以做出一些金融的項目</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2021/01/31 亂78遭週記</title>
     <url>/2021/21log-0131.html</url>
     <content><![CDATA[<h2 id="0131紀錄"><a href="#0131紀錄" class="headerlink" title="0131紀錄"></a><strong>0131紀錄</strong></h2><blockquote>

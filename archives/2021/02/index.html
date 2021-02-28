@@ -47,22 +47,18 @@
   };
 </script>
 
-  <meta name="description" content="剛好在把C++的動態庫加入flutter中，想說寫個Native Java版試試看，結果遇到了這種鬼問題😱😱😱。 1bug: Error &amp;gt; &quot;executing external native build for cmake&quot;  本來以為是CMakeLists.txt裡面有一些語法問題，結果仔細改寫了一下，問題依舊。 參考了這篇想說有可能會改善，結果還是執行到一半報相同的錯誤。HMM">
-<meta name="keywords" content="程式筆記,Javascript">
-<meta property="og:type" content="article">
-<meta property="og:title" content="NDK編譯動態庫.so錯誤 executing external native build for cmake">
-<meta property="og:url" content="http://kidneyweakx.com/2020/20log-0411-ndkexc.html">
+  <meta name="description" content="簡單。紀錄和分享日常">
+<meta property="og:type" content="website">
+<meta property="og:title" content="準備爆肝的weak日常">
+<meta property="og:url" content="http://kidneyweakx.com/archives/2021/02/index.html">
 <meta property="og:site_name" content="準備爆肝的weak日常">
-<meta property="og:description" content="剛好在把C++的動態庫加入flutter中，想說寫個Native Java版試試看，結果遇到了這種鬼問題😱😱😱。 1bug: Error &amp;gt; &quot;executing external native build for cmake&quot;  本來以為是CMakeLists.txt裡面有一些語法問題，結果仔細改寫了一下，問題依舊。 參考了這篇想說有可能會改善，結果還是執行到一半報相同的錯誤。HMM">
+<meta property="og:description" content="簡單。紀錄和分享日常">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20200411-ndkerror.png">
-<meta property="og:updated_time" content="2020-04-20T15:39:54.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="NDK編譯動態庫.so錯誤 executing external native build for cmake">
-<meta name="twitter:description" content="剛好在把C++的動態庫加入flutter中，想說寫個Native Java版試試看，結果遇到了這種鬼問題😱😱😱。 1bug: Error &amp;gt; &quot;executing external native build for cmake&quot;  本來以為是CMakeLists.txt裡面有一些語法問題，結果仔細改寫了一下，問題依舊。 參考了這篇想說有可能會改善，結果還是執行到一半報相同的錯誤。HMM">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20200411-ndkerror.png">
+<meta name="twitter:title" content="準備爆肝的weak日常">
+<meta name="twitter:description" content="簡單。紀錄和分享日常">
 
-<link rel="canonical" href="http://kidneyweakx.com/2020/20log-0411-ndkexc.html">
+<link rel="canonical" href="http://kidneyweakx.com/archives/2021/02/">
 
 
 <script id="page-configurations">
@@ -70,11 +66,11 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: true
+    isPost: false
   };
 </script>
 
-  <title>NDK編譯動態庫.so錯誤 executing external native build for cmake | 準備爆肝的weak日常</title>
+  <title>歸檔 | 準備爆肝的weak日常</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157742622-1"></script>
     <script>
@@ -224,142 +220,54 @@
           <div class="content">
             
 
-  <div class="posts-expand">
-      
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-tw">
-    <link itemprop="mainEntityOfPage" href="http://kidneyweakx.com/2020/20log-0411-ndkexc.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="kidneyweakx">
-      <meta itemprop="description" content="簡單。紀錄和分享日常">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="準備爆肝的weak日常">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          NDK編譯動態庫.so錯誤 executing external native build for cmake
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2020-04-11 13:42:35" itemprop="dateCreated datePublished" datetime="2020-04-11T13:42:35+08:00">2020-04-11</time>
-            </span>
-
-          
-            <span class="post-meta-item" title="閱讀次數" id="busuanzi_container_page_pv" style="display: none;"></span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">閱讀次數：</span>
-              <span id="busuanzi_value_page_pv"></span>
-            </span><br>
-            <span class="post-meta-item" title="文章字數">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">文章字數：</span>
-              <span>327</span>
-            </span>
-            <span class="post-meta-item" title="所需閱讀時間">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
-              <span>1 分鐘</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-        <p>剛好在把C++的動態庫加入flutter中，想說寫個Native Java版試試看，結果遇到了這種鬼問題😱😱😱。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bug: Error &gt; <span class="string">"executing external native build for cmake"</span></span><br></pre></td></tr></table></figure>
-
-<p>本來以為是CMakeLists.txt裡面有一些語法問題，結果仔細改寫了一下，問題依舊。</p>
-<p><a href="https://blog.csdn.net/kidults/article/details/80599923" target="_blank" rel="noopener">參考了這篇</a>想說有可能會改善，結果還是執行到一半報相同的錯誤。<br>HMMMM🤔……中間又各種改build.gradle和cmake，發現怎麼解都無法編譯成功。</p>
-<a id="more"></a>
-<p>翻了一下留言看到這個<a href="https://blog.csdn.net/qq_36818970/article/details/88797526" target="_blank" rel="noopener">解法</a>。<br>把我的gradle版本降級到3.2.1竟然就可以編譯了<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20200411-ndkerror.png" alt></p>
-<p>我猜是因為SDK工具缺少一些依賴的工具吧~不過也沒有想要釐清的意思，繼續當搬磚仔，解決這個問題才是惡夢的開始呢。</p>
-
-    </div>
-
-    
-    
-    
-        <div class="reward-container">
-  <div>你的支持是我繼續創作的動力！</div>
-  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
-    <i class="fa fa-qrcode fa-2x" style="line-height:30px;"></i>
-  </button>
-  <div id="qr" style="display: none;">
-      
-      <div style="display: inline-block;">
-        <img src="/images/bitcoin.jpg" alt="kidneyweakx Bitcoin">
-        <p>Bitcoin</p>
-      </div>
-      <div style="display: inline-block;">
-        <img src="/images/ethereum.jpg" alt="kidneyweakx Ethereum">
-        <p>Ethereum</p>
+  
+  <div class="post-block">
+    <div class="posts-collapse">
+      <div class="collection-title">
+        
+        <span class="collection-header">很好! 目前共有 85 篇文章。 繼續努力。</span>
       </div>
 
-  </div>
-</div>
-
-
-      <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/程式筆記/" rel="tag"># 程式筆記</a>
-              <a href="/tags/Javascript/" rel="tag"># Javascript</a>
-          </div>
-
-        
-
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2020/20log-0405.html" rel="prev" title="2020/04/05 亂78遭週記">
-      <i class="fa fa-chevron-left"></i> 2020/04/05 亂78遭週記
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/20log-0412.html" rel="next" title="2020/04/12 亂78遭週記">
-      2020/04/12 亂78遭週記 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      
+    <div class="collection-year">
+      <h1 class="collection-header">2021</h1>
     </div>
-      </footer>
-    
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2021-02-28T12:30:00+08:00"
+              content="2021-02-28">
+          02-28
+        </time>
+      </div>
+
+      <h2 class="post-title">
+          <a class="post-title-link" href="/2021/21log-0208.html" itemprop="url">
+            <span itemprop="name">2021/02/28 亂78遭週記</span>
+          </a>
+      </h2>
+
+    </header>
   </article>
+
+
+    </div>
+  </div>
   
   
   
 
-  </div>
+  
+
 
 
           </div>
           
-    
-  
-  <div class="comments">
-  <script src="https://utteranc.es/client.js" repo="kidneyweakx/kidneyweakx.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script>
-  </div>
-  
-  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -562,7 +470,7 @@
       quicklink({
         timeout: 3000,
         priority: true,
-        ignores: [uri => uri.includes('#'),uri => uri == 'http://kidneyweakx.com/2020/20log-0411-ndkexc.html',]
+        ignores: [uri => uri.includes('#'),uri => uri == 'http://kidneyweakx.com/archives/2021/02/',]
       });
       });
   </script>
