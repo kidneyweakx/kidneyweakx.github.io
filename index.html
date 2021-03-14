@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 3.9.0">
+<meta name="generator" content="Hexo 5.4.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
@@ -53,10 +53,9 @@
 <meta property="og:url" content="http://kidneyweakx.com/index.html">
 <meta property="og:site_name" content="準備爆肝的weak日常">
 <meta property="og:description" content="簡單。紀錄和分享日常">
-<meta property="og:locale" content="zh-tw">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:author" content="kidneyweakx">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="準備爆肝的weak日常">
-<meta name="twitter:description" content="簡單。紀錄和分享日常">
 
 <link rel="canonical" href="http://kidneyweakx.com/">
 
@@ -166,12 +165,12 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>標籤<span class="badge">15</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>標籤<span class="badge">13</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>歸檔<span class="badge">85</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>歸檔<span class="badge">86</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -357,8 +356,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>原本C#的serial port function<a href="https://docs.microsoft.com/zh-tw/dotnet/api/system.io.ports.serialport?view=dotnet-plat-ext-3.1" target="_blank" rel="noopener">官方範例</a>，是類似這樣的</p>
-<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">streamport = <span class="keyword">new</span> SerialPort(<span class="string">"COM3"</span>, bauadrate);</span><br></pre></td></tr></table></figure>
+          <p>原本C#的serial port function<a target="_blank" rel="noopener" href="https://docs.microsoft.com/zh-tw/dotnet/api/system.io.ports.serialport?view=dotnet-plat-ext-3.1">官方範例</a>，是類似這樣的</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">streamport = <span class="keyword">new</span> SerialPort(<span class="string">&quot;COM3&quot;</span>, bauadrate);</span><br></pre></td></tr></table></figure>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2020/20log-0428-serial.html#more" rel="contents">
@@ -497,7 +496,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>327</span>
+              <span>337</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -517,10 +516,9 @@
 
       
           <p>剛好在把C++的動態庫加入flutter中，想說寫個Native Java版試試看，結果遇到了這種鬼問題😱😱😱。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bug: Error &gt; <span class="string">"executing external native build for cmake"</span></span><br></pre></td></tr></table></figure>
-
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bug: Error &gt; <span class="string">&quot;executing external native build for cmake&quot;</span></span><br></pre></td></tr></table></figure>
 <p>本來以為是CMakeLists.txt裡面有一些語法問題，結果仔細改寫了一下，問題依舊。</p>
-<p><a href="https://blog.csdn.net/kidults/article/details/80599923" target="_blank" rel="noopener">參考了這篇</a>想說有可能會改善，結果還是執行到一半報相同的錯誤。<br>HMMMM🤔……中間又各種改build.gradle和cmake，發現怎麼解都無法編譯成功。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/kidults/article/details/80599923">參考了這篇</a>想說有可能會改善，結果還是執行到一半報相同的錯誤。<br>HMMMM🤔……中間又各種改build.gradle和cmake，發現怎麼解都無法編譯成功。</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2020/20log-0411-ndkexc.html#more" rel="contents">
@@ -659,7 +657,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>985</span>
+              <span>1.1k</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -684,7 +682,7 @@
 <ul>
 <li><code>Next</code>其實本來就內建很多評論系統了，例: Disqus、gitment等…</li>
 <li>Disqus我平常沒甚麼在用，再辦一個帳號對我懶癌發作的人很痛苦；於是就找上了<code>gitment</code>一個將Github issue成為評論系統的工具。</li>
-<li>不過我在爬文時又看到這篇<a href="https://www.v2ex.com/t/535608" target="_blank" rel="noopener">建议大家弃用 Gitalk 和 Gitment 等权限过高的 Github OAuth App</a>。</li>
+<li>不過我在爬文時又看到這篇<a target="_blank" rel="noopener" href="https://www.v2ex.com/t/535608">建议大家弃用 Gitalk 和 Gitment 等权限过高的 Github OAuth App</a>。</li>
 <li>hmmm…我不想被惡意工程師搞QAQ
           <!--noindex-->
             <div class="post-button">
@@ -745,7 +743,7 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>1.8k</span>
+              <span>1.9k</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -764,7 +762,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>在種種原因之下，從Blogger牽到GitHub Pages上，陪伴我一學期的Blogger正式停止更新。紀念一下<a href="https://kidneyweakx.blogspot.com/" target="_blank" rel="noopener">這是原站點</a>，而讓我跳槽到Hexo的原因如下:</p>
+          <p>在種種原因之下，從Blogger牽到GitHub Pages上，陪伴我一學期的Blogger正式停止更新。紀念一下<a target="_blank" rel="noopener" href="https://kidneyweakx.blogspot.com/">這是原站點</a>，而讓我跳槽到Hexo的原因如下:</p>
 <ul>
 <li>Blogger 後臺真的十分陽春(上手很難進一步改動)。</li>
 <li>我習慣使用的Markdown語法需要轉成html再貼上Blogger編輯器。</li>
@@ -851,7 +849,7 @@
           <h2 id="安裝前準備動作"><a href="#安裝前準備動作" class="headerlink" title="安裝前準備動作"></a><strong>安裝前準備動作</strong></h2><ol>
 <li><strong>先在windows內割出一個給系統安裝的分割</strong></li>
 </ol>
-<p><em>在本機-&gt;右鍵-&gt;管理-&gt;磁碟管理</em><br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/y520-01.png" alt></p>
+<p><em>在本機-&gt;右鍵-&gt;管理-&gt;磁碟管理</em><br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/y520-01.png"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2019/19log-0416-y520_duals.html#more" rel="contents">
@@ -946,7 +944,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">85</span>
+          <span class="site-state-item-count">86</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -958,23 +956,23 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-count">13</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
 </div>
   <div class="links-of-author motion-element">
       <span class="links-of-author-item">
-        <a href="https://github.com/kidneyweakx" title="GitHub → https://github.com/kidneyweakx" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+        <a href="https://github.com/kidneyweakx" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;kidneyweakx" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://www.facebook.com/kidneyweak.xyz" title="FB Page → https://www.facebook.com/kidneyweak.xyz" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+        <a href="https://www.facebook.com/kidneyweak.xyz" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;kidneyweak.xyz" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
       </span>
       <span class="links-of-author-item">
         <a href="mailto:kidneyweakx@gmail.com" title="E-Mail → mailto:kidneyweakx@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
       </span>
       <span class="links-of-author-item">
-        <a href="/atom.xml" title="RSS → /atom.xml"><i class="fa fa-fw fa-rss"></i></a>
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-fw fa-rss"></i></a>
       </span>
   </div>
 
@@ -1007,13 +1005,13 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">75k</span>
+    <span title="總字數">76k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">1:08</span>
+    <span title="所需總閱讀時間">1:09</span>
 </div>
 
         
@@ -1054,9 +1052,17 @@
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
-<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
 <script src="/js/schemes/pisces.js"></script>
+
+
 <script src="/js/next-boot.js"></script>
+
 
 
 
@@ -1065,7 +1071,9 @@
 
 
 
-  <script src="/js/local-search.js"></script>
+  
+<script src="/js/local-search.js"></script>
+
 
 
 

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 3.9.0">
+<meta name="generator" content="Hexo 5.4.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
@@ -48,17 +48,17 @@
 </script>
 
   <meta name="description" content="0929週記心情抒發沒時間把主題之類的都搞好這週忙上很多，但是也弄了蠻多東西，還不錯。不過也看了噬血狂襲OVA，完結了好難過。鬼滅之刃、街角魔族和孔明也都完結了QQ">
-<meta name="keywords" content="記錄生活">
 <meta property="og:type" content="article">
 <meta property="og:title" content="2019&#x2F;09&#x2F;29 亂78遭週記">
 <meta property="og:url" content="http://kidneyweakx.com/2019/19log-0929.html">
 <meta property="og:site_name" content="準備爆肝的weak日常">
 <meta property="og:description" content="0929週記心情抒發沒時間把主題之類的都搞好這週忙上很多，但是也弄了蠻多東西，還不錯。不過也看了噬血狂襲OVA，完結了好難過。鬼滅之刃、街角魔族和孔明也都完結了QQ">
-<meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2020-06-28T17:04:13.000Z">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2019-09-29T15:30:00.000Z">
+<meta property="article:modified_time" content="2020-06-28T17:04:13.000Z">
+<meta property="article:author" content="kidneyweakx">
+<meta property="article:tag" content="記錄生活">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="2019&#x2F;09&#x2F;29 亂78遭週記">
-<meta name="twitter:description" content="0929週記心情抒發沒時間把主題之類的都搞好這週忙上很多，但是也弄了蠻多東西，還不錯。不過也看了噬血狂襲OVA，完結了好難過。鬼滅之刃、街角魔族和孔明也都完結了QQ">
 
 <link rel="canonical" href="http://kidneyweakx.com/2019/19log-0929.html">
 
@@ -168,12 +168,12 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>標籤<span class="badge">15</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>標籤<span class="badge">13</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>歸檔<span class="badge">85</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>歸檔<span class="badge">86</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -298,7 +298,7 @@
       
         <h2 id="0929週記"><a href="#0929週記" class="headerlink" title="0929週記"></a><strong>0929週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>沒時間把主題之類的都搞好</em><br>這週忙上很多，但是也弄了蠻多東西，還不錯。<br>不過也看了噬血狂襲OVA，完結了好難過。<br>鬼滅之刃、街角魔族和孔明也都完結了QQ</p>
 <hr>
-<a id="more"></a>
+<span id="more"></span>
 <h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
 <p>關於這周的課程, 你記得什麼?</p>
 </blockquote>
@@ -326,8 +326,8 @@
 <li>push Node.js 到 heroku</li>
 <li>face-api接入專案並實現年齡辨識</li>
 <li>Jquery 小運用 及修改 css</li>
-<li>flutter <a href="https://pub.dev/packages/webview_flutter" target="_blank" rel="noopener">webview</a> (無法開啟影片 canvas)</li>
-<li>flutter <a href="https://pub.dev/packages/tflite" target="_blank" rel="noopener">tflite</a> 及時辨識</li>
+<li>flutter <a target="_blank" rel="noopener" href="https://pub.dev/packages/webview_flutter">webview</a> (無法開啟影片 canvas)</li>
+<li>flutter <a target="_blank" rel="noopener" href="https://pub.dev/packages/tflite">tflite</a> 及時辨識</li>
 <li>flutter widget 架構</li>
 <li>Powershell 批次改名語法</li>
 </ul>
@@ -367,13 +367,9 @@
 <p>這周的巨坑是什麼?</p>
 </blockquote>
 <ul>
-<li><p>解決heroku小<a href="https://stackoverflow.com/questions/43728830/heroku-process-exited-with-status-137-node-js-app" target="_blank" rel="noopener">問題</a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var port = process.env.PORT || 3000;</span><br><span class="line">var server=app.listen(port,function() &#123;</span><br><span class="line">console.log(&quot;app running on port 3000&quot;); &#125;);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>解決Node.js sever.js出現的分配問題</p>
-</li>
-<li><p>解決更新flutter btn顯示問題</p>
-</li>
+<li>解決heroku小<a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/43728830/heroku-process-exited-with-status-137-node-js-app">問題</a><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var port &#x3D; process.env.PORT || 3000;</span><br><span class="line">var server&#x3D;app.listen(port,function() &#123;</span><br><span class="line">console.log(&quot;app running on port 3000&quot;); &#125;);</span><br></pre></td></tr></table></figure></li>
+<li>解決Node.js sever.js出現的分配問題</li>
+<li>解決更新flutter btn顯示問題</li>
 </ul>
 <h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
 <p>我們這周學到了什麼?</p>
@@ -395,7 +391,7 @@
 <p>[Windows]</p>
 <ul>
 <li>Azure 虛擬機創造</li>
-<li>powershell 指令(更改空白成-號)<br><code>Dir | Rename-Item -NewName { $_.name -replace &quot; &quot;, &quot;-&quot; }</code></li>
+<li>powershell 指令(更改空白成-號)<br><code>Dir | Rename-Item -NewName &#123; $_.name -replace &quot; &quot;, &quot;-&quot; &#125;</code></li>
 </ul>
 <blockquote>
 <p>這周一個重要的領悟是什麼?</p>
@@ -449,7 +445,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/記錄生活/" rel="tag"># 記錄生活</a>
+              <a href="/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/" rel="tag"># 記錄生活</a>
           </div>
 
         
@@ -531,7 +527,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#0929週記"><span class="nav-number">1.</span> <span class="nav-text">0929週記</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#心情抒發"><span class="nav-number">1.1.</span> <span class="nav-text">心情抒發</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Objective"><span class="nav-number">2.</span> <span class="nav-text">Objective</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reflective"><span class="nav-number">3.</span> <span class="nav-text">Reflective</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Interpretive"><span class="nav-number">4.</span> <span class="nav-text">Interpretive</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Decisional"><span class="nav-number">5.</span> <span class="nav-text">Decisional</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#0929%E9%80%B1%E8%A8%98"><span class="nav-number">1.</span> <span class="nav-text">0929週記</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BF%83%E6%83%85%E6%8A%92%E7%99%BC"><span class="nav-number">1.1.</span> <span class="nav-text">心情抒發</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Objective"><span class="nav-number">2.</span> <span class="nav-text">Objective</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reflective"><span class="nav-number">3.</span> <span class="nav-text">Reflective</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Interpretive"><span class="nav-number">4.</span> <span class="nav-text">Interpretive</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Decisional"><span class="nav-number">5.</span> <span class="nav-text">Decisional</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -547,7 +543,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">85</span>
+          <span class="site-state-item-count">86</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -559,23 +555,23 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-count">13</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
 </div>
   <div class="links-of-author motion-element">
       <span class="links-of-author-item">
-        <a href="https://github.com/kidneyweakx" title="GitHub → https://github.com/kidneyweakx" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+        <a href="https://github.com/kidneyweakx" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;kidneyweakx" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://www.facebook.com/kidneyweak.xyz" title="FB Page → https://www.facebook.com/kidneyweak.xyz" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+        <a href="https://www.facebook.com/kidneyweak.xyz" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;kidneyweak.xyz" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
       </span>
       <span class="links-of-author-item">
         <a href="mailto:kidneyweakx@gmail.com" title="E-Mail → mailto:kidneyweakx@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
       </span>
       <span class="links-of-author-item">
-        <a href="/atom.xml" title="RSS → /atom.xml"><i class="fa fa-fw fa-rss"></i></a>
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-fw fa-rss"></i></a>
       </span>
   </div>
 
@@ -608,13 +604,13 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">75k</span>
+    <span title="總字數">76k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">1:08</span>
+    <span title="所需總閱讀時間">1:09</span>
 </div>
 
         
@@ -655,9 +651,17 @@
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
-<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
 <script src="/js/schemes/pisces.js"></script>
+
+
 <script src="/js/next-boot.js"></script>
+
 
 
 
@@ -666,7 +670,9 @@
 
 
 
-  <script src="/js/local-search.js"></script>
+  
+<script src="/js/local-search.js"></script>
+
 
 
 

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 3.9.0">
+<meta name="generator" content="Hexo 5.4.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
@@ -48,17 +48,18 @@
 </script>
 
   <meta name="description" content="重點margin 與 padding 的差異 位置是他們最大的差異 margin 是外邊距，有負值，別稱 填充 padding 是內邊距，別稱 空白邊甚麼是 box model 框模型(box model)是包含border(邊框)、margin(外邊距)、padding(內邊距)和處理元素內容的處理方式。">
-<meta name="keywords" content="程式筆記,css">
 <meta property="og:type" content="article">
 <meta property="og:title" content="css 重點筆記">
 <meta property="og:url" content="http://kidneyweakx.com/2019/19log-0314-css_note.html">
 <meta property="og:site_name" content="準備爆肝的weak日常">
 <meta property="og:description" content="重點margin 與 padding 的差異 位置是他們最大的差異 margin 是外邊距，有負值，別稱 填充 padding 是內邊距，別稱 空白邊甚麼是 box model 框模型(box model)是包含border(邊框)、margin(外邊距)、padding(內邊距)和處理元素內容的處理方式。">
-<meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2020-02-04T06:11:37.000Z">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2019-03-14T14:46:00.000Z">
+<meta property="article:modified_time" content="2020-02-04T06:11:37.000Z">
+<meta property="article:author" content="kidneyweakx">
+<meta property="article:tag" content="程式筆記">
+<meta property="article:tag" content="css">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="css 重點筆記">
-<meta name="twitter:description" content="重點margin 與 padding 的差異 位置是他們最大的差異 margin 是外邊距，有負值，別稱 填充 padding 是內邊距，別稱 空白邊甚麼是 box model 框模型(box model)是包含border(邊框)、margin(外邊距)、padding(內邊距)和處理元素內容的處理方式。">
 
 <link rel="canonical" href="http://kidneyweakx.com/2019/19log-0314-css_note.html">
 
@@ -168,12 +169,12 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>標籤<span class="badge">15</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>標籤<span class="badge">13</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>歸檔<span class="badge">85</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>歸檔<span class="badge">86</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -289,13 +290,13 @@
 <li>位置是他們最大的差異</li>
 <li>margin 是外邊距，有負值，別稱 填充</li>
 <li>padding 是內邊距，別稱 空白邊<h3 id="甚麼是-box-model"><a href="#甚麼是-box-model" class="headerlink" title="甚麼是 box model"></a>甚麼是 box model</h3></li>
-<li>框模型(box model)是包含border(邊框)、margin(外邊距)、padding(內邊距)和處理元素內容的處理方式。<a id="more"></a>
+<li>框模型(box model)是包含border(邊框)、margin(外邊距)、padding(內邊距)和處理元素內容的處理方式。<span id="more"></span>
 <h3 id="為何要使用-em-而非-px-來定義字的大小"><a href="#為何要使用-em-而非-px-來定義字的大小" class="headerlink" title="為何要使用 em 而非 px 來定義字的大小"></a>為何要使用 em 而非 px 來定義字的大小</h3></li>
 <li>為了在internet explorer調整文本大小</li>
 <li>em可以在所有瀏覽器更改文字大小，px在部分瀏覽器不行</li>
 <li>px是用來調邊距的單位</li>
 </ul>
-<h2 id="參考網址"><a href="#參考網址" class="headerlink" title="參考網址"></a><a href="http://www.w3school.com.cn/css/css_boxmodel.asp" target="_blank" rel="noopener">參考網址</a></h2><h2 id="問答"><a href="#問答" class="headerlink" title="[問答]"></a><strong>[問答]</strong></h2><blockquote>
+<h2 id="參考網址"><a href="#參考網址" class="headerlink" title="參考網址"></a><a target="_blank" rel="noopener" href="http://www.w3school.com.cn/css/css_boxmodel.asp">參考網址</a></h2><h2 id="問答"><a href="#問答" class="headerlink" title="[問答]"></a><strong>[問答]</strong></h2><blockquote>
 <p>h1 {margin : 10px 0px 15px 5px;} 的margin-top、margin-right、margin-left、margin-bottom 各是多少？</p>
 </blockquote>
 <ul>
@@ -335,7 +336,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/程式筆記/" rel="tag"># 程式筆記</a>
+              <a href="/tags/%E7%A8%8B%E5%BC%8F%E7%AD%86%E8%A8%98/" rel="tag"># 程式筆記</a>
               <a href="/tags/css/" rel="tag"># css</a>
           </div>
 
@@ -418,7 +419,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#重點"><span class="nav-number">1.</span> <span class="nav-text">重點</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#margin-與-padding-的差異"><span class="nav-number">1.1.</span> <span class="nav-text">margin 與 padding 的差異</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#甚麼是-box-model"><span class="nav-number">1.2.</span> <span class="nav-text">甚麼是 box model</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#為何要使用-em-而非-px-來定義字的大小"><span class="nav-number">1.3.</span> <span class="nav-text">為何要使用 em 而非 px 來定義字的大小</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#參考網址"><span class="nav-number">2.</span> <span class="nav-text">參考網址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#問答"><span class="nav-number">3.</span> <span class="nav-text">[問答]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extra"><span class="nav-number">4.</span> <span class="nav-text">Extra</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%87%8D%E9%BB%9E"><span class="nav-number">1.</span> <span class="nav-text">重點</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#margin-%E8%88%87-padding-%E7%9A%84%E5%B7%AE%E7%95%B0"><span class="nav-number">1.1.</span> <span class="nav-text">margin 與 padding 的差異</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%9A%E9%BA%BC%E6%98%AF-box-model"><span class="nav-number">1.2.</span> <span class="nav-text">甚麼是 box model</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%82%BA%E4%BD%95%E8%A6%81%E4%BD%BF%E7%94%A8-em-%E8%80%8C%E9%9D%9E-px-%E4%BE%86%E5%AE%9A%E7%BE%A9%E5%AD%97%E7%9A%84%E5%A4%A7%E5%B0%8F"><span class="nav-number">1.3.</span> <span class="nav-text">為何要使用 em 而非 px 來定義字的大小</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%83%E8%80%83%E7%B6%B2%E5%9D%80"><span class="nav-number">2.</span> <span class="nav-text">參考網址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%95%8F%E7%AD%94"><span class="nav-number">3.</span> <span class="nav-text">[問答]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extra"><span class="nav-number">4.</span> <span class="nav-text">Extra</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -434,7 +435,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">85</span>
+          <span class="site-state-item-count">86</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -446,23 +447,23 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-count">13</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
 </div>
   <div class="links-of-author motion-element">
       <span class="links-of-author-item">
-        <a href="https://github.com/kidneyweakx" title="GitHub → https://github.com/kidneyweakx" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+        <a href="https://github.com/kidneyweakx" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;kidneyweakx" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://www.facebook.com/kidneyweak.xyz" title="FB Page → https://www.facebook.com/kidneyweak.xyz" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+        <a href="https://www.facebook.com/kidneyweak.xyz" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;kidneyweak.xyz" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
       </span>
       <span class="links-of-author-item">
         <a href="mailto:kidneyweakx@gmail.com" title="E-Mail → mailto:kidneyweakx@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
       </span>
       <span class="links-of-author-item">
-        <a href="/atom.xml" title="RSS → /atom.xml"><i class="fa fa-fw fa-rss"></i></a>
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-fw fa-rss"></i></a>
       </span>
   </div>
 
@@ -495,13 +496,13 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">75k</span>
+    <span title="總字數">76k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">1:08</span>
+    <span title="所需總閱讀時間">1:09</span>
 </div>
 
         
@@ -542,9 +543,17 @@
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
-<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
 <script src="/js/schemes/pisces.js"></script>
+
+
 <script src="/js/next-boot.js"></script>
+
 
 
 
@@ -553,7 +562,9 @@
 
 
 
-  <script src="/js/local-search.js"></script>
+  
+<script src="/js/local-search.js"></script>
+
 
 
 
