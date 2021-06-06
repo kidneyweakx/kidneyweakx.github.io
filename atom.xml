@@ -6,7 +6,7 @@
   <link href="https://kidneyweakx.com/atom.xml" rel="self"/>
   
   <link href="https://kidneyweakx.com/"/>
-  <updated>2021-05-27T08:55:29.942Z</updated>
+  <updated>2021-06-06T09:16:22.110Z</updated>
   <id>https://kidneyweakx.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2021/05/30 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2021/21log-0530.html"/>
+    <id>https://kidneyweakx.com/2021/21log-0530.html</id>
+    <published>2021-05-30T15:30:00.000Z</published>
+    <updated>2021-06-06T09:16:22.110Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0530紀錄&quot;&gt;&lt;a href=&quot;#0530紀錄&quot; class=&quot;headerlink&quot; title=&quot;0530紀錄&quot;&gt;&lt;/a&gt;&lt;strong&gt;0530紀錄&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;這個月不管是在社會和自己身上都發生超多事情，心情說上去其實沒有那麼好，有點低氣壓&lt;/em&gt;😕&lt;/p&gt;
+&lt;p&gt;😥這幾個月真的讓人覺得很擔心，看到台灣的一些疫情問題，現在真的不太適合出門，能就多宅在家看動漫或寫點程式，像我都在玩區塊鏈，所以都關在宿舍中。&lt;/p&gt;
+&lt;p&gt;🙄不過這個月最大的事就是我把實驗室的工作放下了，最後就做到五月底。因為加了腦電實驗室，感覺知識面變得有更廣了一點，雖然感覺上自己還是甚麼都不會，最後也有自己的專案，SSVEP及時運算的程式，說真的，在實驗室中我最大的感想就是，分析數據這件事，真的不是一件非常有趣的事，雖然我在分析商業的數據覺得還好，但分析嚴謹的程序後，就覺得自己不太想走這行。&lt;/p&gt;
+&lt;p&gt;🏛然後這幾週我還是很忙，主要銀行的產學合作我個人覺得有點小刁鑽，但是也無可奈何，畢竟我們做的東西不是銀行方要的😫，我弄了一個週末的推薦系統直接打水飄說實在的是有點不爽，感覺上就是進度超前卻被指正沒有必要做到那麼多的感覺，害我重心不是很想放在這門課。&lt;/p&gt;
+&lt;p&gt;🍳不過也是有點收穫的，這幾週發現社交媒體才是未來的關鍵，畢竟我們不能和別人接觸，那人與人的第一印象可能就存在FB或其他通訊軟體上，所以開始認真地培育我在社群的地位，也開始想一些未來工作的型態，之後如果都WFH(Work From Home)的話，我們就需要在社群有些發言力，和有自己工作和激勵自己的原則，不過好險我是個宅宅，這種原則自己就有一些，雖然這個週記就是我不守紀律沒每週寫出來的。&lt;br&gt;🚀然後DeFi實在是太好玩了，我在五月直接狂玩一波，有被坑，也有賺錢的項目，不過坑的真的超慘，所以現在有點佛系，在六月的時候應該，我會想辦法努力生出的項目來投投看黑客松，當作練練手。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>2021/04/25 亂78遭週記</title>
@@ -410,26 +434,6 @@
     
     
     <summary type="html">&lt;h2 id=&quot;0705週記&quot;&gt;&lt;a href=&quot;#0705週記&quot; class=&quot;headerlink&quot; title=&quot;0705週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;0705週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;這週做了些暑期計畫，順便讓自己更了解軟體開發&lt;/em&gt;&lt;br&gt;都暑假了，感覺要做到更多平常沒做到的事，畢竟像我這種宅宅通常都待在家裡或宿舍，所以感覺要做更多的事，目前就在開始研究Linux Kernel，真的覺得我對這東西的概念怎麼那麼缺乏，真的感覺要學的還是很多。&lt;br&gt;不過還是把Blog整理整理了，之前一直想弄的東西，改點小東西就用好了，不過插件好像越來越多哈哈，電腦執行hexo的效率越來越慢了，之後再想有沒有辦法能改善。&lt;/p&gt;
-&lt;hr&gt;</summary>
-    
-    
-    
-    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
-    
-    
-    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2020/06/28 亂78遭週記</title>
-    <link href="https://kidneyweakx.com/2020/20log-0628.html"/>
-    <id>https://kidneyweakx.com/2020/20log-0628.html</id>
-    <published>2020-06-28T15:30:00.000Z</published>
-    <updated>2020-07-05T16:27:15.000Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;0628週記&quot;&gt;&lt;a href=&quot;#0628週記&quot; class=&quot;headerlink&quot; title=&quot;0628週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;0628週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;學期終於結束了，把許多在學校處理的事情處理完&lt;/em&gt;😊&lt;br&gt;六月也到尾聲了，不過在暑假積累了一堆計畫想做，式時候該把一些代辦事項拿出來弄一弄了，有些有意思的東西，我發現我能力真的有點不太夠處理，所以想要多學一點，不只原理，有些想從基礎開始搞起來，尤其像計算機基礎的C語言和Linux Kernel，還有各種ARM架構，每個都想玩玩看。&lt;/p&gt;
 &lt;hr&gt;</summary>
     
     
