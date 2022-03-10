@@ -4,29 +4,6 @@ comments: false
 ---
 > 目前尚未有很多作品，先列幾個有趣的
 
-<style>
-    .left{
-        float: left;
-        width: 30%;
-        margin: 2% 0
-    }
-    .right{
-        float: right;
-        width: 60%;
-        margin: 1% 0
-    }
-    .ul_row {
-        display:inline-block;
-        margin: 0 auto
-    }
-    .even{
-        background-color: rgb(210,210,210);
-    }
-    .ctext {
-        text-align:center
-    }
-</style>
-
 ### 😎目前最自豪的玩具 
 <section class="proudproject">
     <ul class="ul_row">
@@ -170,3 +147,26 @@ comments: false
         </div>
     </ul>
 </section>
+
+<style>
+    .left{
+        float: left;
+        width: 30%;
+        margin: 2% 0
+    }
+    .right{
+        float: right;
+        width: 60%;
+        margin: 1% 0
+    }
+    .ul_row {
+        display:inline-block;
+        margin: 0 auto
+    }
+    .even{
+        background-color: rgb(210,210,210);
+    }
+    .ctext {
+        text-align:center
+    }
+</style>
