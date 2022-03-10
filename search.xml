@@ -244,6 +244,38 @@
       </tags>
   </entry>
   <entry>
+    <title>專案管理技巧(影片心得)</title>
+    <url>/2019/19log-0321-proj_manage.html</url>
+    <content><![CDATA[<h2 id="管理技巧"><a href="#管理技巧" class="headerlink" title="管理技巧"></a>管理技巧</h2><ul>
+<li><p>透過觀看老師hackathon打贏的心路歷程，抓出了幾點重點</p>
+<span id="more"></span>
+<h3 id="在影片中提到-ppt黨是hackathon裡面最強的敵人。"><a href="#在影片中提到-ppt黨是hackathon裡面最強的敵人。" class="headerlink" title="在影片中提到:ppt黨是hackathon裡面最強的敵人。"></a><strong>在影片中提到:ppt黨是hackathon裡面最強的敵人。</strong></h3></li>
+<li><p>而得出這個結論後，就能將比賽的成功重點歸類出來。</p>
+</li>
+<li><p>重點就在於Demo給評審看，而優秀的ppt就是使作品加分的一大要件。</p>
+</li>
+<li><p>糾結於其他功能和事情往往兩頭燒，弄不好。</p>
+</li>
+</ul>
+<hr>
+<h3 id="那要如何輕鬆管理好一個項目呢？"><a href="#那要如何輕鬆管理好一個項目呢？" class="headerlink" title="那要如何輕鬆管理好一個項目呢？"></a><strong>那要如何輕鬆管理好一個項目呢？</strong></h3><ol>
+<li>首先定義項目的成功</li>
+<li>根據「成功」來排序整個項目需優先做的事情</li>
+<li>將Deadline砍掉1/3只剩下2/3來<strong>增強</strong>自身的壓力，保留測試時間來增強作品的彈性</li>
+<li>先做主幹再去搞支線(Must / Should Have) –&gt;(Extra)</li>
+<li>結束時刪除掉不必要且可能會絆倒你的功能</li>
+<li>Demo準備更完善，使專案加分</li>
+</ol>
+<hr>
+<h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a><strong>結語</strong></h2><ul>
+<li>只要做好項目按部就班的規劃及管理小技巧，專案也能更加快速且成功的完成</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>程式筆記</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux 安裝在 Lenovo-LEGION-Y520 紀錄</title>
     <url>/2019/19log-0324-Y520_Linux.html</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a><strong>前言</strong></h2><p>假日因為被windows的一些設定搞得有點小不爽，所以就把Ubuntu 18.04 LTS安裝了。</p>
@@ -287,38 +319,6 @@
       <tags>
         <tag>程式筆記</tag>
         <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>專案管理技巧(影片心得)</title>
-    <url>/2019/19log-0321-proj_manage.html</url>
-    <content><![CDATA[<h2 id="管理技巧"><a href="#管理技巧" class="headerlink" title="管理技巧"></a>管理技巧</h2><ul>
-<li><p>透過觀看老師hackathon打贏的心路歷程，抓出了幾點重點</p>
-<span id="more"></span>
-<h3 id="在影片中提到-ppt黨是hackathon裡面最強的敵人。"><a href="#在影片中提到-ppt黨是hackathon裡面最強的敵人。" class="headerlink" title="在影片中提到:ppt黨是hackathon裡面最強的敵人。"></a><strong>在影片中提到:ppt黨是hackathon裡面最強的敵人。</strong></h3></li>
-<li><p>而得出這個結論後，就能將比賽的成功重點歸類出來。</p>
-</li>
-<li><p>重點就在於Demo給評審看，而優秀的ppt就是使作品加分的一大要件。</p>
-</li>
-<li><p>糾結於其他功能和事情往往兩頭燒，弄不好。</p>
-</li>
-</ul>
-<hr>
-<h3 id="那要如何輕鬆管理好一個項目呢？"><a href="#那要如何輕鬆管理好一個項目呢？" class="headerlink" title="那要如何輕鬆管理好一個項目呢？"></a><strong>那要如何輕鬆管理好一個項目呢？</strong></h3><ol>
-<li>首先定義項目的成功</li>
-<li>根據「成功」來排序整個項目需優先做的事情</li>
-<li>將Deadline砍掉1/3只剩下2/3來<strong>增強</strong>自身的壓力，保留測試時間來增強作品的彈性</li>
-<li>先做主幹再去搞支線(Must / Should Have) –&gt;(Extra)</li>
-<li>結束時刪除掉不必要且可能會絆倒你的功能</li>
-<li>Demo準備更完善，使專案加分</li>
-</ol>
-<hr>
-<h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a><strong>結語</strong></h2><ul>
-<li>只要做好項目按部就班的規劃及管理小技巧，專案也能更加快速且成功的完成</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>程式筆記</tag>
       </tags>
   </entry>
   <entry>
@@ -400,21 +400,6 @@
       </tags>
   </entry>
   <entry>
-    <title>安裝ruby環境發現rvm not a function bug</title>
-    <url>/2019/19log-0326-rvm_error.html</url>
-    <content><![CDATA[<h2 id="出現這個error"><a href="#出現這個error" class="headerlink" title="出現這個error"></a><strong>出現這個error</strong></h2><p><em>rvm not a function</em></p>
-<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="symbol">error:</span>Warning! PATH is <span class="keyword">not</span> properly set up, <span class="string">&#x27;/home/me/.rvm/gems/ruby-2.x.x-p247/bin&#x27;</span> is <span class="keyword">not</span> available, usually this is caused by shell initialization files </span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-<h2 id="輸入"><a href="#輸入" class="headerlink" title="輸入"></a><strong>輸入</strong></h2><figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line">rvm reset</span><br><span class="line">rvm version</span><br></pre></td></tr></table></figure>
-
-<p>當輸入rvm version 不再跳出rvm not a function 就解決這個問題了</p>
-]]></content>
-      <tags>
-        <tag>程式筆記</tag>
-        <tag>Ruby on Rails</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>完整重灌Linux 必裝軟體及微調系列</title>
     <url>/2019/19log-0326-linux_note.html</url>
     <content><![CDATA[<h2 id="微調系列"><a href="#微調系列" class="headerlink" title="微調系列"></a>微調系列</h2><blockquote>
@@ -448,6 +433,21 @@
       <tags>
         <tag>程式筆記</tag>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安裝ruby環境發現rvm not a function bug</title>
+    <url>/2019/19log-0326-rvm_error.html</url>
+    <content><![CDATA[<h2 id="出現這個error"><a href="#出現這個error" class="headerlink" title="出現這個error"></a><strong>出現這個error</strong></h2><p><em>rvm not a function</em></p>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="symbol">error:</span>Warning! PATH is <span class="keyword">not</span> properly set up, <span class="string">&#x27;/home/me/.rvm/gems/ruby-2.x.x-p247/bin&#x27;</span> is <span class="keyword">not</span> available, usually this is caused by shell initialization files </span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<h2 id="輸入"><a href="#輸入" class="headerlink" title="輸入"></a><strong>輸入</strong></h2><figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line">rvm reset</span><br><span class="line">rvm version</span><br></pre></td></tr></table></figure>
+
+<p>當輸入rvm version 不再跳出rvm not a function 就解決這個問題了</p>
+]]></content>
+      <tags>
+        <tag>程式筆記</tag>
+        <tag>Ruby on Rails</tag>
       </tags>
   </entry>
   <entry>
@@ -2961,115 +2961,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2019/11/03 亂78遭週記</title>
-    <url>/2019/19log-1103.html</url>
-    <content><![CDATA[<h2 id="1103週記"><a href="#1103週記" class="headerlink" title="1103週記"></a><strong>1103週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>期中考前大爆發，忙到快失智，比賽期中考兩頭燒</em><br>資服比賽週，在賽前修正了很多簡報該有的觀念，讓整體簡報看起來更加有邏輯，能抓到評審的節奏。<br>期中也快到了，這次準備的非常不充足，有點抖。<br>坐高鐵趕上台北，兩天來回還真的頗難忘的，好險有得獎，讓心情舒適了很多，順便去西門町買了狂三回來。</p>
-<hr>
-<span id="more"></span>
-<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
-<p>關於這週的課程, 你記得什麼?</p>
-</blockquote>
-<p>[課程]</p>
-<ul>
-<li>競賽使用的ppt要有邏輯並清楚的點出問題</li>
-<li>心理學提到記憶的概念，遺忘曲線果然對人非常重要</li>
-<li>系統分析類別圖 (有點矇)</li>
-<li>R PCA尺度縮減</li>
-<li>R MDS多元尺度分析</li>
-<li>R 熱圖運用以及基準化</li>
-<li>MySQL (phpadmin) 基礎運用</li>
-</ul>
-<p>[程式]</p>
-<ul>
-<li>深度學習辨識靜態和動態方法(使用video輸入)</li>
-<li>鏡頭深度可能可以解決辨識物體是否為圖片問題</li>
-<li>R wordcloud2 (和knit兼容有問題)</li>
-<li>R gganimate</li>
-<li>R 尺度縮減(MDS)</li>
-<li>SQL 語法再次練習</li>
-<li>css 色碼選擇(粉色及淡色系做背景較討喜)</li>
-</ul>
-<blockquote>
-<p>完成了什麼?</p>
-</blockquote>
-<ul>
-<li>心理學心得作業</li>
-<li>資服比賽</li>
-<li>R 期中討論</li>
-<li>R 評論文字雲</li>
-<li>R 狀態gif</li>
-<li>R knit程式碼放上github</li>
-</ul>
-<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
-<p>你要如何形容這週的情緒</p>
-</blockquote>
-<ul>
-<li>很累但很爽，有種解脫的感覺</li>
-</ul>
-<blockquote>
-<p>這週的高峰是什麼?</p>
-</blockquote>
-<ul>
-<li>資服叫我們上台領獎的時候<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20191103.jpg"></li>
-</ul>
-<blockquote>
-<p>這週的低點是什麼?</p>
-</blockquote>
-<ul>
-<li>弄R期中專案</li>
-</ul>
-<blockquote>
-<p>這週的巨坑是什麼?</p>
-</blockquote>
-<ul>
-<li>在評審前demo作品</li>
-<li>處理ppt問題</li>
-<li>R期中</li>
-</ul>
-<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
-<p>我們這週學到了什麼?</p>
-</blockquote>
-<ul>
-<li>ppt要有邏輯並清楚的點出目標</li>
-<li>KPI需要寫出使用甚麼解決方案解決了問題</li>
-<li>點出問題會讓整體專案提升品質</li>
-<li>R wordcloud 運用</li>
-<li>R gganimate 使用</li>
-</ul>
-<blockquote>
-<p>這週一個重要的領悟是什麼?</p>
-</blockquote>
-<ul>
-<li>需要更有邏輯的表達自己想呈現的事情</li>
-</ul>
-<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
-<p>我會如何用一句話形容這週的工作</p>
-</blockquote>
-<ul>
-<li>累但是爽</li>
-</ul>
-<blockquote>
-<p>有哪些工作需要下週繼續努力?</p>
-</blockquote>
-<ul>
-<li>web 期中考</li>
-<li>R 期中專案呈現處理</li>
-<li>系統分析類別圖</li>
-<li>急診期中考</li>
-<li>web期中考</li>
-<li>系統分析各章節複習並整理重點</li>
-<li>企網研讀整理重點</li>
-<li>flutter 專案</li>
-</ul>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>記錄生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2019/10/27 亂78遭週記</title>
     <url>/2019/19log-1027.html</url>
     <content><![CDATA[<h2 id="1027週記"><a href="#1027週記" class="headerlink" title="1027週記"></a><strong>1027週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週頗多事情要幹，覺得燒腦又很煩躁</em><br>這週一次弄兩個比賽，真的有夠疲勞，受不了。<br>主要是因為週一進了畢專比賽決賽，讓我開始處理之前的東西。<br>而且期中考也快到了，有種忙不過來的感覺，壓力超大，不過也玩到很多有趣的程式，一定要找機會紓壓。</p>
@@ -3206,6 +3097,115 @@
 <li>Python 投資演算法</li>
 <li>系統分析期中 (生成markdown??)</li>
 <li>企網期中(做個期中考前分析?)</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2019/11/03 亂78遭週記</title>
+    <url>/2019/19log-1103.html</url>
+    <content><![CDATA[<h2 id="1103週記"><a href="#1103週記" class="headerlink" title="1103週記"></a><strong>1103週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>期中考前大爆發，忙到快失智，比賽期中考兩頭燒</em><br>資服比賽週，在賽前修正了很多簡報該有的觀念，讓整體簡報看起來更加有邏輯，能抓到評審的節奏。<br>期中也快到了，這次準備的非常不充足，有點抖。<br>坐高鐵趕上台北，兩天來回還真的頗難忘的，好險有得獎，讓心情舒適了很多，順便去西門町買了狂三回來。</p>
+<hr>
+<span id="more"></span>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>競賽使用的ppt要有邏輯並清楚的點出問題</li>
+<li>心理學提到記憶的概念，遺忘曲線果然對人非常重要</li>
+<li>系統分析類別圖 (有點矇)</li>
+<li>R PCA尺度縮減</li>
+<li>R MDS多元尺度分析</li>
+<li>R 熱圖運用以及基準化</li>
+<li>MySQL (phpadmin) 基礎運用</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>深度學習辨識靜態和動態方法(使用video輸入)</li>
+<li>鏡頭深度可能可以解決辨識物體是否為圖片問題</li>
+<li>R wordcloud2 (和knit兼容有問題)</li>
+<li>R gganimate</li>
+<li>R 尺度縮減(MDS)</li>
+<li>SQL 語法再次練習</li>
+<li>css 色碼選擇(粉色及淡色系做背景較討喜)</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>心理學心得作業</li>
+<li>資服比賽</li>
+<li>R 期中討論</li>
+<li>R 評論文字雲</li>
+<li>R 狀態gif</li>
+<li>R knit程式碼放上github</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>很累但很爽，有種解脫的感覺</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>資服叫我們上台領獎的時候<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20191103.jpg"></li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>弄R期中專案</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>在評審前demo作品</li>
+<li>處理ppt問題</li>
+<li>R期中</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>ppt要有邏輯並清楚的點出目標</li>
+<li>KPI需要寫出使用甚麼解決方案解決了問題</li>
+<li>點出問題會讓整體專案提升品質</li>
+<li>R wordcloud 運用</li>
+<li>R gganimate 使用</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>需要更有邏輯的表達自己想呈現的事情</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>累但是爽</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>web 期中考</li>
+<li>R 期中專案呈現處理</li>
+<li>系統分析類別圖</li>
+<li>急診期中考</li>
+<li>web期中考</li>
+<li>系統分析各章節複習並整理重點</li>
+<li>企網研讀整理重點</li>
+<li>flutter 專案</li>
 </ul>
 ]]></content>
       <categories>
@@ -3449,118 +3449,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2019/11/24 亂78遭週記</title>
-    <url>/2019/19log-1124.html</url>
-    <content><![CDATA[<h2 id="1124週記"><a href="#1124週記" class="headerlink" title="1124週記"></a><strong>1124週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>將處理的事情整理並稍作放鬆</em><br>這幾週被期中考壓得喘不過氣來，這週算對課程做一個期中結算。<br>處理了很多前幾週沒時間弄的東西，像玉山AI競賽，用XGBoost試了幾次，在兩天內擠進前10%。<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019112401.jpg"></p>
-<span id="more"></span>
-<p>不過這週有去成大聽演講，也收穫挺多的，尤其在CEO那場中，學到一些心態建立，和個人要怎麼增進自己的特長的方向，十分有趣的演講，在別場HR也給我一些履歷的方向，整體來說學到很多。<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019112402.jpg"></p>
-<hr>
-<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
-<p>關於這週的課程, 你記得什麼?</p>
-</blockquote>
-<p>[課程]</p>
-<ul>
-<li>心理學介紹智商與人類語言</li>
-<li>系統分析報告探討方法論</li>
-<li>R 數據分析迴歸運用</li>
-<li>PHP 基本概念</li>
-<li>網路模型Physical Layer</li>
-<li>人資長論壇 HR 和 CEO 心態調整</li>
-</ul>
-<p>[程式]</p>
-<ul>
-<li>R caret 切訓練集和測試集</li>
-<li>R XGBoost 交叉驗證方法</li>
-<li>R 信心水準調整並影響f1 value</li>
-<li>PHP array 練習</li>
-<li>flutter clean 解決assets問題</li>
-<li>flutter chart 試跑</li>
-<li>echarts 連上flutter</li>
-</ul>
-<blockquote>
-<p>完成了什麼?</p>
-</blockquote>
-<ul>
-<li>心理學心得</li>
-<li>系統分析更正類別圖和介面藍圖</li>
-<li>Linkdin 個人首頁更新</li>
-<li>Resume 初版撰寫</li>
-</ul>
-<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
-<p>你要如何形容這週的情緒</p>
-</blockquote>
-<ul>
-<li>想太多事情，有點打亂手腳</li>
-</ul>
-<blockquote>
-<p>這週的高峰是什麼?</p>
-</blockquote>
-<ul>
-<li>去成大聽人資長論壇</li>
-</ul>
-<blockquote>
-<p>這週的低點是什麼?</p>
-</blockquote>
-<ul>
-<li>系統分析PIM正式報告</li>
-</ul>
-<blockquote>
-<p>這週的巨坑是什麼?</p>
-</blockquote>
-<ul>
-<li>flutter chart套件挑選</li>
-<li>系統分析簡報處理</li>
-<li>R 機器學習提升準確率</li>
-</ul>
-<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
-<p>我們這週學到了什麼?</p>
-</blockquote>
-<ul>
-<li>R迴歸模型運用的一些技巧</li>
-<li>XGBoost預測準度調整方法</li>
-<li>系統分析更改正規化部分</li>
-<li>flutter上運用echarts</li>
-<li>用HR去逆向思考如何讓自己去被公司找到</li>
-<li>CEO特質多閱讀多訓練自己的思考模式</li>
-</ul>
-<blockquote>
-<p>這週一個重要的領悟是什麼?</p>
-</blockquote>
-<ul>
-<li>快速進入心流，是個在各行業都必須擁有的技能</li>
-</ul>
-<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
-<p>我會如何用一句話形容這週的工作</p>
-</blockquote>
-<ul>
-<li>將雜亂的思緒整理的一週</li>
-</ul>
-<blockquote>
-<p>有哪些工作需要下週繼續努力?</p>
-</blockquote>
-<p>[啟動的專案(重要+興趣排序)]</p>
-<ul>
-<li>自動gan.py聊天語音機器人</li>
-<li>腦波跨平台應用程式</li>
-<li>Dapps 去中心地圖或找尋手機裝置</li>
-<li>Unity AR 老婆(如果能和聊天機器人合併最棒了)</li>
-</ul>
-<p>[規劃]</p>
-<ul>
-<li>系統分析PIM報告</li>
-<li>人資長論壇心得整理</li>
-<li>web php + html5 作業</li>
-<li>企業通訊期末作業</li>
-</ul>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>記錄生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2019/12/01 亂78遭週記</title>
     <url>/2019/19log-1201.html</url>
     <content><![CDATA[<h2 id="1201週記"><a href="#1201週記" class="headerlink" title="1201週記"></a><strong>1201週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這週認真思考一些專案處理的事情和弄了一下履歷</em><br>這週算是在期末專案和各種事情過來前的一個休息週。<br>在這種好好地整理了自己想要處理的事情，和開始找一些接下來該做甚麼的機會。<br>也好好的把要工作的準備都漸漸的撰寫齊全，才不會錯過好的機會。</p>
@@ -3665,6 +3553,118 @@
 <li>履歷及演講心得整理</li>
 <li>web RWD作業完成</li>
 <li>企業資料通訊期末報告</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2019/11/24 亂78遭週記</title>
+    <url>/2019/19log-1124.html</url>
+    <content><![CDATA[<h2 id="1124週記"><a href="#1124週記" class="headerlink" title="1124週記"></a><strong>1124週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>將處理的事情整理並稍作放鬆</em><br>這幾週被期中考壓得喘不過氣來，這週算對課程做一個期中結算。<br>處理了很多前幾週沒時間弄的東西，像玉山AI競賽，用XGBoost試了幾次，在兩天內擠進前10%。<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019112401.jpg"></p>
+<span id="more"></span>
+<p>不過這週有去成大聽演講，也收穫挺多的，尤其在CEO那場中，學到一些心態建立，和個人要怎麼增進自己的特長的方向，十分有趣的演講，在別場HR也給我一些履歷的方向，整體來說學到很多。<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/2019112402.jpg"></p>
+<hr>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>心理學介紹智商與人類語言</li>
+<li>系統分析報告探討方法論</li>
+<li>R 數據分析迴歸運用</li>
+<li>PHP 基本概念</li>
+<li>網路模型Physical Layer</li>
+<li>人資長論壇 HR 和 CEO 心態調整</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>R caret 切訓練集和測試集</li>
+<li>R XGBoost 交叉驗證方法</li>
+<li>R 信心水準調整並影響f1 value</li>
+<li>PHP array 練習</li>
+<li>flutter clean 解決assets問題</li>
+<li>flutter chart 試跑</li>
+<li>echarts 連上flutter</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>心理學心得</li>
+<li>系統分析更正類別圖和介面藍圖</li>
+<li>Linkdin 個人首頁更新</li>
+<li>Resume 初版撰寫</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>想太多事情，有點打亂手腳</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>去成大聽人資長論壇</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>系統分析PIM正式報告</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>flutter chart套件挑選</li>
+<li>系統分析簡報處理</li>
+<li>R 機器學習提升準確率</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>R迴歸模型運用的一些技巧</li>
+<li>XGBoost預測準度調整方法</li>
+<li>系統分析更改正規化部分</li>
+<li>flutter上運用echarts</li>
+<li>用HR去逆向思考如何讓自己去被公司找到</li>
+<li>CEO特質多閱讀多訓練自己的思考模式</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>快速進入心流，是個在各行業都必須擁有的技能</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>將雜亂的思緒整理的一週</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<p>[啟動的專案(重要+興趣排序)]</p>
+<ul>
+<li>自動gan.py聊天語音機器人</li>
+<li>腦波跨平台應用程式</li>
+<li>Dapps 去中心地圖或找尋手機裝置</li>
+<li>Unity AR 老婆(如果能和聊天機器人合併最棒了)</li>
+</ul>
+<p>[規劃]</p>
+<ul>
+<li>系統分析PIM報告</li>
+<li>人資長論壇心得整理</li>
+<li>web php + html5 作業</li>
+<li>企業通訊期末作業</li>
 </ul>
 ]]></content>
       <categories>
@@ -4116,104 +4116,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2020/01/12 亂78遭週記</title>
-    <url>/2020/20log-0112.html</url>
-    <content><![CDATA[<h2 id="0112週記"><a href="#0112週記" class="headerlink" title="0112週記"></a><strong>0112週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>開始放寒假囉~不過寒假才是忙碌的開始</em><br>在期末考前把很多事情處理玩真的是一個正確的決定，直接讓我輕鬆很多，不過這次期末考成績我沒有很滿意就是了。<br>目前規劃在寒假期間搞一些物聯網和機器學習的東西，然後把手機應用程式前端學好，把flutter用的好以後fuchsia OS就能更輕鬆地應付了吧!<br>在新的一年很多事情要處理，要好好規劃一下更多東西了，寒假剛好給我一個喘息然後整理目前的子彈，在努裡把自己訓練得更強，也在這幾個月多參加社群的聚會，知道現在大家都在做甚麼，不要只有自己在玩自己的。</p>
-<hr>
-<span id="more"></span>
-<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
-<p>關於這週的課程, 你記得什麼?</p>
-</blockquote>
-<p>[課程]</p>
-<ul>
-<li>心理學了解社會心理學整體脈絡</li>
-<li>系統分析回顧及總整理</li>
-<li>PowerBI 製作地圖泡泡圖</li>
-<li>R DataCamp 複習</li>
-<li>R 檢定工具(T檢定、卡方和ANOVA)</li>
-<li>影片上字幕(ArcTime)</li>
-<li>GCP vs AWS 優勢及劣勢</li>
-</ul>
-<p>[程式]</p>
-<ul>
-<li>R 基本語法複習</li>
-<li>R 做檢定參數</li>
-<li>PowerBI處理excel的資料</li>
-<li>flutter 基本常識</li>
-</ul>
-<blockquote>
-<p>完成了什麼?</p>
-</blockquote>
-<ul>
-<li>心理學期末考</li>
-<li>系統分析期末報告</li>
-<li>R 期末影片字幕</li>
-<li>R 期末整理Rmd</li>
-<li>日本文化概論期末書面繳交</li>
-</ul>
-<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
-<p>你要如何形容這週的情緒</p>
-</blockquote>
-<ul>
-<li>終於放寒假了，要開始思考一些專案的主題了</li>
-</ul>
-<blockquote>
-<p>這週的高峰是什麼?</p>
-</blockquote>
-<ul>
-<li>在社群知道一些我不知道的東西</li>
-</ul>
-<blockquote>
-<p>這週的低點是什麼?</p>
-</blockquote>
-<ul>
-<li>考試成績不怎麼好看，有點小不爽</li>
-</ul>
-<blockquote>
-<p>這週的巨坑是什麼?</p>
-</blockquote>
-<ul>
-<li>R 行銷工具簡報的完成度，和受大家喜愛的程度</li>
-</ul>
-<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
-<p>我們這週學到了什麼?</p>
-</blockquote>
-<ul>
-<li>PowerBI製作圖表的方法</li>
-<li>R 作檢定的函式</li>
-<li>較小的群要做的事fisher.test</li>
-<li>flutter畫圖表fl_chart的效果</li>
-<li>GCP好用的功能</li>
-</ul>
-<blockquote>
-<p>這週一個重要的領悟是什麼?</p>
-</blockquote>
-<ul>
-<li>多參加社群去認識現在資訊界在玩甚麼</li>
-</ul>
-<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
-<p>我會如何用一句話形容這週的工作</p>
-</blockquote>
-<ul>
-<li>用寒假喘口氣</li>
-</ul>
-<blockquote>
-<p>有哪些工作需要下週繼續努力?</p>
-</blockquote>
-<ul>
-<li>flutter 教材</li>
-<li>fuchsia os 移植至樹梅派4</li>
-<li>科技部計畫擬稿</li>
-</ul>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>記錄生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2020/01/05 亂78遭週記</title>
     <url>/2020/20log-0105.html</url>
     <content><![CDATA[<h2 id="0106週記"><a href="#0106週記" class="headerlink" title="0106週記"></a><strong>0106週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>新的一年，做了許多小突破</em><br>[期末考前甚麼都做得到] 越來越相信這件事情，在這是在期末前都會大升級的能力，打程式和打書面報告都會特別快。<br>最近也在規劃寒假需要做甚麼，希望能把一些雜事好好處理，然後把基本能力練起來，也可以帶著朋友一起訓練自己的能力，因為我覺得教會別人自己才算真正的了解整個架構，所以在小組合作時，因為在組內實力的不平均讓你可以將你自己做的東西介紹給別人時，這就表示你做的東西你已經可以做一個應用了。<br>在新的一年，希望自己程式能力能更強，在這年想要把很多有趣的東西都弄出來，不要成為空有理論但是沒有專案的空殼，現在想做的事情真的越來越多了，想要弄一個和商業加上區塊鏈相關的應用小專案出來，感覺這樣發展其實還挺不錯的，還有實習的硬體程式也可以用心地玩玩看，感覺能了解到很多跨領域的知識。</p>
@@ -4325,6 +4227,104 @@
 <li>剖析都市期末報告</li>
 <li>腦波跨平台訊號錯亂排解</li>
 <li>hexo blog調整</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020/01/12 亂78遭週記</title>
+    <url>/2020/20log-0112.html</url>
+    <content><![CDATA[<h2 id="0112週記"><a href="#0112週記" class="headerlink" title="0112週記"></a><strong>0112週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>開始放寒假囉~不過寒假才是忙碌的開始</em><br>在期末考前把很多事情處理玩真的是一個正確的決定，直接讓我輕鬆很多，不過這次期末考成績我沒有很滿意就是了。<br>目前規劃在寒假期間搞一些物聯網和機器學習的東西，然後把手機應用程式前端學好，把flutter用的好以後fuchsia OS就能更輕鬆地應付了吧!<br>在新的一年很多事情要處理，要好好規劃一下更多東西了，寒假剛好給我一個喘息然後整理目前的子彈，在努裡把自己訓練得更強，也在這幾個月多參加社群的聚會，知道現在大家都在做甚麼，不要只有自己在玩自己的。</p>
+<hr>
+<span id="more"></span>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>心理學了解社會心理學整體脈絡</li>
+<li>系統分析回顧及總整理</li>
+<li>PowerBI 製作地圖泡泡圖</li>
+<li>R DataCamp 複習</li>
+<li>R 檢定工具(T檢定、卡方和ANOVA)</li>
+<li>影片上字幕(ArcTime)</li>
+<li>GCP vs AWS 優勢及劣勢</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>R 基本語法複習</li>
+<li>R 做檢定參數</li>
+<li>PowerBI處理excel的資料</li>
+<li>flutter 基本常識</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>心理學期末考</li>
+<li>系統分析期末報告</li>
+<li>R 期末影片字幕</li>
+<li>R 期末整理Rmd</li>
+<li>日本文化概論期末書面繳交</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>終於放寒假了，要開始思考一些專案的主題了</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>在社群知道一些我不知道的東西</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>考試成績不怎麼好看，有點小不爽</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>R 行銷工具簡報的完成度，和受大家喜愛的程度</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>PowerBI製作圖表的方法</li>
+<li>R 作檢定的函式</li>
+<li>較小的群要做的事fisher.test</li>
+<li>flutter畫圖表fl_chart的效果</li>
+<li>GCP好用的功能</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>多參加社群去認識現在資訊界在玩甚麼</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>用寒假喘口氣</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>flutter 教材</li>
+<li>fuchsia os 移植至樹梅派4</li>
+<li>科技部計畫擬稿</li>
 </ul>
 ]]></content>
       <categories>
@@ -4541,102 +4541,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2020/03/08 亂78遭週記</title>
-    <url>/2020/20log-0308.html</url>
-    <content><![CDATA[<h2 id="0308週記"><a href="#0308週記" class="headerlink" title="0308週記"></a><strong>0308週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>開學第二週感覺就忙到受不了</em><br>雖然這學期目前只有18學分，但是這週感覺搞太多東西，有點疲勞，每天起床就感覺要弄很多東西的感覺。<br>這學期的機器學習能力感覺又要上升了，做機器學習真的好嗎…不過科技部計畫的計畫書也算告個段落了，接著搞定平常的課比較重要。<br>今年生日過的也蠻開心的，餐廳送和我歲數一樣多的雞翅，吃的真的很爽，不過又變老的感覺。</p>
-<hr>
-<span id="more"></span>
-<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
-<p>關於這週的課程, 你記得什麼?</p>
-</blockquote>
-<p>[專案]</p>
-<ul>
-<li>遷移學習演算法(TrAdaBoost)</li>
-<li>雲端運算架構設計(RESTful架構)</li>
-<li>構思專案實行的創新性和價值</li>
-<li>p300電位基礎認識</li>
-<li>BCI實驗設計基礎</li>
-<li>構思python雲端運算架構(flask)</li>
-</ul>
-<p>[程式]</p>
-<ul>
-<li>資安基礎及玩CTF</li>
-</ul>
-<blockquote>
-<p>完成了什麼?</p>
-</blockquote>
-<ul>
-<li>科技部計畫完成</li>
-<li>整理文獻加入比較表格</li>
-<li>將運用在BCI的遷移學習架構差異做比較</li>
-<li>安裝Matlab</li>
-<li>設計程式架構</li>
-</ul>
-<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
-<p>你要如何形容這週的情緒</p>
-</blockquote>
-<ul>
-<li>這周嚴格意義上應該算是開學第一週，為了趕計畫真的豁出去了，平常打的計畫根本沒那麼文言文，有點頭痛。</li>
-</ul>
-<blockquote>
-<p>這週的高峰是什麼?</p>
-</blockquote>
-<ul>
-<li>和室友一起過生日，今年生日我對自己奢侈了點，弄了張1080，覺得有點浪費哈</li>
-</ul>
-<blockquote>
-<p>這週的低點是什麼?</p>
-</blockquote>
-<ul>
-<li>要看一堆文獻來做對比</li>
-</ul>
-<blockquote>
-<p>這週的巨坑是什麼?</p>
-</blockquote>
-<ul>
-<li>BCI的文獻整理</li>
-</ul>
-<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
-<p>我們這週學到了什麼?</p>
-</blockquote>
-<ul>
-<li>設計雲端運算架構</li>
-<li>設計p300實驗架構</li>
-<li>遷移學習模型演算法參考</li>
-</ul>
-<blockquote>
-<p>這週一個重要的領悟是什麼?</p>
-</blockquote>
-<ul>
-<li>要用更有條理的方式描述一件事情</li>
-</ul>
-<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
-<p>我會如何用一句話形容這週的工作</p>
-</blockquote>
-<ul>
-<li>沒有甚麼精力去思考其他事情</li>
-</ul>
-<blockquote>
-<p>有哪些工作需要下週繼續努力?</p>
-</blockquote>
-<ul>
-<li>週記要記得寫</li>
-<li>Python 機器學習練習</li>
-<li>hexo blog更新</li>
-<li>flutter 專案處理</li>
-<li>transfer learning架構設計</li>
-<li>對話機器人實踐</li>
-<li>Solidity病歷表</li>
-</ul>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>記錄生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2020/03/01 亂78遭週記</title>
     <url>/2020/20log-0301.html</url>
     <content><![CDATA[<h2 id="0301週記"><a href="#0301週記" class="headerlink" title="0301週記"></a><strong>0301週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>一個月沒寫週記了，明明因為肺炎假期都待在家裡…</em><br>整個二月都在搞科技部大專生計畫，快崩潰了。最近打開電腦就是打開word，甚麼程式都沒練到的感覺，週記也拖了很久，想玩fuchsia阿~<br>不過最爽的應該還是弄了台1080來外接吧!228連假特地跑回台中拿了，日本EMS真的快，雖然運費幾千塊，但是在連假還在幫忙送，就是被收了600的稅小不爽。</p>
@@ -4728,6 +4632,102 @@
 <li>hexo </li>
 <li>machine learning + transfer learning</li>
 <li>flutter 專案小問題處理</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020/03/08 亂78遭週記</title>
+    <url>/2020/20log-0308.html</url>
+    <content><![CDATA[<h2 id="0308週記"><a href="#0308週記" class="headerlink" title="0308週記"></a><strong>0308週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>開學第二週感覺就忙到受不了</em><br>雖然這學期目前只有18學分，但是這週感覺搞太多東西，有點疲勞，每天起床就感覺要弄很多東西的感覺。<br>這學期的機器學習能力感覺又要上升了，做機器學習真的好嗎…不過科技部計畫的計畫書也算告個段落了，接著搞定平常的課比較重要。<br>今年生日過的也蠻開心的，餐廳送和我歲數一樣多的雞翅，吃的真的很爽，不過又變老的感覺。</p>
+<hr>
+<span id="more"></span>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[專案]</p>
+<ul>
+<li>遷移學習演算法(TrAdaBoost)</li>
+<li>雲端運算架構設計(RESTful架構)</li>
+<li>構思專案實行的創新性和價值</li>
+<li>p300電位基礎認識</li>
+<li>BCI實驗設計基礎</li>
+<li>構思python雲端運算架構(flask)</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>資安基礎及玩CTF</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>科技部計畫完成</li>
+<li>整理文獻加入比較表格</li>
+<li>將運用在BCI的遷移學習架構差異做比較</li>
+<li>安裝Matlab</li>
+<li>設計程式架構</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>這周嚴格意義上應該算是開學第一週，為了趕計畫真的豁出去了，平常打的計畫根本沒那麼文言文，有點頭痛。</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>和室友一起過生日，今年生日我對自己奢侈了點，弄了張1080，覺得有點浪費哈</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>要看一堆文獻來做對比</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>BCI的文獻整理</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>設計雲端運算架構</li>
+<li>設計p300實驗架構</li>
+<li>遷移學習模型演算法參考</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>要用更有條理的方式描述一件事情</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>沒有甚麼精力去思考其他事情</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>週記要記得寫</li>
+<li>Python 機器學習練習</li>
+<li>hexo blog更新</li>
+<li>flutter 專案處理</li>
+<li>transfer learning架構設計</li>
+<li>對話機器人實踐</li>
+<li>Solidity病歷表</li>
 </ul>
 ]]></content>
       <categories>
@@ -4946,6 +4946,121 @@
       </tags>
   </entry>
   <entry>
+    <title>2020/03/29 亂78遭週記</title>
+    <url>/2020/20log-0329.html</url>
+    <content><![CDATA[<h2 id="0329週記"><a href="#0329週記" class="headerlink" title="0329週記"></a><strong>0329週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>和程式戰鬥的一週</em><br>好久沒混著打程式了，上學期都在打R，有點荒廢自己的Python，這學期再用Python玩一下現在的機器學習，有些NLP的架構還挺有趣的，順便看看tensorflow更新後能不能用起來更舒服。<br>期初的時候還以為這學期很多假，結果過了一個月發現自己更忙www，不過是蠻爽的啦~至少不是綁在課業上，處理自己的專案和發展要做的一些有趣的技術，是一個小目標。</p>
+<hr>
+<span id="more"></span>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於這週的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>os架構介紹和特性</li>
+<li>os程式執行功能和功能</li>
+<li>os System Call</li>
+<li>os user/kernel mode</li>
+<li>Golang 基礎</li>
+<li>eeglab 介紹和基礎</li>
+<li>matlab 練習</li>
+<li>實驗室實驗步驟基礎</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>flutter dio post</li>
+<li>unity serialport 傳送</li>
+<li>flask Restful 架構</li>
+<li>flask 傳送json file</li>
+<li>word2vec 計算相似度</li>
+<li>Mac iTerm 環境建構</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>unity C# script (serialport)</li>
+<li>Team Project 合作模式</li>
+<li>flutter flask 溝通做伺服器端OCR</li>
+<li>flask 接收image架構</li>
+<li>Golang 環境建置及練習</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>開始把自己弄得忙碌，但是Debug看到東西出來，真爽😁</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>把小組內的程式環境都搞好，合作模式的規定</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>好像還要用Matlab搞點東西 😫</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>C# 好久沒碰了，感覺用起來不習慣</li>
+<li>Word2Vec的基礎模式</li>
+<li>Mac 系統環境建構</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>flask 回傳遠端OCR值</li>
+<li>flutter Dio Post互動</li>
+<li>Git 合作</li>
+<li>os 架構和底層運作模式</li>
+<li>word2vec 向量</li>
+<li>Golang 基本語法</li>
+<li>C# system.io.port 運用</li>
+<li>unity 計時器 <code>time.deltatime</code> 設計</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>把學到的程式融會貫通，感覺更重要</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>用盡現在會的知識，去解決能解決的問題</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>hexo blog<ul>
+<li>coding log</li>
+<li>index.html 設計😍</li>
+<li>draft 完成</li>
+</ul>
+</li>
+<li>Golang SideProject</li>
+<li>Word2Vec NLP 模型了解</li>
+<li>假新聞謠言語料庫建構</li>
+<li>Matlab 基本語法</li>
+<li>Matlab 視窗程式</li>
+<li>找實習投履歷</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020/04/05 亂78遭週記</title>
     <url>/2020/20log-0405.html</url>
     <content><![CDATA[<h2 id="0405週記"><a href="#0405週記" class="headerlink" title="0405週記"></a><strong>0405週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>在假期前把一些東西處理好</em><br>疫情感覺越來越嚴重了，今年感覺充滿了變數，有些想做的事應該要想些備案，要不然最後兩頭空可能會有點慘。<br>最近主要還是先把程式能力多練習，想在這幾個月把想做的個人專案處理好，順便把東西做些整理，至少以後能用能力證明自己，目前畢業前應該不太被課業綁著，可以做比較多事，開始找人來一起實現我的專案。</p>
@@ -5079,121 +5194,6 @@
       <tags>
         <tag>程式筆記</tag>
         <tag>Javascript</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020/03/29 亂78遭週記</title>
-    <url>/2020/20log-0329.html</url>
-    <content><![CDATA[<h2 id="0329週記"><a href="#0329週記" class="headerlink" title="0329週記"></a><strong>0329週記</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>和程式戰鬥的一週</em><br>好久沒混著打程式了，上學期都在打R，有點荒廢自己的Python，這學期再用Python玩一下現在的機器學習，有些NLP的架構還挺有趣的，順便看看tensorflow更新後能不能用起來更舒服。<br>期初的時候還以為這學期很多假，結果過了一個月發現自己更忙www，不過是蠻爽的啦~至少不是綁在課業上，處理自己的專案和發展要做的一些有趣的技術，是一個小目標。</p>
-<hr>
-<span id="more"></span>
-<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
-<p>關於這週的課程, 你記得什麼?</p>
-</blockquote>
-<p>[課程]</p>
-<ul>
-<li>os架構介紹和特性</li>
-<li>os程式執行功能和功能</li>
-<li>os System Call</li>
-<li>os user/kernel mode</li>
-<li>Golang 基礎</li>
-<li>eeglab 介紹和基礎</li>
-<li>matlab 練習</li>
-<li>實驗室實驗步驟基礎</li>
-</ul>
-<p>[程式]</p>
-<ul>
-<li>flutter dio post</li>
-<li>unity serialport 傳送</li>
-<li>flask Restful 架構</li>
-<li>flask 傳送json file</li>
-<li>word2vec 計算相似度</li>
-<li>Mac iTerm 環境建構</li>
-</ul>
-<blockquote>
-<p>完成了什麼?</p>
-</blockquote>
-<ul>
-<li>unity C# script (serialport)</li>
-<li>Team Project 合作模式</li>
-<li>flutter flask 溝通做伺服器端OCR</li>
-<li>flask 接收image架構</li>
-<li>Golang 環境建置及練習</li>
-</ul>
-<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
-<p>你要如何形容這週的情緒</p>
-</blockquote>
-<ul>
-<li>開始把自己弄得忙碌，但是Debug看到東西出來，真爽😁</li>
-</ul>
-<blockquote>
-<p>這週的高峰是什麼?</p>
-</blockquote>
-<ul>
-<li>把小組內的程式環境都搞好，合作模式的規定</li>
-</ul>
-<blockquote>
-<p>這週的低點是什麼?</p>
-</blockquote>
-<ul>
-<li>好像還要用Matlab搞點東西 😫</li>
-</ul>
-<blockquote>
-<p>這週的巨坑是什麼?</p>
-</blockquote>
-<ul>
-<li>C# 好久沒碰了，感覺用起來不習慣</li>
-<li>Word2Vec的基礎模式</li>
-<li>Mac 系統環境建構</li>
-</ul>
-<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
-<p>我們這週學到了什麼?</p>
-</blockquote>
-<ul>
-<li>flask 回傳遠端OCR值</li>
-<li>flutter Dio Post互動</li>
-<li>Git 合作</li>
-<li>os 架構和底層運作模式</li>
-<li>word2vec 向量</li>
-<li>Golang 基本語法</li>
-<li>C# system.io.port 運用</li>
-<li>unity 計時器 <code>time.deltatime</code> 設計</li>
-</ul>
-<blockquote>
-<p>這週一個重要的領悟是什麼?</p>
-</blockquote>
-<ul>
-<li>把學到的程式融會貫通，感覺更重要</li>
-</ul>
-<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
-<p>我會如何用一句話形容這週的工作</p>
-</blockquote>
-<ul>
-<li>用盡現在會的知識，去解決能解決的問題</li>
-</ul>
-<blockquote>
-<p>有哪些工作需要下週繼續努力?</p>
-</blockquote>
-<ul>
-<li>hexo blog<ul>
-<li>coding log</li>
-<li>index.html 設計😍</li>
-<li>draft 完成</li>
-</ul>
-</li>
-<li>Golang SideProject</li>
-<li>Word2Vec NLP 模型了解</li>
-<li>假新聞謠言語料庫建構</li>
-<li>Matlab 基本語法</li>
-<li>Matlab 視窗程式</li>
-<li>找實習投履歷</li>
-</ul>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>記錄生活</tag>
       </tags>
   </entry>
   <entry>
@@ -7229,6 +7229,122 @@
       </tags>
   </entry>
   <entry>
+    <title>2020/12/13 亂78遭週記</title>
+    <url>/2020/20log-1213.html</url>
+    <content><![CDATA[<h2 id="1213週記"><a href="#1213週記" class="headerlink" title="1213週記"></a><strong>1213週記</strong></h2><blockquote>
+<p>先記錄一下，ORID格式大概會在這篇或下篇結束。<br>但是在過渡期的時候我要想想要怎麼做這種紀錄。<br>這段期間會先參考一些部落格大佬的格式。但有可能也只是說說而已~~</p>
+</blockquote>
+<h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>真的沒想到那麼久沒寫週記了</em><br>近期感覺發生了很多事，光是一堂微結構就夠嗆了，做了一堆作業打了一堆資料處理的R，現在看到資料大概都知道怎麼處理了，本來還搞不太清楚的apply系列現在全部都大概知道怎麼搞了，我覺得我真的是瘋了，哈哈。<br>雖然說好像每周都在做期末報告的感覺，但是真的是有學到東西的一堂課，要不然其實系上的課，感覺很多都在講同樣的東西，覺得稍微有點無趣，越來越提不起勁了，真的要有挑戰才會有進步的感覺，這是我近期的感受。<br>不過很多原本安排給自己的例行任務都沒有做，我覺得真的很內疚，本來在10月底還說想要每周都生出週記，結果推甄下來，然後再來體檢和做交易策略程式和微結構作業，光這些就讓我夠嗆了，不過真的覺得對實驗室很抱歉，這學期沒有太多的時間可以去處理那邊的專案，我真的天真地認為大四很輕鬆，可以弄一些大專案，結果光開QT就覺得疲勞感上來，這幾週應該會努力生一些想要處理的東西。</p>
+<hr>
+<span id="more"></span>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>關於11月的課程, 你記得什麼?</p>
+</blockquote>
+<p>[課程]</p>
+<ul>
+<li>推甄面試</li>
+<li>Kyle Lambda 計算</li>
+<li>Variance Ratio(短周期/長周期)</li>
+<li>VPIN (預估法人購買量)</li>
+<li>Order Imbalance</li>
+<li>Uniswap 恆定乘積做市商</li>
+<li>ETH 2.0</li>
+<li>時間序列動能論文</li>
+<li>比特幣避險工具分析論文</li>
+</ul>
+<p>[程式]</p>
+<ul>
+<li>迴歸模型分析</li>
+<li>自迴歸模型</li>
+<li>自動交易機器人(3種模式)</li>
+<li>R quantmod策略設計</li>
+<li>R tidyquant回測工具</li>
+<li>R lapply 做list</li>
+<li>R apply 系列</li>
+<li>R tryCatch 處理空值</li>
+<li>接入max交易所API交易所API</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<p>[超難作業]</p>
+<ul>
+<li>微結構kyle lambda作業</li>
+<li>微結構VPIN作業</li>
+<li>微結構OIB作業</li>
+</ul>
+<p>[R回測]</p>
+<ul>
+<li>Binance價差套利系統</li>
+<li>MA交叉套利系統</li>
+<li>布林通道策略</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這週的情緒</p>
+</blockquote>
+<ul>
+<li>這幾週都忙到自己都不確定在幹嘛，推甄完很多結果也不太好，算是度過一點低潮期吧，雖然忙碌把這些迫心情沖刷了</li>
+</ul>
+<blockquote>
+<p>這週的高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>應該都是上完課的時候吧</li>
+</ul>
+<blockquote>
+<p>這週的低點是什麼?</p>
+</blockquote>
+<ul>
+<li>被出作業的瞬間，根本看不懂上面任何東西</li>
+<li>推甄放榜，唉…我原本還有點自信的</li>
+</ul>
+<blockquote>
+<p>這週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>R quantmod有點複雜，和我熟悉的R邏輯完全不一樣</li>
+<li>推甄真的還蠻吃成績的，大學成績真的要顧好</li>
+<li>解釋一些專業的領域講得容易太複雜，需要練一下口條</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>R 回測工具</li>
+<li>市場微結構評估公式</li>
+<li>自動交易策略撰寫</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>覺得忙都忙不過來了，說真的有時候真的要好好評估自己的能力</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這週的工作</p>
+</blockquote>
+<ul>
+<li>自我厭惡的幾週，雖然看一下hololive就調適好了哈</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>手動交易機器人實現(bot)</li>
+<li>熟悉R telegram bot</li>
+<li>speller 改良</li>
+<li>DeFi</li>
+<li>論文報告</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020/12/27 亂78遭週記</title>
     <url>/2020/20log-1227.html</url>
     <content><![CDATA[<h2 id="1227週記"><a href="#1227週記" class="headerlink" title="1227週記"></a><strong>1227週記</strong></h2><blockquote>
@@ -7340,122 +7456,6 @@
 <li>MAX交易競賽策略改良</li>
 <li>Speller MQTT化</li>
 <li>DeFi項目研究</li>
-</ul>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>記錄生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2020/12/13 亂78遭週記</title>
-    <url>/2020/20log-1213.html</url>
-    <content><![CDATA[<h2 id="1213週記"><a href="#1213週記" class="headerlink" title="1213週記"></a><strong>1213週記</strong></h2><blockquote>
-<p>先記錄一下，ORID格式大概會在這篇或下篇結束。<br>但是在過渡期的時候我要想想要怎麼做這種紀錄。<br>這段期間會先參考一些部落格大佬的格式。但有可能也只是說說而已~~</p>
-</blockquote>
-<h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>真的沒想到那麼久沒寫週記了</em><br>近期感覺發生了很多事，光是一堂微結構就夠嗆了，做了一堆作業打了一堆資料處理的R，現在看到資料大概都知道怎麼處理了，本來還搞不太清楚的apply系列現在全部都大概知道怎麼搞了，我覺得我真的是瘋了，哈哈。<br>雖然說好像每周都在做期末報告的感覺，但是真的是有學到東西的一堂課，要不然其實系上的課，感覺很多都在講同樣的東西，覺得稍微有點無趣，越來越提不起勁了，真的要有挑戰才會有進步的感覺，這是我近期的感受。<br>不過很多原本安排給自己的例行任務都沒有做，我覺得真的很內疚，本來在10月底還說想要每周都生出週記，結果推甄下來，然後再來體檢和做交易策略程式和微結構作業，光這些就讓我夠嗆了，不過真的覺得對實驗室很抱歉，這學期沒有太多的時間可以去處理那邊的專案，我真的天真地認為大四很輕鬆，可以弄一些大專案，結果光開QT就覺得疲勞感上來，這幾週應該會努力生一些想要處理的東西。</p>
-<hr>
-<span id="more"></span>
-<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
-<p>關於11月的課程, 你記得什麼?</p>
-</blockquote>
-<p>[課程]</p>
-<ul>
-<li>推甄面試</li>
-<li>Kyle Lambda 計算</li>
-<li>Variance Ratio(短周期/長周期)</li>
-<li>VPIN (預估法人購買量)</li>
-<li>Order Imbalance</li>
-<li>Uniswap 恆定乘積做市商</li>
-<li>ETH 2.0</li>
-<li>時間序列動能論文</li>
-<li>比特幣避險工具分析論文</li>
-</ul>
-<p>[程式]</p>
-<ul>
-<li>迴歸模型分析</li>
-<li>自迴歸模型</li>
-<li>自動交易機器人(3種模式)</li>
-<li>R quantmod策略設計</li>
-<li>R tidyquant回測工具</li>
-<li>R lapply 做list</li>
-<li>R apply 系列</li>
-<li>R tryCatch 處理空值</li>
-<li>接入max交易所API交易所API</li>
-</ul>
-<blockquote>
-<p>完成了什麼?</p>
-</blockquote>
-<p>[超難作業]</p>
-<ul>
-<li>微結構kyle lambda作業</li>
-<li>微結構VPIN作業</li>
-<li>微結構OIB作業</li>
-</ul>
-<p>[R回測]</p>
-<ul>
-<li>Binance價差套利系統</li>
-<li>MA交叉套利系統</li>
-<li>布林通道策略</li>
-</ul>
-<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
-<p>你要如何形容這週的情緒</p>
-</blockquote>
-<ul>
-<li>這幾週都忙到自己都不確定在幹嘛，推甄完很多結果也不太好，算是度過一點低潮期吧，雖然忙碌把這些迫心情沖刷了</li>
-</ul>
-<blockquote>
-<p>這週的高峰是什麼?</p>
-</blockquote>
-<ul>
-<li>應該都是上完課的時候吧</li>
-</ul>
-<blockquote>
-<p>這週的低點是什麼?</p>
-</blockquote>
-<ul>
-<li>被出作業的瞬間，根本看不懂上面任何東西</li>
-<li>推甄放榜，唉…我原本還有點自信的</li>
-</ul>
-<blockquote>
-<p>這週的巨坑是什麼?</p>
-</blockquote>
-<ul>
-<li>R quantmod有點複雜，和我熟悉的R邏輯完全不一樣</li>
-<li>推甄真的還蠻吃成績的，大學成績真的要顧好</li>
-<li>解釋一些專業的領域講得容易太複雜，需要練一下口條</li>
-</ul>
-<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
-<p>我們這週學到了什麼?</p>
-</blockquote>
-<ul>
-<li>R 回測工具</li>
-<li>市場微結構評估公式</li>
-<li>自動交易策略撰寫</li>
-</ul>
-<blockquote>
-<p>這週一個重要的領悟是什麼?</p>
-</blockquote>
-<ul>
-<li>覺得忙都忙不過來了，說真的有時候真的要好好評估自己的能力</li>
-</ul>
-<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
-<p>我會如何用一句話形容這週的工作</p>
-</blockquote>
-<ul>
-<li>自我厭惡的幾週，雖然看一下hololive就調適好了哈</li>
-</ul>
-<blockquote>
-<p>有哪些工作需要下週繼續努力?</p>
-</blockquote>
-<ul>
-<li>手動交易機器人實現(bot)</li>
-<li>熟悉R telegram bot</li>
-<li>speller 改良</li>
-<li>DeFi</li>
-<li>論文報告</li>
 </ul>
 ]]></content>
       <categories>
@@ -7583,104 +7583,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2021/02/28 亂78遭週記</title>
-    <url>/2021/21log-0228.html</url>
-    <content><![CDATA[<h2 id="0228紀錄"><a href="#0228紀錄" class="headerlink" title="0228紀錄"></a><strong>0228紀錄</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>二月的一個小整理，瘋狂玩虛擬幣的一個月</em><br>剛過完年，元宵節在前幾天過完了，也要面臨學生最後一個學期了吧…?這個月想把身體養得好一點，所以都比較早睡(約在23點)，不知道未來能不能堅持下去，不過感覺是有點難度，等到學期中需要忙一些專案的時候，大概率就沒甚麼時間可以睡覺了，反正先把習慣養好，不樣像我的週記半途而廢變成月記，嗚嗚嗚。<br>最近技術文章出產量也比較低，在這學期的空閒時間我抓一點來寫一些去中心化金融的使用心得好了，最近有點著迷在DeFi上，覺得很多合約相當有趣，可以玩出很多花樣，不管在借放貸上，還有各種交易，雖然我在上面有點浪費錢就是了，附一大堆錢在手續費上，唉。<br>這學期的課應該不算太多，所以可以做些區塊鏈的研究，發現自己的興趣應該算是在這邊，不過沒有甚麼人陪我一起研究有點可惜，而且去中心化金融的門檻真的算有點高，陪我一起在這上面亂花錢的人應該不太多哈哈。</p>
-<hr>
-<span id="more"></span>
-<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
-<p>這幾週的事情，客觀的描述記得甚麼</p>
-</blockquote>
-<p><em>放年假沒甚麼上課，所以沒甚麼東西可以寫</em></p>
-<p>[程式]</p>
-<ul>
-<li>Latex 環境安裝及基本語法</li>
-<li>FTX交易所自動複利程式(利用借貸款去完成)</li>
-<li>Google App Script 撰寫及自動化 (搭配Google Sheet)</li>
-<li>vnpy安裝入門</li>
-<li>Python回測工具(backtesting)測試</li>
-<li>MQTT 實驗室訊號處理(還沒甚麼弄)</li>
-</ul>
-<blockquote>
-<p>完成了什麼?</p>
-</blockquote>
-<ul>
-<li>FTX 複利程式 (Google App Script)</li>
-<li>VNPY 環境架設</li>
-<li>Latex 基礎使用 (但說真的好像沒有甚麼地方能用)</li>
-<li>看完<strong>a man in all market</strong>感覺自己的心態應該稍微有成長</li>
-</ul>
-<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
-<p>你要如何形容這幾週的情緒</p>
-</blockquote>
-<ul>
-<li>好好的在假期休息，只有玩些虛擬貨幣交易的東西</li>
-<li>也有去武陵玩，不過沒有看到下雪，感覺還是有點可惜</li>
-<li>開學後要開始想之後就職的事，把履歷和Linkdin做的更完善點</li>
-</ul>
-<blockquote>
-<p>高峰是什麼?</p>
-</blockquote>
-<ul>
-<li>1inch第二次社群空投</li>
-<li>FTX 自動放貸複利程式撰寫完成</li>
-<li>認識很多DeFi項目</li>
-</ul>
-<blockquote>
-<p>低點是什麼?</p>
-</blockquote>
-<ul>
-<li>FTX kyc通過也太久了一點…</li>
-</ul>
-<blockquote>
-<p>這幾週的巨坑是什麼?</p>
-</blockquote>
-<ul>
-<li>Google App Script的加解密程式相當難寫，我查了他的api感覺教學也不夠好</li>
-<li>DeFi太多項目再衝衝衝了，不知道玩哪一種比較好</li>
-<li>ETH手續費好高…不敢在ETH上玩，比上個月高太多啦崩潰</li>
-<li>BSC許多項目都還在很初期的階段，感覺還不及ETH上的項目成熟</li>
-</ul>
-<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
-<p>我們這幾週學到了什麼?</p>
-</blockquote>
-<ul>
-<li>如何撰寫一個定時執行的Google App Script</li>
-<li>在去中心化交易所做swap、deposit、withdraw</li>
-<li>fantom的DAG架構</li>
-<li>BSC bridge把erc20的幣搬到bep20</li>
-<li>Vault(機槍池)原理和實際體驗</li>
-</ul>
-<blockquote>
-<p>這週一個重要的領悟是什麼?</p>
-</blockquote>
-<ul>
-<li>DeFi項目很多，無腦投資感覺不太好，所以我打算實際使用後再來看看他好不好</li>
-</ul>
-<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
-<p>我會如何用一句話形容這幾週的工作</p>
-</blockquote>
-<ul>
-<li>這幾週算是做個休息，不過也學了很多幣圈知識</li>
-</ul>
-<blockquote>
-<p>有哪些工作需要下週繼續努力?</p>
-</blockquote>
-<ul>
-<li>研究DeFi項目和發掘BSC的一些有趣項目</li>
-<li>ERP Speller實驗設置</li>
-<li>Unity 3D模型建置之類的</li>
-<li>想開始學Solidity或Vyper來撰寫合約，看可不可以做出一些金融的項目</li>
-</ul>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>記錄生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2021/03/14 亂78遭週記</title>
     <url>/2021/21log-0314.html</url>
     <content><![CDATA[<h2 id="0314紀錄"><a href="#0314紀錄" class="headerlink" title="0314紀錄"></a><strong>0314紀錄</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>最近覺得要規律一點，前陣子低潮期也過了，應該可以產出週記了</em><br>前陣子有點不想工作，而且做事也覺得沒有甚麼幹勁，效率相當之低，應該是有點失去熱情了，讓我最近開始做一些自我思考來增進自己的快樂感，覺得很大一部分我覺得自己很爛是因為最近在刷題，真的都不會啊~<br>現在覺得一些基礎相當重要，要不然演算法都下不了手，現在用簡單的Javascript都能錯一堆了，有點挫折，不過我準備以JS和GO附加Python作為我主要使用的語言，要不然甚麼都會其實聽起來就像甚麼都不專精一樣，能力要先練起來，才有資格和別人大小聲，不過我覺得坐在電腦前面太久，跟人的溝通能力真的會大幅度退步，近期應該也會找些辦法訓練我這個弱點。<br>近期真的感受到DeFi的有趣了，天天都有各種超強的項目在競爭，目前我最大的興趣就在這邊，這東西是有可能改變現有的制度的，除非被政府禁止，要不然如果能用到整個世界的流動性，世界的公開透明度會更高，雖然我自己還是無法了解市場是在幹嘛，新手韭菜QAQ😥😣</p>
@@ -7772,6 +7674,104 @@
 <li>Unity3D 遊戲設計</li>
 <li>ERP Spller 我想這幾週做完</li>
 <li>JS 和 Go技術我想練起來</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2021/02/28 亂78遭週記</title>
+    <url>/2021/21log-0228.html</url>
+    <content><![CDATA[<h2 id="0228紀錄"><a href="#0228紀錄" class="headerlink" title="0228紀錄"></a><strong>0228紀錄</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>二月的一個小整理，瘋狂玩虛擬幣的一個月</em><br>剛過完年，元宵節在前幾天過完了，也要面臨學生最後一個學期了吧…?這個月想把身體養得好一點，所以都比較早睡(約在23點)，不知道未來能不能堅持下去，不過感覺是有點難度，等到學期中需要忙一些專案的時候，大概率就沒甚麼時間可以睡覺了，反正先把習慣養好，不樣像我的週記半途而廢變成月記，嗚嗚嗚。<br>最近技術文章出產量也比較低，在這學期的空閒時間我抓一點來寫一些去中心化金融的使用心得好了，最近有點著迷在DeFi上，覺得很多合約相當有趣，可以玩出很多花樣，不管在借放貸上，還有各種交易，雖然我在上面有點浪費錢就是了，附一大堆錢在手續費上，唉。<br>這學期的課應該不算太多，所以可以做些區塊鏈的研究，發現自己的興趣應該算是在這邊，不過沒有甚麼人陪我一起研究有點可惜，而且去中心化金融的門檻真的算有點高，陪我一起在這上面亂花錢的人應該不太多哈哈。</p>
+<hr>
+<span id="more"></span>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>這幾週的事情，客觀的描述記得甚麼</p>
+</blockquote>
+<p><em>放年假沒甚麼上課，所以沒甚麼東西可以寫</em></p>
+<p>[程式]</p>
+<ul>
+<li>Latex 環境安裝及基本語法</li>
+<li>FTX交易所自動複利程式(利用借貸款去完成)</li>
+<li>Google App Script 撰寫及自動化 (搭配Google Sheet)</li>
+<li>vnpy安裝入門</li>
+<li>Python回測工具(backtesting)測試</li>
+<li>MQTT 實驗室訊號處理(還沒甚麼弄)</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>FTX 複利程式 (Google App Script)</li>
+<li>VNPY 環境架設</li>
+<li>Latex 基礎使用 (但說真的好像沒有甚麼地方能用)</li>
+<li>看完<strong>a man in all market</strong>感覺自己的心態應該稍微有成長</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這幾週的情緒</p>
+</blockquote>
+<ul>
+<li>好好的在假期休息，只有玩些虛擬貨幣交易的東西</li>
+<li>也有去武陵玩，不過沒有看到下雪，感覺還是有點可惜</li>
+<li>開學後要開始想之後就職的事，把履歷和Linkdin做的更完善點</li>
+</ul>
+<blockquote>
+<p>高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>1inch第二次社群空投</li>
+<li>FTX 自動放貸複利程式撰寫完成</li>
+<li>認識很多DeFi項目</li>
+</ul>
+<blockquote>
+<p>低點是什麼?</p>
+</blockquote>
+<ul>
+<li>FTX kyc通過也太久了一點…</li>
+</ul>
+<blockquote>
+<p>這幾週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>Google App Script的加解密程式相當難寫，我查了他的api感覺教學也不夠好</li>
+<li>DeFi太多項目再衝衝衝了，不知道玩哪一種比較好</li>
+<li>ETH手續費好高…不敢在ETH上玩，比上個月高太多啦崩潰</li>
+<li>BSC許多項目都還在很初期的階段，感覺還不及ETH上的項目成熟</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這幾週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>如何撰寫一個定時執行的Google App Script</li>
+<li>在去中心化交易所做swap、deposit、withdraw</li>
+<li>fantom的DAG架構</li>
+<li>BSC bridge把erc20的幣搬到bep20</li>
+<li>Vault(機槍池)原理和實際體驗</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>DeFi項目很多，無腦投資感覺不太好，所以我打算實際使用後再來看看他好不好</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這幾週的工作</p>
+</blockquote>
+<ul>
+<li>這幾週算是做個休息，不過也學了很多幣圈知識</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>研究DeFi項目和發掘BSC的一些有趣項目</li>
+<li>ERP Speller實驗設置</li>
+<li>Unity 3D模型建置之類的</li>
+<li>想開始學Solidity或Vyper來撰寫合約，看可不可以做出一些金融的項目</li>
 </ul>
 ]]></content>
       <categories>
@@ -7931,6 +7931,124 @@
       </tags>
   </entry>
   <entry>
+    <title>2021/03/28 亂78遭週記</title>
+    <url>/2021/21log-0328.html</url>
+    <content><![CDATA[<h2 id="0328紀錄"><a href="#0328紀錄" class="headerlink" title="0328紀錄"></a><strong>0328紀錄</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>放假前一週，一堆卡著的作業</em><br>最近想處理的事有點太多，加上DeFi每天都感覺有新的項目出來，感覺自己都沒甚麼時間做原本該做的事，真對不起自己🤣🤣🤣，不過真的是學到很多合約的玩法，DeFi真的是很厲害。<br>Notion的筆記也差不多整理好了，現在資料庫全部統整起來，現在週記也可以用Notion先做紀錄，再把那些移來這邊，現在週記生成速度直接變快，一些筆記和技術文應該也可以快點生成，目前有點想把部落格作好一點，這樣個人網站會看起來好看很多。<br>不過這週真的爆忙，主要是作業和待辦在放假前瞬間就會多起來，可能是因為這是甚麼期中分水嶺吧，這學期算是選蠻多課的，主要要打三種程式語言，最麻煩還是資料分析，說真的我覺得機器學習對我來說不算是很有趣的東西，作遊戲學3D建模、Python網路知識，弄起來都快樂很多，不過最近也在摸智能合約，感覺時間不太夠用了…</p>
+<hr>
+<span id="more"></span>
+<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
+<p>這幾週的事情，客觀的描述記得甚麼</p>
+</blockquote>
+<ul>
+<li>當動態腦電實驗受試者</li>
+<li>閱讀一小部分以太坊黃皮書</li>
+<li>完成上週hexo週記</li>
+<li>把R關聯網路圖在本地跑一下</li>
+<li>查閱演算法的資料</li>
+<li>閱讀區塊煉技術指南</li>
+<li>處理Unity 彈珠台桿子</li>
+<li>國防課學固定傷患，覺得有點難</li>
+<li>R上課做機器學習導論</li>
+<li>構思遊戲要如何才會有趣</li>
+<li>開會拆解個案需要處理的部分</li>
+<li>把Pancakebunny的一些資金移到ACryptoS上，上面年化率看起來頗高，但是文檔寫超爛</li>
+<li>做一些Curve的研究，結果就把錢放到ACS</li>
+</ul>
+<blockquote>
+<p>完成了什麼?</p>
+</blockquote>
+<ul>
+<li>整理好Notion Web的資料和處理Chrome書籤</li>
+<li>MQTT Speller前端顯示大致OK</li>
+<li>改好oddball和speller雙人刺激程序</li>
+<li>錄製+分析雙人Oddball實驗</li>
+<li>處理Scan 4.5在eeglab讀取問題</li>
+</ul>
+<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
+<p>你要如何形容這幾週的情緒</p>
+</blockquote>
+<ul>
+<li>作蠻多事情的，有些卡住的是也有點進展了</li>
+</ul>
+<blockquote>
+<p>高峰是什麼?</p>
+</blockquote>
+<ul>
+<li>設置兩台Nuamps作實驗</li>
+<li>感覺近期比較有進入狀況了</li>
+<li>被別人認可做部落格有用</li>
+<li>玩玩遊戲紓壓</li>
+</ul>
+<blockquote>
+<p>低點是什麼?</p>
+</blockquote>
+<ul>
+<li>當受試者的實驗數據不能用 😥</li>
+<li>作一些事就有點拖延症</li>
+</ul>
+<blockquote>
+<p>這幾週的巨坑是什麼?</p>
+</blockquote>
+<ul>
+<li>處理Scan 4.5的Data<ul>
+<li>Scan 4.5的資料錄製完成，在eeglab做pop_epoch時因為讀到label有char就無法順利切好資料，需要把一大段程式碼註釋掉</li>
+</ul>
+</li>
+<li>深刻感受到演算法要練好，有些東西的瓶頸就卡在自己的實力</li>
+<li>區塊鏈有些共識演算法好難</li>
+<li>R的資料摸了有點不太知道怎麼處理</li>
+<li>開會有點乾，不知道要如何提升開會效率</li>
+<li>想要拉個地形，結果覺得好懶…</li>
+</ul>
+<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
+<p>我們這幾週學到了什麼?</p>
+</blockquote>
+<ul>
+<li>以太坊基本結構，有點顛覆我的想像</li>
+<li>雙人實驗設備布置</li>
+<li>處理Scan 4.5 cnt檔一些小問題</li>
+<li>MATLAB分析腦電複習(超久沒用)</li>
+<li>Unity做空氣牆和處理材質問題</li>
+<li>Unity Collision使用方法</li>
+<li>區塊鏈共識算法: CFT、BFT</li>
+<li>R資料處理</li>
+<li>XGBoost原理</li>
+<li>如何做彈珠台的桿子</li>
+<li>一個個案拆解做EDA部分</li>
+<li>DeFi StableSwap模式</li>
+<li><a href="http://dex.guru/">dex.guru</a> 看價工具</li>
+</ul>
+<blockquote>
+<p>這週一個重要的領悟是什麼?</p>
+</blockquote>
+<ul>
+<li>做好萬全準備，之後就可以做自己的實驗</li>
+</ul>
+<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
+<p>我會如何用一句話形容這幾週的工作</p>
+</blockquote>
+<ul>
+<li>感覺有紀錄，可以看到自己的進度和一些小成長，做得還不錯。</li>
+</ul>
+<blockquote>
+<p>有哪些工作需要下週繼續努力?</p>
+</blockquote>
+<ul>
+<li>Unity彈珠台遊戲完成，不要怠惰不做。</li>
+<li>想開始VR專案，可能要學一下摳模型或複習3DS MAX</li>
+<li>處理Speller分析程序</li>
+<li>DeFi計算一下收益</li>
+<li>R個案資料處理</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2021/04/25 亂78遭週記</title>
     <url>/2021/21log-0425.html</url>
     <content><![CDATA[<h2 id="0425紀錄"><a href="#0425紀錄" class="headerlink" title="0425紀錄"></a><strong>0425紀錄</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>4月想做一點休息，畢竟畢業前還要處理很多事</em><br>四月這份其實是五月打的，不過因為在這個月都有寫日記其實也還好。<br>這個月主要跑去花蓮玩，也和朋友討論了點東西，雖然在那邊主要都在休息啦。因為我就是研究所備取落榜的人😅所以只能好好規劃一下要做甚麼工作，不過真的沒想到這學期要做的事也太多了吧。先是實驗室的ERP Speller，然後和銀行的產學合作資料分析，還有VR遊戲的製作，說真的，我沒有三頭六臂阿…所以我應該會把重心放在某幾個，目前計畫是實驗室的趕快做完，然後和老師說掰掰~~剩下就看我當週的心情，然後我最近也越來越沉迷在DeFi了，應該會考慮做一些操作和投資。</p>
@@ -8053,124 +8171,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2021/03/28 亂78遭週記</title>
-    <url>/2021/21log-0328.html</url>
-    <content><![CDATA[<h2 id="0328紀錄"><a href="#0328紀錄" class="headerlink" title="0328紀錄"></a><strong>0328紀錄</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>放假前一週，一堆卡著的作業</em><br>最近想處理的事有點太多，加上DeFi每天都感覺有新的項目出來，感覺自己都沒甚麼時間做原本該做的事，真對不起自己🤣🤣🤣，不過真的是學到很多合約的玩法，DeFi真的是很厲害。<br>Notion的筆記也差不多整理好了，現在資料庫全部統整起來，現在週記也可以用Notion先做紀錄，再把那些移來這邊，現在週記生成速度直接變快，一些筆記和技術文應該也可以快點生成，目前有點想把部落格作好一點，這樣個人網站會看起來好看很多。<br>不過這週真的爆忙，主要是作業和待辦在放假前瞬間就會多起來，可能是因為這是甚麼期中分水嶺吧，這學期算是選蠻多課的，主要要打三種程式語言，最麻煩還是資料分析，說真的我覺得機器學習對我來說不算是很有趣的東西，作遊戲學3D建模、Python網路知識，弄起來都快樂很多，不過最近也在摸智能合約，感覺時間不太夠用了…</p>
-<hr>
-<span id="more"></span>
-<h2 id="Objective"><a href="#Objective" class="headerlink" title="Objective"></a><strong>Objective</strong></h2><blockquote>
-<p>這幾週的事情，客觀的描述記得甚麼</p>
-</blockquote>
-<ul>
-<li>當動態腦電實驗受試者</li>
-<li>閱讀一小部分以太坊黃皮書</li>
-<li>完成上週hexo週記</li>
-<li>把R關聯網路圖在本地跑一下</li>
-<li>查閱演算法的資料</li>
-<li>閱讀區塊煉技術指南</li>
-<li>處理Unity 彈珠台桿子</li>
-<li>國防課學固定傷患，覺得有點難</li>
-<li>R上課做機器學習導論</li>
-<li>構思遊戲要如何才會有趣</li>
-<li>開會拆解個案需要處理的部分</li>
-<li>把Pancakebunny的一些資金移到ACryptoS上，上面年化率看起來頗高，但是文檔寫超爛</li>
-<li>做一些Curve的研究，結果就把錢放到ACS</li>
-</ul>
-<blockquote>
-<p>完成了什麼?</p>
-</blockquote>
-<ul>
-<li>整理好Notion Web的資料和處理Chrome書籤</li>
-<li>MQTT Speller前端顯示大致OK</li>
-<li>改好oddball和speller雙人刺激程序</li>
-<li>錄製+分析雙人Oddball實驗</li>
-<li>處理Scan 4.5在eeglab讀取問題</li>
-</ul>
-<h2 id="Reflective"><a href="#Reflective" class="headerlink" title="Reflective"></a><strong>Reflective</strong></h2><blockquote>
-<p>你要如何形容這幾週的情緒</p>
-</blockquote>
-<ul>
-<li>作蠻多事情的，有些卡住的是也有點進展了</li>
-</ul>
-<blockquote>
-<p>高峰是什麼?</p>
-</blockquote>
-<ul>
-<li>設置兩台Nuamps作實驗</li>
-<li>感覺近期比較有進入狀況了</li>
-<li>被別人認可做部落格有用</li>
-<li>玩玩遊戲紓壓</li>
-</ul>
-<blockquote>
-<p>低點是什麼?</p>
-</blockquote>
-<ul>
-<li>當受試者的實驗數據不能用 😥</li>
-<li>作一些事就有點拖延症</li>
-</ul>
-<blockquote>
-<p>這幾週的巨坑是什麼?</p>
-</blockquote>
-<ul>
-<li>處理Scan 4.5的Data<ul>
-<li>Scan 4.5的資料錄製完成，在eeglab做pop_epoch時因為讀到label有char就無法順利切好資料，需要把一大段程式碼註釋掉</li>
-</ul>
-</li>
-<li>深刻感受到演算法要練好，有些東西的瓶頸就卡在自己的實力</li>
-<li>區塊鏈有些共識演算法好難</li>
-<li>R的資料摸了有點不太知道怎麼處理</li>
-<li>開會有點乾，不知道要如何提升開會效率</li>
-<li>想要拉個地形，結果覺得好懶…</li>
-</ul>
-<h2 id="Interpretive"><a href="#Interpretive" class="headerlink" title="Interpretive"></a><strong>Interpretive</strong></h2><blockquote>
-<p>我們這幾週學到了什麼?</p>
-</blockquote>
-<ul>
-<li>以太坊基本結構，有點顛覆我的想像</li>
-<li>雙人實驗設備布置</li>
-<li>處理Scan 4.5 cnt檔一些小問題</li>
-<li>MATLAB分析腦電複習(超久沒用)</li>
-<li>Unity做空氣牆和處理材質問題</li>
-<li>Unity Collision使用方法</li>
-<li>區塊鏈共識算法: CFT、BFT</li>
-<li>R資料處理</li>
-<li>XGBoost原理</li>
-<li>如何做彈珠台的桿子</li>
-<li>一個個案拆解做EDA部分</li>
-<li>DeFi StableSwap模式</li>
-<li><a href="http://dex.guru/">dex.guru</a> 看價工具</li>
-</ul>
-<blockquote>
-<p>這週一個重要的領悟是什麼?</p>
-</blockquote>
-<ul>
-<li>做好萬全準備，之後就可以做自己的實驗</li>
-</ul>
-<h2 id="Decisional"><a href="#Decisional" class="headerlink" title="Decisional"></a><strong>Decisional</strong></h2><blockquote>
-<p>我會如何用一句話形容這幾週的工作</p>
-</blockquote>
-<ul>
-<li>感覺有紀錄，可以看到自己的進度和一些小成長，做得還不錯。</li>
-</ul>
-<blockquote>
-<p>有哪些工作需要下週繼續努力?</p>
-</blockquote>
-<ul>
-<li>Unity彈珠台遊戲完成，不要怠惰不做。</li>
-<li>想開始VR專案，可能要學一下摳模型或複習3DS MAX</li>
-<li>處理Speller分析程序</li>
-<li>DeFi計算一下收益</li>
-<li>R個案資料處理</li>
-</ul>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>記錄生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2021/05/30 亂78遭週記</title>
     <url>/2021/21log-0530.html</url>
     <content><![CDATA[<h2 id="0530紀錄"><a href="#0530紀錄" class="headerlink" title="0530紀錄"></a><strong>0530紀錄</strong></h2><h3 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a>心情抒發</h3><p><em>這個月不管是在社會和自己身上都發生超多事情，心情說上去其實沒有那麼好，有點低氣壓</em>😕</p>
@@ -8216,7 +8216,7 @@
 <p>高峰是什麼?</p>
 </blockquote>
 <ul>
-<li>把SSVEP實驗處理完成</li>
+<li>把SSVEP實驗處理完成，到時候上傳個影片</li>
 <li>SerialPort轉MQTT穩定輸出</li>
 <li>用JS和智能合約互動</li>
 </ul>
@@ -8224,13 +8224,15 @@
 <p>低點是什麼?</p>
 </blockquote>
 <ul>
-<li>好幾個投的項目(Bunny/STRD)都跑路或被駭</li>
+<li>自己投的項目(Bunny🐰)被駭損失不少</li>
+<li>投了一部分的資金進去機槍池(STRD)跑路，而且還是因為自己貪了一點年化率才被坑</li>
 </ul>
 <blockquote>
 <p>這幾週的巨坑是什麼?</p>
 </blockquote>
 <ul>
 <li>寫週記吧。說真的玩很多項目真的很難抽時間</li>
+<li>R語言推薦系統到底是使用在哪裡的思考</li>
 <li>Unity製作遊戲的動力</li>
 <li>如何判斷跑路項目或合約的風險</li>
 </ul>
@@ -8243,6 +8245,7 @@
 <li>Python CCA方法實現</li>
 <li>及時處理Data Class設計和運用在實驗上</li>
 <li>R語言recommenderlab使用製作推薦演算法</li>
+<li>在投項目之前多看幾眼，先認識他，再去做投資</li>
 </ul>
 <blockquote>
 <p>這週一個重要的領悟是什麼?</p>
@@ -8265,9 +8268,39 @@
 <li>應該是類似bridge之類的東西，因為我覺得橋這種東西會成為一個重要分水嶺</li>
 </ul>
 </li>
+<li>實驗室交接工作</li>
 <li>R 推薦系統的期末報告</li>
 <li>Unity期末VR報告(守護中山大學)</li>
 </ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>記錄生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>亂78糟的紀錄(20220305)</title>
+    <url>/2022/22log-0305.html</url>
+    <content><![CDATA[<h2 id="心情抒發"><a href="#心情抒發" class="headerlink" title="心情抒發"></a><strong>心情抒發</strong></h2><blockquote>
+<p>終於解放了，前陣子在歡樂冬令營😥，到0301才退伍，真的是很壓抑的三個月</p>
+</blockquote>
+<p><strong>😎在生日後做個紀錄</strong>，今年算是我人生的分水嶺吧！畢竟已經脫離快樂的大學生了。畢業後算是第一次做紀錄，畢竟當兵的時候，自己的休息時間會很珍惜與朋友相處的機會，所以很多待辦事項就擱置了，寫這篇也是為了抒發一下我的壓力，順便讓hexo做個暖身，有機會我真的想把我現在這個theme重新寫一下。</p>
+<p><strong>先來說一下在沒寫週記這段時間我都在幹嘛</strong>，畢業前遇到疫情真的很衰小😣，在最後一個學期的產學合作(王道銀行)還是遠端完成的，最後搞了一個推薦系統自己都還蠻震驚的，R真的是用起來很方便的語言。再來就是把做了接近兩年的實驗室辭職了，在畢業前一個月辭職，我的東西也不怎麼需要交接，也幫同事搞好了多人實驗的系統，之後就看他們怎麼改良了。</p>
+<p>再來畢業後其實也蠻忙的，無聊在測試自己的交易腳本能不能順利運作，在大四培養的交易的知識和做自動交易的腳本，恩…說實在話績效其實不算很好，自己投資慢慢來可能比較實在。</p>
+<p>說起來好笑，在我沒更新部落格這幾個月，GA的成效特別好，也不知道為什麼😅，之前無聊參加的創新創業課程的心得竟然在我網頁的查詢和點擊率最好，看來寫這種爛爛的紀錄，在搜尋引擎看起來像無聊的複製文，寫程式的bug其實也算是把github的issue解決方案換個地方記錄起來而已，所以成效都沒有想像中的好，原創內容我還要多做研究，這個site希望能做多一點改版，我會把這些舊紀錄封存的，當然要找還是看的到啦，不過在前端就會阻止你去看囉~</p>
+<h2 id="目標"><a href="#目標" class="headerlink" title="目標"></a><strong>目標</strong></h2><p><strong>現在目前退伍後的短期目標就是找到工作！</strong>但是我已經大概三個月很少碰程式，現在看到演算法竟然反應遲緩，但是不能再廢下去了，反正我新鮮人也是塊白紙，在學校做的東西也算很偏門，真的就練了奇怪的技能，現在短期想要自己程式能力可以開發更大型的程式，更希望能單人做一些有趣的小玩具，</p>
+<p><strong>工作穩定後今年打算開一個有趣的專案</strong>，很久沒有寫大型的side-project了，在新人時期總要有個個人代表作品弄出來，不過還在構思，之前在當兵是有思考做NFT和元宇宙的小專案，不過因為NFT賠慘了，所以我還在構思，個人目前手上的side-project是一個無趣的對話機器人，可能我調成敷衍的對話，它的功能真的很廢，目前也只弄好可以會回話的後端，希望有一天可以開源ㄅ。</p>
+<h2 id="小感想"><a href="#小感想" class="headerlink" title="小感想"></a>小感想</h2><p><em>對畢業到目前的一些事做些感想</em></p>
+<ol>
+<li>畢業：去年真的沒有甚麼好說的，疫情搞到大家都不開心。</li>
+<li>實驗室say goodbye：說實話，其實我大學有點後悔加lab，但是有學到一些不一樣的分析工具還蠻有趣的。至少後期做的東西比較符合我對BCI的期待。</li>
+<li>金融科技學程：講到這個就很生氣，學校行政真的很爛，公告寫不清楚，後面按造時間補交還會被刁難，但是至少我是有能力寫個酷酷的自動交易程式。</li>
+<li>NFT：本來在crypto賺蠻多的，無聊跑去買NFT，現在掛在OpenSea賣不掉，只能說我不會看團隊吧，社群是在幣圈最重要的一環。</li>
+<li>當兵：千言萬語抵不過一句話，好險我退了😎。</li>
+<li>生日：朋友很重要，要珍惜。</li>
+</ol>
 ]]></content>
       <categories>
         <category>blog</category>
