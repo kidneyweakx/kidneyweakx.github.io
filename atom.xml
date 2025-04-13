@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>準備爆肝的weak日常</title>
+  <icon>https://kidneyweakx.com/icon.png</icon>
+  <subtitle>-記錄生活-</subtitle>
+  <link href="https://kidneyweakx.com/atom.xml" rel="self"/>
+  
+  <link href="https://kidneyweakx.com/"/>
+  <updated>2025-04-13T15:15:48.831Z</updated>
+  <id>https://kidneyweakx.com/</id>
+  
+  <author>
+    <name>kidneyweakx</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>亂78糟的紀錄(20250413)</title>
+    <link href="https://kidneyweakx.com/2025/25log-0414.html"/>
+    <id>https://kidneyweakx.com/2025/25log-0414.html</id>
+    <published>2025-04-13T16:20:00.000Z</published>
+    <updated>2025-04-13T15:15:48.831Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>亂78糟的紀錄(20220305)</title>
+    <link href="https://kidneyweakx.com/2022/22log-0305.html"/>
+    <id>https://kidneyweakx.com/2022/22log-0305.html</id>
+    <published>2022-03-05T12:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.186Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021/05/30 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2021/21log-0530.html"/>
+    <id>https://kidneyweakx.com/2021/21log-0530.html</id>
+    <published>2021-05-30T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.186Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0530紀錄&quot;&gt;&lt;a href=&quot;#0530紀錄&quot; class=&quot;headerlink&quot; title=&quot;0530紀錄&quot;&gt;&lt;/a&gt;&lt;strong&gt;0530紀錄&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;這個月不管是在社會和自己身上都發生超多事情，心情說上去其實沒有那麼好，有點低氣壓&lt;/em&gt;😕&lt;/p&gt;
+&lt;p&gt;😥這幾個月真的讓人覺得很擔心，看到台灣的一些疫情問題，現在真的不太適合出門，能就多宅在家看動漫或寫點程式，像我都在玩區塊鏈，所以都關在宿舍中。&lt;/p&gt;
+&lt;p&gt;🙄不過這個月最大的事就是我把實驗室的工作放下了，最後就做到五月底。因為加了腦電實驗室，感覺知識面變得有更廣了一點，雖然感覺上自己還是甚麼都不會，最後也有自己的專案，SSVEP及時運算的程式，說真的，在實驗室中我最大的感想就是，分析數據這件事，真的不是一件非常有趣的事，雖然我在分析商業的數據覺得還好，但分析嚴謹的程序後，就覺得自己不太想走這行。&lt;/p&gt;
+&lt;p&gt;🏛然後這幾週我還是很忙，主要銀行的產學合作我個人覺得有點小刁鑽，但是也無可奈何，畢竟我們做的東西不是銀行方要的😫，我弄了一個週末的推薦系統直接打水飄說實在的是有點不爽，感覺上就是進度超前卻被指正沒有必要做到那麼多的感覺，害我重心不是很想放在這門課。&lt;/p&gt;
+&lt;p&gt;🍳不過也是有點收穫的，這幾週發現社交媒體才是未來的關鍵，畢竟我們不能和別人接觸，那人與人的第一印象可能就存在FB或其他通訊軟體上，所以開始認真地培育我在社群的地位，也開始想一些未來工作的型態，之後如果都WFH(Work From Home)的話，我們就需要在社群有些發言力，和有自己工作和激勵自己的原則，不過好險我是個宅宅，這種原則自己就有一些，雖然這個週記就是我不守紀律沒每週寫出來的。&lt;br&gt;🚀然後DeFi實在是太好玩了，我在五月直接狂玩一波，有被坑，也有賺錢的項目，不過坑的真的超慘，所以現在有點佛系，在六月的時候應該，我會想辦法努力生出的項目來投投看黑客松，當作練練手。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021/04/25 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2021/21log-0425.html"/>
+    <id>https://kidneyweakx.com/2021/21log-0425.html</id>
+    <published>2021-04-25T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.186Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0425紀錄&quot;&gt;&lt;a href=&quot;#0425紀錄&quot; class=&quot;headerlink&quot; title=&quot;0425紀錄&quot;&gt;&lt;/a&gt;&lt;strong&gt;0425紀錄&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;4月想做一點休息，畢竟畢業前還要處理很多事&lt;/em&gt;&lt;br&gt;四月這份其實是五月打的，不過因為在這個月都有寫日記其實也還好。&lt;br&gt;這個月主要跑去花蓮玩，也和朋友討論了點東西，雖然在那邊主要都在休息啦。因為我就是研究所備取落榜的人😅所以只能好好規劃一下要做甚麼工作，不過真的沒想到這學期要做的事也太多了吧。先是實驗室的ERP Speller，然後和銀行的產學合作資料分析，還有VR遊戲的製作，說真的，我沒有三頭六臂阿…所以我應該會把重心放在某幾個，目前計畫是實驗室的趕快做完，然後和老師說掰掰~~剩下就看我當週的心情，然後我最近也越來越沉迷在DeFi了，應該會考慮做一些操作和投資。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021/03/28 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2021/21log-0328.html"/>
+    <id>https://kidneyweakx.com/2021/21log-0328.html</id>
+    <published>2021-03-28T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.186Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0328紀錄&quot;&gt;&lt;a href=&quot;#0328紀錄&quot; class=&quot;headerlink&quot; title=&quot;0328紀錄&quot;&gt;&lt;/a&gt;&lt;strong&gt;0328紀錄&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;放假前一週，一堆卡著的作業&lt;/em&gt;&lt;br&gt;最近想處理的事有點太多，加上DeFi每天都感覺有新的項目出來，感覺自己都沒甚麼時間做原本該做的事，真對不起自己🤣🤣🤣，不過真的是學到很多合約的玩法，DeFi真的是很厲害。&lt;br&gt;Notion的筆記也差不多整理好了，現在資料庫全部統整起來，現在週記也可以用Notion先做紀錄，再把那些移來這邊，現在週記生成速度直接變快，一些筆記和技術文應該也可以快點生成，目前有點想把部落格作好一點，這樣個人網站會看起來好看很多。&lt;br&gt;不過這週真的爆忙，主要是作業和待辦在放假前瞬間就會多起來，可能是因為這是甚麼期中分水嶺吧，這學期算是選蠻多課的，主要要打三種程式語言，最麻煩還是資料分析，說真的我覺得機器學習對我來說不算是很有趣的東西，作遊戲學3D建模、Python網路知識，弄起來都快樂很多，不過最近也在摸智能合約，感覺時間不太夠用了…&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021/03/21 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2021/21log-0321.html"/>
+    <id>https://kidneyweakx.com/2021/21log-0321.html</id>
+    <published>2021-03-22T02:00:00.000Z</published>
+    <updated>2025-04-13T14:57:55.185Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0321紀錄&quot;&gt;&lt;a href=&quot;#0321紀錄&quot; class=&quot;headerlink&quot; title=&quot;0321紀錄&quot;&gt;&lt;/a&gt;&lt;strong&gt;0321紀錄&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;週記復活啦!!果然要有在做事才會開始寫一些文字&lt;/em&gt;&lt;br&gt;雖然還是拖到22號才寫這篇週記，但是感覺終於有點進展的感覺，反省一下前陣子滿身的怠惰，可能在推甄的時候有點受到大家焦慮的影響，變得非常煩躁，不過這週就好很多了。&lt;br&gt;這幾週終於有點幹勁了，不過在寫一些待辦的時候，發現自己真的有點拖延症，感覺要對自己苛刻一點，現在用Notion作為筆記和統整，覺得功能非常全面，最主要是可以匯入csv真的非常方便，還可以把兩個頁面內的功能串起來，有機會寫一篇心得好了，晚點加入Notion的待辦中。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo升級V5排除疑難雜症</title>
+    <link href="https://kidneyweakx.com/2021/21log-0318-hexov5.html"/>
+    <id>https://kidneyweakx.com/2021/21log-0318-hexov5.html</id>
+    <published>2021-03-18T02:26:00.000Z</published>
+    <updated>2025-04-13T14:57:55.185Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;因為剛好把電腦重灌，然後這個blog就躺在D槽等著我幫他換新的環境，然後他就被我快樂的升級了。&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo: 5.4.0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo-cli: 4.2.0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;os: Windows 10 20H2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;node: 14.16.0&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    
+    <category term="程式筆記" scheme="https://kidneyweakx.com/tags/%E7%A8%8B%E5%BC%8F%E7%AD%86%E8%A8%98/"/>
+    
+    <category term="Javascript" scheme="https://kidneyweakx.com/tags/Javascript/"/>
+    
+    <category term="hexo" scheme="https://kidneyweakx.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021/03/14 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2021/21log-0314.html"/>
+    <id>https://kidneyweakx.com/2021/21log-0314.html</id>
+    <published>2021-03-14T15:00:00.000Z</published>
+    <updated>2025-04-13T14:57:55.185Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0314紀錄&quot;&gt;&lt;a href=&quot;#0314紀錄&quot; class=&quot;headerlink&quot; title=&quot;0314紀錄&quot;&gt;&lt;/a&gt;&lt;strong&gt;0314紀錄&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;最近覺得要規律一點，前陣子低潮期也過了，應該可以產出週記了&lt;/em&gt;&lt;br&gt;前陣子有點不想工作，而且做事也覺得沒有甚麼幹勁，效率相當之低，應該是有點失去熱情了，讓我最近開始做一些自我思考來增進自己的快樂感，覺得很大一部分我覺得自己很爛是因為最近在刷題，真的都不會啊~&lt;br&gt;現在覺得一些基礎相當重要，要不然演算法都下不了手，現在用簡單的Javascript都能錯一堆了，有點挫折，不過我準備以JS和GO附加Python作為我主要使用的語言，要不然甚麼都會其實聽起來就像甚麼都不專精一樣，能力要先練起來，才有資格和別人大小聲，不過我覺得坐在電腦前面太久，跟人的溝通能力真的會大幅度退步，近期應該也會找些辦法訓練我這個弱點。&lt;br&gt;近期真的感受到DeFi的有趣了，天天都有各種超強的項目在競爭，目前我最大的興趣就在這邊，這東西是有可能改變現有的制度的，除非被政府禁止，要不然如果能用到整個世界的流動性，世界的公開透明度會更高，雖然我自己還是無法了解市場是在幹嘛，新手韭菜QAQ😥😣&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021/02/28 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2021/21log-0228.html"/>
+    <id>https://kidneyweakx.com/2021/21log-0228.html</id>
+    <published>2021-02-28T04:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.185Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0228紀錄&quot;&gt;&lt;a href=&quot;#0228紀錄&quot; class=&quot;headerlink&quot; title=&quot;0228紀錄&quot;&gt;&lt;/a&gt;&lt;strong&gt;0228紀錄&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;二月的一個小整理，瘋狂玩虛擬幣的一個月&lt;/em&gt;&lt;br&gt;剛過完年，元宵節在前幾天過完了，也要面臨學生最後一個學期了吧…?這個月想把身體養得好一點，所以都比較早睡(約在23點)，不知道未來能不能堅持下去，不過感覺是有點難度，等到學期中需要忙一些專案的時候，大概率就沒甚麼時間可以睡覺了，反正先把習慣養好，不樣像我的週記半途而廢變成月記，嗚嗚嗚。&lt;br&gt;最近技術文章出產量也比較低，在這學期的空閒時間我抓一點來寫一些去中心化金融的使用心得好了，最近有點著迷在DeFi上，覺得很多合約相當有趣，可以玩出很多花樣，不管在借放貸上，還有各種交易，雖然我在上面有點浪費錢就是了，附一大堆錢在手續費上，唉。&lt;br&gt;這學期的課應該不算太多，所以可以做些區塊鏈的研究，發現自己的興趣應該算是在這邊，不過沒有甚麼人陪我一起研究有點可惜，而且去中心化金融的門檻真的算有點高，陪我一起在這上面亂花錢的人應該不太多哈哈。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021/01/31 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2021/21log-0131.html"/>
+    <id>https://kidneyweakx.com/2021/21log-0131.html</id>
+    <published>2021-01-31T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.185Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0131紀錄&quot;&gt;&lt;a href=&quot;#0131紀錄&quot; class=&quot;headerlink&quot; title=&quot;0131紀錄&quot;&gt;&lt;/a&gt;&lt;strong&gt;0131紀錄&lt;/strong&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;2021第一篇記錄，已經不是週記了ㄏ🤣&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;今年大概只會每個月做一個小記錄，平常真的太過忙碌了&lt;/em&gt;&lt;br&gt;大四應該算是大學四年最忙的一年，既要規劃工作，還要規劃考研究所，真的還蠻辛苦的。所以部落格生灰也一陣子了，但是也有做一些部落格文章更新的計畫，就是不知道接下來要做些甚麼。大概會以幾個方向做修改&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;O-R-I-D的內容應該會從這篇開始有小幅度修改。&lt;/li&gt;
+&lt;li&gt;會有一些有趣文章的心得，大概會整理兩三點重點。&lt;/li&gt;
+&lt;li&gt;修改Draft和css版型(這點不是最重要的)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;然後大四上也告一個段落了，也吃了實驗室的尾牙，2020也算告一個段落了，但是2021開頭就感覺今年整個世界局勢還是不太妙啊哈，不僅比賽直接被XRP害死，這學期還做一堆快累死自己的事，而且也不知道我接下來畢業後要做甚麼，可能開始做一些小規劃了，不過過年就先休息吧。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020/12/27 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2020/20log-1227.html"/>
+    <id>https://kidneyweakx.com/2020/20log-1227.html</id>
+    <published>2020-12-27T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.185Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1227週記&quot;&gt;&lt;a href=&quot;#1227週記&quot; class=&quot;headerlink&quot; title=&quot;1227週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1227週記&lt;/strong&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;2020年最後一篇週記了，部落格都快生灰了🙄&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;今年也快過完了，真是個見證歷史的一年呢&lt;/em&gt;&lt;br&gt;2020年真的算是令人印象深刻的一年，未來應該也會想起這年的許多鳥事吧，但是在最後幾個月過得相當充實，真的到處遇到不稱心的狀況，不過我還是默默接受了啦！&lt;br&gt;首先是這學期，真的多增廣見聞了一下，跑去突破自己的舒適圈，發現&lt;strong&gt;金融科技&lt;/strong&gt;玩起來門檻也是相當高，但是真的相當有趣阿，大學目前覺得學到最多東西的一堂課就這堂微結構了，不過畢竟我真的無法很有效率地運用時間，一直覺得我把自己弄得很忙碌，這幾個月我最希望能改善這點，之後看有沒有機會寫寫自己學了甚麼東西，但是我的能力可能寫不出甚麼。&lt;br&gt;再來是畢業專案展，其實這屆我覺得我們做的都沒有很好，有點應付過去的感覺😏畢竟有很多東西應該可以做得更好更厲害，但是畢專展算是少數今年快樂過去的一個東西，雖然準備了一年，但是我覺得自己組的效率相對其他組的效率高了不少，少做了很多無用功，覺得教授挑選也是一個很大的關鍵，每週開會我自己覺得我會受不了，畢竟我做東西不是很快，其實每週要求進度我自己覺得我沒有沒有自信能很快能做完就是了。&lt;br&gt;還有推甄研究所，很可惜的是，剛好備取到我正前方，我還在聖誕節遇到這個消息，聖誕節當天還同時在學校百的伺服器都被CC攻擊斷網，超級頭痛，害我覺得我到底做錯了甚麼，不過最後還是坦然接受了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;希望明年的我，能在工作的時候更高效，我覺得work from home看起來已經成為全世界的趨勢了，在容易受干擾，無法進心流的地方認真工作，我覺得是相當重要改進的一個弱點。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020/12/13 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2020/20log-1213.html"/>
+    <id>https://kidneyweakx.com/2020/20log-1213.html</id>
+    <published>2020-12-12T16:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.185Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1213週記&quot;&gt;&lt;a href=&quot;#1213週記&quot; class=&quot;headerlink&quot; title=&quot;1213週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1213週記&lt;/strong&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;先記錄一下，ORID格式大概會在這篇或下篇結束。&lt;br&gt;但是在過渡期的時候我要想想要怎麼做這種紀錄。&lt;br&gt;這段期間會先參考一些部落格大佬的格式。但有可能也只是說說而已~~&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;真的沒想到那麼久沒寫週記了&lt;/em&gt;&lt;br&gt;近期感覺發生了很多事，光是一堂微結構就夠嗆了，做了一堆作業打了一堆資料處理的R，現在看到資料大概都知道怎麼處理了，本來還搞不太清楚的apply系列現在全部都大概知道怎麼搞了，我覺得我真的是瘋了，哈哈。&lt;br&gt;雖然說好像每周都在做期末報告的感覺，但是真的是有學到東西的一堂課，要不然其實系上的課，感覺很多都在講同樣的東西，覺得稍微有點無趣，越來越提不起勁了，真的要有挑戰才會有進步的感覺，這是我近期的感受。&lt;br&gt;不過很多原本安排給自己的例行任務都沒有做，我覺得真的很內疚，本來在10月底還說想要每周都生出週記，結果推甄下來，然後再來體檢和做交易策略程式和微結構作業，光這些就讓我夠嗆了，不過真的覺得對實驗室很抱歉，這學期沒有太多的時間可以去處理那邊的專案，我真的天真地認為大四很輕鬆，可以弄一些大專案，結果光開QT就覺得疲勞感上來，這幾週應該會努力生一些想要處理的東西。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020/10/25 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2020/20log-1025.html"/>
+    <id>https://kidneyweakx.com/2020/20log-1025.html</id>
+    <published>2020-10-25T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.185Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1025週記&quot;&gt;&lt;a href=&quot;#1025週記&quot; class=&quot;headerlink&quot; title=&quot;1025週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1025週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;忙著處理一堆莫名其妙的東西，雖然已經相對比較閒了&lt;/em&gt;&lt;br&gt;上週才把這學期第一週週記弄出來，有夠慘，課業繁忙。&lt;br&gt;這幾週只能說處理太多事情，又要忙推甄，又在學校有東西要用，真的非常的忙，不過最近也很晚起床就是了…&lt;br&gt;每週感覺都在做期末報告的感覺只有在財管系才感受的到，果然之前覺得資管很涼不是錯覺，財金部分光弄一些迴歸，和把一堆觀念導正，就花超長的時間，果然我的能力還很欠缺阿，想要能更加進步，做到更多財金能做到的東西，但還是希望每周能生出週記，這點最重要，想要把一些小細節都記錄下來，剛好這週也跑去女僕咖啡廳放鬆一下，我個人覺得不錯啦，但普通人可能難以接受哈哈。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020/10/17 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2020/20log-1017.html"/>
+    <id>https://kidneyweakx.com/2020/20log-1017.html</id>
+    <published>2020-10-17T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.185Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1017週記&quot;&gt;&lt;a href=&quot;#1017週記&quot; class=&quot;headerlink&quot; title=&quot;1017週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;1017週記&lt;/strong&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;說真的拖了好幾週沒寫真的很不好意思，不過近期真的太忙碌了，又怠惰，唉😑 赫然發現上次寫已經是8月底剛考完第一次多益，不過也因為大四要處理推甄的東西，還要忙做死選的課，兩頭燒。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;開學後寫的第一篇週記&lt;/em&gt;&lt;br&gt;說真的大四了有點沒有實感，因為種種緣故(疫情)，就跑去弄研究所備審了，說真的，沒上好像也無所謂，就當作投個四大挑戰自己。而且原本高中時期的我應該沒有想到，現在的我會想投清交大，畢竟那時候光玩玩自己喜歡的東西就好了，沒多做甚麼考慮，雖然現在也一樣，打程式對我來說算是一種娛樂(但是排序比動漫後面就是了😂)，就希望能繼續做自己有興趣的東西罷了。&lt;br&gt;扯遠了，這學期還真的不是普通辛苦，從上學期末開始全力參與實驗室的進度，甚至在暑期當了工作坊的助教(剛好上一篇就是了)，不過跨領域真的對我這種普通人很難勝任，覺得要認知的東西很多，並且貪心的我想要把金融科技學程弄完，並且想搞一個區塊練智能合約自動化交易機器人，我覺得我這大四，過得特別的忙阿。&lt;br&gt;要不是近期其實算不用處理畢業專案，要不然我可能真的要瘋掉了，大家都在瘋狂弄一堆東西，如果我也像他們那樣，我的肝可能真的受不住了，因為真的很累，再提一下，金融科技學程的微結構，真的太難修了。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020/08/30 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2020/20log-0830.html"/>
+    <id>https://kidneyweakx.com/2020/20log-0830.html</id>
+    <published>2020-08-30T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.184Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0830週記&quot;&gt;&lt;a href=&quot;#0830週記&quot; class=&quot;headerlink&quot; title=&quot;0830週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;0830週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;這兩週真的是極端阿！一週很廢一週很累&lt;/em&gt;&lt;br&gt;說真的在這週真的很累，反倒是上週甚麼都沒做讓我覺得有點虛度光陰哈哈，這兩週主要就先把一些小工作處理完，還有準備考多益，還要在工作坊結束寫練習題，真的是許多工作都喜歡一起發生。&lt;br&gt;結果最近一直想不到要怎麼整理備審，雖然拿了大家的備審來做參考，但是總覺得最近有點無法進入狀態，寫那些文章甚麼的都很怠惰，哀…😒，感覺一直在嘆氣阿www&lt;br&gt;不過這禮拜當助教帶了腦電相關的工作坊，也見識到各方厲害的人；說真的，在教別人的時候，完全體會到自己實在是不夠厲害不夠全面，需要再更多加努力阿。不過MATLAB一些基礎使用倒是進步蠻多的，還有很多東西要學，希望能把學習的心一直保持下，去戰勝怠惰啦~~😎接下來就看開學這段期間的努力了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20200830.png&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;工作坊合照(10/22補)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020/08/16 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2020/20log-0816.html"/>
+    <id>https://kidneyweakx.com/2020/20log-0816.html</id>
+    <published>2020-08-16T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.184Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0816週記&quot;&gt;&lt;a href=&quot;#0816週記&quot; class=&quot;headerlink&quot; title=&quot;0816週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;0816週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;這篇有點難生出來，畢竟我真的在耍廢&lt;/em&gt;😂😅&lt;br&gt;這兩週算是把工作做到一定程度，就開始放鬆了，很多事情都不想做；說真的，我算是很會分心的人，尤其最近處理事情的時候常常不能專注做完我要做的事，感覺有點無力，想要更努力處理一些代辦事項，突然要生出來的研究所推甄書面和準備要弄得多益考試，唉。。。。不知道能不能用好。&lt;br&gt;不過在這快樂的暑假，如果都在工作和處理東西心好累，所以就去找了遊戲玩，以前都不碰老任的遊戲，這次把GBA上的「地球冒險3」破完，有夠感動，果然還是以前的RPG好，讓我又恢復當年想做RPG遊戲的小小夢想，現在有點越走越歪的感覺呢！！🤔&lt;br&gt;其實在前陣子就有這樣想了，我是很喜歡做我目前做的東西是沒錯，但是現在跑去做一些奇怪的領域，碰的東西越來越複雜，感覺之前訂的一些小目標應該是達成了，技術也都會了，就是做出來超級不符合自己的理想，我應該能做更好，然後就為了精進一些小地方花超多時間，有點痛苦，而且學了HCI、網路、系統之類的資訊技術，雖然感覺很厲害，甚麼都知道，但我還是半吊子😥尤其是在最近開始寫書面的時候深深感受到這點，甚麼都會，然後呢，到底想要走甚麼領域，感覺相當的模糊，這種感覺以前還不太會有，最近想到覺得有點可怕，畢竟現在有升學壓力就有這種奇妙的感受，不過這暑假大概就是留給我想這些事情的吧。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020/08/02 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2020/20log-0802.html"/>
+    <id>https://kidneyweakx.com/2020/20log-0802.html</id>
+    <published>2020-08-02T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.184Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0802週記&quot;&gt;&lt;a href=&quot;#0802週記&quot; class=&quot;headerlink&quot; title=&quot;0802週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;0802週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;八月也開始了，暑假不知不覺就過一半了呢&lt;/em&gt;&lt;br&gt;放假的心也差不多要收一收了，八月感覺就要開始做一些計畫暑假要做的事，要不然七月的時候很多東西其實都沒有做多少，覺得有點小可惜，所以打算這個月多做點事吧(希望😂)&lt;br&gt;這週也做了挺多事的，讓我覺得有點疲勞，計畫是要將預定要做的事弄完，再開始弄自己想做的事，不過很多時候都計畫趕不上變化，又很多誘惑讓我無法用心認真做一些事，但是整體來說這個暑假的產出還是相對前幾個長的連假好上不少，畢竟我就是那種很容易受干擾的人，希望我能把我進度表上的東西弄完阿😫。&lt;br&gt;話說學校停電的時候，不知道哪根筋抽了跑去爬山，爬少女峰，說真的有夠累的，我也不推薦別人爬，所以大概也不會寫甚麼介紹的文章，那個90度陡峭的山壁，還順道跑去觀海崖，雖然真的感受西子灣很漂亮，但整個路程讓我身心靈都好累，比較喜歡在海邊玩水啊啊啊~~&lt;br&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20200803.jpg&quot; alt=&quot;少女峰&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020/07/26 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2020/20log-0726.html"/>
+    <id>https://kidneyweakx.com/2020/20log-0726.html</id>
+    <published>2020-07-26T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.184Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0726週記&quot;&gt;&lt;a href=&quot;#0726週記&quot; class=&quot;headerlink&quot; title=&quot;0726週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;0726週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;還待在學校就先跑實驗室了，先把部分東西處理完&lt;/em&gt;&lt;br&gt;這暑假一大部分時間都待在學校，畢竟真的在家還蠻閒的，不知道幹嘛，所以就跑來學校打程式，畢竟快大四要處理蠻多小事情的，來學校辦公感覺效率稍微高一點，主要還是要解決畢專和實驗室的一些東西。&lt;br&gt;不過回來開完會，還有把一些雜事做完，也比較清楚要做些甚麼比較好，接下來可能要準備一些推甄之類的東西，作品集之類的，感覺有點忙阿，不過這週假日就在休息，感覺沒做甚麼事~~&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>創新創業課程心得</title>
+    <link href="https://kidneyweakx.com/2020/20log-0718-startbusiness.html"/>
+    <id>https://kidneyweakx.com/2020/20log-0718-startbusiness.html</id>
+    <published>2020-07-19T18:04:00.000Z</published>
+    <updated>2025-04-13T14:57:55.184Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;在暑期無聊的時候選了跨領域創新創業這堂課，上完有點感觸&lt;/em&gt;🤔&lt;br&gt;先說結論，其實我覺得我們構思的創業項目沒有到非常好，但是團隊合作和搭配相較其他組更好，所以效率和品質已三天趕工出來的提案真的算是無懈可擊，最後也不意外的拿下本課程的第一名。&lt;br&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/20200720020714.png&quot; alt=&quot;公司名&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    
+    <category term="提升自我" scheme="https://kidneyweakx.com/tags/%E6%8F%90%E5%8D%87%E8%87%AA%E6%88%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020/07/19 亂78遭週記</title>
+    <link href="https://kidneyweakx.com/2020/20log-0719.html"/>
+    <id>https://kidneyweakx.com/2020/20log-0719.html</id>
+    <published>2020-07-19T15:30:00.000Z</published>
+    <updated>2025-04-13T14:57:55.184Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;0719週記&quot;&gt;&lt;a href=&quot;#0719週記&quot; class=&quot;headerlink&quot; title=&quot;0719週記&quot;&gt;&lt;/a&gt;&lt;strong&gt;0719週記&lt;/strong&gt;&lt;/h2&gt;&lt;h3 id=&quot;心情抒發&quot;&gt;&lt;a href=&quot;#心情抒發&quot; class=&quot;headerlink&quot; title=&quot;心情抒發&quot;&gt;&lt;/a&gt;心情抒發&lt;/h3&gt;&lt;p&gt;&lt;em&gt;回到學校來上課來輕鬆賺學分，除了早起沒有甚麼好抱怨了&lt;/em&gt;&lt;br&gt;期末為了學分選了兩堂課，剛好在暑假也蠻閒的，就來補充一下自己，直接賺了兩個學分，而且只花六天36小時，像夏令營一樣，功課又挺少的，真爽，還可以順便增加一下專案進度，大致上是蠻輕鬆的一週。&lt;br&gt;但是專案感覺有點遇到瓶頸，不知道是沒有甚麼好修正的了，或是說不太清楚要修改那些地方，可能要再思考看看往哪個方向做更動，最近也在思考一下這樣怠惰下去程式能力沒進步多少，越來越沒競爭力了…&lt;br&gt;&lt;code&gt;題外話&lt;/code&gt;：在跨領域創新創業課那堂提出的案子，竟然大獲好評😂，雖然我是沒有那個心會去做啦，可能隊友也是認識的人，本來意見就比較合，要不然看到別組都很累，完全無法理解為什麼會把這種課過得那麼緊湊。&lt;/p&gt;
+&lt;hr&gt;</summary>
+    
+    
+    
+    <category term="blog" scheme="https://kidneyweakx.com/categories/blog/"/>
+    
+    
+    <category term="記錄生活" scheme="https://kidneyweakx.com/tags/%E8%A8%98%E9%8C%84%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+</feed>

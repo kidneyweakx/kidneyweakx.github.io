@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /about/
+Allow: /tags/ 
+Allow: /archives/
+
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: https://kidneyweakx.com/sitemap.xml

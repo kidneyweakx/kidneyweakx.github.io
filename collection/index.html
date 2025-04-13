@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.2">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="pmJ7reejSNAEdV-crKP_4svEUgDcp-xClWOUGWui_Dc">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"kidneyweakx.com","root":"/","scheme":"Pisces","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="目前尚未有很多作品，先列幾個有趣的  😎目前最自豪的玩具                                                                   在實驗室搞的RealTime SSVEP拼字器，目前我最屌的作品，有手機&#x2F;平板和電腦版三個版本，外加一堆亂七八糟的分析腳本，不過分析跑CCA效果其實普通而已，大概4秒可以測出一個字">
+<meta property="og:type" content="website">
+<meta property="og:title" content="作品集">
+<meta property="og:url" content="https://kidneyweakx.com/collection/index.html">
+<meta property="og:site_name" content="準備爆肝的weak日常">
+<meta property="og:description" content="目前尚未有很多作品，先列幾個有趣的  😎目前最自豪的玩具                                                                   在實驗室搞的RealTime SSVEP拼字器，目前我最屌的作品，有手機&#x2F;平板和電腦版三個版本，外加一堆亂七八糟的分析腳本，不過分析跑CCA效果其實普通而已，大概4秒可以測出一個字">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/image20220310-ssvepspeller.jpg
+">
+<meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/NoTrust/master/images/Cover.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/MR-hack-02.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/SCC-05.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/image20220310-childage.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/image20220310-guratrade.jpg
+">
+<meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/image20220310-fakes.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/image20220310-dataclass.png
+">
+<meta property="og:image" content="https://www.o-bank.com/-/media/35DE9002458C468FAA92CEBDE807AF73.png">
+<meta property="article:published_time" content="2025-04-13T14:57:55.186Z">
+<meta property="article:modified_time" content="2025-04-13T14:57:55.186Z">
+<meta property="article:author" content="kidneyweakx">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/image20220310-ssvepspeller.jpg
+">
+
+<link rel="canonical" href="https://kidneyweakx.com/collection/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : false
+  };
+</script>
+
+  <title>作品集 | 準備爆肝的weak日常
+  </title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157742622-1"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-157742622-1');
+      }
+    </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="準備爆肝的weak日常" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">準備爆肝的weak日常</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">-記錄生活-</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-blog">
+
+    <a href="/categories/blog/" rel="section"><i class="fa fa-fw fa-wordpress"></i>記錄</a>
+
+  </li>
+        <li class="menu-item menu-item-collection">
+
+    <a href="/collection/" rel="section"><i class="fa fa-fw fa-window-restore"></i>作品集</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>標籤<span class="badge">13</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>歸檔<span class="badge">93</span></a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+  
+  
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+    
+    
+    
+    <div class="post-block" lang="zh-TW">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">作品集
+</h1>
+
+<div class="post-meta">
+  
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <blockquote>
+<p>目前尚未有很多作品，先列幾個有趣的</p>
+</blockquote>
+<h3 id="😎目前最自豪的玩具"><a href="#😎目前最自豪的玩具" class="headerlink" title="😎目前最自豪的玩具"></a>😎目前最自豪的玩具</h3><section class="proudproject">
+    <ul class="ul_row">
+        <div class="left">
+            <a target="_blank" rel="noopener" href="https://youtu.be/wkBKL36G2zY"><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/image20220310-ssvepspeller.jpg
+"></img></a>
+        </div>
+        <div class="right">
+        <p>
+            在實驗室搞的<b>RealTime SSVEP</b>拼字器，目前我最屌的作品，有<b>手機/平板和電腦版</b>三個版本，外加一堆亂七八糟的分析腳本，不過分析跑CCA效果其實普通而已，大概4秒可以測出一個字<br>
+            1. 設計理念: 運用SSVEP訊號+腦電帽來猜你看哪個選項(還有ERP訊號的版本)<br>
+            2. 創作動機: 想搞個腦機介面的玩具(BCI)，原本用ERP訊號，但是因為效果不怎麼樣(至少10秒以上)，所以誕生了這個版本<br>
+            3. Demo: 這東西有點難開源，所以只有<a target="_blank" rel="noopener" href="https://youtu.be/wkBKL36G2zY"> YouTube影片Demo</a><br>
+        </p>
+        </div>
+    </ul>
+</section>
+
+<h3 id="😴黑客松玩具"><a href="#😴黑客松玩具" class="headerlink" title="😴黑客松玩具"></a>😴黑客松玩具</h3><section class="hackproject">
+    <ul class="ul_row even">
+        <div class="left">
+            <a target="_blank" rel="noopener" href="https://youtu.be/dSb9k74lu5s"><img src="https://raw.githubusercontent.com/kidneyweakx/NoTrust/master/images/Cover.png"></img></a>
+        </div>
+        <div class="right">
+        <p>
+            <b>參加ETHGlobal的HackMoney黑客松製作的項目，目前尚未全部完成😅，還有許多小問題要解決，目前就先這樣放著</b><br>
+            1. 設計理念: 想把自己的NFT借出去當鎖倉<br>
+            2. 創作動機: 弄個web3的專案玩玩看<br>
+            3. Demo: <a target="_blank" rel="noopener" href="https://github.com/kidneyweakx/NoTrust">Github原始碼(我沒更新到最新)</a>
+            <a target="_blank" rel="noopener" href="https://youtu.be/dSb9k74lu5s">YouTube影片Demo</a><br>
+        </p>
+        </div>
+    </ul>
+    <br>
+    <ul class="ul_row">
+        <div class="left">
+            <a target="_blank" rel="noopener" href="https://github.com/kidneyweakx/MR-hackathon/releases/tag/v1.1-rc1"><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/MR-hack-02.jpg" ></img></a>
+        </div>
+        <div class="right">
+        <p>
+            黑歷史，原本設計的玩法其實和<b>Vampire Survivors</b>很類似，但是技術不足，所以實際成品有點廢廢的😋<br>
+            1. 設計理念: 鄭成功侵略開山里，荷蘭人要趕快反抗阿<br>
+            2. 創作動機: 腦袋一熱<br>
+            3. Demo: <a target="_blank" rel="noopener" href="https://github.com/kidneyweakx/MR-hackathon">Github原始碼</a> <a target="_blank" rel="noopener" href="https://github.com/kidneyweakx/MR-hackathon/releases/tag/v1.1-rc1">APK檔案</a><br>
+        </p>
+        </div>
+    </ul>
+</section>
+
+<h3 id="🤩為比賽而生的玩具"><a href="#🤩為比賽而生的玩具" class="headerlink" title="🤩為比賽而生的玩具"></a>🤩為比賽而生的玩具</h3><section class="contestproject">
+    <ul class="ul_row even">
+        <div class="left">
+            <a target="_blank" rel="noopener" href="https://youtu.be/dSb9k74lu5s"><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/SCC-05.jpg"></img></a>
+        </div>
+        <div class="right">
+        <p>
+            校狗辨識的玩具，當初只想練手tensorflow lite，不錯的體驗<br>
+            1. 設計理念: 完全是想練tensorflow lite才做的手機板<br>
+            2. 創作動機: 校狗很可愛，當初在花蓮的時候很喜歡看狗狗，但又叫不出名字<br>
+            3. Demo: <a target="_blank" rel="noopener" href="https://github.com/kidneyweakx/AIDog-2019SCC">Github原始碼</a>
+        </p>
+        </div>
+    </ul>
+    <br>
+    <ul class="ul_row">
+        <div class="left">
+            <a target="_blank" rel="noopener" href="https://github.com/kidneyweakx/childAgeDetect"><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/image20220310-childage.png" ></img></a>
+        </div>
+        <div class="right">
+        <p>
+            眾多比賽少數真正拿名的玩具，但是我覺得做很爛，因為tensorflow.js出了做個類似的demo就跑去拿獎了，這東西我還有做一個flutter的版本，也爛爛的，不好和別人說是自己做的<br>
+            1. 設計理念: 嚴格來說只是拿來檢測年齡用的玩具<br>
+            2. 創作動機: 練手tensorflow.js<br>
+            3. Demo: <a target="_blank" rel="noopener" href="https://github.com/kidneyweakx/childAgeDetect">Github原始碼</a> <a href="https://kidneyweakx.com/childAgeDetect/#/">成果網站</a><br>
+        </p>
+        </div>
+    </ul>
+</section>
+
+<h3 id="😅有點難歸納的玩具"><a href="#😅有點難歸納的玩具" class="headerlink" title="😅有點難歸納的玩具"></a>😅有點難歸納的玩具</h3><section class="contestproject">
+    <ul class="ul_row even">
+        <div class="left">
+            <a target="_blank" rel="noopener" href="https://github.com/kidneyweakx/2020mm"><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/image20220310-guratrade.jpg
+"></img></a>
+        </div>
+        <div class="right">
+        <p>
+            難以形容的專案，前端都是telegram的bot，和另外個手動的交易狗相輔相成，上課demo版本只能用在台灣的MAX交易所，畢竟我的API只有接他的，這個專案讓我甚至會寫R的PKG，我現在還在繼續處理這東西，但背後語言已經不是R語言了<br>
+            1. 設計理念: 為了金融科技學程搞出來的自動交易玩具，自己寫策略，自己設計交易系統<br>
+            2. 創作動機: 這東西傷我好深，不賺錢又花時間，但創作這東西真的有趣<br>
+            3. Demo: <a target="_blank" rel="noopener" href="https://github.com/kidneyweakx/2020mm">Github原始碼(上課做的版本在裡面)</a>
+        </p>
+        </div>
+    </ul>
+    <br>
+    <ul class="ul_row">
+        <div class="left">
+            <a target="_blank" rel="noopener" href="https://github.com/kidneyweakx/fakenews_server"><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/image20220310-fakes.png" ></img></a>
+        </div>
+        <div class="right">
+        <p>
+            畢業專題，很簡單的東西，就是flask和一堆奇怪的分析，最後解決方案是用資料庫去搜索相近的資料，我有偷偷接API，所以效果其實不差<br>
+            1. 設計理念: 一直被教授嘴，但又不好改的假新聞主題，中途有點後悔選這個<br>
+            2. 創作動機: 和大家一起討論出來的，團隊合作，沒有動機<br>
+            3. Demo: <a target="_blank" rel="noopener" href="https://github.com/kidneyweakx/fakenews_server">Github原始碼</a><br>
+        </p>
+        </div>
+    </ul>
+    <br>
+    <ul class="ul_row even">
+        <div class="left">
+            <a target="_blank" rel="noopener" href="https://github.com/2019BAR/BAR_group5"><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/image20220310-dataclass.png
+" ></img></a>
+        </div>
+        <div class="right">
+        <p>
+            商務數據分析課程的玩具，看commit就知道，我在那組是唯一會打程式的，想想都可怕<br>
+            1. 設計理念: 比較行銷工具的成效，還蠻有用的工具<br>
+            2. 創作動機: 為了上課報告，但是沒有拿名，非常難過<br>
+            3. Demo: <a target="_blank" rel="noopener" href="https://github.com/2019BAR/BAR_group5">Github原始碼</a>  
+            <a target="_blank" rel="noopener" href="https://nsysu-kidneyweakx.shinyapps.io/tf_simulation">成果網站</a><br>
+        </p>
+        </div>
+    </ul>
+       <br>
+    <ul class="ul_row">
+        <div class="left">
+            <img src="https://www.o-bank.com/-/media/35DE9002458C468FAA92CEBDE807AF73.png" ></img>
+        </div>
+        <div class="right">
+        <p>
+            和銀行的產學合作，大致可以說一下做了甚麼，我把它網站的資料全部爬了遍，我個人覺得她網站做的很卡，希望之後有人可以改善吧😘<br>
+            1. 設計理念: 就做個購買力分析<br>
+            2. 創作動機: 一開始沒甚麼方向，因為要分析購買金融產品的客戶，所以一開始建置機器學習模型來預測，用個XGBoost交差，但是被教授嘴了，所以就搞了一個推薦系統，還用一堆外部資料，看了很久的Rrecommerlab的使用方法，最後被銀行說做的還好而已😅，內心有點幹<br>
+        </p>
+        </div>
+    </ul>
+</section>
+
+<style>
+    .left{
+        float: left;
+        width: 30%;
+        margin: 2% 0
+    }
+    .right{
+        float: right;
+        width: 60%;
+        margin: 1% 0
+    }
+    .ul_row {
+        display:inline-block;
+        margin: 0 auto
+    }
+    .even{
+        background-color: rgb(210,210,210);
+    }
+    .ctext {
+        text-align:center
+    }
+</style>
+      </div>
+      
+      
+      
+    </div>
+    
+
+    
+    
+    
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%98%8E%E7%9B%AE%E5%89%8D%E6%9C%80%E8%87%AA%E8%B1%AA%E7%9A%84%E7%8E%A9%E5%85%B7"><span class="nav-number">1.</span> <span class="nav-text">😎目前最自豪的玩具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%98%B4%E9%BB%91%E5%AE%A2%E6%9D%BE%E7%8E%A9%E5%85%B7"><span class="nav-number">2.</span> <span class="nav-text">😴黑客松玩具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%A4%A9%E7%82%BA%E6%AF%94%E8%B3%BD%E8%80%8C%E7%94%9F%E7%9A%84%E7%8E%A9%E5%85%B7"><span class="nav-number">3.</span> <span class="nav-text">🤩為比賽而生的玩具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%F0%9F%98%85%E6%9C%89%E9%BB%9E%E9%9B%A3%E6%AD%B8%E7%B4%8D%E7%9A%84%E7%8E%A9%E5%85%B7"><span class="nav-number">4.</span> <span class="nav-text">😅有點難歸納的玩具</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="kidneyweakx"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">kidneyweakx</p>
+  <div class="site-description" itemprop="description">簡單。紀錄和分享日常</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">93</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/kidneyweakx" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;kidneyweakx" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.facebook.com/kidneyweak.xyz" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;kidneyweak.xyz" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:kidneyweakx@gmail.com" title="E-Mail → mailto:kidneyweakx@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-fw fa-rss"></i></a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">kidneyweakx</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">Symbols count total: </span>
+    <span title="Symbols count total">85k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">Reading time total &asymp;</span>
+    <span title="Reading time total">1:17</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;"></span>
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;"></span>
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri == 'https://kidneyweakx.com/collection/',]
+      });
+      });
+  </script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"position":"right","width":200,"height":400,"jsonPath":"/live2dw/assets/assets/haru02.model.json"},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>

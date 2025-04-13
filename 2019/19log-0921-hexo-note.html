@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.2">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="pmJ7reejSNAEdV-crKP_4svEUgDcp-xClWOUGWui_Dc">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"kidneyweakx.com","root":"/","scheme":"Pisces","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="在種種原因之下，從Blogger牽到GitHub Pages上，陪伴我一學期的Blogger正式停止更新。紀念一下這是原站點，而讓我跳槽到Hexo的原因如下:  Blogger 後臺真的十分陽春(上手很難進一步改動)。 我習慣使用的Markdown語法需要轉成html再貼上Blogger編輯器。 功能被Blogger本體受限。 加個程式框還要改css，基本上修改一下自訂主題就不會想再多做修改了。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用Hexo免費製作一個blog">
+<meta property="og:url" content="https://kidneyweakx.com/2019/19log-0921-hexo-note.html">
+<meta property="og:site_name" content="準備爆肝的weak日常">
+<meta property="og:description" content="在種種原因之下，從Blogger牽到GitHub Pages上，陪伴我一學期的Blogger正式停止更新。紀念一下這是原站點，而讓我跳槽到Hexo的原因如下:  Blogger 後臺真的十分陽春(上手很難進一步改動)。 我習慣使用的Markdown語法需要轉成html再貼上Blogger編輯器。 功能被Blogger本體受限。 加個程式框還要改css，基本上修改一下自訂主題就不會想再多做修改了。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/hexo01.jpg">
+<meta property="article:published_time" content="2019-09-20T18:00:00.000Z">
+<meta property="article:modified_time" content="2025-04-13T14:57:55.181Z">
+<meta property="article:author" content="kidneyweakx">
+<meta property="article:tag" content="程式筆記">
+<meta property="article:tag" content="Javascript">
+<meta property="article:tag" content="hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/hexo01.jpg">
+
+<link rel="canonical" href="https://kidneyweakx.com/2019/19log-0921-hexo-note.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true
+  };
+</script>
+
+  <title>用Hexo免費製作一個blog | 準備爆肝的weak日常</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157742622-1"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-157742622-1');
+      }
+    </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="準備爆肝的weak日常" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">準備爆肝的weak日常</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">-記錄生活-</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-blog">
+
+    <a href="/categories/blog/" rel="section"><i class="fa fa-fw fa-wordpress"></i>記錄</a>
+
+  </li>
+        <li class="menu-item menu-item-collection">
+
+    <a href="/collection/" rel="section"><i class="fa fa-fw fa-window-restore"></i>作品集</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>標籤<span class="badge">13</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>歸檔<span class="badge">93</span></a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://kidneyweakx.com/2019/19log-0921-hexo-note.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="kidneyweakx">
+      <meta itemprop="description" content="簡單。紀錄和分享日常">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="準備爆肝的weak日常">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          用Hexo免費製作一個blog
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-09-21 02:00:00" itemprop="dateCreated datePublished" datetime="2019-09-21T02:00:00+08:00">2019-09-21</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;"></span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>1.9k</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>2 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>在種種原因之下，從Blogger牽到GitHub Pages上，陪伴我一學期的Blogger正式停止更新。紀念一下<a target="_blank" rel="noopener" href="https://kidneyweakx.blogspot.com/">這是原站點</a>，而讓我跳槽到Hexo的原因如下:</p>
+<ul>
+<li>Blogger 後臺真的十分陽春(上手很難進一步改動)。</li>
+<li>我習慣使用的Markdown語法需要轉成html再貼上Blogger編輯器。</li>
+<li>功能被Blogger本體受限。</li>
+<li>加個程式框還要改css，基本上修改一下自訂主題就不會想再多做修改了。<span id="more"></span>
+所以我就跳槽囉~~</li>
+</ul>
+<h2 id="Why-GitHub-Pages"><a href="#Why-GitHub-Pages" class="headerlink" title="Why GitHub Pages??"></a>Why GitHub Pages??</h2><p>選擇Github Pages的原因很簡單:</p>
+<ol>
+<li>可以直接使用markdown語法撰寫文章<ul>
+<li>Markdown語法十分輕鬆，且可以簡單插入程式碼</li>
+<li>簡單做到排版，讓使用者更專注於文章內容，而非html語法</li>
+<li>基本語法<a target="_blank" rel="noopener" href="https://markdown.tw/">CheatSheet</a></li>
+</ul>
+</li>
+<li>能夠Hosting再<a target="_blank" rel="noopener" href="https://pages.github.com/">GitHub Pages</a>上<ul>
+<li>只要在Github新建一個username.github.io的倉庫，就能透過username.github.io到達主頁</li>
+<li>不需要自己管理主機交由github來處理</li>
+</ul>
+</li>
+<li>可以使用<a target="_blank" rel="noopener" href="https://git-scm.com/">git</a>管理自己的網誌<ul>
+<li>可以使用branch和merge來管理目前需要更動的文章</li>
+<li>刪除文章也可以透過git恢復</li>
+</ul>
+</li>
+</ol>
+<h2 id="Why-Hexo"><a href="#Why-Hexo" class="headerlink" title="Why Hexo??"></a>Why Hexo??</h2><p>使用Hexo前我有試過<a target="_blank" rel="noopener" href="https://jekyllrb.com/">Jekyll</a>，因為我對Ruby比較熟悉一些。<br>但是Jekyll的中文資源較少，且Ruby在windows上的表現，hmmm…沒有要戰的意思，不過相對Ruby，Hexo需要的Node.js對windows更友善些。<br>我覺得最重要的還是Hexo作者<a target="_blank" rel="noopener" href="https://twitter.com/tommy351">tommy351</a>是台灣人!!還不用起來。<br>其實還有一些<a target="_blank" rel="noopener" href="https://zespia.tw/blog/2012/10/11/hexo-debut/">技術性</a>的關係啦 ！像Ruby文章一多生成網站的速度就會慢很多，雖然Jekyll也有人做出些優化的方法，不過我不想弄得那麼麻煩，所以最後就選擇Hexo啦~</p>
+<h2 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h2><blockquote>
+<p>安裝Node.js</p>
+</blockquote>
+<ul>
+<li>先去<a target="_blank" rel="noopener" href="https://nodejs.org/en/">Node.js</a>官網下載安裝</li>
+</ul>
+<blockquote>
+<p>安裝 <a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/index.html">Hexo</a></p>
+</blockquote>
+<ul>
+<li>npm安裝</li>
+</ul>
+<p><code>npm install hexo-cli -g</code></p>
+<ul>
+<li>安裝成功後，可以輸入來確定版本</li>
+</ul>
+<p><code>hexo version</code></p>
+<ul>
+<li>建立自己的blog</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog  #初始化blog</span><br><span class="line">cd blog         #切換至blog資料夾</span><br><span class="line">npm install     #安裝相關套件</span><br><span class="line">hexo server     #在localhost顯示頁面</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>將文章部屬上github</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy</span>:</span><br><span class="line">    <span class="attr">type</span>: github</span><br><span class="line">    <span class="attr">repository</span>: git@github.<span class="property">com</span>:yourname/yourname.<span class="property">github</span>.<span class="property">io</span>.<span class="property">git</span></span><br><span class="line">    <span class="attr">branch</span>: master</span><br></pre></td></tr></table></figure>
+
+<p>在這邊就不贅述github和本機端連線的教學了</p>
+<ul>
+<li>執行部屬</li>
+</ul>
+<p><code>hexo d</code></p>
+<p><strong>若發生ERROR Deploer not found，執行以下程式碼</strong><br><code>npm install hexo-deployer-git --save</code></p>
+<h2 id="美化Blog"><a href="#美化Blog" class="headerlink" title="美化Blog"></a>美化Blog</h2><p>當然用hexo最重要的就是美化blog囉~<br>而我使用<a target="_blank" rel="noopener" href="https://theme-next.iissnan.com/">Next</a>，將它clone至themes資料夾，再修改這邊。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">## <span class="title class_">Extensions</span></span><br><span class="line">## <span class="title class_">Plugins</span>: <span class="attr">https</span>:<span class="comment">//hexo.io/plugins/</span></span><br><span class="line">## <span class="title class_">Themes</span>: <span class="attr">https</span>:<span class="comment">//hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme</span>: next #修改這行</span><br></pre></td></tr></table></figure>
+
+<p>就可以依造官網調配出屬於你自己的Next。</p>
+<h2 id="使用編譯器編輯文檔"><a href="#使用編譯器編輯文檔" class="headerlink" title="使用編譯器編輯文檔"></a>使用編譯器編輯文檔</h2><p>我自己是使用vscode去撰寫.md檔，可以一邊預覽一邊寫文章相當方便，且搭配終端機可以達成快速撰寫並送出的功能</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo d -g #d部屬 g=generate</span><br></pre></td></tr></table></figure>
+<p>就可以很輕鬆地將md檔自動轉成html並部屬到你的github上了。</p>
+<h2 id="修改標題顏色"><a href="#修改標題顏色" class="headerlink" title="修改標題顏色"></a>修改標題顏色</h2><p>在<code>source/css/_variables/base.styl</code>裡面有個顏色原本的色碼<br>用<a target="_blank" rel="noopener" href="https://www.w3schools.com/colors/colors_picker.asp">w3s</a>選個喜歡的顏色<code>hexo s</code>看一下<br><img src="https://raw.githubusercontent.com/kidneyweakx/img-host/image/image/hexo01.jpg"></p>
+<h2 id="Extra-Live2D看板娘"><a href="#Extra-Live2D看板娘" class="headerlink" title="Extra Live2D看板娘"></a>Extra Live2D看板娘</h2><p>這裡就不說太多</p>
+<blockquote>
+<p>先安裝live2d pkg</p>
+</blockquote>
+<p><code>npm install --save hexo-helper-live2d</code></p>
+<blockquote>
+<p>選擇你愛的<a target="_blank" rel="noopener" href="https://github.com/xiazeyu/live2d-widget-models">2D娘</a></p>
+</blockquote>
+<p><code>npm install &#123;你選的&#125;</code></p>
+<blockquote>
+<p>設定<code>_config.yml</code>加上下面這堆</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">live2d</span>:</span><br><span class="line">  <span class="attr">enable</span>: <span class="literal">true</span></span><br><span class="line">  <span class="attr">pluginModelPath</span>: assets/</span><br><span class="line">  <span class="attr">model</span>:</span><br><span class="line">    <span class="attr">use</span>: live2d-widget-model-haru/<span class="number">02</span> # 改成你選擇的</span><br><span class="line">  <span class="attr">display</span>:</span><br><span class="line">    <span class="attr">position</span>: right</span><br><span class="line">    <span class="attr">width</span>: <span class="number">150</span> </span><br><span class="line">    <span class="attr">height</span>: <span class="number">300</span></span><br><span class="line">  <span class="attr">mobile</span>:</span><br><span class="line">    <span class="attr">show</span>: <span class="literal">false</span>  #手機顯示</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p><a target="_blank" rel="noopener" href="https://wwssllabcd.github.io/blog/2014/12/22/how-to-install-hexo/">Hexo 安裝教學、心得筆記</a><br><a target="_blank" rel="noopener" href="https://yaoandy107.github.io/hexo-tutorial/#more">Hexo+GitHub，新手也可以快速建立部落格</a><br><a target="_blank" rel="noopener" href="https://dtes8617.github.io/2018/01/16/%E7%94%A8Hexo%E6%89%93%E9%80%A0%E4%BD%A0%E7%9A%84%E5%B0%88%E5%B1%ACBlog/">用Hexo打造你的專屬Blog</a><br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/3a6342e16e57">hexo 添加live2d看板动画</a><br><a target="_blank" rel="noopener" href="https://www.npmjs.com/package/hexo-helper-live2d">hexo-helper-live2d</a></p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>你的支持是我繼續創作的動力！</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    <i class="fa fa-qrcode fa-2x" style="line-height:30px;"></i>
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/bitcoin.jpg" alt="kidneyweakx Bitcoin">
+        <p>Bitcoin</p>
+      </div>
+      <div style="display: inline-block;">
+        <img src="/images/ethereum.jpg" alt="kidneyweakx Ethereum">
+        <p>Ethereum</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%A8%8B%E5%BC%8F%E7%AD%86%E8%A8%98/" rel="tag"># 程式筆記</a>
+              <a href="/tags/Javascript/" rel="tag"># Javascript</a>
+              <a href="/tags/hexo/" rel="tag"># hexo</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/19log-0915.html" rel="prev" title="2019/09/15 亂78遭週記">
+      <i class="fa fa-chevron-left"></i> 2019/09/15 亂78遭週記
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2019/19log-0922.html" rel="next" title="2019/09/22 亂78遭週記">
+      2019/09/22 亂78遭週記 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    
+  
+  <div class="comments">
+  <script src="https://utteranc.es/client.js" repo="kidneyweakx/kidneyweakx.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script>
+  </div>
+  
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Why-GitHub-Pages"><span class="nav-number">1.</span> <span class="nav-text">Why GitHub Pages??</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Why-Hexo"><span class="nav-number">2.</span> <span class="nav-text">Why Hexo??</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D%E6%B5%81%E7%A8%8B"><span class="nav-number">3.</span> <span class="nav-text">安裝流程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BE%8E%E5%8C%96Blog"><span class="nav-number">4.</span> <span class="nav-text">美化Blog</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E7%B7%A8%E8%AD%AF%E5%99%A8%E7%B7%A8%E8%BC%AF%E6%96%87%E6%AA%94"><span class="nav-number">5.</span> <span class="nav-text">使用編譯器編輯文檔</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E6%A8%99%E9%A1%8C%E9%A1%8F%E8%89%B2"><span class="nav-number">6.</span> <span class="nav-text">修改標題顏色</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extra-Live2D%E7%9C%8B%E6%9D%BF%E5%A8%98"><span class="nav-number">7.</span> <span class="nav-text">Extra Live2D看板娘</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-number">8.</span> <span class="nav-text">Reference</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="kidneyweakx"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">kidneyweakx</p>
+  <div class="site-description" itemprop="description">簡單。紀錄和分享日常</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">93</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/kidneyweakx" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;kidneyweakx" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.facebook.com/kidneyweak.xyz" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;kidneyweak.xyz" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:kidneyweakx@gmail.com" title="E-Mail → mailto:kidneyweakx@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fa fa-fw fa-rss"></i></a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">kidneyweakx</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">Symbols count total: </span>
+    <span title="Symbols count total">85k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">Reading time total &asymp;</span>
+    <span title="Reading time total">1:17</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;"></span>
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;"></span>
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri == 'https://kidneyweakx.com/2019/19log-0921-hexo-note.html',]
+      });
+      });
+  </script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"position":"right","width":200,"height":400,"jsonPath":"/live2dw/assets/assets/haru02.model.json"},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
